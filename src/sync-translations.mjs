@@ -1,5 +1,5 @@
 import { XMLBuilder, XMLParser } from "fast-xml-parser";
-import fs from "fs";
+import fs from "node:fs";
 
 const DEFAULT_LANG = "en";
 const LANG_DIR = "./langs";

@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sync": "node src/sync-translations.mjs"
+    "sync": "node src/sync-translations.mjs",
+    "duplicates": "node src/check-duplicates-keys.mjs"
   },
   "devDependencies": {
     "fast-xml-parser": "^5.5.9"
