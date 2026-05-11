@@ -441,7 +441,7 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="dialogwin_clearcounter_title" name="Um prato está sendo servido nesse balcão. O que você gostaria de fazer com ele?" />
 		<text id="dialogwin_clearstove_btn_cancel" name="Manter" />
 		<text id="dialogwin_clearstove_btn_ok" name="Jogar fora" />
-		<text id="dialogwin_clearstove_copy" name="Você ainda pode &amp;#039;terminar de cozinhar agora&amp;#039; {0} vezes hoje." />
+		<text id="dialogwin_clearstove_copy" name="Você ainda pode &apos;terminar de cozinhar agora&apos; {0} vezes hoje." />
 		<text id="dialogwin_clearstove_title" name="Um prato está sendo preparado neste fogão. O que você gostaria de fazer com ele?" />
 		<text id="dialogwin_cookbook_income" name="{0} por porção" />
 		<text id="dialogwin_cookbook_readyin" name="Pronto em: {0}" />
@@ -808,7 +808,7 @@ Por favor, desconecte-se." />
 		<text id="featureDialog_22_text_0" name="Novas realizações estão a sua espera, para torná-lo ainda mais bem-sucedido!" />
 		<text id="featureDialog_23_text_0" name="Cozinhar acompanhado é mais divertido! Os novos Co-Ops esperam por você!" />
 		<text id="featureDialog_24_text_0" name="O coelhinho da Páscoa deixou algo em seu café!\nEncontre as novas decorações de Páscoa!" />
-		<text id="featureDialog_24_text_1" name="Aves nunca foram tão lucrativas!\n Descubra o Pato à l&amp;#039;Orange!" />
+		<text id="featureDialog_24_text_1" name="Aves nunca foram tão lucrativas!\n Descubra o Pato à l&apos;Orange!" />
 		<text id="featureDialog_25_text_0" name="Você é sortudo? 
 Tente sua sorte no novo assador de muffin!" />
 		<text id="featureDialog_26_text_0" name="Você tem sorte? Gire a Roda da Fortuna no Mercado!" />
