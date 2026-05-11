@@ -197,6 +197,8 @@
 		<text id="cookstep_cherryjuice2" name="Blending juice" />
 		<text id="cookstep_strawberryjuice1" name="Mashing strawberries" />
 		<text id="cookstep_strawberryjuice2" name="Blending juice" />
+		<text id="cookstep_cappuccino1" name="Brewing espresso" />
+		<text id="cookstep_cappuccino2" name="Frothing milk" />
 		<text id="cookstep_cheeseburger1" name="ミンチ肉を炒める" />
 		<text id="cookstep_cheeseburger2" name="バーガーを盛り付ける" />
 		<text id="cookstep_cheesedish1" name="チーズを盛りつける" />
@@ -1033,6 +1035,8 @@
 		<text id="preparestep_strawberryjuice_strawberry" name="Wash strawberries" />
 		<text id="preparestep_strawberryjuice_sugar" name="Add sugar" />
 		<text id="preparestep_strawberryjuice_vanilla" name="Add vanilla" />
+		<text id="preparestep_cappuccino_cookfest" name="Think about next Cookfest" />
+		<text id="preparestep_cappuccino_cinnamon" name="Sprinkle cinnamon" />
 		<text id="preparestep_blackforestcherrycake_flour" name="小麦粉をふるいます" />
 		<text id="preparestep_cheeseburger_cheese" name="チーズを切ります" />
 		<text id="preparestep_cheeseburger_flour" name="小麦粉をふるいます" />
@@ -1410,6 +1414,7 @@
 		<text id="recipe_rjuice" name="Rhubarb Juice" />
 		<text id="recipe_cherryjuice" name="Cherry Juice" />
 		<text id="recipe_strawberryjuice" name="Strawberry Juice" />
+		<text id="recipe_cappuccino" name="Cappuccino" />
 		<text id="recipe_blackforestcherrycake" name="ブラックフォレストケーキ" />
 		<text id="recipe_cheeseburger" name="チーズバーガー" />
 		<text id="recipe_cheesedish" name="チーズプレート" />

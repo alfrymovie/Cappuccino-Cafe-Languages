@@ -197,6 +197,8 @@
 		<text id="cookstep_cherryjuice2" name="Blending juice" />
 		<text id="cookstep_strawberryjuice1" name="Mashing strawberries" />
 		<text id="cookstep_strawberryjuice2" name="Blending juice" />
+		<text id="cookstep_cappuccino1" name="Brewing espresso" />
+		<text id="cookstep_cappuccino2" name="Frothing milk" />
 		<text id="cookstep_chocmousse2" name="Refroidir la mousse" />
 		<text id="cookstep_chocolatecake1" name="Mélanger les ingrédients" />
 		<text id="cookstep_chocolatecake2" name="Mettre au four" />
@@ -1037,6 +1039,8 @@
 		<text id="preparestep_strawberryjuice_strawberry" name="Wash strawberries" />
 		<text id="preparestep_strawberryjuice_sugar" name="Add sugar" />
 		<text id="preparestep_strawberryjuice_vanilla" name="Add vanilla" />
+		<text id="preparestep_cappuccino_cookfest" name="Think about next Cookfest" />
+		<text id="preparestep_cappuccino_cinnamon" name="Sprinkle cinnamon" />
 		<text id="preparestep_chocolatecheesecake_chocolate" name="Morceler le chocolat" />
 		<text id="preparestep_chocolatecheesecake_cookies" name="Émietter les biscuits" />
 		<text id="preparestep_chocolatecheesecake_milk" name="Mesurer le lait" />
@@ -1419,6 +1423,7 @@
 		<text id="recipe_rjuice" name="Rhubarb Juice" />
 		<text id="recipe_cherryjuice" name="Cherry Juice" />
 		<text id="recipe_strawberryjuice" name="Strawberry Juice" />
+		<text id="recipe_cappuccino" name="Cappuccino" />
 		<text id="recipe_chocmousse" name="Mousse au chocolat" />
 		<text id="recipe_chocolatecake" name="Gâteau au chocolat" />
 		<text id="recipe_chocolatecheesecake" name="Cheesecake chocolat" />
