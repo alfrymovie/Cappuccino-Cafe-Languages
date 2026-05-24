@@ -661,7 +661,7 @@
 <wod id="2235" n="Basic" g="Dish" t="Discodrinks" events="0" xp="2078" incomePerServing="3" servings="1822" duration="1080" level="21" dishcategory="0" requirements="1308+1#1321+1#1345+1#1325+1#1330+1#1408+1" />
 
 <wod id="1251" n="Basic" g="Dish" t="Cherriecake" events="0" xp="1362" incomePerServing="2" servings="1300" duration="600" level="22" dishcategory="0" requirements="1308+1#1312+1#1325+1#1339+1#1408+1" />
-<wod id="2240" n="Basic" g="Dish" t="Nasilemak" events="0" xp="594" incomePerServing="3" servings="477" duration="360" level="21" dishcategory="1" requirements="1325+1#1311+1#1309+1#1302+1#1410+1" />
+<wod id="2240" n="Basic" g="Dish" t="Nasilemak" events="0" xp="594" incomePerServing="3" servings="590" duration="360" level="21" dishcategory="1" requirements="1325+1#1311+1#1309+1#1303+1#1309+1#1410+1" />
 
 <wod id="1223" n="Basic" g="Dish" t="Cheeseburger" events="0" xp="54" incomePerServing="33" servings="38" duration="20" level="23" dishcategory="5" requirements="1305+1#1312+1#1316+1#1327+1#1402+1" />
 <wod id="2227" n="Basic" g="Dish" t="Feijoada" events="0" xp="2061" incomePerServing="2" servings="2620" duration="1020" level="23" dishcategory="1" requirements="1303+4#1301+2#1344+2#1318+3#1313+1#1403+1" />
