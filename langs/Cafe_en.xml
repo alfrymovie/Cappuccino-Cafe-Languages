@@ -375,51 +375,117 @@ If you put it into storage, you will lose the remaining portions!"  />
 			<text id="cookstep_whitechocmousse2" name="Cooling mousse"  />
 		</cookstep>
 		<coopmission>
-			<text id="coop_desc_long_1" name="We are starting a cooking class to perfect some of our dishes. Do you want to join?"  />
-			<text id="coop_desc_long_10" name="Your family is coming over for Christmas and it&#039;s you who is has been chosen to prepare Christmas dinner. Enjoy!"  />
-			<text id="coop_desc_long_11" name="A cake fight is planned and we need cakes! Please bake as many cakes as possible..."  />
-			<text id="coop_desc_long_12" name="The town&#039;s soup kitchen is in desperate need of soups. Could you cook a few soups which really everyone likes?"  />
-			<text id="coop_desc_long_13" name="For an Asian themed party we need a few typical Asian dishes. Do you know any recipes to make our evening?"  />
-			<text id="coop_desc_long_14" name="The national builder conference is about to start and we need some really hefty meals. Do have something ready for real men?"  />
-			<text id="coop_desc_long_15" name="Visitors from London are coming soon and wish to eat some proper meals from their home. Could you whip something up?"  />
-			<text id="coop_desc_long_2" name="I am planning a party with a Mexican theme. I still need typical Mexican food for it. Can you help me out?"  />
-			<text id="coop_desc_long_3" name="A sportclubs from Hamburg is visiting and I want them to feel as homey as possible. I need someone who can cook real Hanseatic food. Do you feel like it?"  />
-			<text id="coop_desc_long_4" name="I am planning a garden party with many people. So I need a lot of food. I heard you are a true catering master. Can you help me?"  />
-			<text id="coop_desc_long_5" name="The downtown ski park is having a huge Aprés ski party and needs a lot of tasty food. Could you help them out?"  />
-			<text id="coop_desc_long_6" name="My boss is coming over this evening and I really want to impress him with a tasty four course meal... Can you take care of it?"  />
-			<text id="coop_desc_long_7" name="There was a fire in the school canteen and the kids don&#039;t have anything to eat! Can you help us out and cook something tasty?"  />
-			<text id="coop_desc_long_8" name="My best friend is having a huge birthday bash and forgot to order the food. A lot of people are going to come... Can you help us?"  />
-			<text id="coop_desc_long_9" name="The village is having an Italian themed party. The only thing missing is the food. How are your cooking skills?"  />
-			<text id="coop_desc_short_1" name="Become the spaghetti master!"  />
-			<text id="coop_desc_short_10" name="Eat until your buttons pop!"  />
-			<text id="coop_desc_short_11" name="Every hit counts!"  />
-			<text id="coop_desc_short_12" name="There&#039;s nothing like soup!"  />
-			<text id="coop_desc_short_13" name="Always add a little rice!"  />
-			<text id="coop_desc_short_14" name="Meat and potatoes is what we like!"  />
-			<text id="coop_desc_short_15" name="Everything for the worldly Brit!"  />
-			<text id="coop_desc_short_2" name="Fiesta Mexicana at its best!"  />
-			<text id="coop_desc_short_3" name="Scouse for my Hanseatic visitors!"  />
-			<text id="coop_desc_short_4" name="Hawaiian Toast for the garden roast!"  />
-			<text id="coop_desc_short_5" name="Taking chocolate to the cheese mountain!"  />
-			<text id="coop_desc_short_6" name="Mousse au chocolat at its best!"  />
-			<text id="coop_desc_short_7" name="Educating the taste buds!"  />
-			<text id="coop_desc_short_8" name="Bake pizza and co. for a birthday party!"  />
-			<text id="coop_desc_short_9" name="Pizza! Pasta! Basta!"  />
-			<text id="coop_title_1" name="COOKING CLASS"  />
-			<text id="coop_title_10" name="CHRISTMAS IS HERE!"  />
-			<text id="coop_title_11" name="CAKE FIGHT!"  />
-			<text id="coop_title_12" name="SOUPY CASPER"  />
-			<text id="coop_title_13" name="ALL ASIAN"  />
-			<text id="coop_title_14" name="IT&#039;S GETTING HEFTY!"  />
-			<text id="coop_title_15" name="VERY BRITISH!"  />
-			<text id="coop_title_2" name="TEX MEX NIGHT"  />
-			<text id="coop_title_3" name="HANSEATIC EVENING"  />
-			<text id="coop_title_4" name="GARDEN PARTY"  />
-			<text id="coop_title_5" name="APRÉS SKI"  />
-			<text id="coop_title_6" name="DINNER PARTY"  />
-			<text id="coop_title_7" name="NO SCHOOL CANTEEN FOOD TODAY"  />
-			<text id="coop_title_8" name="BIRTHDAY PARTY"  />
-			<text id="coop_title_9" name="ITALIAN BUFFET"  />
+			<text id="coop_title_1" name="COOKING CLASS" />
+			<text id="coop_desc_short_1" name="Become the spaghetti master!" />
+			<text id="coop_desc_long_1" name="We are starting a cooking class to perfect some of our dishes. Do you want to join?" />
+
+			<text id="coop_title_2" name="TEX MEX NIGHT" />
+			<text id="coop_desc_short_2" name="Fiesta Mexicana at its best!" />
+			<text id="coop_desc_long_2" name="I am planning a party with a Mexican theme. I still need typical Mexican food for it. Can you help me out?" />
+
+			<text id="coop_title_3" name="HANSEATIC EVENING" />
+			<text id="coop_desc_short_3" name="Scouse for my Hanseatic visitors!" />
+			<text id="coop_desc_long_3" name="A sportclubs from Hamburg is visiting and I want them to feel as homey as possible. I need someone who can cook real Hanseatic food. Do you feel like it?" />
+
+			<text id="coop_title_4" name="GARDEN PARTY" />
+			<text id="coop_desc_short_4" name="Hawaiian Toast for the garden roast!" />
+			<text id="coop_desc_long_4" name="I am planning a garden party with many people. So I need a lot of food. I heard you are a true catering master. Can you help me?" />
+
+			<text id="coop_title_5" name="APRÉS SKI" />
+			<text id="coop_desc_short_5" name="Taking chocolate to the cheese mountain!" />
+			<text id="coop_desc_long_5" name="The downtown ski park is having a huge Aprés ski party and needs a lot of tasty food. Could you help them out?" />
+
+			<text id="coop_title_6" name="DINNER PARTY" />
+			<text id="coop_desc_short_6" name="Mousse au chocolat at its best!" />
+			<text id="coop_desc_long_6" name="My boss is coming over this evening and I really want to impress him with a tasty four course meal... Can you take care of it?" />
+
+			<text id="coop_title_7" name="NO SCHOOL CANTEEN FOOD TODAY" />
+			<text id="coop_desc_short_7" name="Educating the taste buds!" />
+			<text id="coop_desc_long_7" name="There was a fire in the school canteen and the kids don&#039;t have anything to eat! Can you help us out and cook something tasty?" />
+
+			<text id="coop_title_8" name="BIRTHDAY PARTY" />
+			<text id="coop_desc_short_8" name="Bake pizza and co. for a birthday party!" />
+			<text id="coop_desc_long_8" name="My best friend is having a huge birthday bash and forgot to order the food. A lot of people are going to come... Can you help us?" />
+
+			<text id="coop_title_9" name="ITALIAN BUFFET" />
+			<text id="coop_desc_short_9" name="Pizza! Pasta! Basta!" />
+			<text id="coop_desc_long_9" name="The village is having an Italian themed party. The only thing missing is the food. How are your cooking skills?" />
+
+			<text id="coop_title_10" name="CHRISTMAS IS HERE!" />
+			<text id="coop_desc_short_10" name="Eat until your buttons pop!" />
+			<text id="coop_desc_long_10" name="Your family is coming over for Christmas and it&#039;s you who is has been chosen to prepare Christmas dinner. Enjoy!" />
+
+			<text id="coop_title_11" name="CAKE FIGHT!" />
+			<text id="coop_desc_short_11" name="Every hit counts!" />
+			<text id="coop_desc_long_11" name="A cake fight is planned and we need cakes! Please bake as many cakes as possible..." />
+
+			<text id="coop_title_12" name="SOUPY CASPER" />
+			<text id="coop_desc_short_12" name="There&#039;s nothing like soup!" />
+			<text id="coop_desc_long_12" name="The town&#039;s soup kitchen is in desperate need of soups. Could you cook a few soups which really everyone likes?" />
+
+			<text id="coop_title_13" name="ALL ASIAN" />
+			<text id="coop_desc_short_13" name="Always add a little rice!" />
+			<text id="coop_desc_long_13" name="For an Asian themed party we need a few typical Asian dishes. Do you know any recipes to make our evening?" />
+
+			<text id="coop_title_14" name="IT&#039;S GETTING HEFTY!" />
+			<text id="coop_desc_short_14" name="Meat and potatoes is what we like!" />
+			<text id="coop_desc_long_14" name="The national builder conference is about to start and we need some really hefty meals. Do have something ready for real men?" />
+
+			<text id="coop_title_15" name="VERY BRITISH!" />
+			<text id="coop_desc_short_15" name="Everything for the worldly Brit!" />
+			<text id="coop_desc_long_15" name="Visitors from London are coming soon and wish to eat some proper meals from their home. Could you whip something up?" />
+
+			<text id="coop_title_16" name="MORNING RUSH!" />
+			<text id="coop_desc_short_16" name="Start the day right!" />
+			<text id="coop_desc_long_16" name="Chef cupcakekittycat8 will host a big breakfast at the Marketplace. Can you provide some of what will be served?" />
+
+			<text id="coop_title_17" name="POST-LUNCH DESSERTS" />
+			<text id="coop_desc_short_17" name="Craving sweets are we?" />
+			<text id="coop_desc_long_17" name="Chef Gabriel served a salty lunch and the costumers are craving many sweets! Help out and sweeten the day!" />
+
+			<text id="coop_title_18" name="FOOD CRITIC VISIT!" />
+			<text id="coop_desc_short_18" name="Cook to impress!" />
+			<text id="coop_desc_long_18" name="Chef cupcakekittycat8 invited a food critic to visit your Café and he has a refined taste! It is time to cook!" />
+
+			<text id="coop_title_19" name="LAN PARTY!" />
+			<text id="coop_desc_short_19" name="Fast food for fast games!" />
+			<text id="coop_desc_long_19" name="Chef Surfguiger5 decided to join a LAN party and was tasked with bringing the food. The attendees want a lot, though! Help out!" />
+
+			<text id="coop_title_20" name="LATE NIGHT DRIVE THRU" />
+			<text id="coop_desc_short_20" name="A quick dinner for a long day!" />
+			<text id="coop_desc_long_20" name="Chef Patawka opened a drive-thru and is willing to share profits with anyone that helps provide food for it. Participate!" />
+
+			<text id="coop_title_21" name="FIT FOOD ONLY!" />
+			<text id="coop_desc_short_21" name="It's time to eat well!" />
+			<text id="coop_desc_long_21" name="Chef Surfguiger5 learned about the craze of Triple Omelettes and is concerned about weight gain. Cook healthy food to prove that your Café is healthy too!" />
+
+			<text id="coop_title_22" name="HOTEL BRUNCH" />
+			<text id="coop_desc_short_22" name="Want a quick bite?" />
+			<text id="coop_desc_long_22" name="Chef Surfguiger5 was asked by the local hotel to provide food for a brunch. However, the stoves broke and it's up to you to help! Profits will be shared." />
+
+			<text id="coop_title_23" name="BRAZILIAN WAY" />
+			<text id="coop_desc_short_23" name="Enjoy what Brazil has to offer!" />
+			<text id="coop_desc_long_23" name="Chef Surfguiger5 wants everyone to taste Brazilian food. Cook it!" />
+
+			<text id="coop_title_24" name="THE CARB COUNTER" />
+			<text id="coop_desc_short_24" name="An energy refill!" />
+			<text id="coop_desc_long_24" name="The local gym asked chef Artemis to supply dishes rich in carbs to keep the clients energized. Help out to earn your share too!" />
+
+			<text id="coop_title_25" name="WEDDING TASTING" />
+			<text id="coop_desc_short_25" name="A marriage is coming!" />
+			<text id="coop_desc_long_25" name="Chef Kvmxl said that the Café Lady and the Muffin Man are getting married! It was said that they will pay nicely for any Café that has their favorite food. Are the rumors true?" />
+
+			<text id="coop_title_26" name="DINNER BUFFET" />
+			<text id="coop_desc_short_26" name="Eat up!" />
+			<text id="coop_desc_long_26" name="Chef Cupcakekittycat8 wants a dinner with plenty of food. Help out!" />
+
+			<text id="coop_title_27" name="OISH-SOME" />
+			<text id="coop_desc_short_27" name="So great!" />
+			<text id="coop_desc_long_27" name="Chef Nao wants to serve food for an anime convention happening at the Café next door. Give a hand!" />
+
+			<text id="coop_title_28" name="COCOANFESSION" />
+			<text id="coop_desc_short_28" name="The true love is Chocolate!" />
+			<text id="coop_desc_long_28" name="Chef Nao wants to popularize chocolate dishes around the neighborhood and will pay for it. Why not participate?" />
 		</coopmission>
 		<dialogs>
 			<text id="dialogwin_achievement_title" name="Achievements"  />
