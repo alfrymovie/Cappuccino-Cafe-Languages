@@ -223,6 +223,12 @@ If you put it into storage, you will lose the remaining portions!"  />
 			<text id="cookstep_dorayaki2" name="Letting it cool"/>
 			<text id="cookstep_tiramisu1" name="Layering dessert"/>
 			<text id="cookstep_tiramisu2" name="Chilling tiramisu"/>
+			<text id="cookstep_pridecupcakes1" name="Mixing batter" />
+			<text id="cookstep_pridecupcakes2" name="Decorating" />
+			<text id="cookstep_ratatouille1" name="Prepping vegetables" />
+			<text id="cookstep_ratatouille2" name="Stacking" />
+			<text id="cookstep_hotcherryricepudding1" name="Cooking rice" />
+			<text id="cookstep_hotcherryricepudding2" name="Adding cherries" />
 			<text id="cookstep_blackforestcherrycake1" name="Mixing ingredients"  />
 			<text id="cookstep_blackforestcherrycake2" name="Baking cake"  />
 			<text id="cookstep_cheeseburger1" name="Searing minced meat"  />
@@ -1233,6 +1239,21 @@ Available for limited time only!"  />
 			<text id="preparestep_tiramisu_quark" name="Whip quark"/>
 			<text id="preparestep_tiramisu_eggs" name="Separate eggs"/>	
 
+			<text id="preparestep_pridecupcakes_flour" name="Sift flour" />
+			<text id="preparestep_pridecupcakes_eggs" name="Crack eggs" />
+			<text id="preparestep_pridecupcakes_sugar" name="Measure sugar" />
+			<text id="preparestep_pridecupcakes_milk" name="Measure milk" />
+
+			<text id="preparestep_ratatouille_tomato" name="Cut tomatoes" />
+			<text id="preparestep_ratatouille_eggplant" name="Slice eggplant" />
+			<text id="preparestep_ratatouille_onion" name="Chop onions" />
+			<text id="preparestep_ratatouille_oil" name="Measure oil" />
+
+			<text id="preparestep_hotcherryricepudding_rice" name="Weigh rice" />
+			<text id="preparestep_hotcherryricepudding_cherries" name="Pit cherries" />
+			<text id="preparestep_hotcherryricepudding_sugar" name="Measure sugar" />
+			<text id="preparestep_hotcherryricepudding_milk" name="Measure milk" />
+
 			<text id="preparestep_bananasplit_cream" name="Whip cream"  />
 			<text id="preparestep_bananasplit_milk" name="Measure milk"  />
 			<text id="preparestep_bananasplit_sugar" name="Measure sugar"  />
@@ -1537,6 +1558,9 @@ Available for limited time only!"  />
 			<text id="preparestep_francesinha_chili" name="Chop chili"/>
 			<text id="preparestep_dorayaki_vanilla" name="Scrape out vanilla"/>
 			<text id="preparestep_tiramisu_vanilla" name="Scrape out vanilla"/>
+			<text id="preparestep_pridecupcakes_vanilla" name="Scrape out vanilla" />
+			<text id="preparestep_ratatouille_rosemary" name="Chop rosemary" />
+			<text id="preparestep_hotcherryricepudding_cinnamon" name="Sprinkle cinnamon" />
 			<text id="preparestep_bananasplit_vanilla" name="Scrape out vanilla"  />
 			<text id="preparestep_blackforestcherrycake_vanilla" name="Scrape out vanilla"  />
 			<text id="preparestep_pizzasalad_chili" name="Chop chili" />
@@ -1647,6 +1671,9 @@ Available for limited time only!"  />
 			<text id="recipe_francesinha" name="Francesinha"/>
 			<text id="recipe_dorayaki" name="Dorayaki"/>
 			<text id="recipe_tiramisu" name="Tiramisù"/>
+			<text id="recipe_pridecupcakes" name="Pride Cupcakes" />
+			<text id="recipe_ratatouille" name="Ratatouille" />
+			<text id="recipe_hotcherryricepudding" name="Rice Pudding with Hot Cherries" />
 			<text id="recipe_beefstew" name="Stew"  />
 			<text id="recipe_blackforestcherrycake" name="Black Forest Cake"  />
 			<text id="recipe_cheeseburger" name="Cheeseburger"  />
