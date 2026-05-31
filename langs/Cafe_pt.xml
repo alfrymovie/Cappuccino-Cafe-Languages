@@ -966,6 +966,7 @@ Apenas disponível por tempo limitado!" />
 	</ingame_tooltips>
 	<ingredients>
 		<text id="ingredient_cookfest" name="Ingredientes de Evento" />
+		<text id="ingredient_citrus" name="Citrus Fruits" />
 		<text id="ingredient_apple" name="Maçãs" />
 		<text id="ingredient_bacon" name="Bacon" />
 		<text id="ingredient_bakingmix" name="Mistura de Bolo" />
