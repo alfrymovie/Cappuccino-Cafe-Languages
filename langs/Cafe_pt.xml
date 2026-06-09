@@ -251,8 +251,8 @@ Se você estocá-la, as porções existentes serão perdidas!" />
 		<text id="cookstep_neapolitancake2" name="Assando bolo" />
 		<text id="cookstep_strawberrycheesecake1" name="Misturando ingredientes" />
 		<text id="cookstep_strawberrycheesecake2" name="Formando bolo" />
-		<text id="cookstep_combomeal1" name="Frying burger meat" />
-		<text id="cookstep_combomeal2" name="Frying fries somehow" />
+		<text id="cookstep_combomeal1" name="Fritando carne" />
+		<text id="cookstep_combomeal2" name="Fritando as batatas de alguma forma" />
 		<text id="cookstep_blackforestcherrycake1" name="Misturando ingredientes" />
 		<text id="cookstep_blackforestcherrycake2" name="Assando bolo" />
 		<text id="cookstep_cheeseburger1" name="Fritando carne moída" />
@@ -1284,11 +1284,11 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_strawberrycheesecake_cookies" name="Esmigalhar biscoitos" />
 		<text id="preparestep_strawberrycheesecake_quark" name="Adicionar Quark" />
 		<text id="preparestep_strawberrycheesecake_strawberry" name="Amassar morangos" />
-		<text id="preparestep_combomeal_flour" name="Make instant bread" />
-		<text id="preparestep_combomeal_mincemeat" name="Make patties" />
-		<text id="preparestep_combomeal_cheese" name="Slice cheese" />
-		<text id="preparestep_combomeal_potato" name="Cut fries" />
-		<text id="preparestep_combomeal_oil" name="Add lots of oil" />
+		<text id="preparestep_combomeal_flour" name="Fazer pão rápido" />
+		<text id="preparestep_combomeal_mincemeat" name="Fazer carnes" />
+		<text id="preparestep_combomeal_cheese" name="Fatiar queijo" />
+		<text id="preparestep_combomeal_potato" name="Cortar batata" />
+		<text id="preparestep_combomeal_oil" name="Adicionar muito óleo" />
 		<text id="preparestep_corncake_cinnamon" name="Moer canela" />
 		<text id="preparestep_feijoada_beans" name="Cozinhar feijões" />
 		<text id="preparestep_feijoada_bacon" name="Cortar pedaços de bacon" />
@@ -1592,7 +1592,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="preparestep_veganplate_parsley" name="Picar salsinha" />
 		<text id="preparestep_neapolitancake_vanilla" name="Fazer extrato de baunilha" />
 		<text id="preparestep_strawberrycheesecake_vanilla" name="Adicionar baunilha" />
-		<text id="preparestep_combomeal_chili" name="Make spicy sauce packets" />
+		<text id="preparestep_combomeal_chili" name="Fazer pacotes de molho picante" />
 		<text id="preparestep_cottagepotatoes_parsley" name="Picar salsinha" />
 		<text id="preparestep_bananasplit_vanilla" name="raspar baunilha" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="Raspar baunilha" />
@@ -1719,7 +1719,7 @@ Apenas disponível por tempo limitado!" />
 		<text id="recipe_veganplate" name="Prato Vegano" />
 		<text id="recipe_neapolitancake" name="Bolo Napolitano" />
 		<text id="recipe_strawberrycheesecake" name="Cheesecake de Morango" />
-		<text id="recipe_combomeal" name="Combo Meal" />
+		<text id="recipe_combomeal" name="Combo de Fast Food" />
 		<text id="recipe_beefstew" name="Carne Ensopada" />
 		<text id="recipe_blackforestcherrycake" name="Bolo Floresta Negra" />
 		<text id="recipe_cheeseburger" name="X-Burger" />
