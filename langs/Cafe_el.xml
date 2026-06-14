@@ -517,6 +517,15 @@
 		<text id="coop_title_36" name="WE NEED LOTS OF EGGS!" />
 		<text id="coop_desc_short_36" name="Did they actually come first?" />
 		<text id="coop_desc_long_36" name="Chef Myleeek is conducting research on who came first: the chicken or the egg? Cook dishes with eggs to provide data!" />
+		<text id="coop_title_37" name="A GRATE MISTAKE!" />
+		<text id="coop_desc_short_37" name="The cheese rules all!" />
+		<text id="coop_desc_long_37" name="Chef Cupcakekittycat8 was hired to provide dishes for the birthday of a famous Mouse. Sadly, she used tofu instead of cheese and the mice are furious! Can you make food with cheese to help?" />
+		<text id="coop_title_38" name="BURGER FESTIVAL" />
+		<text id="coop_desc_short_38" name="A classic taste for a gathering1" />
+		<text id="coop_desc_long_38" name="Chef Franskmayn is going to serve burgers at the Marketplace. Provide some portions to get a share of the revenue!" />
+		<text id="coop_title_39" name="SWEET LIKE A STRAWBERRY!" />
+		<text id="coop_desc_short_39" name="A bountiful harvest!" />
+		<text id="coop_desc_long_39" name="The strawberry harvest was excellent and chef Gabriel wants to share the sweetness with everyone. Let&apos;s make some berry-licious dishes!" />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="Επιτεύγματα" />
