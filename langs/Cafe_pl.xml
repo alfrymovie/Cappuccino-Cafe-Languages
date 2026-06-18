@@ -285,16 +285,16 @@
 		<text id="cookstep_cornonthecob2" name="Przyrządzanie sałatki" />
 		<text id="cookstep_curry1" name="Przypiekanie składników" />
 		<text id="cookstep_curry2" name="Dodawanie kokosa" />
-		<text id="cookstep_duckalorange1" name="Faszerowanie kaczkę" />
-		<text id="cookstep_duckalorange2" name="Upiekanie kaczkę" />
-		<text id="cookstep_easterdish1" name="Roztopienie czekolady" />
+		<text id="cookstep_duckalorange1" name="Faszerowanie kaczki" />
+		<text id="cookstep_duckalorange2" name="Pieczenie kaczki" />
+		<text id="cookstep_easterdish1" name="Roztapienie czekolady" />
 		<text id="cookstep_easterdish2" name="Gotowanie jajek" />
 		<text id="cookstep_englishbreakfast1" name="Gotowanie fasoli" />
 		<text id="cookstep_englishbreakfast2" name="Smażenie kiełbasek" />
 		<text id="cookstep_fishandchips1" name="Smażenie ryby" />
 		<text id="cookstep_fishandchips2" name="Rozgniatanie grochu" />
-		<text id="cookstep_friedpotatoes1" name="Gotowanie kartofli" />
-		<text id="cookstep_friedpotatoes2" name="Usmażanie kartofli" />
+		<text id="cookstep_friedpotatoes1" name="Gotowanie ziemniaków" />
+		<text id="cookstep_friedpotatoes2" name="Usmażanie ziemniaków" />
 		<text id="cookstep_fruitpudding1" name="Rośnięcie ciasta" />
 		<text id="cookstep_fruitpudding2" name="Pieczenie" />
 		<text id="cookstep_fruitsalad1" name="Krojenie owoców" />
@@ -558,10 +558,10 @@
 		<text id="dialogwin_changepassword_copy_newpass" name="Nowe hasło:" />
 		<text id="dialogwin_changepassword_copy_oldpass" name="Stare hasło:" />
 		<text id="dialogwin_changepassword_title" name="Zmień hasło" />
-		<text id="dialogwin_clearcounter_cancelButton" name="Nie przerywaj" />
+		<text id="dialogwin_clearcounter_cancelButton" name="Zostaw" />
 		<text id="dialogwin_clearcounter_okButton" name="Wyrzuć" />
 		<text id="dialogwin_clearcounter_title" name="Z tego blatu zostanie podana potrawa. Co chcesz z tym zrobić?" />
-		<text id="dialogwin_clearstove_btn_cancel" name="Nie przerywaj" />
+		<text id="dialogwin_clearstove_btn_cancel" name="Zostaw" />
 		<text id="dialogwin_clearstove_btn_ok" name="Wyrzuć" />
 		<text id="dialogwin_clearstove_copy" name="Masz jeszcze dostępną {0} razy opcję &apos;gotowania ekspresowego&apos;." />
 		<text id="dialogwin_clearstove_title" name="Na tej kuchence bedzie gotowana potrawa. Co chcesz z tym zrobić?" />
@@ -978,7 +978,7 @@
 		<text id="stovetooltip_free" name="Kliknij aby\ngotować" />
 		<text id="stovetooltip_full1" name="Gotowe do podania:" />
 		<text id="stovetooltip_full2" name="porcji" />
-		<text id="stovetooltip_prepare1" name="Kliknij aby" />
+		<text id="stovetooltip_prepare1" name="Kliknij aby rozpocząć:" />
 		<text id="stovetooltip_ready1" name="do zepsucia potrawy" />
 		<text id="stovetooltip_ready2" name="Kliknij aby zaserwować" />
 		<text id="stovetooltip_spoiled1" name="Spleśniałe" />
@@ -988,12 +988,12 @@
 		<text id="wheeloffortunetooltip_line3" name="Pierwsze kręcenia za darmo" />
 	</ingame_tooltips>
 	<ingredients>
-		<text id="ingredient_cookfest" name="Event Ingredients" />
+		<text id="ingredient_cookfest" name="Mieszanka" />
 		<text id="ingredient_limelemon" name="Cytryna" />
 		<text id="ingredient_citrus" name="Citrus" />
 		<text id="ingredient_apple" name="Jabłko" />
 		<text id="ingredient_bacon" name="Boczek" />
-		<text id="ingredient_bakingmix" name="Fix do ciasta" />
+		<text id="ingredient_bakingmix" name="Proszek do pieczenia" />
 		<text id="ingredient_ballpepper" name="Papryka" />
 		<text id="ingredient_banana" name="Banan" />
 		<text id="ingredient_basil" name="Bazylia" />
@@ -1035,7 +1035,7 @@
 		<text id="ingredient_pasta" name="Makaron" />
 		<text id="ingredient_peas" name="Groszek" />
 		<text id="ingredient_pinapple" name="Ananas" />
-		<text id="ingredient_potato" name="Kartofle" />
+		<text id="ingredient_potato" name="Ziemniak" />
 		<text id="ingredient_quark" name="Twaróg" />
 		<text id="ingredient_rhubarb" name="Rabarbar" />
 		<text id="ingredient_rice" name="Ryż" />
@@ -1047,9 +1047,9 @@
 		<text id="ingredient_sweetcorn" name="Kukurydza" />
 		<text id="ingredient_tofu" name="Tofu" />
 		<text id="ingredient_tomato" name="Pomidory" />
-		<text id="ingredient_turkeymix" name="Fix do indyka" />
+		<text id="ingredient_turkeymix" name="Przyprawa do indyka" />
 		<text id="ingredient_vanilla" name="Wanilia" />
-		<text id="ingredient_vegiemix" name="Mieszanka warzyw" />
+		<text id="ingredient_vegiemix" name="Przyprawa do warzyw" />
 		<text id="ingredient_whitechocolat" name="Biała czekolada" />
 	</ingredients>
 	<loggedin_msg id="" />
@@ -1275,7 +1275,7 @@
 		<text id="preparestep_combomeal_flour" name="Przygotowywanie chleba natychmiastowego" />
 		<text id="preparestep_combomeal_mincemeat" name="Przygotowywanie kotletów" />
 		<text id="preparestep_combomeal_cheese" name="Krojenie sera" />
-		<text id="preparestep_combomeal_potato" name="Krojenie kartofli" />
+		<text id="preparestep_combomeal_potato" name="Krojenie ziemniaków" />
 		<text id="preparestep_combomeal_oil" name="Dodawanie dużo oleju" />
 		<text id="preparestep_blackforestcherrycake_flour" name="Przesiewanie mąki" />
 		<text id="preparestep_cheeseburger_cheese" name="Krojenie sera" />
@@ -1351,10 +1351,10 @@
 		<text id="preparestep_fishandchips_flour" name="Przesiewanie mąki" />
 		<text id="preparestep_fishandchips_oil" name="Podgrzewanie oleju" />
 		<text id="preparestep_fishandchips_peas" name="Gotowanie groszku" />
-		<text id="preparestep_fishandchips_potato" name="Obieranie kartofli" />
+		<text id="preparestep_fishandchips_potato" name="Obieranie ziemniaków" />
 		<text id="preparestep_friedpotatoes_bacon" name="Podsmażanie boczku" />
 		<text id="preparestep_friedpotatoes_onion" name="Siekanie cebuli" />
-		<text id="preparestep_friedpotatoes_potato" name="Obieranie kartofli" />
+		<text id="preparestep_friedpotatoes_potato" name="Obieranie ziemniaków" />
 		<text id="preparestep_fruitpudding_bakingmix" name="Pomieszać mieszankę" />
 		<text id="preparestep_fruitpudding_spicemix" name="Odmierzanie przypraw" />
 		<text id="preparestep_fruitsalad_apple" name="Obieranie jabłek" />
@@ -1730,7 +1730,7 @@
 		<text id="recipe_easterdish" name="Wielkanocny koszyk" />
 		<text id="recipe_englishbreakfast" name="Angielskie śniadanie" />
 		<text id="recipe_fishandchips" name="Fish&apos;n&apos;Chips" />
-		<text id="recipe_friedpotatoes" name="Pieczone kartofle" />
+		<text id="recipe_friedpotatoes" name="Pieczone ziemniaki" />
 		<text id="recipe_fruitpudding" name="Ciasto owocowe" />
 		<text id="recipe_fruitsalad" name="Sałatka owocowa" />
 		<text id="recipe_greensalad" name="Sałatka warzywna" />
