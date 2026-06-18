@@ -625,7 +625,7 @@
 
 <wod id="2216" n="Basic" g="Dish" t="Pizzasalad" events="0" xp="56" incomePerServing="8" servings="117" duration="30" level="4" dishcategory="5" requirements="1327+1#1318+1#1314+1#1305+1#1312+1#1402+1" />
 <wod id="1207" n="Basic" g="Dish" t="Mixedsalad" events="0" xp="110" incomePerServing="5" servings="130" duration="60" level="4" dishcategory="3" requirements="1327+1#1326+1#1320+1#1314+1#1406+1" />
-<wod id="2236" n="Basic" g="Dish" t="Cappuccino" events="0" xp="10" incomePerServing="825" servings="1" duration="1" level="1" dishcategory="0" requirements="1346+1#1409+1" />
+<wod id="2236" n="Basic" g="Dish" t="Cappuccino" events="0" xp="20" incomePerServing="825" servings="1" duration="1" level="1" dishcategory="0" requirements="1346+1#1409+1" />
 
 <wod id="1208" n="Basic" g="Dish" t="Toast" events="0" xp="221" incomePerServing="4" servings="260" duration="120" level="5" dishcategory="5" requirements="1305+1#1321+1#1312+1#1402+1" />
 <wod id="2222" n="Basic" g="Dish" t="Chocolatewaffles" events="0" xp="602" incomePerServing="4" servings="700" duration="360" level="5" dishcategory="0" requirements="1312+1#1308+1#1311+1#1307+3#1408+1" />
