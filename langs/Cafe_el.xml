@@ -35,7 +35,7 @@
 	<alerts>
 		<text id="alert_addcash_copy" name="Εδώ μπορείς ν&amp;#039;αγοράσεις Δολλάρια Καφέ/Χρυσό." />
 		<text id="alert_addcash_title" name="Κατάστημα Πληρωμής" />
-		<text id="alert_addFriend_copy" name="Θέλεις να προσθέσεις τον {0} σαν φίλο?" />
+		<text id="alert_addFriend_copy" name="Θέλεις να προσθέσεις τον {0} σαν φίλο;" />
 		<text id="alert_addFriend_denied_copy" name="{0} αρνήθηκε την αίτησή σου." />
 		<text id="alert_addFriend_denied_title" name="Το αίτημα απορρίφθηκε!" />
 		<text id="alert_addFriend_title" name="Αίτημα φίλου" />
@@ -45,19 +45,19 @@
 		<text id="alert_buytiles_copy" name="1. Επέλεξε ένα τετράγωνο
 2. Διάλεξε περιοχή στο καφέ σου ενώ κρατάς πατημένο το κουμπί στο ποντίκι σου
 3. Μετά άφησέ το" />
-		<text id="alert_buytiles_title" name="Τοποθέτησε τετράγωνα?" />
+		<text id="alert_buytiles_title" name="Τοποθέτησε τετράγωνα;" />
 		<text id="alert_changePasswordFaild_copy" name="Ο νέος σου κωδικός πρέπει να έχει περισσότερο από 2 χαρακτήρες και ο παλιός σου κωδικός πρέπει να εισαχθεί σωστά!" />
 		<text id="alert_changePasswordFaild_title" name="Εισαγωγή κωδικού" />
 		<text id="alert_clearstove_cancelButton" name="Κράτησε" />
 		<text id="alert_clearstove_okButton" name="Πέταξε" />
-		<text id="alert_clearstove_title" name="Ένα γεύμα σερβίρεται από αυτόν τον πάγκο. Θέλεις να κρατήσεις το γεύμα?" />
+		<text id="alert_clearstove_title" name="Ένα γεύμα σερβίρεται από αυτόν τον πάγκο. Θέλεις να κρατήσεις το γεύμα;" />
 		<text id="alert_counter_outofreach_copy" name="Δε μπορείς να φτάσεις στον πάγκο σου. Δοκίμασε να αναδιακοσμήσεις το καφέ σου." />
 		<text id="alert_counter_outofreach_title" name="Πρόσεχε!" />
 		<text id="alert_dekoshop_humanwaiter_copy" name="Όσο υπάρχουν άλλη παίκτες που εργάζονται στο καφέ σου, δε μπορείς να το προσαρμόσεις." />
 		<text id="alert_dekoshop_humanwaiter_title" name="Με τίποτα!" />
-		<text id="alert_dekoshop_kickplayer_copy" name="Υπάρχουν ακόμα άλλοι παίκτες στο καφέ σου. Θέλεις να τους διώξεις και να αλλάξεις σε μενού προσαρμογής?" />
+		<text id="alert_dekoshop_kickplayer_copy" name="Υπάρχουν ακόμα άλλοι παίκτες στο καφέ σου. Θέλεις να τους διώξεις και να αλλάξεις σε μενού προσαρμογής;" />
 		<text id="alert_dekoshop_kickplayer_title" name="Πρόσεχε!" />
-		<text id="alert_FancyCooking_copy" name="Θέλεις ν&amp;#039; αρωματίσεις το γεύμα σου με αυτό το φανταστικό συστατικό και να κερδίσεις {0} περισσότερους ΧΡ και {1} επιπλέον σερβιρίσματα?" />
+		<text id="alert_FancyCooking_copy" name="Θέλεις ν&amp;#039; αρωματίσεις το γεύμα σου με αυτό το φανταστικό συστατικό και να κερδίσεις {0} περισσότερους ΧΡ και {1} επιπλέον σερβιρίσματα;" />
 		<text id="alert_FancyCooking_title" name="φανταχτερά συστατικά" />
 		<text id="alert_fancyinfo_copy" name="Εμπλούτισε ένα πιάτο με τα απαραίτητα φανταχτερά συστατικά και θα κερδίσεις μέχρι και 20% περισσότερα ΧΡ και σερβιρίσματα!
 Τα φανταστικά συστατικά επίσης δε πιάνουν χώρο στο ψυγείο σου!" />
@@ -90,14 +90,14 @@
 		<text id="alert_jobrefill_copy" name="Πρέπει να κάνεις εγγραφή πρώτα για να μπορείς να δουλέψεις." />
 		<text id="alert_jobrefill_title" name="Εγγραφή" />
 		<text id="alert_lostpassword_copy" name="Εισήγαγε τη διεύθυνση e-mail σου και θα σου στείλουμε το νέο κωδικό σου." />
-		<text id="alert_lostpassword_title" name="Ξέχασες τον κωδικό σου?" />
+		<text id="alert_lostpassword_title" name="Ξέχασες τον κωδικό σου;" />
 		<text id="alert_marketplace_jobcancled_copy" name="{0} απέρριψε την προσφορά εργασίας." />
 		<text id="alert_marketplace_jobcancled_title" name="Η δουλειά απορρίφθηκε" />
 		<text id="alert_marketplace_jobempty_copy" name="Χρησιμοποίησες όλες τις άδειες εργασίας σου για σήμερα." />
 		<text id="alert_marketplace_jobempty_title" name="Δεν έχουν μείνει άλλες άδειες εργασίας!" />
 		<text id="alert_marketplace_jobhired_copy" name="{0} αποδέχτηκε τη δουλειά!" />
 		<text id="alert_marketplace_jobhired_title" name="Η δουλειά έγινε δεκτή" />
-		<text id="alert_marketplace_job_copy" name="{0} (Επίπεδο {1}) σου πρόσφερε μια δουλειά. Θέλεις να την αποδεχτείς?" />
+		<text id="alert_marketplace_job_copy" name="{0} (Επίπεδο {1}) σου πρόσφερε μια δουλειά. Θέλεις να την αποδεχτείς;" />
 		<text id="alert_marketplace_job_title" name="Προσφορά εργασίας!" />
 		<text id="alert_marketplace_noticeboard_copy" name="Δείξε στους άλλους παίκτες ότι ψάχνεις για μια εργασία. Αν είσαι ήδη απασχολημένος μπορείς επίσης να γεμίσεις τις άδειες εργασίας σου εδώ." />
 		<text id="alert_marketplace_noticeboard_title" name="Δικαιώματα εργασίας" />
@@ -117,17 +117,17 @@
 		<text id="alert_register_title" name="Σφάλμα εγγραφής" />
 		<text id="alert_seekingjob_copy" name="Πρέπει να κάνεις εγγραφή πρώτα για να μπορείς να δουλέψεις." />
 		<text id="alert_seekingjob_title" name="Εγγραφή" />
-		<text id="alert_selldeco_copy" name="Θέλεις σίγουρα να το πουλήσεις για {0} το κάθε τεμάχιο?" />
+		<text id="alert_selldeco_copy" name="Θέλεις σίγουρα να το πουλήσεις για {0} το κάθε τεμάχιο;" />
 		<text id="alert_selldeco_title" name="Πώληση?" />
-		<text id="alert_sellitem_copy" name="Θέλεις σίγουρα να το πουλήσεις για {0} το κάθε τεμάχιο?" />
+		<text id="alert_sellitem_copy" name="Θέλεις σίγουρα να το πουλήσεις για {0} το κάθε τεμάχιο;" />
 		<text id="alert_sellitem_title" name="Πώληση?" />
 		<text id="alert_smoothiemaker_full_copy" name="Υπάρχουν ακόμα μερικά ποτά στη Μηχανή Ροφημάτων σου!
 Σέρβιρέ τα στους καλεσμένους σου, μετά μπορείς να αναμείξεις κάτι καινούριο!" />
-		<text id="alert_smoothiemaker_outofreach_copy" name="Η Μηχανή ροφημάτων σου δεν είναι διαθέσιμη. Γιατί δε προσπαθείς να αλλάξεις τα πράγματα?" />
+		<text id="alert_smoothiemaker_outofreach_copy" name="Η Μηχανή ροφημάτων σου δεν είναι διαθέσιμη. Γιατί δε προσπαθείς να αλλάξεις τα πράγματα;" />
 		<text id="alert_smoothiemaker_storage_copy" name="Υπάρχουν ακόμα ποτά στη Μηχανή ροφημάτων σου!
 Αν το βάλεις μέσα στην αποθήκη, θα χάσεις όλες τις μερίδες που έχουν μείνει!" />
-		<text id="alert_stafffire_copy" name="Θέλεις σίγουρα ν&amp;#039;απολύσεις τον πιστό σερβιτόρο σου?" />
-		<text id="alert_stafffire_title" name="Απόλυσε το σερβιτόρο?" />
+		<text id="alert_stafffire_copy" name="Θέλεις σίγουρα ν&amp;#039;απολύσεις τον πιστό σερβιτόρο σου;" />
+		<text id="alert_stafffire_title" name="Απόλυσε το σερβιτόρο;" />
 		<text id="alert_staffhire_copy" name="Δώσε ένα καινούριο όνομα στο σερβιτόρο σου." />
 		<text id="alert_staffhire_title" name="Προσέλαβε" />
 		<text id="alert_storefull_copy" name="Το ψυγείο σου είναι γεμάτο! Πούλησε συστατικά για να κάνεις χώρο!" />
@@ -135,7 +135,7 @@
 		<text id="alert_stove_outofreach_copy" name="Δε μπορείς να φτάσεις το φούρνο σου.Δοκίμασε να αναδιακοσμήσεις το καφέ σου." />
 		<text id="alert_stove_outofreach_title" name="Πρόσεχε!" />
 		<text id="alert_unlockitem_copy" name="Απόκτησε τα συστατικά με παράδοση από τον ταχυμεταφορέα της πόλης. Η αποκλειστικότητα όμως έχει την τιμή της." />
-		<text id="alert_unlockitem_title" name="Παράδοση με μεταφορέα?" />
+		<text id="alert_unlockitem_title" name="Παράδοση με μεταφορέα;" />
 		<text id="alert_userkicked_copy" name="Διώχθηκες από το καφέ." />
 		<text id="alert_userkicked_title" name="Κλώτσησε έξω!" />
 		<text id="alert_workinghero_copy" name="Ο μάγειρας πρέπει να συνεχίσει να εργάζεται!" />
@@ -410,23 +410,23 @@
 		<text id="cookstep_whitechocmousse2" name="ψύχοντας μους" />
 	</cookstep>
 	<coopmission>
-		<text id="coop_desc_long_1" name="Ξεκινάμε μία τάξη μαγειρικής για να τελειοποιήσουμε κάποια από τα πιάτα μας. Θέλεις να πάρεις μέρος?" />
+		<text id="coop_desc_long_1" name="Ξεκινάμε μία τάξη μαγειρικής για να τελειοποιήσουμε κάποια από τα πιάτα μας. Θέλεις να πάρεις μέρος;" />
 		<text id="coop_desc_long_10" name="Η οικογένειά σου έρχεται για τα Χριστούγεννα και είσαι εσύ αυτός που επιλέχθηκε για να ετοιμάσει το Χριστουγεννιάτικο δείπνο.
 Απόλαυσέ το!" />
 		<text id="coop_desc_long_11" name="Ένας πόλεμος με κέϊκ σχεδιάζεται και χρειαζόμαστε κέϊκ! Παρακαλώ ψήσε όσα περισσότερα κέϊκ μπορείς..." />
-		<text id="coop_desc_long_12" name="Το συσσίτιο της πόλης χρειάζεται απεγνωσμένα σούπες. Θα μπορούσες να μαγειρέψεις μερικές σούπες οι οποίες θα αρέσουν σε όλους?" />
-		<text id="coop_desc_long_13" name="Για ένα πάρτυ με Ασιατικό θέμα χρειαζόμαστε μερικά τυπικά Ασιατικά γεύματα. Γνωρίζεις κάποιες συνταγές για να μας φτιάξεις το βράδυ μας?" />
-		<text id="coop_desc_long_14" name="Το διεθνές συνέδριο κατασκευαστών πρόκειται να ξεκινήσει και χρειαζόμαστε κάποια πραγματικά βαριά γεύματα. Έχεις έτοιμο κάτι για αληθινούς άντρες?" />
-		<text id="coop_desc_long_15" name="Επισκέπτες από το Λονδίνο έρχοντε σύντομα και επιθυμούν να φάνε κάποια κατάλληλα γεύματα από το σπίτι τους. Θα μπορούσες να ετοιμάσεις κάτι?" />
-		<text id="coop_desc_long_2" name="Σχεδιάζω ένα πάρτυ με θέμα Μεξικάνικο. Ακόμα χρειάζομαι κλασικό Μεξικάνικο φαγητό για αυτό. Μπορείς να με βοηθήσεις?" />
-		<text id="coop_desc_long_3" name="Ένα αθλητικό κλαμπ από το Αμβούργο μας επισκέπτεται και θέλω να αισθάνονται όσο περισσότερο γίνεται οικεία. Χρειάζομαι κάποιον που μπορεί να μαγειρεύει πραγματικό υγιεινό φαγητό. Αισθάνεσαι έτσι?" />
-		<text id="coop_desc_long_4" name="Σχεδιάζω ένα πάρτυ στον κήπο για πάρα πολλά άτομα. Έτσι χρειάζομαι πολύ φαγητό. Άκουσα ότι είσαι μία πραγματική αυθεντία τροφοδοσίας. Μπορείς να με βοηθήσεις?" />
-		<text id="coop_desc_long_5" name="Στο πάρκο σκι της κάτω πόλης θα γίνει ένα τεράστιο πάρτι μετά-σκι και χρειάζεται πολύ ποσότητα νόστιμου φαγητού. Θα μπορούσες να τους βοηθήσεις?" />
-		<text id="coop_desc_long_6" name="Το αφεντικό μου έρχεται απόψε και θέλω πραγματικά να τον εντυπωσιάσω με ένα νόστιμο γεύμα 4 πιάτων...Μπορείς να το τακτοποιήσεις?" />
-		<text id="coop_desc_long_7" name="Η καντίνα του σχολείου πήρε φωτιά και τα παιδιά δεν έχουν τίποτα να φάνε! Μπορείς να μας βοηθήσεις και να μαγειρέψεις κάτι νόστιμο?" />
+		<text id="coop_desc_long_12" name="Το συσσίτιο της πόλης χρειάζεται απεγνωσμένα σούπες. Θα μπορούσες να μαγειρέψεις μερικές σούπες οι οποίες θα αρέσουν σε όλους;" />
+		<text id="coop_desc_long_13" name="Για ένα πάρτυ με Ασιατικό θέμα χρειαζόμαστε μερικά τυπικά Ασιατικά γεύματα. Γνωρίζεις κάποιες συνταγές για να μας φτιάξεις το βράδυ μας;" />
+		<text id="coop_desc_long_14" name="Το διεθνές συνέδριο κατασκευαστών πρόκειται να ξεκινήσει και χρειαζόμαστε κάποια πραγματικά βαριά γεύματα. Έχεις έτοιμο κάτι για αληθινούς άντρες;" />
+		<text id="coop_desc_long_15" name="Επισκέπτες από το Λονδίνο έρχοντε σύντομα και επιθυμούν να φάνε κάποια κατάλληλα γεύματα από το σπίτι τους. Θα μπορούσες να ετοιμάσεις κάτι;" />
+		<text id="coop_desc_long_2" name="Σχεδιάζω ένα πάρτυ με θέμα Μεξικάνικο. Ακόμα χρειάζομαι κλασικό Μεξικάνικο φαγητό για αυτό. Μπορείς να με βοηθήσεις;" />
+		<text id="coop_desc_long_3" name="Ένα αθλητικό κλαμπ από το Αμβούργο μας επισκέπτεται και θέλω να αισθάνονται όσο περισσότερο γίνεται οικεία. Χρειάζομαι κάποιον που μπορεί να μαγειρεύει πραγματικό υγιεινό φαγητό. Αισθάνεσαι έτσι;" />
+		<text id="coop_desc_long_4" name="Σχεδιάζω ένα πάρτυ στον κήπο για πάρα πολλά άτομα. Έτσι χρειάζομαι πολύ φαγητό. Άκουσα ότι είσαι μία πραγματική αυθεντία τροφοδοσίας. Μπορείς να με βοηθήσεις;" />
+		<text id="coop_desc_long_5" name="Στο πάρκο σκι της κάτω πόλης θα γίνει ένα τεράστιο πάρτι μετά-σκι και χρειάζεται πολύ ποσότητα νόστιμου φαγητού. Θα μπορούσες να τους βοηθήσεις;" />
+		<text id="coop_desc_long_6" name="Το αφεντικό μου έρχεται απόψε και θέλω πραγματικά να τον εντυπωσιάσω με ένα νόστιμο γεύμα 4 πιάτων...Μπορείς να το τακτοποιήσεις;" />
+		<text id="coop_desc_long_7" name="Η καντίνα του σχολείου πήρε φωτιά και τα παιδιά δεν έχουν τίποτα να φάνε! Μπορείς να μας βοηθήσεις και να μαγειρέψεις κάτι νόστιμο;" />
 		<text id="coop_desc_long_8" name="Ο καλύτερος μου φίλος έχει ένα τεράστιο κάλεσμα γενεθλίων και ξέχασε να παραγγείλει φαγητό. Πολύς κόσμος πρόκειται να έρθει...
 Μπορείς να μας βοηθήσεις?" />
-		<text id="coop_desc_long_9" name="Το χωριό έχει πάρτυ με Ιταλικό θέμα. Το μόνο που λείπει είναι το φαγητό. Πως είναι οι μαγειρικές σου ικανότητες?" />
+		<text id="coop_desc_long_9" name="Το χωριό έχει πάρτυ με Ιταλικό θέμα. Το μόνο που λείπει είναι το φαγητό. Πως είναι οι μαγειρικές σου ικανότητες;" />
 		<text id="coop_desc_short_1" name="Γίνε η αυθεντία των ζυμαρικών!" />
 		<text id="coop_desc_short_10" name="Φάτε μέχρι να πεταχτούν τα κουμπιά σας!" />
 		<text id="coop_desc_short_11" name="Κάθε χτύπημα μετρά!" />
@@ -457,14 +457,14 @@
 		<text id="coop_title_7" name="ΟΧΙ ΦΑΓΗΤΟ ΣΤΑ ΣΧΟΛΙΚΑ ΚΥΛΙΚΕΙΑ ΣΗΜΕΡΑ" />
 		<text id="coop_title_8" name="ΠΑΡΤΥ ΓΕΝΕΘΛΙΩΝ" />
 		<text id="coop_title_9" name="ΙΤΑΛΙΚΟΣ ΜΠΟΥΦΕΣ" />
-		<text id="coop_title_16" name="MORNING RUSH!" />
-		<text id="coop_desc_short_16" name="Start the day right!" />
-		<text id="coop_desc_long_16" name="Chef cupcakekittycat8 will host a big breakfast at the Marketplace. Can you provide some of what will be served?" />
-		<text id="coop_title_17" name="POST-LUNCH DESSERTS" />
-		<text id="coop_desc_short_17" name="Craving sweets are we?" />
+		<text id="coop_title_16" name="ΓΡΗΓΟΡΟ ΠΡΩΙΝΟ!" />
+		<text id="coop_desc_short_16" name="Ξεκινα την 'μερα σωστα!" />
+		<text id="coop_desc_long_16" name="Σεφ cupcakekittycat8 θα διοργανωσει ένα μεγαλο πρωινό στην Αγορά. Μπορείτε να δώσετε μερικά από αυτά που θα σερβιριστούν;" />
+		<text id="coop_title_17" name="Γλυκα για μεσημεριανό" />
+		<text id="coop_desc_short_17" name="Λακταραμε για γλυκα ετσι;" />
 		<text id="coop_desc_long_17" name="Chef Gabriel served a salty lunch and the costumers are craving many sweets! Help out and sweeten the day!" />
 		<text id="coop_title_18" name="FOOD CRITIC VISIT!" />
-		<text id="coop_desc_short_18" name="Cook to impress!" />
+		<text id="coop_desc_short_18" name="Μαγιρευσε να Εντυπωσιάσεις!" />
 		<text id="coop_desc_long_18" name="Chef cupcakekittycat8 invited a food critic to visit your Café and he has a refined taste! It is time to cook!" />
 		<text id="coop_title_19" name="LAN PARTY!" />
 		<text id="coop_desc_short_19" name="Fast food for fast games!" />
@@ -560,18 +560,18 @@
 		<text id="dialogwin_bonus_title_newwaiter" name="Συγχαρητήρια" />
 		<text id="dialogwin_bonus_title_stove" name="Νέος φούρνος" />
 		<text id="dialogwin_bonus_title_waiter" name="Περισσότερο προσωπικό" />
-		<text id="dialogwin_buytile_copy" name="Θέλεις ν&amp;#039;αγοράσεις {0} πλακάκια για {1}?" />
-		<text id="dialogwin_buytile_title" name="Αγόρασε πλακάκια?" />
+		<text id="dialogwin_buytile_copy" name="Θέλεις ν&amp;#039;αγοράσεις {0} πλακάκια για {1};" />
+		<text id="dialogwin_buytile_title" name="Αγόρασε πλακάκια;" />
 		<text id="dialogwin_changepassword_copy_newpass" name="Νέος κωδικός:" />
 		<text id="dialogwin_changepassword_copy_oldpass" name="Παλιός κωδικός:" />
 		<text id="dialogwin_changepassword_title" name="Αλλαγή κωδικού" />
 		<text id="dialogwin_clearcounter_cancelButton" name="Κράτησε" />
 		<text id="dialogwin_clearcounter_okButton" name="Πέταξε" />
-		<text id="dialogwin_clearcounter_title" name="Ένα γεύμα σερβίρεται από αυτόν τον πάγκο. Τι θέλεις να κάνεις μ&amp;#039;αυτό?" />
+		<text id="dialogwin_clearcounter_title" name="Ένα γεύμα σερβίρεται από αυτόν τον πάγκο. Τι θέλεις να κάνεις μ&amp;#039;αυτό;" />
 		<text id="dialogwin_clearstove_btn_cancel" name="Κράτησε" />
 		<text id="dialogwin_clearstove_btn_ok" name="Πέταξε" />
 		<text id="dialogwin_clearstove_copy" name="Μπορείς να κάνεις ακόμα {0} &amp;#039;Στιγμιαία μαγειρέματα&amp;#039;" />
-		<text id="dialogwin_clearstove_title" name="Ένα γεύμα ψήνεται στο φούρνο αυτό. Τι θέλεις να κάνεις μ&amp;#039;αυτό?" />
+		<text id="dialogwin_clearstove_title" name="Ένα γεύμα ψήνεται στο φούρνο αυτό. Τι θέλεις να κάνεις μ&amp;#039;αυτό;" />
 		<text id="dialogwin_cookbook_income" name="{0} ανά σερβίρισμα" />
 		<text id="dialogwin_cookbook_readyin" name="Έτοιμο σε: {0}" />
 		<text id="dialogwin_cookbook_servings" name="Σερβιρίσματα: {0}" />
@@ -616,7 +616,7 @@
 		<text id="dialogwin_dishmastery_copy_1" name="Μοίρασε κάποια επιπλέον σερβιρίσματα με τους φίλους σου!" />
 		<text id="dialogwin_dishmastery_info" name="Κάθε Μαεστρία που κερδίζεις κάνει τα γεύματά σου καλύτερα!" />
 		<text id="dialogwin_dishmastery_title" name="Μία νέα Μαεστρία!" />
-		<text id="dialogwin_fancycooking_title" name="Θέλεις ν&amp;#039; αρωματίσεις αυτό το γεύμα με {0}?" />
+		<text id="dialogwin_fancycooking_title" name="Θέλεις ν&amp;#039; αρωματίσεις αυτό το γεύμα με {0};" />
 		<text id="dialogwin_featureUnlocked_coop" name="Ξεκίνα μία Συνεργασία με τους φίλους σου!" />
 		<text id="dialogwin_featureUnlocked_decoration" name="Τώρα έχεις πρόσβαση σε νέα διακοσμητικά αντικείμενα!" />
 		<text id="dialogwin_featureUnlocked_fancy" name="Δώσε στα πιάτα σου ένα έξτρα άρωμα με τα φανταστικά συστατικά!" />
@@ -644,14 +644,14 @@
 		<text id="dialogwin_highscore_rank" name="Κατάταξη" />
 		<text id="dialogwin_highscore_searchtext" name="Αναζήτηση Όνομα/Κατάταξη" />
 		<text id="dialogwin_highscore_title" name="Κατάταξη" />
-		<text id="dialogwin_ingamehelp_1_1" name="Πως μαγειρεύω ένα γεύμα?" />
+		<text id="dialogwin_ingamehelp_1_1" name="Πως μαγειρεύω ένα γεύμα;" />
 		<text id="dialogwin_ingamehelp_1_2" name="Χρησιμοποίησε τους φούρνους για να ετοιμάσεις γεύματα για τους καλεσμένους σου. Για να το κάνεις αυτό, πρέπει να διαλέξεις μία συνταγή και να τη μαγειρέψεις κάνονοντας κλικ πολλές φορές." />
 		<text id="dialogwin_ingamehelp_1_3" name="Θα βρεις μία επισκόπηση όλων των συνταγών και των απαιτούμενων συστατικών στο βιβλίο μαγειρικής." />
 		<text id="dialogwin_ingamehelp_1_4" name="Θα βρεις τα απαιτούμενα συστατικά για τη συνταγή σου στο κατάστημα συστατικών." />
 		<text id="dialogwin_ingamehelp_1_5" name="Όταν έχεις συγκεντρώσει όλα τα συστατικά, μπορείς να πατήσεις στο &quot;μαγείρεμα&quot; και να ετοιμάσεις ένα γεύμα." />
 		<text id="dialogwin_ingamehelp_1_6" name="Ένα πιάτο είναι έτοιμο μετά από ένα προκαθορισμένο χρόνο. Μπορείς να το τοποθετήσεις επάνω στον πάγκο για να το σερβίρεις." />
 		<text id="dialogwin_ingamehelp_1_7" name="Ένας φούρνος που έχει χρησιμοποιηθεί πρέπει να καθαριστεί πριν την επόμενη χρήση." />
-		<text id="dialogwin_ingamehelp_2_1" name="Τι χρειάζεται να γνωρίζω για τα συστατικά?" />
+		<text id="dialogwin_ingamehelp_2_1" name="Τι χρειάζεται να γνωρίζω για τα συστατικά;" />
 		<text id="dialogwin_ingamehelp_2_2" name="Εδώ αποθήκευσες τα συστατικά που αγόρασες. Κάθε ψυγείο έχει περιορισμένες χωρητικότητες. Αλλά είναι πάντα καλό να αγοράσεις ένα αποθηκευτικό χώρο." />
 		<text id="dialogwin_ingamehelp_2_3" name="Τα φανταστικά συστατικά θα προσθέσουν άρωμα στα φαγητά σου. Αν τα χρησιμοποιήσεις, θα λάβεις περισσότερες μερίδες και ΧΡ.  Επίσης δε πιάνουν χώρο στο ψυγείο σου." />
 		<text id="dialogwin_ingamehelp_2_4" name="Μερικά συστατικά δεν είναι διαθέσιμα κάποιες φορές. Ο ταχυμεταφορέας θα σε βοηθήσει με αυτό. Για ένα μικρό φιλοδώρημα, θα έχεις πάντα ότι χρειάζεσαι." />
@@ -683,10 +683,10 @@
 		<text id="dialogwin_ingredient_storeinused" name="Μέσα στο ψυγείο σου:" />
 		<text id="dialogwin_ingredient_storelayer" name="Ψυγείο" />
 		<text id="dialogwin_ingredient_vegatable" name="Χωρίς κρέας" />
-		<text id="dialogwin_instantcooking_copy" name="Θέλεις να επιλέξεις Στιγμαίο Μαγείρεμα?
+		<text id="dialogwin_instantcooking_copy" name="Θέλεις να επιλέξεις Στιγμαίο Μαγείρεμα;
 Ακόμα {0} φορές δυνατό!" />
 		<text id="dialogwin_instantcooking_title" name="Θέλεις να κάνεις τη
- &amp;#039;Στιγμαία μαγειρική&amp;#039;?" />
+ &amp;#039;Στιγμαία μαγειρική&amp;#039;;" />
 		<text id="dialogwin_jobpaycheck_copy" name="Οι σκληρά εργαζόμενοι σερβιτόροι ανταμείβονται γενναιόδωρα! Εκτός από τα φιλοδωρήματά σου, έχεις επίσης κερδίσει εμπειρία." />
 		<text id="dialogwin_jobpaycheck_title" name="Λογαριασμός" />
 		<text id="dialogwin_levelup_copy" name="Έφτασες στο επίπεδο {0}!" />
@@ -704,13 +704,13 @@
 		<text id="dialogwin_muffinman_btn_again" name="Ξανά!" />
 		<text id="dialogwin_muffinman_btn_go" name="Πήγαινε!" />
 		<text id="dialogwin_muffinman_header" name="Βρες τη γέμιση!" />
-		<text id="dialogwin_muffinman_lostbet" name="Ω.Δε μπορείς να κερδίζεις πάντα.Ίσως θα ήθελες να δοκιμάσεις ξανά?" />
+		<text id="dialogwin_muffinman_lostbet" name="Ω.Δε μπορείς να κερδίζεις πάντα.Ίσως θα ήθελες να δοκιμάσεις ξανά;" />
 		<text id="dialogwin_muffinman_nomoney" name="Δεν έχεις αρκετά Δολλάρια Καφέ/Χρυσό για να βάλεις αυτό το στοίχημα!" />
 		<text id="dialogwin_muffinman_nopayment" name="Αν θέλεις να παίξεις για Χρυσό πρέπει να έχεις φτάσει στο επίπεδο 10!" />
 		<text id="dialogwin_muffinman_noregister" name="Μπορείς να παίξεις &quot;βρες τη γέμιση&quot; μόνο αν είσαι ένας εγγεγραμμένος παίκτης!" />
 		<text id="dialogwin_muffinman_nosale" name="Δε μπορείς να πουλήσεις τον αρτοποϊό για μάφιν!" />
 		<text id="dialogwin_muffinman_onlyonebuy" name="Μπορείς να βάλεις μόνο έναν αρτοποϊό μάφιν στο καφέ σου!" />
-		<text id="dialogwin_muffinman_placedbet" name="Πολύ καλό! Ποιά μάφιν κρύβουνς τις γεμίσεις?" />
+		<text id="dialogwin_muffinman_placedbet" name="Πολύ καλό! Ποιά μάφιν κρύβουνς τις γεμίσεις;" />
 		<text id="dialogwin_muffinman_toohighbet" name="Δε μπορείς να στοιχηματίσεις τόσο πολύ!Το μέγιστο στοίχημα είναι {0} Χρυσό και {1} Δολλάρια Καφέ!" />
 		<text id="dialogwin_muffinman_wonbet" name="Μιαμ!Βρήκες τη γέμιση!Ας δοκιμάσουμε πάλι." />
 		<text id="dialogwin_nomoney_avatarchange" name="Δεν έχεις αρκετό Χρυσό για ν&amp;#039;αλλάξεις ρούχα!" />
@@ -739,7 +739,7 @@
 		<text id="dialogwin_receivemoney_title" name="Συγχαρητήρια!" />
 		<text id="dialogwin_refreshfood_btn_clean" name="Καθάρισε" />
 		<text id="dialogwin_refreshfood_btn_refresh" name="Αποθήκευσε το φαγητό" />
-		<text id="dialogwin_refreshfood_title" name="Θέλεις να αποθηκεύσεις το γεύμα σου?" />
+		<text id="dialogwin_refreshfood_title" name="Θέλεις να αποθηκεύσεις το γεύμα σου;" />
 		<text id="dialogwin_register_agbs" name="Αποδοχή Όρων και Προϋποθέσεων Χρήσης" />
 		<text id="dialogwin_register_mail" name="E-mail" />
 		<text id="dialogwin_register_password" name="Κωδικός" />
@@ -753,13 +753,13 @@
 		<text id="dialogwin_settings_medium" name="Μεσαία" />
 		<text id="dialogwin_settings_quality" name="Ποιότητα" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Πάτησε στο σύνδεσμο που είναι στο e-mail για να μαζέψεις το χρυσό." />
-		<text id="dialogwin_shippingconfirmation_copy2" name="Δεν πήρες το e-mail ακόμα? Μπορεί να χρειαστούν μερικά λεπτά. Αν δε μπορείς να το βρεις ούτε στο φάκελο &quot;ανεπιθύμητα&quot;, η υποστήριξη ευχαρίστως θα σε βοηθήσει." />
+		<text id="dialogwin_shippingconfirmation_copy2" name="Δεν πήρες το e-mail ακόμα; Μπορεί να χρειαστούν μερικά λεπτά. Αν δε μπορείς να το βρεις ούτε στο φάκελο &quot;ανεπιθύμητα&quot;, η υποστήριξη ευχαρίστως θα σε βοηθήσει." />
 		<text id="dialogwin_shippingconfirmation_title" name="Το χρυσό e-mail είναι στο δρόμο!" />
 		<text id="dialogwin_smoothiemakerhelp_copy" name="Εδώ μπορείς ν&amp;#039;αναμείξεις ποτά και να τα σερβίρεις στους πελάτες σου. Διάλεξε ένα ποτό και επέλεξε το &quot;ανάμειξε&quot;.
 
 Απλά πάτησε σε ένα &quot;διψασμένο&quot; πελάτη πριν καθίσουν για να σερβίρεις ένα ποτό.
 Οι &quot;διψασμένοι&quot; πελάτες απεικονίζονται με μία εικόνα να περιπλανάται πάνω από τα κεφάλια τους." />
-		<text id="dialogwin_smoothiemakerhelp_title" name="Πως πουλώ ποτά?" />
+		<text id="dialogwin_smoothiemakerhelp_title" name="Πως πουλώ ποτά;" />
 		<text id="dialogwin_smoothiemaker_allserved_copy" name="Έχεις σερβίρει όλες τις μερίδες!
 Περίμενε μέχρι ν&amp;#039;αδειάσει το Φρόστυ για να παράγεις νέα ποτά!" />
 		<text id="dialogwin_smoothiemaker_nofrosty_btn_toshop" name="Στο Κατάστημα" />
@@ -770,12 +770,12 @@
 		<text id="dialogwin_smoothiemaker_onlyonebuy" name="Μπορείς να τοποθετήσεις μόνο μία Μηχανή ροφημάτων στο καφέ σου!" />
 		<text id="dialogwin_smoothiemaker_txt_title" name="FROSTY" />
 		<text id="dialogwin_staffmanagement_btn_fire" name="Απόλυσε" />
-		<text id="dialogwin_staffmanagement_favorite" name="Έργο?" />
+		<text id="dialogwin_staffmanagement_favorite" name="Έργο;" />
 		<text id="dialogwin_staffmanagement_favorite0" name="Καθάρισμα" />
 		<text id="dialogwin_staffmanagement_favorite100" name="Σερβίρισμα" />
-		<text id="dialogwin_staffmanagement_fire" name="Απόλυσε?" />
+		<text id="dialogwin_staffmanagement_fire" name="Απόλυσε;" />
 		<text id="dialogwin_staffmanagement_renamecopy" name="Δώσε ένα καινούριο όνομα στο σερβιτόρο σου." />
-		<text id="dialogwin_staffmanagement_renametitle" name="Μετονόμασε?" />
+		<text id="dialogwin_staffmanagement_renametitle" name="Μετονόμασε;" />
 		<text id="dialogwin_staff_hire" name="Προσέλαβε" />
 		<text id="dialogwin_staff_management" name="Διαχείριση" />
 		<text id="dialogwin_staff_new" name="Νέος σερβιτόρος" />
@@ -787,7 +787,7 @@
 		<text id="dialogwin_wheeloffortune_beforespin" name="Γύρνα τον Τροχό της Τύχης και κέρδισε σπουδαία δώρα!" />
 		<text id="dialogwin_wheeloffortune_btn_go" name="Γύρνα!" />
 		<text id="dialogwin_wheeloffortune_btn_towheel" name="Στον τροχό" />
-		<text id="dialogwin_wheeloffortune_copy1" name="Είχες μια περιστροφή του Τροχού της Τύχης μέχρι τώρα?" />
+		<text id="dialogwin_wheeloffortune_copy1" name="Είχες μια περιστροφή του Τροχού της Τύχης μέχρι τώρα;" />
 		<text id="dialogwin_wheeloffortune_header" name="ΤΡΟΧΟΣ ΤΗΣ ΤΥΧΗΣ!" />
 		<text id="dialogwin_wheeloffortune_info" name="Το πρώτο γύρισμα της ημέρας είναι δωρεάν!" />
 		<text id="dialogwin_wheeloffortune_info1" name="Κάθε επιπλέον περιστροφή σου στοιχίζει ένα Χρυσό!" />
@@ -930,7 +930,7 @@
 		<text id="featureDialog_0_text_1_sozial" name="Νέες διακοσμήσεις μέσα στο κατάστημά σου!" />
 		<text id="featureDialog_0_text_2" name="Μάθε ποιός άλλος παίζει Καφέ!" />
 		<text id="featureDialog_0_text_2_sozial" name="Μάθε ποιός άλλος παίζει Καφέ!" />
-		<text id="featureDialog_10_text_0" name="Χρειάζεσαι περισσότερο χώρο για τους πελάτες ή τις διακοσμήσεις σου? Απέκτησε χώρο με τις νέες επεκτάσεις!" />
+		<text id="featureDialog_10_text_0" name="Χρειάζεσαι περισσότερο χώρο για τους πελάτες ή τις διακοσμήσεις σου; Απέκτησε χώρο με τις νέες επεκτάσεις!" />
 		<text id="featureDialog_11_text_0" name="Νέες και συναρπαστικές Συνεργασίες για σένα και τους φίλους σου!" />
 		<text id="featureDialog_16_text_0" name="Τι απόλαυση! Απόλαυσε το καφέ σου τώρα με ήχο!" />
 		<text id="featureDialog_16_text_1" name="Γίνε ένας κατασκευαστής πίτας με το νέο θέμα αρτοποιείου πίτας!" />
@@ -950,9 +950,9 @@
 Ανακάλυψε τις νέες Πασχαλινές διακοσμήσεις!" />
 		<text id="featureDialog_24_text_1" name="Ποτέ άλλοτε τα πουλερικά δεν ήταν τόσο επικερδή!
 Ανακάλυψε την Πάπια με πορτοκάλι!" />
-		<text id="featureDialog_25_text_0" name="Πόσο τυχερός είσαι?
+		<text id="featureDialog_25_text_0" name="Πόσο τυχερός είσαι;
 Δοκίμασε την τύχη σου στο νέο αρτοποιείο Κέϊκ!" />
-		<text id="featureDialog_26_text_0" name="Πόσο τυχερός είσαι?Γύρνα τον Τροχό της Τύχης στην Αγορά!" />
+		<text id="featureDialog_26_text_0" name="Πόσο τυχερός είσαι; Γύρνα τον Τροχό της Τύχης στην Αγορά!" />
 		<text id="featureDialog_27_text_0" name="Εκτόξευσε τη δημοτικότητά σου με τη νέα Μηχανή για Γλυκό Μαλλί! Διαθέσιμη στον Τροχό της Τύχης!" />
 		<text id="featureDialog_28_text_0" name="ΣΗΜΕΡΑ ΜΟΝΟ! Είναι η τελευταία σου ευκαιρία να γυρίσεις τον τροχό και να κερδίσεις τη Μηχανή του Γλυκού Μαλλιού!" />
 		<text id="featureDialog_29_text_0" name="Από εδώ και στο εξής μπορείς ν&amp;#039;αλλάξεις τα ρούχα του χαρακτήρα σου οποιαδήποτε στιγμή!" />
@@ -965,7 +965,7 @@
 		<text id="featureDialog_31_text_0" name="Περισσότερος χώρος στο ψυγείο σου!
 Από τώρα και στο εξής, τα φανταστικά συστατικά δε θα υπολογίζονται πλέον στη χωρητικότητα του ψυγείου σου. Μπορείς να αποθηκεύσεις όσα από αυτά θέλεις." />
 		<text id="featureDialog_31_text_1" name="Από τώρα και στο εξής, θα λαμβάνεις επεκτάσεις δωρεάν εφ&amp;#039;όσον έχεις αρκετούς φίλους." />
-		<text id="featureDialog_32_text_0" name="Είναι οι καλεσμένοι σου διψασμένοι?
+		<text id="featureDialog_32_text_0" name="Είναι οι καλεσμένοι σου διψασμένοι;
 Τότε πάρε γρήγοτα τη δική σου Μηχανή ροφημάτων και δρόσισέ τους!" />
 		<text id="featureDialog_33_text_0" name="Ανακάλυψε την ομελέτα!
 Το νέο και γρήγορο πιάτο στο βιβλίο μαγειρικής σου!" />
@@ -1003,7 +1003,7 @@
 		<text id="limitedfeatureDialog_title" name="ΠΡΟΣΕΧΕ!" />
 	</feature>
 	<feeds>
-		<text id="descriptionfeedcafe" name="Μόλις έκανα εγκατάσταση το Καφέ Cappuccino. Θα ήθελες και εσύ να ανοίξεις το δικό σου καφέ και να ετοιμάσεις νόστιμα γεύματα? Τότε έλα και ρίξε μια ματιά!" />
+		<text id="descriptionfeedcafe" name="Μόλις έκανα εγκατάσταση το Καφέ Cappuccino. Θα ήθελες και εσύ να ανοίξεις το δικό σου καφέ και να ετοιμάσεις νόστιμα γεύματα; Τότε έλα και ρίξε μια ματιά!" />
 		<text id="descriptionlongcafe" name="Το Καφέ Cappuccino είναι ο καινούριος τίτλος από τη Cappuccino. Άνοιξε το δικό σου καφέ και εντυπωσίασε τους πελάτες σου με τις μαγειρικές σου ικανότητες. Μίσθωσε τους φίλους σου και ψώνισε για συστατικά τώρα! Αποφάσισε τι θα περιλαμβάνει το μενού της ημέρας και ανέπτυξε την επιχείρησή σου. Το καφέ σου θα είναι το πιο δημοφιλές σημείο συνάντησης της πόλης!" />
 	</feeds>
 	<ingame_tooltips>
@@ -1709,50 +1709,50 @@
 	<recipe>
 		<text id="recipe_bananasplit" name="Μπανάνα σπλιτ" />
 		<text id="recipe_brigadeiro" name="Brigadeiro" />
-		<text id="recipe_coxinha" name="Coxinha" />
-		<text id="recipe_pizzasalad" name="Pizza with Salad" />
-		<text id="recipe_tripleomelette" name="Triple Omelette" />
-		<text id="recipe_chocolatewaffles" name="Chocolate Waffles" />
-		<text id="recipe_spanishomelette" name="Spanish Omelette" />
-		<text id="recipe_sausagepasta" name="Sausage Spaghetti" />
-		<text id="recipe_applepie" name="Apple Pie" />
+		<text id="recipe_coxinha" name="Κοξίνια" />
+		<text id="recipe_pizzasalad" name="Πίτσα με Σαλάτα" />
+		<text id="recipe_tripleomelette" name="Τριπλή Ομελέτα" />
+		<text id="recipe_chocolatewaffles" name="Βάφλες Σοκολάτας" />
+		<text id="recipe_spanishomelette" name="Ισπανική Ομελέτα" />
+		<text id="recipe_sausagepasta" name="Μακαρονάδα με Λουκάνικο" />
+		<text id="recipe_applepie" name="Μηλόπιτα" />
 		<text id="recipe_ramen" name="Ramen" />
-		<text id="recipe_corncake" name="Corn Cake" />
-		<text id="recipe_feijoada" name="Feijoada" />
-		<text id="recipe_pinapjuice" name="Pineapple Juice" />
-		<text id="recipe_orangejuice" name="Orange Juice" />
-		<text id="recipe_discodrinks" name="Disco Drinks" />
-		<text id="recipe_applejuice" name="Apple Juice" />
-		<text id="recipe_rjuice" name="Rhubarb Juice" />
-		<text id="recipe_cherryjuice" name="Cherry Juice" />
-		<text id="recipe_strawberryjuice" name="Strawberry Juice" />
+		<text id="recipe_corncake" name=Κέικ Καλαμποκιού" />
+		<text id="recipe_feijoada" name="Φεϊζοάδα" />
+		<text id="recipe_pinapjuice" name="Χυμός Ανανά" />
+		<text id="recipe_orangejuice" name="Χυμός Πορτοκάλι" />
+		<text id="recipe_discodrinks" name="Disco Χυμους" />
+		<text id="recipe_applejuice" name="Χυμός Μήλου" />
+		<text id="recipe_rjuice" name="Χυμός Ραβέντι" />
+		<text id="recipe_cherryjuice" name="Χυμός Κεράσι" />
+		<text id="recipe_strawberryjuice" name="χυμός φράουλας" />
 		<text id="recipe_cappuccino" name="Cappuccino" />
 		<text id="recipe_duckalcitrus" name="Duck à l&apos;Citrus" />
-		<text id="recipe_ducktatters" name="Duck with Pasta Tatters" />
-		<text id="recipe_langos" name="Lángos" />
-		<text id="recipe_nasilemak" name="Nasi Lemak" />
-		<text id="recipe_citrusjuice" name="Lemonade" />
-		<text id="recipe_carrotcake" name="Carrot Cake" />
-		<text id="recipe_carrotjuice" name="Carrot Juice" />
-		<text id="recipe_francesinha" name="Francesinha Sandwich" />
-		<text id="recipe_dorayaki" name="Dorayaki" />
-		<text id="recipe_tiramisu" name="Tiramisù" />
-		<text id="recipe_pridecupcakes" name="Pride Cupcakes" />
-		<text id="recipe_ratatouille" name="Ratatouille" />
-		<text id="recipe_hotcherryricepudding" name="Rice Puddin&apos; w/ Cherries" />
-		<text id="recipe_coconutcake" name="Coconut Cake" />
-		<text id="recipe_paodequeijo" name="Brazilian Cheese Bread" />
-		<text id="recipe_baiaodedois" name="Baião de Dois" />
-		<text id="recipe_bakedalaska" name="Baked Alaska" />
-		<text id="recipe_butterchicken" name="Butter Chicken" />
-		<text id="recipe_chickenbiryani" name="Chicken Biriyani" />
-		<text id="recipe_cottagepotatoes" name="Cottage Potatoes" />
-		<text id="recipe_cuzcuzcomovo" name="Couscous with Egg" />
-		<text id="recipe_malaichickennaan" name="Malai Chicken Naan" />
-		<text id="recipe_veganplate" name="Vegan Plate" />
-		<text id="recipe_neapolitancake" name="Neapolitan Cake" />
-		<text id="recipe_strawberrycheesecake" name="Strawberry Cheesecake" />
-		<text id="recipe_combomeal" name="Combo Meal" />
+		<text id="recipe_ducktatters" name="Πάπια με Ζυμαρικά" />
+		<text id="recipe_langos" name="Λάνγκος" />
+		<text id="recipe_nasilemak" name="Ρύζι με Λίπος" />
+		<text id="recipe_citrusjuice" name="Λεμονάδα" />
+		<text id="recipe_carrotcake" name="Κέικ καρότου" />
+		<text id="recipe_carrotjuice" name="Χυμός Καρότου" />
+		<text id="recipe_francesinha" name="Σάντουιτς Φρανσεζίνια" />
+		<text id="recipe_dorayaki" name="Ντοραγιάκι" />
+		<text id="recipe_tiramisu" name="Τιραμισού" />
+		<text id="recipe_pridecupcakes" name="Pride Καπκέικς" />
+		<text id="recipe_ratatouille" name="Ρατατούι" />
+		<text id="recipe_hotcherryricepudding" name="ρυζόγαλο&apos; με κερασια" />
+		<text id="recipe_coconutcake" name="Τούρτα καρύδας" />
+		<text id="recipe_paodequeijo" name="Βραζιλιάνικο τυροψωμο" />
+		<text id="recipe_baiaodedois" name="Μπαϊάο" />
+		<text id="recipe_bakedalaska" name="Γλυκό Αλάσκα" />
+		<text id="recipe_butterchicken" name="Μπάτερ Τσίκεν" />
+		<text id="recipe_chickenbiryani" name="Κοτόπουλο μπιριγιάνι" />
+		<text id="recipe_cottagepotatoes" name="Kότατζ πατατες" />
+		<text id="recipe_cuzcuzcomovo" name="Κουσκούς με αυγα" />
+		<text id="recipe_malaichickennaan" name="Πίτα Naan με κοτόπουλο" />
+		<text id="recipe_veganplate" name="Βίγκαν πιάτο" />
+		<text id="recipe_neapolitancake" name="Τούρτα Ναπολιτέν" />
+		<text id="recipe_strawberrycheesecake" name="Φράουλα Cheesecake" />
+		<text id="recipe_combomeal" name="Combo Γευμα" />
 		<text id="recipe_beefstew" name="Βράσε" />
 		<text id="recipe_blackforestcherrycake" name="Τούρτα μαύρο δάσος" />
 		<text id="recipe_cheeseburger" name="Τσίσμπεργκερ" />
@@ -1832,15 +1832,15 @@
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Πράσινο ρόφημα" />
 		<text id="recipe_smoothiemaker_defensepotion" name="Defense Potion" />
-		<text id="recipe_smoothiemaker_milk" name="Milk" />
-		<text id="recipe_smoothiemaker_soymilk" name="Soy Milk" />
-		<text id="recipe_smoothiemaker_icedcoffee" name="Iced Coffee" />
+		<text id="recipe_smoothiemaker_milk" name="Γαλα" />
+		<text id="recipe_smoothiemaker_soymilk" name="Γάλα σόγιας" />
+		<text id="recipe_smoothiemaker_icedcoffee" name="Κρυος Καφες" />
 		<text id="recipe_smoothiemaker_kiba" name="Χυμός κεράσι μπανάνα" />
 		<text id="recipe_smoothiemaker_cola" name="Cappu-Cola" />
-		<text id="recipe_smoothiemaker_acai" name="Açaí Smoothie" />
+		<text id="recipe_smoothiemaker_acai" name="Açaí Σμούθι" />
 		<text id="recipe_smoothiemaker_orangesoda" name="Funta" />
-		<text id="recipe_smoothiemaker_guarana" name="Brazilian Guaraná" />
-		<text id="recipe_smoothiemaker_pinacolada" name="Virgin Colada" />
+		<text id="recipe_smoothiemaker_guarana" name="Βραζιλιάνικο Guaraná" />
+		<text id="recipe_smoothiemaker_pinacolada" name="Παρθένα Πίνα Κολάντα" />
 		<text id="recipe_smoothiemaker_tomatojuice" name="Χυμός ντομάτας" />
 	</recipes_fastfood>
 	<server>
@@ -1955,7 +1955,7 @@
 		<text id="tt_CafeIngredientShopDialog_btn_cat4" name="φανταχτερά συστατικά" />
 		<text id="tt_CafeIngredientShopDialog_btn_cat5" name="Άλλο" />
 		<text id="tt_CafeIngredientShopDialog_btn_fridge" name="Ψυγείο" />
-		<text id="tt_CafeIngredientShopDialog_btn_help" name="Τι είναι τα φανταχτερά συστατικά?" />
+		<text id="tt_CafeIngredientShopDialog_btn_help" name="Τι είναι τα φανταχτερά συστατικά;" />
 		<text id="tt_CafeIngredientShopDialog_btn_sell" name="Πώληση" />
 		<text id="tt_CafeIngredientShopDialog_btn_shop" name="Κατάστημα συστατικών" />
 		<text id="tt_CafeIngredientShopDialog_btn_unlock" name="Μεταφορέας" />
@@ -2124,8 +2124,8 @@
 			<text id="generic_minutes" name="Λεπτά" />
 			<text id="generic_minute_short" name="Λεπ" />
 			<text id="generic_moderator" name="Συντονιστής" />
-			<text id="generic_month" name="month" />
-			<text id="generic_months" name="months" />
+			<text id="generic_month" name="Μηνες" />
+			<text id="generic_months" name="Μηνας" />
 			<text id="generic_music" name="Μουσική on/off" />
 			<text id="generic_name" name="Όνομα" />
 			<text id="generic_news" name="Νέες ιστορίες" />
@@ -2150,7 +2150,7 @@
 		</error>
 		<feeds id="" />
 		<friends>
-			<text id="generic_friends_add_copy" name="Θέλεις να προσθέσεις τον {0} σαν φίλο?" />
+			<text id="generic_friends_add_copy" name="Θέλεις να προσθέσεις τον {0} σαν φίλο;" />
 			<text id="generic_friends_add_title" name="Αίτηση φίλου" />
 			<text id="generic_friends_buddy_btn_morefriends" name="Περισσότεροι φίλοι!" />
 			<text id="generic_friends_denied_copy" name="{0} αρνήθηκε το αίτημά σας." />
@@ -2202,9 +2202,9 @@
 			<text id="generic_login_facebook" name="Σύνδεση μέσω Facebook" />
 			<text id="generic_login_login" name="ΣΥΝΔΕΣΗ" />
 			<text id="generic_login_loginname" name="Όνομα χρήστη/ E-mail" />
-			<text id="generic_login_lostpassword" name="Ξέχασες τον κωδικό σου?" />
+			<text id="generic_login_lostpassword" name="Ξέχασες τον κωδικό σου;" />
 			<text id="generic_login_lostpassword_copy" name="Εισάγετε τη διεύθυνση e-mail και θα σας στείλουμε το νέο κωδικό σας." />
-			<text id="generic_login_lostpassword_title" name="Ξέχασες τον κωδικό σου?" />
+			<text id="generic_login_lostpassword_title" name="Ξέχασες τον κωδικό σου;" />
 			<text id="generic_login_newplayer" name="Καινούργιος εδώ;" />
 			<text id="generic_login_password" name="Κωδικός" />
 			<text id="generic_login_play" name="ΠΑΙΞΕ ΤΩΡΑ" />
