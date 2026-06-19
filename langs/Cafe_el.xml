@@ -260,8 +260,8 @@
 		<text id="cookstep_combomeal2" name="Frying fries somehow" />
 		<text id="cookstep_zcordonbleu1" name="Preparing chicken" />
 		<text id="cookstep_zcordonbleu2" name="Adding lemon slices" />
-		<text id="cookstep_Βραζιλιάνικαpastel1" name="Frying pastels" />
-		<text id="cookstep_Βραζιλιάνικαpastel2" name="Almost there" />
+		<text id="cookstep_brazilianpastel1" name="Frying pastels" />
+		<text id="cookstep_brazilianpastel2" name="Almost there" />
 		<text id="cookstep_lechonkawali1" name="Preparing pork belly" />
 		<text id="cookstep_lechonkawali2" name="Frying until crispy" />
 		<text id="cookstep_sweetpizza1" name="Spreading chocolate" />
@@ -1337,10 +1337,10 @@
 		<text id="preparestep_zcordonbleu_cheese" name="Ψιλοκόβεις το τυρί" />
 		<text id="preparestep_zcordonbleu_oil" name="Ζεσταίνεις λαδί" />
 		<text id="preparestep_zcordonbleu_eggs" name="χτυπάς αυγά" />
-		<text id="preparestep_Βραζιλιάνικαpastel_flour" name="φτιάξνεις ζύμη παστελ" />
-		<text id="preparestep_Βραζιλιάνικαpastel_cheese" name="Τρίβεις τυρί" />
-		<text id="preparestep_Βραζιλιάνικαpastel_oil" name="Ζεσταίνεις λαδί" />
-		<text id="preparestep_Βραζιλιάνικαpastel_sugar" name="φτιάξνεις ποτό από ζαχαροκάλαμο" />
+		<text id="preparestep_brazilianpastel_flour" name="φτιάξνεις ζύμη παστελ" />
+		<text id="preparestep_brazilianpastel_cheese" name="Τρίβεις τυρί" />
+		<text id="preparestep_brazilianpastel_oil" name="Ζεσταίνεις λαδί" />
+		<text id="preparestep_brazilianpastel_sugar" name="φτιάξνεις ποτό από ζαχαροκάλαμο" />
 		<text id="preparestep_lechonkawali_bacon" name="Ψιλοκόψεις μπέικον" />
 		<text id="preparestep_lechonkawali_cucumber" name="Ψιλοκόψεις αγγούρι" />
 		<text id="preparestep_lechonkawali_garlic" name="Σπας σκόρδο" />
@@ -1658,7 +1658,7 @@
 		<text id="preparestep_strawberrycheesecake_vanilla" name="Πρόσθεσε βανίλια" />
 		<text id="preparestep_combomeal_chili" name="φτιάξτε πικάντικες συσκευασίες σάλτσας" />
 		<text id="preparestep_zcordonbleu_parsley" name="ψιλοκόψεις μαϊντανό" />
-		<text id="preparestep_Βραζιλιάνικαpastel_basil" name="ψιλοκόψεις βασιλικό" />
+		<text id="preparestep_brazilianpastel_basil" name="ψιλοκόψεις βασιλικό" />
 		<text id="preparestep_lechonkawali_rosemary" name="ψιλοκόψεις δενδρολίβανο" />
 		<text id="preparestep_sweetpizza_cinnamon" name="Πασπάλισε κανέλα" />
 		<text id="preparestep_shakshuka_parsley" name="ψιλοκόψεις μαϊντανό" />
@@ -1790,7 +1790,7 @@
 		<text id="recipe_strawberrycheesecake" name="Φράουλα τσίζκεϊκ" />
 		<text id="recipe_combomeal" name="Combo Γευμα" />
 		<text id="recipe_zcordonbleu" name="Ζάγκρεμπ γκόρντον μπλου" />
-		<text id="recipe_Βραζιλιάνικαpastel" name="Βραζιλιάνικα παστελ με ποτο" />
+		<text id="recipe_brazilianpastel" name="Βραζιλιάνικα παστελ με ποτο" />
 		<text id="recipe_lechonkawali" name="Lechon Kawali" />
 		<text id="recipe_sweetpizza" name="Γλυκιά πίτσα" />
 		<text id="recipe_shakshuka" name="Shakshuka" />
