@@ -35,44 +35,44 @@
 	<alerts>
 		<text id="alert_addcash_copy" name="Hier kannst Du Gold/Cafédollar kaufen." />
 		<text id="alert_addcash_title" name="Paymentshop" />
-		<text id="alert_addFriend_copy" name="Möchtest Du {0} als Freund hinzufügen?" />
-		<text id="alert_addFriend_denied_copy" name="{0} hat Deine Anfrage leider abgelehnt." />
+		<text id="alert_addFriend_copy" name="Möchtest du {0} als Freund hinzufügen?" />
+		<text id="alert_addFriend_denied_copy" name="{0} hat deine Anfrage leider abgelehnt." />
 		<text id="alert_addFriend_denied_title" name="Anfrage abgelehnt!" />
 		<text id="alert_addFriend_title" name="Freundschaftsanfrage" />
-		<text id="alert_addgold_copy" name="Du musst Dich erst registrieren, um hier einzukaufen!" />
+		<text id="alert_addgold_copy" name="Du musst dich erst registrieren, um hier einzukaufen!" />
 		<text id="alert_addgold_title" name="Registrieren" />
-		<text id="alert_avatarcustom_copy" name="Du kannst Dich nicht umziehen während Du arbeitest!" />
-		<text id="alert_buytiles_copy" name="1. Wähle eine Fliese aus\n2. Mit gedrückter Maustaste den gewünschten Bereich in Deinem Café auswählen.\n3. Loslassen" />
+		<text id="alert_avatarcustom_copy" name="Du kannst dich nicht umziehen während du arbeitest!" />
+		<text id="alert_buytiles_copy" name="1. Wähle eine Fliese aus\n2. Mit gedrückter Maustaste den gewünschten Bereich in deinem Café auswählen.\n3. Loslassen" />
 		<text id="alert_buytiles_title" name="Fliesen platzieren?" />
 		<text id="alert_changePasswordFaild_copy" name="Dein neues Passwort sollte länger als 2 Zeichen sein und das alte Passwort muss korrekt eingegeben worden sein!" />
 		<text id="alert_changePasswordFaild_title" name="Passworteingabe" />
 		<text id="alert_clearstove_cancelButton" name="Behalten" />
 		<text id="alert_clearstove_okButton" name="Weg geben" />
-		<text id="alert_clearstove_title" name="Von diesem Tresen wird gerade ein Gericht ausgeteilt. Möchtest Du das Gericht behalten?" />
-		<text id="alert_counter_outofreach_copy" name="Der Tresen ist nicht erreichbar. Versuch&apos; mal, etwas umzustellen!" />
+		<text id="alert_clearstove_title" name="Von diesem Tresen wird gerade ein Gericht ausgeteilt. Möchtest du das Gericht behalten?" />
+		<text id="alert_counter_outofreach_copy" name="Der Tresen ist nicht erreichbar. Versuch mal, etwas umzustellen!" />
 		<text id="alert_counter_outofreach_title" name="Achtung!" />
-		<text id="alert_dekoshop_humanwaiter_copy" name="Solange noch andere Spieler als Kellner in Deinem Café arbeiten kannst Du nicht in den Umbaumodus wechseln." />
+		<text id="alert_dekoshop_humanwaiter_copy" name="Solange noch andere Spieler als Kellner in deinem Café arbeiten, kannst du nicht in den Umbaumodus wechseln." />
 		<text id="alert_dekoshop_humanwaiter_title" name="Geht nicht!" />
 		<text id="alert_dekoshop_kickplayer_copy" name="Es sind noch Spieler in deinem Café. Wenn du jetzt umbauen willst, wirfst du die Spieler aus deinem Café." />
 		<text id="alert_dekoshop_kickplayer_title" name="Achtung!" />
-		<text id="alert_FancyCooking_copy" name="Möchtest Du das Gericht mit dieser Fancy Zutat würzen und dadurch {0} XP und {1} Portionen extra bekommen?" />
+		<text id="alert_FancyCooking_copy" name="Möchtest du das Gericht mit dieser Fancy Zutat würzen und dadurch {0} XP und {1} Portionen extra bekommen?" />
 		<text id="alert_FancyCooking_title" name="Fancy Zutaten" />
-		<text id="alert_fancyinfo_copy" name="Würzt Du ein Gericht mit der entsprechenden Fancy Zutat, kannst Du bis zu 20% mehr XP und Portionen bekommen! Die Fancy Zutaten nehmen auch keinen Platz in Deinem Kühlschrank ein!" />
+		<text id="alert_fancyinfo_copy" name="Würzt du ein Gericht mit der entsprechenden Fancy Zutat, kannst Du bis zu 20% mehr XP und Portionen bekommen! Die Fancy Zutaten nehmen auch keinen Platz in deinem Kühlschrank ein!" />
 		<text id="alert_fancyinfo_title" name="Fancy Zutaten!" />
-		<text id="alert_giftboxfull_copy" name="Deine Geschenkbox ist voll! Du kannst keine neuen Geschenke von Deinen Freunden annehmen!" />
+		<text id="alert_giftboxfull_copy" name="Deine Geschenkbox ist voll! Du kannst keine neuen Geschenke von deinen Freunden annehmen!" />
 		<text id="alert_giftboxfull_title" name="Kein Platz mehr!" />
-		<text id="alert_guestchangepassword_copy" name="Du kannst nur als registrierter Spieler Dein Passwort ändern!" />
+		<text id="alert_guestchangepassword_copy" name="Du kannst nur als registrierter Spieler dein Passwort ändern!" />
 		<text id="alert_guestchangepassword_title" name="Erst registrieren" />
-		<text id="alert_guestcoop_copy" name="Du musst Dich erst registrieren, um Co-Ops zu spielen!" />
+		<text id="alert_guestcoop_copy" name="Du musst dich erst registrieren, um Co-Ops zu spielen!" />
 		<text id="alert_guestinvitefriend_copy" name="Du kannst nur als registrierter Spieler andere Freunde einladen." />
 		<text id="alert_guestinvitefriend_title" name="Erst registrieren" />
-		<text id="alert_guestlogout_copy" name="Registriere Dich, um Deinen Spielstand zu speichern!" />
+		<text id="alert_guestlogout_copy" name="Registriere dich, um deinen Spielstand zu speichern!" />
 		<text id="alert_guestlogout_title" name="Registrieren" />
 		<text id="alert_help_copy" name="Musst dir erstmal selber helfen..." />
 		<text id="alert_help_title" name="Hilfe" />
 		<text id="alert_invitefriend_confirmed_copy" name="Deine Einladung an {0} wurde verschickt!" />
 		<text id="alert_invitefriend_confirmed_title" name="Einladung verschickt!" />
-		<text id="alert_invitefriend_copy" name="Gib den Namen und E-Mail Adresse Deines Freundes ein, um ihn einzuladen." />
+		<text id="alert_invitefriend_copy" name="Gib den Namen und die E-Mail Adresse deines Freundes ein, um ihn einzuladen." />
 		<text id="alert_invitefriend_mail" name="E-Mail Adresse des Freundes:" />
 		<text id="alert_invitefriend_myname" name="Dein Name:" />
 		<text id="alert_invitefriend_name" name="Name des Freundes:" />
@@ -82,19 +82,19 @@
 		<text id="alert_jobhelp_header1" name="Gäste bedienen" />
 		<text id="alert_jobhelp_header2" name="Teller abräumen" />
 		<text id="alert_jobhelp_title" name="Deine Aufgaben" />
-		<text id="alert_jobrefill_copy" name="Du musst Dich erst registrieren, um arbeiten zu können." />
+		<text id="alert_jobrefill_copy" name="Du musst dich erst registrieren, um arbeiten zu können." />
 		<text id="alert_jobrefill_title" name="Registrieren" />
-		<text id="alert_lostpassword_copy" name="Gib Deine E-Mail Adresse ein und wir schicken Dir Dein Passwort zu." />
+		<text id="alert_lostpassword_copy" name="Gib deine E-Mail Adresse ein und wir schicken dir dein Passwort zu." />
 		<text id="alert_lostpassword_title" name="Passwort vergessen" />
-		<text id="alert_marketplace_jobcancled_copy" name="{0} hat Dein Jobangebot leider abgelehnt." />
+		<text id="alert_marketplace_jobcancled_copy" name="{0} hat dein Jobangebot leider abgelehnt." />
 		<text id="alert_marketplace_jobcancled_title" name="Job abgelehnt" />
 		<text id="alert_marketplace_jobempty_copy" name="Deine Jobberechtigungen sind für heute aufgebraucht." />
 		<text id="alert_marketplace_jobempty_title" name="Jobberechtigungen verbraucht!" />
-		<text id="alert_marketplace_jobhired_copy" name="{0} hat Dein Jobangebot angenommen!" />
+		<text id="alert_marketplace_jobhired_copy" name="{0} hat dein Jobangebot angenommen!" />
 		<text id="alert_marketplace_jobhired_title" name="Job angenommen" />
-		<text id="alert_marketplace_job_copy" name="Dir wurde von {0} (Level {1}) ein Kellnerjob angeboten. Möchtest Du ihn annehmen?" />
+		<text id="alert_marketplace_job_copy" name="Dir wurde von {0} (Level {1}) ein Kellnerjob angeboten. Möchtest du ihn annehmen?" />
 		<text id="alert_marketplace_job_title" name="Jobangebot!" />
-		<text id="alert_marketplace_noticeboard_copy" name="Melde Dich hier arbeitssuchend oder, wenn Du schon fleißig warst, kannst Du hier Deine Jobberechtigungen wieder auffüllen." />
+		<text id="alert_marketplace_noticeboard_copy" name="Melde dich hier arbeitssuchend oder, wenn du schon fleißig warst, kannst du hier deine Jobberechtigungen wieder auffüllen." />
 		<text id="alert_marketplace_noticeboard_title" name="Jobberechtigungen" />
 		<text id="alert_marketplace_playerjobempty_copy" name="Der Spieler hat heute bereits genug gearbeitet." />
 		<text id="alert_marketplace_playerjobempty_title" name="Job abgelehnt" />
@@ -102,32 +102,32 @@
 		<text id="alert_marketplace_playerleaved_title" name="Oooops" />
 		<text id="alert_nofreecounter_copy" name="Du hast keinen freien Tresen." />
 		<text id="alert_nofreecounter_title" name="Oops!" />
-		<text id="alert_nofridge_copy" name="Du hast ja gar keinen Kühlschrank in Deinem Café. Schau mal im Umbaumodus nach und zieh dir einen Kühlschrank ins Café." />
-		<text id="alert_nofridge_title" name="Kein Kühlschrank?!" />
-		<text id="alert_nojobpermission_copy" name="Um Dich arbeitssuchend zu melden brauchst Du Jobberechtigungen!" />
+		<text id="alert_nofridge_copy" name="Du hast ja gar keinen Kühlschrank in deinem Café. Schau mal im Umbaumodus nach und zieh dir einen Kühlschrank ins Café." />
+		<text id="alert_nofridge_title" name="Keinen Kühlschrank?!" />
+		<text id="alert_nojobpermission_copy" name="Um dich arbeitssuchend zu melden brauchst du Jobberechtigungen!" />
 		<text id="alert_nojobpermission_title" name="Achtung!" />
-		<text id="alert_register_agb_copy" name="Ohne AGB geht&apos;s nicht. Einfach lesen und mit dem Button links bestätigen, dann kanns los gehen!" />
+		<text id="alert_register_agb_copy" name="Ohne AGB geht&apos;s nicht. Einfach lesen und mit dem Button links bestätigen, dann kann&apos;s los gehen!" />
 		<text id="alert_register_email_copy" name="Die E-Mail Adresse darf nicht leer sein oder Sonderzeichen enthalten." />
 		<text id="alert_register_password_copy" name="Dein Passwort darf nicht leer sein oder Sonderzeichen enthalten." />
-		<text id="alert_register_title" name="Registrierfehler" />
-		<text id="alert_seekingjob_copy" name="Du musst Dich erst registrieren, um arbeiten zu können." />
+		<text id="alert_register_title" name="Registrierungsfehler" />
+		<text id="alert_seekingjob_copy" name="Du musst dich erst registrieren, um arbeiten zu können." />
 		<text id="alert_seekingjob_title" name="Registrieren" />
-		<text id="alert_selldeco_copy" name="Willst Du den Artikel wirklich für {0} verkaufen?" />
+		<text id="alert_selldeco_copy" name="Willst du den Artikel wirklich für {0} verkaufen?" />
 		<text id="alert_selldeco_title" name="Verkaufen?" />
-		<text id="alert_sellitem_copy" name="Willst Du den Artikel wirklich für je {0} verkaufen?" />
+		<text id="alert_sellitem_copy" name="Willst du den Artikel wirklich für je {0} verkaufen?" />
 		<text id="alert_sellitem_title" name="Verkaufen?" />
-		<text id="alert_smoothiemaker_full_copy" name="In Deinem Frosty befinden sich noch Getränke! Serviere sie an Deine Gäste, dann kannst Du etwas neues mixen!" />
-		<text id="alert_smoothiemaker_outofreach_copy" name="Dein Frosty ist nicht erreichbar. Versuch&apos; mal, etwas umzustellen!" />
-		<text id="alert_smoothiemaker_storage_copy" name="In Deinem Frosty befinden sich noch Getränke! Wenn Du ihn einlagerst gehen die übrigen Portionen verloren!" />
-		<text id="alert_stafffire_copy" name="Möchtest Du Deinen treuen Kellner wirklich entlassen?" />
+		<text id="alert_smoothiemaker_full_copy" name="In deinem Frosty befinden sich noch Getränke! Serviere sie an deine Gäste, dann kannst du etwas neues mixen!" />
+		<text id="alert_smoothiemaker_outofreach_copy" name="Dein Frosty ist nicht erreichbar. Versuch mal, etwas umzustellen!" />
+		<text id="alert_smoothiemaker_storage_copy" name="In deinem Frosty befinden sich noch Getränke! Wenn du ihn einlagerst gehen die übrigen Portionen verloren!" />
+		<text id="alert_stafffire_copy" name="Möchtest du deinen treuen Kellner wirklich feuern?" />
 		<text id="alert_stafffire_title" name="Kellner feuern?" />
-		<text id="alert_staffhire_copy" name="Gib Deinem neuen Kellner einen Namen." />
-		<text id="alert_staffhire_title" name="Neu Anstellen" />
+		<text id="alert_staffhire_copy" name="Gib deinem neuen Kellner einen Namen." />
+		<text id="alert_staffhire_title" name="Neu anstellen" />
 		<text id="alert_storefull_copy" name="Dein Kühlschrank ist voll! Du musst Zutaten verkaufen, um wieder Platz zu schaffen!" />
 		<text id="alert_storefull_title" name="Kühlschrank voll!" />
-		<text id="alert_stove_outofreach_copy" name="Der Herd ist nicht erreichbar. Versuch&apos; mal, etwas umzustellen" />
+		<text id="alert_stove_outofreach_copy" name="Der Herd ist nicht erreichbar. Versuch mal, etwas umzustellen" />
 		<text id="alert_stove_outofreach_title" name="Achtung!" />
-		<text id="alert_unlockitem_copy" name="Lass Dir die Zutat über den Stadtkurier zusenden! Die Exklusivität hat jedoch ihren Preis." />
+		<text id="alert_unlockitem_copy" name="Lass dir die Zutat über den Stadtkurier zusenden! Die Exklusivität hat jedoch ihren Preis." />
 		<text id="alert_unlockitem_title" name="Kurier Zustellung?" />
 		<text id="alert_userkicked_copy" name="Du wurdest aus dem Café geworfen." />
 		<text id="alert_userkicked_title" name="Rausgeworfen!" />
