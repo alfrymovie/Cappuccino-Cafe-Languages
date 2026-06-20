@@ -460,7 +460,7 @@
 		<text id="coop_title_7" name="SKOLMATSAL I LÅGOR" />
 		<text id="coop_title_8" name="FÖDELSEDAGSFEST!" />
 		<text id="coop_title_9" name="ITALIENSK BUFFÉ" />
-		<text id="coop_title_16" name="MORNING RUSH!" />
+		<text id="coop_title_16" name="MORGONRUSNING!" />
 		<text id="coop_desc_short_16" name="Start the day right!" />
 		<text id="coop_desc_long_16" name="Chef cupcakekittycat8 will host a big breakfast at the Marketplace. Can you provide some of what will be served?" />
 		<text id="coop_title_17" name="POST-LUNCH DESSERTS" />
@@ -1001,7 +1001,7 @@
 	</ingame_tooltips>
 	<ingredients>
 		<text id="ingredient_apple" name="Äpplen" />
-		<text id="ingredient_limelemon" name="Citrus" />
+		<text id="ingredient_limelemon" name="Lime" />
 		<text id="ingredient_citrus" name="Citrus" />
 		<text id="ingredient_bacon" name="Bacon" />
 		<text id="ingredient_bakingmix" name="Degmix" />
@@ -1174,7 +1174,7 @@
 		<text id="preparestep_strawberryjuice_sugar" name="Add sugar" />
 		<text id="preparestep_strawberryjuice_vanilla" name="Add vanilla" />
 		<text id="preparestep_cappuccino_cookfest" name="Think about next Cookfest" />
-		<text id="preparestep_cappuccino_cinnamon" name="Sprinkle cinnamon" />
+		<text id="preparestep_cappuccino_cinnamon" name="Strö kanel" />
 		<text id="preparestep_duckalcitrus_duck" name="Prepare duck" />
 		<text id="preparestep_duckalcitrus_butter" name="Melt butter" />
 		<text id="preparestep_duckalcitrus_onion" name="Chop onions" />
@@ -1591,38 +1591,38 @@
 		<text id="preparestep_feijoada_garlic" name="Kasta i vitlök" />
 	</preparestep>
 	<preparestep_fancy>
-		<text id="preparestep_duckalcitrus_cinnamon" name="Sprinkle cinnamon" />
-		<text id="preparestep_ducktatters_parsley" name="Chop parsley" />
-		<text id="preparestep_langos_parsley" name="Chop parsley" />
-		<text id="preparestep_nasilemak_chili" name="Chop chili" />
-		<text id="preparestep_citrusjuice_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_carrotcake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_carrotjuice_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_francesinha_chili" name="Chop chili" />
-		<text id="preparestep_dorayaki_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_tiramisu_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_pridecupcakes_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_ratatouille_rosemary" name="Chop rosemary" />
-		<text id="preparestep_hotcherryricepudding_cinnamon" name="Sprinkle cinnamon" />
-		<text id="preparestep_coconutcake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_fancy_coconutcake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_paodequeijo_rosemary" name="Add rosemary" />
-		<text id="preparestep_baiaodedois_coriander" name="Chop coriander" />
-		<text id="preparestep_bakedalaska_vanilla" name="Add vanilla" />
-		<text id="preparestep_butterchicken_coriander" name="Chop coriander" />
+		<text id="preparestep_duckalcitrus_cinnamon" name="Strö kanel" />
+		<text id="preparestep_ducktatters_parsley" name="Hacka persilja" />
+		<text id="preparestep_langos_parsley" name="Hacka persilja" />
+		<text id="preparestep_nasilemak_chili" name="Hacka chili" />
+		<text id="preparestep_citrusjuice_vanilla" name="Skrapa vanilj" />
+		<text id="preparestep_carrotcake_vanilla" name="Skrapa vanilj" />
+		<text id="preparestep_carrotjuice_vanilla" name="Skrapa vanilj" />
+		<text id="preparestep_francesinha_chili" name="Hacka chili" />
+		<text id="preparestep_dorayaki_vanilla" name="Skrapa vanilj" />
+		<text id="preparestep_tiramisu_vanilla" name="Skrapa vanilj" />
+		<text id="preparestep_pridecupcakes_vanilla" name="Skrapa vanilj" />
+		<text id="preparestep_ratatouille_rosemary" name="Hacka rosmarin" />
+		<text id="preparestep_hotcherryricepudding_cinnamon" name="Strö kanel" />
+		<text id="preparestep_coconutcake_vanilla" name="Skrapa vanilj" />
+		<text id="preparestep_fancy_coconutcake_vanilla" name="Skrapa vanilj" />
+		<text id="preparestep_paodequeijo_rosemary" name="Hacka rosmarin" />
+		<text id="preparestep_baiaodedois_coriander" name="Hacka koriander" />
+		<text id="preparestep_bakedalaska_vanilla" name="Skrapa vanilj" />
+		<text id="preparestep_butterchicken_coriander" name="Hacka koriander" />
 		<text id="preparestep_chickenbiryani_coriander" name="Add coriander" />
-		<text id="preparestep_cuzcuzcomovo_parsley" name="Chop parsley" />
-		<text id="preparestep_malaichickennaan_coriander" name="Chop coriander" />
-		<text id="preparestep_veganplate_parsley" name="Chop parsley" />
-		<text id="preparestep_neapolitancake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_strawberrycheesecake_vanilla" name="Add Vanilla" />
-		<text id="preparestep_combomeal_chili" name="Make spicy sauce packets" />
-		<text id="preparestep_zcordonbleu_parsley" name="Chop parsley" />
-		<text id="preparestep_brazilianpastel_basil" name="Chop basil" />
-		<text id="preparestep_lechonkawali_rosemary" name="Chop rosemary" />
-		<text id="preparestep_sweetpizza_cinnamon" name="Sprinkle cinnamon" />
-		<text id="preparestep_shakshuka_parsley" name="Chop parsley" />
-		<text id="preparestep_cottagepotatoes_parsley" name="Chop parsley" />
+		<text id="preparestep_cuzcuzcomovo_parsley" name="Hacka persilja" />
+		<text id="preparestep_malaichickennaan_coriander" name="Hacka koriander" />
+		<text id="preparestep_veganplate_parsley" name="Hacka persilja" />
+		<text id="preparestep_neapolitancake_vanilla" name="Skrapa vanilj" />
+		<text id="preparestep_strawberrycheesecake_vanilla" name="Skrapa vanilj" />
+		<text id="preparestep_combomeal_chili" name="Laga inplastad hetsås" />
+		<text id="preparestep_zcordonbleu_parsley" name="Hacka persilja" />
+		<text id="preparestep_brazilianpastel_basil" name="Plocka basilika" />
+		<text id="preparestep_lechonkawali_rosemary" name="Hacka rosmarin" />
+		<text id="preparestep_sweetpizza_cinnamon" name="Strö kanel" />
+		<text id="preparestep_shakshuka_parsley" name="Hacka persilja" />
+		<text id="preparestep_cottagepotatoes_parsley" name="Hacka persilja" />
 		<text id="preparestep_bananasplit_vanilla" name="Skrapa vanilj" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="Skrapa vanilj" />
 		<text id="preparestep_cheeseburger_chili" name="Hacka chili" />
@@ -1723,36 +1723,36 @@
 		<text id="recipe_cherryjuice" name="Körsbärssaft" />
 		<text id="recipe_strawberryjuice" name="Jordgubbssaft" />
 		<text id="recipe_cappuccino" name="Cappuccino" />
-		<text id="recipe_duckalcitrus" name="Duck à l&apos;Citrus" />
-		<text id="recipe_ducktatters" name="Duck with Pasta Taters" />
+		<text id="recipe_duckalcitrus" name="Anka à l&apos;Citrus" />
+		<text id="recipe_ducktatters" name="Anka med Potatispasta" />
 		<text id="recipe_langos" name="Lángos" />
 		<text id="recipe_nasilemak" name="Nasi Lemak" />
-		<text id="recipe_citrusjuice" name="Citrus Juice" />
-		<text id="recipe_carrotcake" name="Carrot Cake" />
-		<text id="recipe_carrotjuice" name="Carrot Juice" />
+		<text id="recipe_citrusjuice" name="Citrusjuice" />
+		<text id="recipe_carrotcake" name="Morotskaka" />
+		<text id="recipe_carrotjuice" name="Morotjuice" />
 		<text id="recipe_francesinha" name="Francesinha" />
 		<text id="recipe_dorayaki" name="Dorayaki" />
-		<text id="recipe_tiramisu" name="Tiramisù" />
-		<text id="recipe_pridecupcakes" name="Pride Cupcakes" />
+		<text id="recipe_tiramisu" name="Tiramisu" />
+		<text id="recipe_pridecupcakes" name="Pride-muffins" />
 		<text id="recipe_ratatouille" name="Ratatouille" />
-		<text id="recipe_hotcherryricepudding" name="Rice Pudding with Hot Cherries" />
-		<text id="recipe_coconutcake" name="Coconut Cake" />
-		<text id="recipe_paodequeijo" name="Brazilian Cheese Bread" />
+		<text id="recipe_hotcherryricepudding" name="Risgrynsgröt m/ körsbär" />
+		<text id="recipe_coconutcake" name="Kokoskaka" />
+		<text id="recipe_paodequeijo" name="Brazilianskt ostbröd" />
 		<text id="recipe_baiaodedois" name="Baião de Dois" />
 		<text id="recipe_bakedalaska" name="Baked Alaska" />
 		<text id="recipe_butterchicken" name="Butter Chicken" />
-		<text id="recipe_chickenbiryani" name="Chicken Biriyani" />
-		<text id="recipe_cottagepotatoes" name="Cottage Potatoes" />
-		<text id="recipe_cuzcuzcomovo" name="Couscous with Egg" />
-		<text id="recipe_malaichickennaan" name="Malai Chicken Naan" />
-		<text id="recipe_veganplate" name="Vegan Plate" />
-		<text id="recipe_neapolitancake" name="Neapolitan Cake" />
-		<text id="recipe_strawberrycheesecake" name="Strawberry Cheesecake" />
+		<text id="recipe_chickenbiryani" name="Kycklingbiriyani" />
+		<text id="recipe_cottagepotatoes" name="Kesopotatis" />
+		<text id="recipe_cuzcuzcomovo" name="Couscous med ägg" />
+		<text id="recipe_malaichickennaan" name="Malai- och kycklingnaan" />
+		<text id="recipe_veganplate" name="Veganskt tallrik" />
+		<text id="recipe_neapolitancake" name="Napoleontårta" />
+		<text id="recipe_strawberrycheesecake" name="Jordgubbscheesecake" />
 		<text id="recipe_combomeal" name="Combo Meal" />
 		<text id="recipe_zcordonbleu" name="Zagreb Cordon Bleu" />
-		<text id="recipe_brazilianpastel" name="Brazilian Pastel w/ Drink" />
+		<text id="recipe_brazilianpastel" name="Braziliansk Pastel m/ Dryck" />
 		<text id="recipe_lechonkawali" name="Lechon Kawali" />
-		<text id="recipe_sweetpizza" name="Sweet Pizza" />
+		<text id="recipe_sweetpizza" name="Söt Pizza" />
 		<text id="recipe_shakshuka" name="Shakshuka" />
 		<text id="recipe_chocmousse" name="Chokladmousse" />
 		<text id="recipe_chocolatecake" name="Chokladtårta" />
@@ -1832,23 +1832,23 @@
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Grön-smoothie" />
-		<text id="recipe_smoothiemaker_defensepotion" name="Defense Potion" />
-		<text id="recipe_smoothiemaker_milk" name="Milk" />
-		<text id="recipe_smoothiemaker_soymilk" name="Soy Milk" />
-		<text id="recipe_smoothiemaker_icedcoffee" name="Iced Coffee" />
+		<text id="recipe_smoothiemaker_defensepotion" name="Sköldelixir" />
+		<text id="recipe_smoothiemaker_milk" name="Mjölk" />
+		<text id="recipe_smoothiemaker_soymilk" name="Sojadryck" />
+		<text id="recipe_smoothiemaker_icedcoffee" name="Iskaffe" />
 		<text id="recipe_smoothiemaker_kiba" name="Banan- och körsbärsmoothie" />
 		<text id="recipe_smoothiemaker_cola" name="Cappu-Cola" />
-		<text id="recipe_smoothiemaker_acai" name="Açaí Smoothie" />
+		<text id="recipe_smoothiemaker_acai" name="Açaí-smoothie" />
 		<text id="recipe_smoothiemaker_orangesoda" name="Funta" />
-		<text id="recipe_smoothiemaker_guarana" name="Brazilian Guaraná" />
+		<text id="recipe_smoothiemaker_guarana" name="Braziliansk Guaraná" />
 		<text id="recipe_smoothiemaker_pinacolada" name="Virgin Colada" />
 		<text id="recipe_smoothiemaker_tomatojuice" name="Tomatjuice" />
 	</recipes_fastfood>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Hej %s!&lt;br /&gt;&lt;br /&gt;Jag har precis upptäckt ett grymt online-spel, som heter &quot;Cappuccino Café&quot;.&lt;br /&gt;&lt;br /&gt;Den här länken tar dig direkt till spelet:br /&gt;https://cappuccino.gab.net.eu.org/cafe/game &lt;br /&gt;&lt;br /&gt;Registrera dig gratis genom länken och starta ditt eget kafé.&lt;br /&gt;&lt;br /&gt;Driv din egen verksamhet, tillaga fantastiska måltider och se glada kunder i ditt kafé varje dag.&lt;br /&gt;&lt;br /&gt;Lycka till med ditt kafé, vänliga hälsningar, %s" />
-			<text id="mail_lost_pw" name="Hej %s!&lt;br /&gt;&lt;br /&gt;Du mottar det här mailet automatiskt då du har bett om ett nytt lösenord.&lt;br /&gt;Ditt lösenord är: %s&lt;br /&gt;&lt;br /&gt;Den här länken tar dig direkt till spelet: &lt;br /&gt;https://cappuccino.gab.net.eu.org/cafe/game &lt;br /&gt;&lt;br /&gt;Om du har några frågor eller problem, var god gå till discord-servern: https://discord.gg/DnqpJkGT &lt;br /&gt;&lt;br /&gt;Vi hoppas att du har fortsatt kul med vårt spel!&lt;br /&gt;&lt;br /&gt;Ditt team från&lt;br /&gt;Cappuccino" />
-			<text id="mail_registration" name="Hallå,&lt;br /&gt;&lt;br /&gt;tack för din registrering och välkommen till &quot;Cappuccino Café&quot;.&lt;br /&gt;&lt;br /&gt;Du kan logga in närsomhelst med följande information:&lt;br /&gt;E-Mail: %s&lt;br /&gt;Lösenord: %s&lt;br /&gt;&lt;br /&gt;Den här länken tar dig direkt till spelet:&lt;br /&gt;https://cappuccino.gab.net.eu.org/cafe/game &lt;br /&gt;&lt;br /&gt;Om du har några frågor eller problem, var god gå till discord-servern: https://discord.gg/DnqpJkGT &lt;br /&gt;&lt;br /&gt;Vi hoppas att du tycker om Cappuccino Café!&lt;br /&gt;&lt;br /&gt;Ditt team från&lt;br /&gt;Cappuccino" />
+			<text id="mail_invite_friend" name="Hej %s!&lt;br /&gt;&lt;br /&gt;Jag har precis upptäckt ett grymt online-spel, som heter &quot;Cappuccino Café&quot;.&lt;br /&gt;&lt;br /&gt;Den här länken tar dig direkt till spelet:br /&gt;https://cappuccino.gabrb.net/launcher &lt;br /&gt;&lt;br /&gt;Registrera dig gratis genom länken och starta ditt eget kafé.&lt;br /&gt;&lt;br /&gt;Driv din egen verksamhet, tillaga fantastiska måltider och se glada kunder i ditt kafé varje dag.&lt;br /&gt;&lt;br /&gt;Lycka till med ditt kafé, vänliga hälsningar, %s" />
+			<text id="mail_lost_pw" name="Hej %s!&lt;br /&gt;&lt;br /&gt;Du mottar det här mailet automatiskt då du har bett om ett nytt lösenord.&lt;br /&gt;Ditt lösenord är: %s&lt;br /&gt;&lt;br /&gt;Den här länken tar dig direkt till spelet: &lt;br /&gt;https://cappuccino.gabrb.net/launcher &lt;br /&gt;&lt;br /&gt;Vi hoppas att du har fortsatt kul med vårt spel!&lt;br /&gt;&lt;br /&gt;Ditt team från&lt;br /&gt;Cappuccino" />
+			<text id="mail_registration" name="Hallå,&lt;br /&gt;&lt;br /&gt;tack för din registrering och välkommen till &quot;Cappuccino Café&quot;.&lt;br /&gt;&lt;br /&gt;Du kan logga in närsomhelst med följande information:&lt;br /&gt;E-Mail: %s&lt;br /&gt;Lösenord: %s&lt;br /&gt;&lt;br /&gt;Den här länken tar dig direkt till spelet:&lt;br /&gt;https://cappuccino.gabrb.net/launcher &lt;br /&gt;&lt;br /&gt;Vi hoppas att du tycker om Cappuccino Café!&lt;br /&gt;&lt;br /&gt;Ditt team från&lt;br /&gt;Cappuccino" />
 		</mail>
 		<misc>
 			<text id="marketplace" name="Marknad" />
