@@ -33,7 +33,7 @@
 		<text id="Social_Achievement_Friendscount" name="Gemeinschafts Griller" />
 	</achievement>
 	<alerts>
-		<text id="alert_addcash_copy" name="Hier kannst Du Gold/Cafédollar kaufen." />
+		<text id="alert_addcash_copy" name="Hier kannst du Gold/Cafédollar kaufen." />
 		<text id="alert_addcash_title" name="Paymentshop" />
 		<text id="alert_addFriend_copy" name="Möchtest du {0} als Freund hinzufügen?" />
 		<text id="alert_addFriend_denied_copy" name="{0} hat deine Anfrage leider abgelehnt." />
@@ -57,7 +57,7 @@
 		<text id="alert_dekoshop_kickplayer_title" name="Achtung!" />
 		<text id="alert_FancyCooking_copy" name="Möchtest du das Gericht mit dieser Fancy Zutat würzen und dadurch {0} XP und {1} Portionen extra bekommen?" />
 		<text id="alert_FancyCooking_title" name="Fancy Zutaten" />
-		<text id="alert_fancyinfo_copy" name="Würzt du ein Gericht mit der entsprechenden Fancy Zutat, kannst Du bis zu 20% mehr XP und Portionen bekommen! Die Fancy Zutaten nehmen auch keinen Platz in deinem Kühlschrank ein!" />
+		<text id="alert_fancyinfo_copy" name="Würzt du ein Gericht mit der entsprechenden Fancy Zutat, kannst du bis zu 20% mehr XP und Portionen bekommen! Die Fancy Zutaten nehmen auch keinen Platz in deinem Kühlschrank ein!" />
 		<text id="alert_fancyinfo_title" name="Fancy Zutaten!" />
 		<text id="alert_giftboxfull_copy" name="Deine Geschenkbox ist voll! Du kannst keine neuen Geschenke von deinen Freunden annehmen!" />
 		<text id="alert_giftboxfull_title" name="Kein Platz mehr!" />
@@ -416,10 +416,10 @@
 		<text id="coop_desc_long_1" name="Wir veranstalten einen Kochkurs, um einige Gerichte zu perfektionieren. Möchtest du mitmachen?" />
 		<text id="coop_desc_long_10" name="Deine Familie kommt zu Besuch und du hast die ehrenvolle Aufgabe, als Meisterkoch, das Weihnachtsessen zu kochen.  Lasst es euch schmecken!" />
 		<text id="coop_desc_long_11" name="Eine Kuchenschlacht ist geplant und wir brauchen Kuchen ohne Ende! Backe uns bitte so viele Kuchen wie möglich…" />
-		<text id="coop_desc_long_12" name="Für die Suppenküche der Stadt brauchen wir eine Auswahl an Suppen. Könntest Du vielleicht ein paar kochen, die wirkliche jedem schmecken?" />
+		<text id="coop_desc_long_12" name="Für die Suppenküche der Stadt brauchen wir eine Auswahl an Suppen. Könntest du vielleicht ein paar kochen, die wirkliche jedem schmecken?" />
 		<text id="coop_desc_long_13" name="Für einen asiatischen Themenabend brauchen wir noch ein paar typisch asiatische Gerichte. Hast du ein paar Rezepte auf Lager?" />
 		<text id="coop_desc_long_14" name="Für die nationale Bauarbeitertagung brauchen wir noch ein paar richtig schön deftige Gerichte. Hättest du was für richtige Kerle parat?" />
-		<text id="coop_desc_long_15" name="Es kommt Besuch aus London vorbei und wünscht sich ein paar schöne bodenständige Gerichte aus der Heimat. Kannst Du da was zaubern?" />
+		<text id="coop_desc_long_15" name="Es kommt Besuch aus London vorbei und wünscht sich ein paar schöne bodenständige Gerichte aus der Heimat. Kannst du da was zaubern?" />
 		<text id="coop_desc_long_2" name="Ich plane eine Feier im Tex-Mex Stil und brauche dafür noch das entsprechende Essen. Kannst du mir da weiterhelfen?" />
 		<text id="coop_desc_long_3" name="Ich bekomme Besuch von einem Sportverein aus Hamburg und möchte, dass sie sich richtig heimisch fühlen. Dafür brauche ich jemanden der echt hamburgerisch kochen kann. Hast du Lust?" />
 		<text id="coop_desc_long_4" name="Ich veranstalte eine riesige Garten Party und brauche dafür noch eine Menge zu Essen, um meine Gäste auch zufrieden zu stellen. Ich habe gehört, du bist ein Meister im Catering. Kannst du mir helfen?" />
@@ -536,20 +536,20 @@
 		<text id="dialogwin_avatarcreate_man" />
 		<text id="dialogwin_avatarcreate_random" name="Aussehen ändern" />
 		<text id="dialogwin_avatarcreate_txt_avatar_name" name="Name:" />
-		<text id="dialogwin_avatarcreate_txt_avatar_title" name="Erstelle Deinen Charakter" />
+		<text id="dialogwin_avatarcreate_txt_avatar_title" name="Erstelle deinen Charakter" />
 		<text id="dialogwin_avatarcreate_woman" />
 		<text id="dialogwin_avatarnameselect_copy" name="Name ist vergeben. Namensvorschläge:" />
 		<text id="dialogwin_avatarnameselect_title" name="Oops!" />
 		<text id="dialogwin_avatar_btn_random" name="Zufall" />
 		<text id="dialogwin_bonus_copy_achievement" name="Du hast die Stufe {0} dieser Auszeichnung erreicht! Herzlichen Glückwunsch!" />
-		<text id="dialogwin_bonus_copy_counter" name="Du kannst Dir nun einen weiteren Tresen kaufen." />
-		<text id="dialogwin_bonus_copy_dish" name="Es wurden neue Rezepte für Dich freigeschaltet:" />
-		<text id="dialogwin_bonus_copy_expand" name="Du hast expandiert! Jetzt hast Du mehr Platz für Deine Gäste, Dekorationen und vieles mehr!" />
+		<text id="dialogwin_bonus_copy_counter" name="Du kannst dir nun einen weiteren Tresen kaufen." />
+		<text id="dialogwin_bonus_copy_dish" name="Es wurden neue Rezepte für dich freigeschaltet:" />
+		<text id="dialogwin_bonus_copy_expand" name="Du hast expandiert! Jetzt hast du mehr Platz für deine Gäste, Dekorationen und vieles mehr!" />
 		<text id="dialogwin_bonus_copy_fridge" name="Du kannst dir nun einen weiteren Kühlschrank kaufen." />
 		<text id="dialogwin_bonus_copy_instant" name="Einmal mehr schnell kochen. Ein Klick und das Essen ist bereit zum servieren." />
-		<text id="dialogwin_bonus_copy_level2" name="Schon gesehen? Du kannst Dein Café auch erweitern und hast somit mehr Platz für Deine Gäste!" />
-		<text id="dialogwin_bonus_copy_login" name="Das hat sich in Deinem Café getan als Du weg warst:" />
-		<text id="dialogwin_bonus_copy_newwaiter" name="Du hast nun einen neuen Mitarbeiter in Deinem Café! Die Gäste können kommen!" />
+		<text id="dialogwin_bonus_copy_level2" name="Schon gesehen? Du kannst dein Café auch erweitern und hast somit mehr Platz für deine Gäste!" />
+		<text id="dialogwin_bonus_copy_login" name="Das hat sich in deinem Café getan als du weg warst:" />
+		<text id="dialogwin_bonus_copy_newwaiter" name="Du hast nun einen neuen Mitarbeiter in deinem Café! Die Gäste können kommen!" />
 		<text id="dialogwin_bonus_copy_stove" name="Du kannst dir nun einen neuen Herd kaufen." />
 		<text id="dialogwin_bonus_copy_waiter" name="Du kannst nun einen weiteren Kellner anstellen." />
 		<text id="dialogwin_bonus_title_achievement" name="Neue Auszeichnung" />
@@ -563,18 +563,18 @@
 		<text id="dialogwin_bonus_title_newwaiter" name="Glückwunsch" />
 		<text id="dialogwin_bonus_title_stove" name="Neuer Herd" />
 		<text id="dialogwin_bonus_title_waiter" name="Mehr Personal" />
-		<text id="dialogwin_buytile_copy" name="Möchtest Du {0} Fliesen für {1} kaufen?" />
+		<text id="dialogwin_buytile_copy" name="Möchtest du {0} Fliesen für {1} kaufen?" />
 		<text id="dialogwin_buytile_title" name="Fliesen kaufen?" />
 		<text id="dialogwin_changepassword_copy_newpass" name="Neues Passwort:" />
 		<text id="dialogwin_changepassword_copy_oldpass" name="Altes Passwort:" />
 		<text id="dialogwin_changepassword_title" name="Passwort ändern" />
 		<text id="dialogwin_clearcounter_cancelButton" name="Behalten" />
 		<text id="dialogwin_clearcounter_okButton" name="Wegwerfen" />
-		<text id="dialogwin_clearcounter_title" name="Von diesem Tresen wird gerade ein Gericht ausgeteilt. Was möchtest Du damit machen?" />
+		<text id="dialogwin_clearcounter_title" name="Von diesem Tresen wird gerade ein Gericht ausgeteilt. Was möchtest du damit machen?" />
 		<text id="dialogwin_clearstove_btn_cancel" name="Behalten" />
 		<text id="dialogwin_clearstove_btn_ok" name="Wegwerfen" />
 		<text id="dialogwin_clearstove_copy" name="Du darfst heute noch {0} mal &apos;Sofort fertig kochen&apos;." />
-		<text id="dialogwin_clearstove_title" name="Auf diesem Herd wird gerade gekocht. Was möchtest Du damit machen?" />
+		<text id="dialogwin_clearstove_title" name="Auf diesem Herd wird gerade gekocht. Was möchtest du damit machen?" />
 		<text id="dialogwin_cookbook_income" name="{0} pro Portion" />
 		<text id="dialogwin_cookbook_readyin" name="Fertig in: {0}" />
 		<text id="dialogwin_cookbook_servings" name="Portionen: {0}" />
@@ -584,50 +584,50 @@
 		<text id="dialogwin_coopreward_finish_2" name="Bronze" />
 		<text id="dialogwin_coopreward_title_fail" name="Co-Op nicht geschafft!" />
 		<text id="dialogwin_coopreward_title_success" name="Co-Op mit {0} geschafft" />
-		<text id="dialogwin_coopshelp_copy" name="Hier kannst Du mit Deinen Freunden zusammen Kochaufträge erfüllen und damit extra XP und Cafédollar verdienen.\nJe schneller der Auftrag geschafft wird, umso größer ist die Belohnung!\n\nFalls die Zeit mal knapp werden sollte, kannst Du auch jederzeit verlängern!\n\nAber denk daran, die Belohnung erhältst Du nur, wenn Du auch etwas beisteuerst!" />
+		<text id="dialogwin_coopshelp_copy" name="Hier kannst du mit deinen Freunden zusammen Kochaufträge erfüllen und damit extra XP und Cafédollar verdienen.\nJe schneller der Auftrag geschafft wird, umso größer ist die Belohnung!\n\nFalls die Zeit mal knapp werden sollte, kannst du auch jederzeit verlängern!\n\nAber denk daran, die Belohnung erhältst du nur, wenn du auch etwas beisteuerst!" />
 		<text id="dialogwin_coopshelp_title" name="Was sind Co-Ops?" />
 		<text id="dialogwin_coop_btn_action" name="Details" />
 		<text id="dialogwin_coop_btn_activecoops" name="AKTIVE" />
 		<text id="dialogwin_coop_btn_join" name="Mitmachen" />
 		<text id="dialogwin_coop_btn_newcoop" name="STARTE CO-OP" />
 		<text id="dialogwin_coop_btn_quit" name="Verlassen" />
-		<text id="dialogwin_coop_extendtime_copy" name="Möchtest Du den Co-Op für {0} Gold verlängern? Goldzeit: {1} Stunden Silberzeit: {2} Stunden Bronzezeit: {3} Stunden" />
+		<text id="dialogwin_coop_extendtime_copy" name="Möchtest du den Co-Op für {0} Gold verlängern? Goldzeit: {1} Stunden Silberzeit: {2} Stunden Bronzezeit: {3} Stunden" />
 		<text id="dialogwin_coop_extendtime_title" name="Mehr Zeit?" />
 		<text id="dialogwin_coop_maxdone" name="Du hast heute bereits einen Co-Op begonnen! Du kannst erst morgen wieder einen starten!" />
 		<text id="dialogwin_coop_maxuser" name="Maximale Teilnehmerzahl: {0}" />
 		<text id="dialogwin_coop_member" name="Co-Op Teilnehmer:" />
 		<text id="dialogwin_coop_minlevel" name="Minimales Teilnahmelevel: {0}" />
-		<text id="dialogwin_coop_quit_copy" name="Möchtest Du diesen Co-Op wirklich verlassen?" />
+		<text id="dialogwin_coop_quit_copy" name="Möchtest du diesen Co-Op wirklich verlassen?" />
 		<text id="dialogwin_coop_subtitle" name="Das müsst ihr kochen:" />
 		<text id="dialogwin_coop_timeInfo" name="Geschafft in:" />
 		<text id="dialogwin_coop_timeleft" name="Übrige Zeit:" />
 		<text id="dialogwin_coop_txt_noactive" name="Momentan gibt es keine aktiven Co-Ops.\nStarte doch einfach einen!" />
 		<text id="dialogwin_coop_txt_title" name="CO-OPS" />
-		<text id="dialogwin_decoshophelp_copy" name="Wenn Du Deine Möbel oder Dekorationen in diese Leiste und NICHT auf die Kasse ziehst, werden diese eingelagert.\nWenn Du sie erneut in Dein Café ziehst kostet Dich dies kein Geld.\nDie Stückzahl des jeweiligen Gegenstandes siehst Du an dem roten Sticker." />
-		<text id="dialogwin_decoshophelp_copy_1" name="Die Möbel und Dekorationen haben einen Luxuswert, der aufaddiert den Luxuswert Deines Cafés bestimmt! Wie luxuriös ist Dein Café?" />
+		<text id="dialogwin_decoshophelp_copy" name="Wenn du deine Möbel oder Dekorationen in diese Leiste und NICHT auf die Kasse ziehst, werden diese eingelagert.\nWenn du sie erneut in dein Café ziehst kostet dich dies kein Geld.\nDie Stückzahl des jeweiligen Gegenstandes siehst du an dem roten Sticker." />
+		<text id="dialogwin_decoshophelp_copy_1" name="Die Möbel und Dekorationen haben einen Luxuswert, der aufaddiert den Luxuswert deines Cafés bestimmt! Wie luxuriös ist dein Café?" />
 		<text id="dialogwin_decoshophelp_title" name="Möbel/Dekorationen einlagern?" />
 		<text id="dialogwin_decoshophelp_title_1" name="Luxuswert?" />
-		<text id="dialogwin_dishmastery_copy_0" name="Du hast Dir einen Stern für {0} verdient!" />
-		<text id="dialogwin_dishmastery_copy_1" name="Gib doch Deinen Freunden ein paar extra Portionen ab!" />
-		<text id="dialogwin_dishmastery_info" name="Mit jedem Stern wird Dein Gericht immer gewinnbringender!" />
+		<text id="dialogwin_dishmastery_copy_0" name="Du hast dir einen Stern für {0} verdient!" />
+		<text id="dialogwin_dishmastery_copy_1" name="Gib doch deinen Freunden ein paar extra Portionen ab!" />
+		<text id="dialogwin_dishmastery_info" name="Mit jedem Stern wird dein Gericht immer gewinnbringender!" />
 		<text id="dialogwin_dishmastery_title" name="Ein neuer Stern!" />
-		<text id="dialogwin_fancycooking_title" name="Möchtest Du das Gericht mit {0} würzen?" />
-		<text id="dialogwin_featureUnlocked_coop" name="Starte mit Deinen Freunden zusammen eine Co-Op!" />
-		<text id="dialogwin_featureUnlocked_decoration" name="Neue Dekorationen wurden für Dich freigeschaltet!" />
-		<text id="dialogwin_featureUnlocked_fancy" name="Gib Deinen Gerichten extra Würze mit den Fancyzutaten!" />
-		<text id="dialogwin_featureUnlocked_frosty" name="Entdecke den Frosty und still den Durst Deiner Gäste!" />
+		<text id="dialogwin_fancycooking_title" name="Möchtest du das Gericht mit {0} würzen?" />
+		<text id="dialogwin_featureUnlocked_coop" name="Starte mit deinen Freunden zusammen eine Co-Op!" />
+		<text id="dialogwin_featureUnlocked_decoration" name="Neue Dekorationen wurden für dich freigeschaltet!" />
+		<text id="dialogwin_featureUnlocked_fancy" name="Gib deinen Gerichten extra Würze mit den Fancyzutaten!" />
+		<text id="dialogwin_featureUnlocked_frosty" name="Entdecke den Frosty und stille den Durst deiner Gäste!" />
 		<text id="dialogwin_featureUnlocked_marketplace" name="Finde neue Freunde auf dem Marktplatz!" />
-		<text id="dialogwin_featureUnlocked_muffinman" name="Versuche Dein Glück beim Muffin Man!" />
+		<text id="dialogwin_featureUnlocked_muffinman" name="Versuche dein Glück beim Muffin Man!" />
 		<text id="dialogwin_featureUnlocked_ranking" name="Besuche andere Spieler über die Rangliste!" />
-		<text id="dialogwin_featureUnlocked_staff" name="Stelle einen neuen Kellner ein, um Deine vielen Gäste zu bedienen!" />
-		<text id="dialogwin_featureUnlocked_wheeloffortune" name="Versuche Dein Glück beim Glücksrad!" />
-		<text id="dialogwin_FriendShop_copy" name="Du brauchst noch {0} Netzwerkfreunde, die Dir beim Ausbau Deines Cafés helfen!\nDu kannst aber auch einen Handwerker für {1} Gold beauftragen!" />
+		<text id="dialogwin_featureUnlocked_staff" name="Stelle einen neuen Kellner ein, um deine vielen Gäste zu bedienen!" />
+		<text id="dialogwin_featureUnlocked_wheeloffortune" name="Versuche dein Glück beim Glücksrad!" />
+		<text id="dialogwin_FriendShop_copy" name="Du brauchst noch {0} Netzwerkfreunde, die dir beim Ausbau deines Cafés helfen!\nDu kannst aber auch einen Handwerker für {1} Gold beauftragen!" />
 		<text id="dialogwin_FriendShop_title" name="Neue Freunde" />
 		<text id="dialogwin_giftbox_close" name="schließen" />
 		<text id="dialogwin_giftbox_friendlist_empty" name="Du kannst jedem Netzwerkfreund einmal am Tag ein Geschenk schicken." />
-		<text id="dialogwin_giftbox_friendlist_notavailable" name="Du darfst erst ab morgen Geschenke an Deine Freunde senden!" />
-		<text id="dialogwin_giftbox_ggsgifts_empty" name="Keine Geschenke! Mit dem Loginbonus erhältst Du neue Geschenke!" />
-		<text id="dialogwin_giftbox_mygifts_empty" name="Du hast keine Geschenke bekommen. Schicke Deinen Freunden welche, vielleicht schenken sie Dir etwas zurück." />
+		<text id="dialogwin_giftbox_friendlist_notavailable" name="Du darfst erst ab morgen Geschenke an deine Freunde senden!" />
+		<text id="dialogwin_giftbox_ggsgifts_empty" name="Keine Geschenke! Mit dem Loginbonus erhältst du neue Geschenke!" />
+		<text id="dialogwin_giftbox_mygifts_empty" name="Du hast keine Geschenke bekommen. Schicke deinen Freunden welche, vielleicht schenken sie dir etwas zurück." />
 		<text id="dialogwin_giftbox_remove" name="weg geben" />
 		<text id="dialogwin_giftbox_send" name="verschenken" />
 		<text id="dialogwin_giftbox_sendablegifts_empty" name="Heute gibt es leider keine Geschenke." />
@@ -639,34 +639,34 @@
 		<text id="dialogwin_highscore_searchtext" name="Name/Rang suchen" />
 		<text id="dialogwin_highscore_title" name="Rangliste" />
 		<text id="dialogwin_ingamehelp_1_1" name="Wie koche ich ein Gericht?" />
-		<text id="dialogwin_ingamehelp_1_2" name="Auf den Herden bereitest Du die Gerichte für Deine Gäste zu. Dazu musst Du ein Rezept auswählen und es mit mehreren Klicks zubereiten." />
-		<text id="dialogwin_ingamehelp_1_3" name="Im Kochbuch findest Du eine Übersicht über alle Rezepte und die benötigten Zutaten." />
-		<text id="dialogwin_ingamehelp_1_4" name="Die nötigen Zutaten für ein Rezept findest Du im Zutatenshop." />
-		<text id="dialogwin_ingamehelp_1_5" name="Wenn Du alle Zutaten zusammen hast, kannst Du auf „Kochen“ klicken und ein Gericht zubereiten." />
-		<text id="dialogwin_ingamehelp_1_6" name="Ist ein Gericht nach festgelegter Zeit fertig, kannst Du es auf den Tresen stellen um es zu servieren." />
+		<text id="dialogwin_ingamehelp_1_2" name="Auf den Herden bereitest du die Gerichte für deine Gäste zu. Dazu musst du ein Rezept auswählen und es mit mehreren Klicks zubereiten." />
+		<text id="dialogwin_ingamehelp_1_3" name="Im Kochbuch findest du eine Übersicht über alle Rezepte und die benötigten Zutaten." />
+		<text id="dialogwin_ingamehelp_1_4" name="Die nötigen Zutaten für ein Rezept findest du im Zutatenshop." />
+		<text id="dialogwin_ingamehelp_1_5" name="Wenn du alle Zutaten zusammen hast, kannst du auf „Kochen“ klicken und ein Gericht zubereiten." />
+		<text id="dialogwin_ingamehelp_1_6" name="Ist ein Gericht nach festgelegter Zeit fertig, kannst du es auf den Tresen stellen um es zu servieren." />
 		<text id="dialogwin_ingamehelp_1_7" name="Ein benutzter Herd ist schmutzig und muss vor dem nächsten Benutzen geputzt werden." />
 		<text id="dialogwin_ingamehelp_2_1" name="Was muss ich über Zutaten wissen?" />
-		<text id="dialogwin_ingamehelp_2_2" name="Hier lagerst Du Deine gekauften Zutaten ein. Jeder Kühlschrank hat eine begrenzte Kapazität. Es kann aber auch nie schaden auf Vorrat einzukaufen." />
-		<text id="dialogwin_ingamehelp_2_3" name="Fancyzutaten dienen als Würze für Dein Essen. Wenn Du sie benutzt bekommst Du mehr Portionen und XP. Außerdem nehmen sie keinen Platz im Kühlschrank weg." />
-		<text id="dialogwin_ingamehelp_2_4" name="Einige Zutaten sind ab und zu nicht verfügbar. Hier kann Dir aber der Kurier helfen. Gegen eine kleine Prämie hast Du immer alles im Haus." />
+		<text id="dialogwin_ingamehelp_2_2" name="Hier lagerst du deine gekauften Zutaten ein. Jeder Kühlschrank hat eine begrenzte Kapazität. Es kann aber auch nie schaden auf Vorrat einzukaufen." />
+		<text id="dialogwin_ingamehelp_2_3" name="Fancyzutaten dienen als Würze für dein Essen. Wenn du sie benutzt bekommst du mehr Portionen und XP. Außerdem nehmen sie keinen Platz im Kühlschrank weg." />
+		<text id="dialogwin_ingamehelp_2_4" name="Einige Zutaten sind ab und zu nicht verfügbar. Hier kann dir aber der Kurier helfen. Gegen eine kleine Prämie hast du immer alles im Haus." />
 		<text id="dialogwin_ingamehelp_2_5" name="Diese Zutaten sind immer verfügbar:" />
 		<text id="dialogwin_ingamehelp_3_1" name="Werte und Co." />
-		<text id="dialogwin_ingamehelp_3_2" name="Erfahrungspunkte bekommst Du durch das Servieren von Gerichten. Zusätzliche Möglichkeiten sind: Das Kellnern in anderen Cafés, das erfolgreiche Bestehen von Co-Ops, Auszeichnungen oder das Servieren von Getränken." />
-		<text id="dialogwin_ingamehelp_3_3" name="Deine Beliebtheit bestimmt wie viele Gäste Dich besuchen. Deine Beliebtheit steigt wenn die Gäste zufrieden Dein Café verlassen. Sie kann aber auch sinken wenn Gäste unzufrieden sind. Gäste sind zufrieden wenn sie etwas zu essen bekommen." />
-		<text id="dialogwin_ingamehelp_3_4" name="Cafédollar verdienst Du über den Verkauf von Mahlzeiten. Weitere Möglichkeiten sind: als Kellner arbeiten, Co-Ops erfolgreich absolvieren oder Auszeichnungen erhalten." />
-		<text id="dialogwin_ingamehelp_3_5" name="Jeder Gegenstand im Umbauen-Menü hat einen Luxuswert. Dieser wirkt sich auf Deine Beliebtheit aus. Je luxuriöser, umso beliebter…" />
-		<text id="dialogwin_ingamehelp_3_6" name="Im Umbauen-Menü findest Du Herde, Tresen, Tische und viele weitere Einrichtungsgegenstände. Sei kreativ!" />
-		<text id="dialogwin_ingamehelp_3_7" name="Sollte Dir Dein Café zu klein werden, hast Du die Möglichkeit auszubauen und mehr Platz für Deine Gäste zu schaffen." />
+		<text id="dialogwin_ingamehelp_3_2" name="Erfahrungspunkte bekommst du durch das Servieren von Gerichten. Zusätzliche Möglichkeiten sind: Das Kellnern in anderen Cafés, das erfolgreiche Bestehen von Co-Ops, Auszeichnungen oder das Servieren von Getränken." />
+		<text id="dialogwin_ingamehelp_3_3" name="Deine Beliebtheit bestimmt wie viele Gäste dich besuchen. Deine Beliebtheit steigt wenn die Gäste zufrieden dein Café verlassen. Sie kann aber auch sinken wenn Gäste unzufrieden sind. Gäste sind zufrieden wenn sie etwas zu essen bekommen." />
+		<text id="dialogwin_ingamehelp_3_4" name="Cafédollar verdienst du über den Verkauf von Mahlzeiten. Weitere Möglichkeiten sind: als Kellner arbeiten, Co-Ops erfolgreich absolvieren oder Auszeichnungen erhalten." />
+		<text id="dialogwin_ingamehelp_3_5" name="Jeder Gegenstand im Umbauen-Menü hat einen Luxuswert. Dieser wirkt sich auf deine Beliebtheit aus. Je luxuriöser, umso beliebter…" />
+		<text id="dialogwin_ingamehelp_3_6" name="Im Umbauen-Menü findest du Herde, Tresen, Tische und viele weitere Einrichtungsgegenstände. Sei kreativ!" />
+		<text id="dialogwin_ingamehelp_3_7" name="Sollte dir dein Café zu klein werden, hast du die Möglichkeit auszubauen und mehr Platz für deine Gäste zu schaffen." />
 		<text id="dialogwin_ingamehelp_4_1" name="Was muss ich noch wissen?" />
-		<text id="dialogwin_ingamehelp_4_2" name="Auf dem Marktplatz lernst Du andere Spieler kennen, kannst nach Arbeit suchen oder auch nur mit anderen Spielern chatten." />
-		<text id="dialogwin_ingamehelp_4_3" name="Auszeichnungen bekommst Du für alle möglichen Aktionen und sie sind eine zusätzliche Quelle für XP und Cafédollar." />
-		<text id="dialogwin_ingamehelp_4_4" name="Über den Marktplatz kannst Du andere Spieler in Deinem Café als Kellner anstellen oder Dich selber als Kellner anheuern lassen." />
-		<text id="dialogwin_ingamehelp_4_5" name="Eine Co-Op ist ein gemeinsames Kochprojekt, das Du mit anderen Spielern spielen kannst. Bei Erfolg gibt es auch eine Belohnung." />
-		<text id="dialogwin_ingamehelp_4_6" name="Deine Kellner servieren die fertigen Gerichte an Deine wartenden Gäste und räumen auch das schmutzige Geschirr von den Tischen." />
+		<text id="dialogwin_ingamehelp_4_2" name="Auf dem Marktplatz lernst du andere Spieler kennen, kannst nach Arbeit suchen oder auch nur mit anderen Spielern chatten." />
+		<text id="dialogwin_ingamehelp_4_3" name="Auszeichnungen bekommst du für alle möglichen Aktionen und sie sind eine zusätzliche Quelle für XP und Cafédollar." />
+		<text id="dialogwin_ingamehelp_4_4" name="Über den Marktplatz kannst du andere Spieler in deinem Café als Kellner anstellen oder dich selber als Kellner anheuern lassen." />
+		<text id="dialogwin_ingamehelp_4_5" name="Eine Co-Op ist ein gemeinsames Kochprojekt, das du mit anderen Spielern spielen kannst. Bei Erfolg gibt es auch eine Belohnung." />
+		<text id="dialogwin_ingamehelp_4_6" name="Deine Kellner servieren die fertigen Gerichte an deine wartenden Gäste und räumen auch das schmutzige Geschirr von den Tischen." />
 		<text id="dialogwin_ingamehelp_4_7" name="Gekochte Gerichte die nicht rechtzeitig auf einen Tresen gestellt werden verderben." />
 		<text id="dialogwin_ingamehelp_ingredients" name="Zutaten" />
 		<text id="dialogwin_ingredient_all" name="Alles" />
-		<text id="dialogwin_ingredient_emptyfridge" name="Dein Kühlschrank ist leer, schade! Um etwas Neues kochen zu können, musst Du Dir Zutaten im Zutatenshop besorgen." />
+		<text id="dialogwin_ingredient_emptyfridge" name="Dein Kühlschrank ist leer, schade! Um etwas Neues kochen zu können, musst du dir Zutaten im Zutatenshop besorgen." />
 		<text id="dialogwin_ingredient_fancy" name="Spezialzutaten" />
 		<text id="dialogwin_ingredient_fruits" name="Früchte" />
 		<text id="dialogwin_ingredient_instore" name="x Lager" />
@@ -677,34 +677,34 @@
 		<text id="dialogwin_ingredient_storeinused" name="Im Kühlschrank:" />
 		<text id="dialogwin_ingredient_storelayer" name="Kühlschrank" />
 		<text id="dialogwin_ingredient_vegatable" name="Vegetarisch" />
-		<text id="dialogwin_instantcooking_copy" name="Möchtest Du Sofort fertig kochen? Noch {0} mal möglich!" />
+		<text id="dialogwin_instantcooking_copy" name="Möchtest du Sofort fertig kochen? Noch {0} mal möglich!" />
 		<text id="dialogwin_instantcooking_title" name="Möchtest Du\n&apos;Sofort fertig kochen&apos;?" />
-		<text id="dialogwin_jobpaycheck_copy" name="Fleißige Kellner werden belohnt! Neben dem Trinkgeld konntest Du auch Erfahrung sammeln." />
+		<text id="dialogwin_jobpaycheck_copy" name="Fleißige Kellner werden belohnt! Neben dem Trinkgeld konntest du auch Erfahrung sammeln." />
 		<text id="dialogwin_jobpaycheck_title" name="Abrechnung" />
 		<text id="dialogwin_levelup_copy" name="Du hast Level {0} erreicht!" />
 		<text id="dialogwin_levelup_copy_1" name="Deine Belohnung:" />
-		<text id="dialogwin_levelup_copy_2" name="Für Dich freigeschaltet:" />
+		<text id="dialogwin_levelup_copy_2" name="Für dich freigeschaltet:" />
 		<text id="dialogwin_levelup_title" name="LEVEL UP" />
-		<text id="dialogwin_lonelyingredient_copy" name="Dein Kellner hat eine Kiste mit einer geheimnisvollen Zutat gefunden!\n\nGib sie Deinen Freunden!" />
+		<text id="dialogwin_lonelyingredient_copy" name="Dein Kellner hat eine Kiste mit einer geheimnisvollen Zutat gefunden!\n\nGib sie deinen Freunden!" />
 		<text id="dialogwin_lonelyingredient_title" name="Überraschung!" />
-		<text id="dialogwin_lonelytip_copy" name="Ein Gast hat Dir ein riesiges Trinkgeld gegeben! Gib Deinen Freunden etwas davon ab!" />
+		<text id="dialogwin_lonelytip_copy" name="Ein Gast hat dir ein riesiges Trinkgeld gegeben! Gib deinen Freunden etwas davon ab!" />
 		<text id="dialogwin_lonelytip_title" name="Hurra!" />
-		<text id="dialogwin_muffinman_beforebet" name="Wähle Deinen Einsatz. Wenn Du gewinnst bekommst Du das Doppelte zurück!" />
+		<text id="dialogwin_muffinman_beforebet" name="Wähle deinen Einsatz. Wenn du gewinnst bekommst du das Doppelte zurück!" />
 		<text id="dialogwin_muffinman_btn_again" name="Nochmal!" />
 		<text id="dialogwin_muffinman_btn_go" name="Los!" />
 		<text id="dialogwin_muffinman_header" name="Finde die Füllung!" />
 		<text id="dialogwin_muffinman_lostbet" name="Schade. Man kann ja auch nicht immer gewinnen! Vielleicht beim nächsten Mal..." />
 		<text id="dialogwin_muffinman_nomoney" name="Du hast nicht genug Cafédollar/Gold für diesen Einsatz!" />
-		<text id="dialogwin_muffinman_nopayment" name="Wenn Du um Gold spielen willst musst Du mindestens Level 10 erreicht haben!" />
+		<text id="dialogwin_muffinman_nopayment" name="Wenn du um Gold spielen willst musst du mindestens Level 10 erreicht haben!" />
 		<text id="dialogwin_muffinman_noregister" name="Du darfst nur als registrierter Spieler &quot;Finde die Füllung!&quot; spielen!" />
 		<text id="dialogwin_muffinman_nosale" name="Du darfst den Muffinbäcker nicht verkaufen!" />
-		<text id="dialogwin_muffinman_onlyonebuy" name="Du darfst nur einen Muffinbäcker in Deinem Café platzieren!" />
+		<text id="dialogwin_muffinman_onlyonebuy" name="Du darfst nur einen Muffinbäcker in deinem Café platzieren!" />
 		<text id="dialogwin_muffinman_placedbet" name="Sehr gut! In welchem Muffin versteckt sich die Füllung?" />
-		<text id="dialogwin_muffinman_toohighbet" name="Soviel darfst Du nicht setzen! Der Maximaleinsatz beträgt {0} Gold und {1} Cafédollar!" />
+		<text id="dialogwin_muffinman_toohighbet" name="Soviel darfst du nicht setzen! Der Maximaleinsatz beträgt {0} Gold und {1} Cafédollar!" />
 		<text id="dialogwin_muffinman_wonbet" name="Mmh, lecker! Du hast die Füllung gefunden! Versuch&apos; es doch gleich nochmal." />
-		<text id="dialogwin_nomoney_avatarchange" name="Du hast nicht genug Gold um Dich umzuziehen!" />
-		<text id="dialogwin_nomoney_clean_copy" name="Du hast nicht genug Cafédollar, um Deinen Herd zu putzen." />
-		<text id="dialogwin_nomoney_copy" name="Oops, Du hast leider nicht genug Cafédollar/Gold, um diesen Artikel zu kaufen!" />
+		<text id="dialogwin_nomoney_avatarchange" name="Du hast nicht genug Gold um dich umzuziehen!" />
+		<text id="dialogwin_nomoney_clean_copy" name="Du hast nicht genug Cafédollar, um deinen Herd zu putzen." />
+		<text id="dialogwin_nomoney_copy" name="Oops, du hast leider nicht genug Cafédollar/Gold, um diesen Artikel zu kaufen!" />
 		<text id="dialogwin_nomoney_courier" name="Du hast nicht genug Cafédollar/Gold, um den Kurier zu bezahlen!" />
 		<text id="dialogwin_nomoney_instantcook_copy" name="Du hast nicht genug Gold, um sofort fertig zu kochen." />
 		<text id="dialogwin_nomoney_moregold" name="Cafédollar/Gold kaufen" />
@@ -713,21 +713,21 @@
 		<text id="dialogwin_nomoney_title" name="Nicht genug Cafédollar/Gold" />
 		<text id="dialogwin_noreward_copy" name="Die Belohnung hat sich leider schon ein anderer Spieler geholt!" />
 		<text id="dialogwin_noreward_title" name="Schade!" />
-		<text id="dialogwin_perfectdish_copy" name="Du hast heute {0} perfekt gekocht!\nGib Deinen Freunden doch ein paar extra Portionen ab!" />
+		<text id="dialogwin_perfectdish_copy" name="Du hast heute {0} perfekt gekocht!\nGib deinen Freunden doch ein paar extra Portionen ab!" />
 		<text id="dialogwin_perfectdish_title" name="Perfekt!" />
-		<text id="dialogwin_presentreceived_copy" name="Dein Willkommensgeschenk von {0} Gold wurde Deinem Konto hinzugefügt." />
+		<text id="dialogwin_presentreceived_copy" name="Dein Willkommensgeschenk von {0} Gold wurde deinem Konto hinzugefügt." />
 		<text id="dialogwin_presentreceived_title" name="Geschenk erhalten!" />
 		<text id="dialogwin_presentreminder_btn_send" name="Abschicken" />
 		<text id="dialogwin_presentreminder_copy1" name="Einfach Gold-Link in der Email anklicken und {0} Gold kassieren!" />
 		<text id="dialogwin_presentreminder_copy2" name="Ja, jetzt {0} Gold an meine Email-Adresse schicken:" />
 		<text id="dialogwin_presentreminder_title" name="{0} Gold für Dich!" />
-		<text id="dialogwin_receiveitem_copy" name="Deine Belohnung befindet sich in Deiner Geschenkbox!" />
+		<text id="dialogwin_receiveitem_copy" name="Deine Belohnung befindet sich in deiner Geschenkbox!" />
 		<text id="dialogwin_receiveitem_title" name="Hurra!" />
-		<text id="dialogwin_receivemoney_copy" name="Deine Belohnung wurde Dir bereits gutgeschrieben!" />
+		<text id="dialogwin_receivemoney_copy" name="Deine Belohnung wurde dir bereits gutgeschrieben!" />
 		<text id="dialogwin_receivemoney_title" name="Glückwunsch!" />
 		<text id="dialogwin_refreshfood_btn_clean" name="Putzen" />
 		<text id="dialogwin_refreshfood_btn_refresh" name="Essen retten" />
-		<text id="dialogwin_refreshfood_title" name="Möchtest Du Dein Essen\nretten?" />
+		<text id="dialogwin_refreshfood_title" name="Möchtest du dein Essen\nretten?" />
 		<text id="dialogwin_register_agbs" name="AGB akzeptieren" />
 		<text id="dialogwin_register_mail" name="E-Mail" />
 		<text id="dialogwin_register_password" name="Passwort" />
@@ -741,23 +741,23 @@
 		<text id="dialogwin_settings_medium" name="Mittel" />
 		<text id="dialogwin_settings_quality" name="Qualität" />
 		<text id="dialogwin_shippingconfirmation_copy1" name="Klicke den Link in der Email, um das das Gold abzuholen." />
-		<text id="dialogwin_shippingconfirmation_copy2" name="Email noch nicht angekommen? Einige Minuten kann es schon dauern. Wenn dann auch im Spam-Ordner nichts ist, hilft Dir unser Support gerne weiter." />
+		<text id="dialogwin_shippingconfirmation_copy2" name="Email noch nicht angekommen? Einige Minuten kann es schon dauern. Wenn dann auch im Spam-Ordner nichts ist, hilft dir unser Support gerne weiter." />
 		<text id="dialogwin_shippingconfirmation_title" name="Gold-Email unterwegs!" />
-		<text id="dialogwin_smoothiemakerhelp_copy" name="Hier kannst Du Getränke mixen und an Deine Gäste servieren. Dazu wähle ein Getränk aus und klick auf &quot;Mixen&quot;.  Um ein Getränk an einen Gast zu servieren klicke einfache die &quot;durstigen&quot; Gäste an bevor sie Platz genommen haben. Die &quot;durstigen&quot; Gäste erkennst Du am Icon über ihrem Kopf." />
+		<text id="dialogwin_smoothiemakerhelp_copy" name="Hier kannst du Getränke mixen und an deine Gäste servieren. Dazu wähle ein Getränk aus und klick auf &quot;Mixen&quot;.  Um ein Getränk an einen Gast zu servieren klicke einfache die &quot;durstigen&quot; Gäste an bevor sie Platz genommen haben. Die &quot;durstigen&quot; Gäste erkennst du am Icon über ihrem Kopf." />
 		<text id="dialogwin_smoothiemakerhelp_title" name="Wie verkaufe ich Getränke?" />
 		<text id="dialogwin_smoothiemaker_allserved_copy" name="Du hast alle Portionen serviert! Warte bis der Frosty leer ist um neue Getränke zu produzieren!" />
 		<text id="dialogwin_smoothiemaker_nofrosty_btn_toshop" name="Zum Shop" />
-		<text id="dialogwin_smoothiemaker_nofrosty_copy" name="Du musst Dir erst einen Frosty kaufen, um Getränke zu servieren!" />
+		<text id="dialogwin_smoothiemaker_nofrosty_copy" name="Du musst dir erst einen Frosty kaufen, um Getränke zu servieren!" />
 		<text id="dialogwin_smoothiemaker_nomoney_copy" name="Du hast nicht genug Cafédollar/Gold für dieses Getränk!" />
 		<text id="dialogwin_smoothiemaker_noservings_copy" name="Du hast keine Getränke mehr! Mixe doch etwas Neues!" />
-		<text id="dialogwin_smoothiemaker_onlyonebuy" name="Du darfst nur einen Frosty in Deinem Café platzieren!" />
+		<text id="dialogwin_smoothiemaker_onlyonebuy" name="Du darfst nur einen Frosty in deinem Café platzieren!" />
 		<text id="dialogwin_smoothiemaker_txt_title" name="FROSTY" />
 		<text id="dialogwin_staffmanagement_btn_fire" name="Feuern" />
 		<text id="dialogwin_staffmanagement_favorite" name="Tätigkeit?" />
 		<text id="dialogwin_staffmanagement_favorite0" name="Abräumen" />
 		<text id="dialogwin_staffmanagement_favorite100" name="Servieren" />
 		<text id="dialogwin_staffmanagement_fire" name="Entlassen?" />
-		<text id="dialogwin_staffmanagement_renamecopy" name="Gib Deinem Kellner einen neuen Namen:" />
+		<text id="dialogwin_staffmanagement_renamecopy" name="Gib deinem Kellner einen neuen Namen:" />
 		<text id="dialogwin_staffmanagement_renametitle" name="Umbenennen?" />
 		<text id="dialogwin_staff_hire" name="Anstellen" />
 		<text id="dialogwin_staff_management" name="Verwalten" />
@@ -765,7 +765,7 @@
 		<text id="dialogwin_staff_title" name="Deine Kellner" />
 		<text id="dialogwin_welcomeback_text" name="Du erhälst als Geschenk:{0} Gold" />
 		<text id="dialogwin_welcomeback_text2" name="Du erhälst als Geschenk:{0} Gold und 3 coole Fancy Zutaten." />
-		<text id="dialogwin_welcomeback_text3" name="Nutze den Bonus und begeistere Deine Kunden mit spitzen Gerichten und einem tollen Cafe." />
+		<text id="dialogwin_welcomeback_text3" name="Nutze den Bonus und begeistere deine Kunden mit spitzen Gerichten und einem tollen Cafe." />
 		<text id="dialogwin_welcomeback_title" name="Willkommen Zurück {0}!" />
 		<text id="dialogwin_wheeloffortune_beforespin" name="Drehe das Glücksrad und gewinne tolle Preise!" />
 		<text id="dialogwin_wheeloffortune_btn_go" name="Drehen!" />
@@ -776,14 +776,14 @@
 		<text id="dialogwin_wheeloffortune_info1" name="Jeder weitere Dreh kostet ein Gold!" />
 		<text id="dialogwin_wheeloffortune_nomoney" name="Du hast nicht genug Gold, um das Glücksrad zu drehen!" />
 		<text id="dialogwin_wheeloffortune_noregister" name="Du darfst nur als registrierter Spieler das Glücksrad drehen!" />
-		<text id="dialogwin_wheeloffortune_nospace" name="Du hast keinen Platz in Deiner Geschenkbox für Deine Gewinne! Schaffe Platz, dann kannst Du das Glücksrad drehen!" />
+		<text id="dialogwin_wheeloffortune_nospace" name="Du hast keinen Platz in deiner Geschenkbox für deine Gewinne! Schaffe Platz, dann kannst du das Glücksrad drehen!" />
 		<text id="dialogwin_wheeloffortune_title" name="Das Glücksrad!" />
 		<text id="dialogwin_wheeloffortune_tryagain" name="Versuch&apos; es doch gleich nochmal!" />
 		<text id="dialogwin_wheeloffortune_wonbet" name="Herzlichen Glückwunsch! Dein Preis:" />
-		<text id="dialogwin_wheeloffortune_woncash" name="Herzlichen Glückwunsch! Dein Preis wurde Dir bereits gut geschrieben!" />
-		<text id="dialogwin_wheeloffortune_wonfood" name="Herzlichen Glückwunsch! Dein Preis befindet sich in Deiner Geschenkbox!" />
+		<text id="dialogwin_wheeloffortune_woncash" name="Herzlichen Glückwunsch! Dein Preis wurde dir bereits gut geschrieben!" />
+		<text id="dialogwin_wheeloffortune_wonfood" name="Herzlichen Glückwunsch! Dein Preis befindet sich in deiner Geschenkbox!" />
 		<text id="dialogwin_wheeloffortune_wongold" name="Du hast den Goldtopf gewonnen!" />
-		<text id="dialogwin_wheeloffortune_wonitem" name="Herzlichen Glückwunsch! Dein Preis befindet sich in Deinem Lager!" />
+		<text id="dialogwin_wheeloffortune_wonitem" name="Herzlichen Glückwunsch! Dein Preis befindet sich in deinem Lager!" />
 	</dialogs>
 	<error_codes>
 		<text id="achievement_error" name="Auszeichnung" />
@@ -791,19 +791,19 @@
 		<text id="cafechat_errorcode_23" name="Deine Chatfunktion wurde vom Administrator vorübergehend deaktiviert." />
 		<text id="cafechat_errorcode_24" name="Bitte spam nicht den Chat voll!" />
 		<text id="cafewalk_errorcode_1" name="Achtung!" />
-		<text id="cafewalk_errorcode_23" name="An diese Stelle kannst Du nicht laufen." />
+		<text id="cafewalk_errorcode_23" name="An diese Stelle kannst du nicht laufen." />
 		<text id="cafe_error" name="Achtung!" />
 		<text id="changepassword_error" name="Passwortänderung" />
 		<text id="changepassword_errorcode_0" name="Passwort wurde erfolgreich geändert!" />
 		<text id="changepassword_errorcode_1" name="Fehler" />
-		<text id="changepassword_errorcode_10" name="Sorry, aber das ist nicht Dein altes Passwort." />
+		<text id="changepassword_errorcode_10" name="Sorry, aber das ist nicht dein altes Passwort." />
 		<text id="coop_errorcode_3" name="Dein Level ist zu niedrig um an diesem Co-Op teilzunehmen.\n Du musst mindestens ein Gericht freigeschaltet haben." />
 		<text id="coop_errorcode_7" name="Du kannst nur bis Level {0} an diesem Co-Op teilnehmen." />
 		<text id="coop_errorcode_85" name="Diese Co-Op ist bereits voll besetzt." />
 		<text id="courier_error" name="Lieferprobleme" />
 		<text id="courier_errorcode_40" name="Deine Lagerkapazität reicht nicht aus!" />
 		<text id="courier_errorcode_42" name="Mittlerweile ist die Zutat auch im normalen Shop erhältlich, schau schnell nach!" />
-		<text id="courier_errorcode_43" name="Der Kurier ist überlastet und kann Deine Ware nicht liefern." />
+		<text id="courier_errorcode_43" name="Der Kurier ist überlastet und kann deine Ware nicht liefern." />
 		<text id="createavatar_error" name="Achtung!" />
 		<text id="createavatar_errorcode_12" name="Der Name ist bereits vergeben." />
 		<text id="createavatar_errorcode_15" name="Der User hat schon einen Avatar." />
@@ -812,34 +812,34 @@
 		<text id="createavatar_error_nogender" name="Bitte wähle einen Charakter aus!" />
 		<text id="editbuy_errorcode_1" name="Achtung!" />
 		<text id="editbuy_errorcode_3" name="Du hast noch nicht das mindest Level erreicht um diesen Artikel kaufen zu können!" />
-		<text id="editbuy_errorcode_38" name="Du kannst nur im Umbau-Modus Dein Café verändern." />
-		<text id="editbuy_errorcode_39" name="Die Position ist ungültig, zieh das Objekt an eine freie Stelle in Deinem Café." />
+		<text id="editbuy_errorcode_38" name="Du kannst nur im Umbau-Modus dein Café verändern." />
+		<text id="editbuy_errorcode_39" name="Die Position ist ungültig, zieh das Objekt an eine freie Stelle in deinem Café." />
 		<text id="editextend_errorcode_1" name="Achtung!" />
-		<text id="editextend_errorcode_38" name="Du kannst nur im Umbau-Modus Dein Café verändern." />
-		<text id="editextend_errorcode_53" name="Diese Erweiterung hast Du schon." />
-		<text id="editextend_errorcode_54" name="Diese Erweiterung darfst Du noch nicht kaufen." />
+		<text id="editextend_errorcode_38" name="Du kannst nur im Umbau-Modus dein Café verändern." />
+		<text id="editextend_errorcode_53" name="Diese Erweiterung hast du schon." />
+		<text id="editextend_errorcode_54" name="Diese Erweiterung darfst du noch nicht kaufen." />
 		<text id="editmode_errorcode_1" name="Achtung!" />
 		<text id="editmoveobj_errorcode_1" name="Achtung!" />
-		<text id="editmoveobj_errorcode_38" name="Du kannst nur im Umbau-Modus Dein Café verändern." />
-		<text id="editmoveobj_errorcode_39" name="Die Position ist ungültig, zieh das Objekt an eine freie Stelle in Deinem Café." />
+		<text id="editmoveobj_errorcode_38" name="Du kannst nur im Umbau-Modus dein Café verändern." />
+		<text id="editmoveobj_errorcode_39" name="Die Position ist ungültig, zieh das Objekt an eine freie Stelle in deinem Café." />
 		<text id="editrotateobj_errorcode_1" name="Achtung!" />
-		<text id="editrotateobj_errorcode_38" name="Du kannst nur im Umbau-Modus Dein Café verändern." />
-		<text id="editrotateobj_errorcode_39" name="Die Position ist ungültig, zieh das Objekt an eine freie Stelle in Deinem Café." />
+		<text id="editrotateobj_errorcode_38" name="Du kannst nur im Umbau-Modus dein Café verändern." />
+		<text id="editrotateobj_errorcode_39" name="Die Position ist ungültig, zieh das Objekt an eine freie Stelle in deinem Café." />
 		<text id="editsell_errorcode_1" name="Achtung!" />
 		<text id="editsell_errorcode_32" name="Der Artikel befindet sich nicht im Lager." />
-		<text id="editsell_errorcode_38" name="Du kannst nur im Umbau-Modus Dein Café verändern." />
-		<text id="editsell_errorcode_39" name="Die Position ist ungültig, zieh das Objekt an eine freie Stelle in Deinem Café." />
+		<text id="editsell_errorcode_38" name="Du kannst nur im Umbau-Modus dein Café verändern." />
+		<text id="editsell_errorcode_39" name="Die Position ist ungültig, zieh das Objekt an eine freie Stelle in deinem Café." />
 		<text id="editstoreobj_errorcode_1" name="Achtung!" />
 		<text id="editstoreobj_errorcode_37" name="Auf diesem Artikel befindet sich noch ein Gericht!" />
-		<text id="editstoreobj_errorcode_38" name="Du kannst nur im Umbau-Modus Dein Café verändern." />
-		<text id="editstoreobj_errorcode_39" name="Die Position ist ungültig, zieh das Objekt an eine freie Stelle in Deinem Café." />
+		<text id="editstoreobj_errorcode_38" name="Du kannst nur im Umbau-Modus dein Café verändern." />
+		<text id="editstoreobj_errorcode_39" name="Die Position ist ungültig, zieh das Objekt an eine freie Stelle in deinem Café." />
 		<text id="editstoreobj_errorcode_51" name="Das Feld ist leer, hier gibts nichts zu verkaufen." />
 		<text id="editstoreobj_removefailmin_counter" name="Du musst mind. einen Tresen haben." />
 		<text id="editstoreobj_removefailmin_fridge" name="Du musst mind. einen Kühlschrank haben." />
 		<text id="editstoreobj_removefailmin_stove" name="Du musst mind. einen Herd haben." />
 		<text id="editstoreobj_removefailmin_title" name="Achtung!" />
 		<text id="editstoreobj_removefail_counter" name="Der Tresen muss leer sein." />
-		<text id="editstoreobj_removefail_door" name="Du musst Deine Tür behalten." />
+		<text id="editstoreobj_removefail_door" name="Du musst deine Tür behalten." />
 		<text id="editstoreobj_removefail_fridge" name="Du hast zu viele Zutaten." />
 		<text id="editstoreobj_removefail_stove" name="Der Herd muss leer sein." />
 		<text id="editstoreobj_removefail_title" name="Achtung!" />
@@ -849,20 +849,20 @@
 		<text id="fullscreenerror_msg_title" name="Vollbild:" />
 		<text id="gift_error" name="Geht nicht!" />
 		<text id="gift_errorcode_20" name="Du hast keinen Tresen frei, um dieses Gericht zu servieren." />
-		<text id="gift_errorcode_40" name="Du hast keinen Platz in Deinem Kühlschrank, um diese Zutat zu lagern." />
+		<text id="gift_errorcode_40" name="Du hast keinen Platz in deinem Kühlschrank, um diese Zutat zu lagern." />
 		<text id="gift_errorcode_5" name="Die Action kann nicht durchgeführt werden. Geschenk ist unbekannt" />
 		<text id="invitefriend_error" name="Freund einladen ist leider fehlgeschlagen." />
 		<text id="invitefriend_errorcode_13" name="Dieser Spieler ist bereits registriert!" />
 		<text id="invitefriend_errorcode_14" name="Ungültige E-Mail Adresse!" />
 		<text id="jobrefill_error" name="Geht nicht!" />
 		<text id="jobrefill_errorcode_1" name="Die Jobberechtigungen sind zur Zeit ausverkauft." />
-		<text id="jobrefill_errorcode_61" name="Du kannst nur einmal pro Tag Deine Jobberechtigungen auffüllen." />
+		<text id="jobrefill_errorcode_61" name="Du kannst nur einmal pro Tag deine Jobberechtigungen auffüllen." />
 		<text id="joincafe_error" name="Geht nicht!" />
 		<text id="joincafe_errorcode_20" name="Geschlossene Gesellschaft. Da passt leider keiner mehr rein." />
 		<text id="joincafe_errorcode_21" name="Du bist doch schon in Diesem Café!" />
 		<text id="joincafe_errorcode_22" name="Das Café gibt es leider gar nicht!" />
 		<text id="level_error" name="Café ist fehlerhaft. Bitte benachrichtige den Support." />
-		<text id="level_errorcode_1" name="Dein Café konnte nicht geöffnet werden. Wende Dich bitte an den Cappuccino-Support." />
+		<text id="level_errorcode_1" name="Dein Café konnte nicht geöffnet werden. Wende dich bitte an den Cappuccino-Support." />
 		<text id="login_error" name="Achtung!" />
 		<text id="login_errorcode_1" name="Fehler" />
 		<text id="login_errorcode_12" name="User ist bereits angemeldet." />
@@ -876,80 +876,80 @@
 		<text id="lostpassword_errorcode_11" name="Unter dieser Adresse ist keine User registriert!" />
 		<text id="marketplace_error" name="Marktplatz" />
 		<text id="marketplace_errorcode_20" name="Der Marktplatz ist leider voll, versuche es später noch einmal." />
-		<text id="marketplace_errorcode_21" name="Du befindest Dich bereits auf dem Marktplatz." />
+		<text id="marketplace_errorcode_21" name="Du befindest dich bereits auf dem Marktplatz." />
 		<text id="npcfire_errorcode_1" name="Dein Kellner konnte nicht gefeuert werden." />
 		<text id="npchire_errorcode_1" name="Der neue Kellner konnte nicht eingestellt werden." />
 		<text id="npcrename_errorcode_12" name="Der Name ist ungültig!" />
 		<text id="npc_error" name="Achtung!" />
 		<text id="register_error" name="Registrieren fehlgeschlagen" />
 		<text id="register_errorcode_1" name="Fehler" />
-		<text id="register_errorcode_10" name="Das Passwort, das Du eingegeben hast ist nicht korrekt." />
+		<text id="register_errorcode_10" name="Das Passwort, das du eingegeben hast ist nicht korrekt." />
 		<text id="register_errorcode_13" name="Unter dieser E-Mail ist bereits ein Spieler angemeldet, Sorry." />
-		<text id="register_errorcode_14" name="Die E-Mail Adresse, die Du eingegeben hast ist nicht korrekt." />
-		<text id="server_msg_10" name="Der Server wird neu gestartet. Gleich geht es weiter. Logge Dich bitte aus." />
+		<text id="register_errorcode_14" name="Die E-Mail Adresse, die du eingegeben hast ist nicht korrekt." />
+		<text id="server_msg_10" name="Der Server wird neu gestartet. Gleich geht es weiter. Logge dich bitte aus." />
 		<text id="server_msg_title" name="Server Message:" />
 		<text id="shopbuy_error" name="Kein Platz!" />
 		<text id="shopbuy_errorcode_40" name="Dein Kühlschrank ist bereits voll!" />
 		<text id="shopdelete_errorcode_41" name="Artikel nicht vorhanden" />
-		<text id="smoothiemaker_error_alreadyserved" name="Dieser Gast wurde bereits von Dir bedient!" />
+		<text id="smoothiemaker_error_alreadyserved" name="Dieser Gast wurde bereits von dir bedient!" />
 		<text id="useraction_error" name="Achtung!" />
 		<text id="useraction_errorcode_2" name="Feierabend! Du hast erstmal genug gearbeitet!" />
 		<text id="useraction_errorcode_62" name="Du musst erst ein Gericht vom Tresen holen." />
-		<text id="useraction_errorcode_63" name="Bevor Du abräumen gehst, bringe das Gericht zu einem Gast oder zurück zum Tresen." />
+		<text id="useraction_errorcode_63" name="Bevor du abräumen gehst, bringe das Gericht zu einem Gast oder zurück zum Tresen." />
 		<text id="versioncheck_error" name="Alte Version!" />
 		<text id="versioncheck_errorcode_1" name="Aktualisiere die Seite." />
 		<text id="waiter_name_invalide" name="Dieser Kellnername ist nicht erlaubt." />
 	</error_codes>
 	<feature>
-		<text id="featureDialog_0_text_0" name="Neue Dekorationen, um Dein Café noch schöner zu gestalten!" />
-		<text id="featureDialog_0_text_0_sozial" name="Lass Deine Arbeit im Café belohnen!" />
-		<text id="featureDialog_0_text_1" name="Lass Deine Arbeit mit extra Cafédoller, XP oder Gold belohnen!" />
+		<text id="featureDialog_0_text_0" name="Neue Dekorationen, um dein Café noch schöner zu gestalten!" />
+		<text id="featureDialog_0_text_0_sozial" name="Lass deine Arbeit im Café belohnen!" />
+		<text id="featureDialog_0_text_1" name="Lass deine Arbeit mit extra Cafédoller, XP oder Gold belohnen!" />
 		<text id="featureDialog_0_text_1_sozial" name="Neue Dekorationen im Shop!" />
 		<text id="featureDialog_0_text_2" name="Finde heraus, wer noch Café spielt!" />
 		<text id="featureDialog_0_text_2_sozial" name="Finde heraus, wer noch Café spielt!" />
-		<text id="featureDialog_10_text_0" name="Du brauchst mehr Platz für deine Gäste oder Dekorationen? Dann besorg Dir jetzt die neuen Erweiterungen!" />
-		<text id="featureDialog_11_text_0" name="Neue und spannende Co-Ops für Dich und Deine Freunde!" />
-		<text id="featureDialog_16_text_0" name="So ein Ohrenschmaus! Erlebe Dein Café jetzt mit Sound!" />
+		<text id="featureDialog_10_text_0" name="Du brauchst mehr Platz für deine Gäste oder Dekorationen? Dann besorg dir jetzt die neuen Erweiterungen!" />
+		<text id="featureDialog_11_text_0" name="Neue und spannende Co-Ops für dich und deine Freunde!" />
+		<text id="featureDialog_16_text_0" name="So ein Ohrenschmaus! Erlebe dein Café jetzt mit Sound!" />
 		<text id="featureDialog_16_text_1" name="Werde zum Kuchenbäcker mit der neuen Kuchenbäckerei Dekoration!" />
-		<text id="featureDialog_17_text_0" name="Frööööhliche Weihnachten! Hol Dir den Nordpol in Dein Café mit der wunderbar festlichen Weihnachtsdeko!" />
+		<text id="featureDialog_17_text_0" name="Frööööhliche Weihnachten! Hol dir den Nordpol in dein Café mit der wunderbar festlichen Weihnachtsdeko!" />
 		<text id="featureDialog_18_text_0" name="Der Geist der Weihnacht zieht umher mit neuen Weihnachtsgerichten und neuen Co-Ops!" />
-		<text id="featureDialog_19_text_0" name="Steigere die Beliebheit Deines Cafés und mache es zum Edelsten weit und breit mit dem neuen Luxuswert Deiner Möbel und Dekorationen!" />
-		<text id="featureDialog_1_text_0" name="Lass Deine Arbeit im Café belohnen!" />
+		<text id="featureDialog_19_text_0" name="Steigere die Beliebheit deines Cafés und mache es zum Edelsten weit und breit mit dem neuen Luxuswert deiner Möbel und Dekorationen!" />
+		<text id="featureDialog_1_text_0" name="Lass deine Arbeit im Café belohnen!" />
 		<text id="featureDialog_1_text_1" name="Neue Dekorationen im Shop!" />
 		<text id="featureDialog_1_text_2" name="Finde heraus, wer noch Café spielt!" />
-		<text id="featureDialog_20_text_0" name="Mach aus Deinen Gerichten leckere Sterne-Menüs!" />
+		<text id="featureDialog_20_text_0" name="Mach aus deinen Gerichten leckere Sterne-Menüs!" />
 		<text id="featureDialog_20_text_1" name="Letzte Chance auf Weihnachtsgerichte und Winterdekorationen!\nNur noch eine Woche!" />
-		<text id="featureDialog_21_text_0" name="Begeistere Deine Gäste mit neuen und leckeren Gerichten!" />
-		<text id="featureDialog_22_text_0" name="Neue Auszeichnungen erwarten Dich und helfen Dir noch erfolgreicher zu werden!" />
+		<text id="featureDialog_21_text_0" name="Begeistere deine Gäste mit neuen und leckeren Gerichten!" />
+		<text id="featureDialog_22_text_0" name="Neue Auszeichnungen erwarten dich und helfen dir noch erfolgreicher zu werden!" />
 		<text id="featureDialog_23_text_0" name="Jetzt noch mehr gemeinsames Kochen! Die neuen Co-Ops warten bereits auf Dich!" />
 		<text id="featureDialog_24_text_0" name="Der Osterhase war fleißig!\nDie neuen Osterdekorationen sind da!" />
 		<text id="featureDialog_24_text_1" name="Geflügel hat sich noch nie so gelohnt!\nEntdecke die Ente à l&apos;Orange!" />
-		<text id="featureDialog_25_text_0" name="Bist Du ein Glückspilz? Versuche Dein Glück beim neuen Muffin Bäcker!" />
-		<text id="featureDialog_26_text_0" name="Ist das Glück Dir treu? Finde es heraus beim neuen Glücksrad auf dem Marktplatz!" />
-		<text id="featureDialog_27_text_0" name="Steigere Deine Beliebtheit mit der Zuckerwattemaschine! Erhältlich beim Glücksrad!" />
+		<text id="featureDialog_25_text_0" name="Bist du ein Glückspilz? Versuche dein Glück beim neuen Muffin Bäcker!" />
+		<text id="featureDialog_26_text_0" name="Ist das Glück dir treu? Finde es heraus beim neuen Glücksrad auf dem Marktplatz!" />
+		<text id="featureDialog_27_text_0" name="Steigere deine Beliebtheit mit der Zuckerwattemaschine! Erhältlich beim Glücksrad!" />
 		<text id="featureDialog_28_text_0" name="Die Zuckerwattemaschine ist nur noch HEUTE beim Glücksrad verfügbar!" />
-		<text id="featureDialog_29_text_0" name="Ab jetzt kannst Du Deinen Charakter jederzeit umziehen!" />
+		<text id="featureDialog_29_text_0" name="Ab jetzt kannst du deinen Charakter jederzeit umziehen!" />
 		<text id="featureDialog_2_text_0" name="Triff dich und chatte mit anderen Spielern!" />
 		<text id="featureDialog_2_text_1" name="Neue Diner-Themen Austattung!" />
-		<text id="featureDialog_2_text_2" name="Baue Dein Café noch weiter aus!" />
-		<text id="featureDialog_30_text_0" name="Mehr Platz in Deinem Kühlschrank! Von nun an werden die Fancy Zutaten nicht mehr zur Kapazität von Deinem Kühlschrank mitgezählt. Du kannst so viele lagern wie Du willst." />
-		<text id="featureDialog_30_text_1" name="Ab jetzt kannst Du Deine Erweiterungen auch für Cafédollar kaufen!" />
-		<text id="featureDialog_31_text_0" name="Mehr Platz in Deinem Kühlschrank! Von nun an werden die Fancy Zutaten nicht mehr zur Kapazität von Deinem Kühlschrank mitgezählt. Du kannst so viele lagern wie Du willst." />
-		<text id="featureDialog_31_text_1" name="Ab jetzt sind Deine Erweiterungen umsonst, wenn Du genug Freunde hast!" />
-		<text id="featureDialog_32_text_0" name="Haben Deine Gäste Durst? Dann hol&apos; Dir schnell den Frosty und erfrische Deine Gäste!" />
-		<text id="featureDialog_33_text_0" name="Entdecke das Omelett! Das neue und super kurze Gericht in Deinem Kochbuch!" />
+		<text id="featureDialog_2_text_2" name="Baue dein Café noch weiter aus!" />
+		<text id="featureDialog_30_text_0" name="Mehr Platz in deinem Kühlschrank! Von nun an werden die Fancy Zutaten nicht mehr zur Kapazität von deinem Kühlschrank mitgezählt. Du kannst so viele lagern wie du willst." />
+		<text id="featureDialog_30_text_1" name="Ab jetzt kannst du deine Erweiterungen auch für Cafédollar kaufen!" />
+		<text id="featureDialog_31_text_0" name="Mehr Platz in deinem Kühlschrank! Von nun an werden die Fancy Zutaten nicht mehr zur Kapazität von deinem Kühlschrank mitgezählt. Du kannst so viele lagern wie du willst." />
+		<text id="featureDialog_31_text_1" name="Ab jetzt sind deine Erweiterungen umsonst, wenn du genug Freunde hast!" />
+		<text id="featureDialog_32_text_0" name="Haben deine Gäste Durst? Dann hol&apos; dir schnell den Frosty und erfrische deine Gäste!" />
+		<text id="featureDialog_33_text_0" name="Entdecke das Omelett! Das neue und super kurze Gericht in deinem Kochbuch!" />
 		<text id="featureDialog_3_text_0" name="Verdiene mit Kellnerjobs in anderen Cafés extra Cafédollar und XP!" />
-		<text id="featureDialog_3_text_1" name="Neue leckere Gerichte, die Deine Gäste begeistern werden!" />
+		<text id="featureDialog_3_text_1" name="Neue leckere Gerichte, die deine Gäste begeistern werden!" />
 		<text id="featureDialog_4_text_0" name="Lerne neue Freunde auf dem Marktplatz kennen!" />
-		<text id="featureDialog_4_text_1" name="Neue Diner-Dekorationen, um Dein Café noch individueller zu gestalten!" />
-		<text id="featureDialog_5_text_0" name="Steigere Deinen Gewinn und die XP Deiner Gerichte mit den neuen Fancy Zutaten!" />
+		<text id="featureDialog_4_text_1" name="Neue Diner-Dekorationen, um dein Café noch individueller zu gestalten!" />
+		<text id="featureDialog_5_text_0" name="Steigere deinen Gewinn und die XP deiner Gerichte mit den neuen Fancy Zutaten!" />
 		<text id="featureDialog_6_text_0" name="Erhalte und verschicke Geschenke über die neue Geschenkbox!" />
-		<text id="featureDialog_6_text_1" name="Steigere Deinen Gewinn und die XP Deiner Gerichte mit den neuen Fancy Zutaten!" />
-		<text id="featureDialog_7_text_0" name="Bring den wilden Westen in Dein Café, mit der neuen Saloon Ausstattung!" />
-		<text id="featureDialog_8_text_0" name="Neue atemberaubende Gerichte die Deine Gäste begeistern werden!" />
-		<text id="featureDialog_9_text_0" name="Finde heraus wo Du stehst, in der neuen Rangliste!" />
+		<text id="featureDialog_6_text_1" name="Steigere deinen Gewinn und die XP deiner Gerichte mit den neuen Fancy Zutaten!" />
+		<text id="featureDialog_7_text_0" name="Bring den wilden Westen in dein Café, mit der neuen Saloon Ausstattung!" />
+		<text id="featureDialog_8_text_0" name="Neue atemberaubende Gerichte die deine Gäste begeistern werden!" />
+		<text id="featureDialog_9_text_0" name="Finde heraus wo du stehst, in der neuen Rangliste!" />
 		<text id="featureDialog_9_text_1" name="Im Team seid ihr stark! Testet es aus, mit den neuen Co-Ops!" />
-		<text id="featureDialog_9_text_2" name="Mach Dich bereit Dich richtig zu gruseln, mit der neuen Halloween Ausstattung!" />
+		<text id="featureDialog_9_text_2" name="Mach dich bereit dich richtig zu gruseln, mit der neuen Halloween Ausstattung!" />
 		<text id="featureDialog_title" name="Neue Features" />
 		<text id="limitedfeatureDialog_12_copy_0" name="Jetzt Halloween Dekorationen kaufen!\nNur noch begrenzte Zeit verfügbar!" />
 		<text id="limitedfeatureDialog_12_copy_1" name="NOCH 4 TAGE!" />
@@ -968,7 +968,7 @@
 	</feature>
 	<feeds>
 		<text id="descriptionfeedcafe" name="Ich habe gerade Cappuccino Café installiert. Willst du auch dein eigenes Lokal eröffnen und leckere Gerichte kochen? Dann schau doch mal rein!" />
-		<text id="descriptionlongcafe" name="Cappuccino Café ist der brandneue Spieletitel der Cappuccino. Eröffne Dein eigenes Café und begeistere die zahlreichen Kunden mit Deinen Kochkünsten. Entscheide selbst, welche Gerichte auf Deiner Speisekarte stehen und kaufe frische Zutaten für Deine Rezepte. Stelle Deine Freunde als Kellner ein und mache Dein Café zum angesagtesten Treffpunkt der Stadt." />
+		<text id="descriptionlongcafe" name="Cappuccino Café ist der brandneue Spieletitel der Cappuccino. Eröffne dein eigenes Café und begeistere die zahlreichen Kunden mit deinen Kochkünsten. Entscheide selbst, welche Gerichte auf deiner Speisekarte stehen und kaufe frische Zutaten für deine Rezepte. Stelle deine Freunde als Kellner ein und mache dein Café zum angesagtesten Treffpunkt der Stadt." />
 	</feeds>
 	<ingame_tooltips>
 		<text id="fridgetooltip_line1" name="Kühlschrank" />
@@ -998,9 +998,9 @@
 		<text id="wheeloffortunetooltip_line3" name="Ein Spiel gratis" />
 	</ingame_tooltips>
 	<ingredients>
-		<text id="ingredient_cookfest" name="Event Ingredients" />
-		<text id="ingredient_limelemon" name="Citrus" />
-		<text id="ingredient_citrus" name="Citrus" />
+		<text id="ingredient_cookfest" name="Event Zutaten" />
+		<text id="ingredient_limelemon" name="Zitrus" />
+		<text id="ingredient_citrus" name="Zitrus" />
 		<text id="ingredient_apple" name="Äpfel" />
 		<text id="ingredient_bacon" name="Speck" />
 		<text id="ingredient_bakingmix" name="Backmix" />
@@ -1065,15 +1065,15 @@
 	<loggedin_msg id="" />
 	<panels>
 		<text id="panelwin_buddy_btn_morefriends" name="Mehr Freunde!" />
-		<text id="panelwin_deco_dragtip_copy" name="Um dieses Objekt zu verwenden, ziehe es in Dein Café." />
+		<text id="panelwin_deco_dragtip_copy" name="Um dieses Objekt zu verwenden, ziehe es in dein Café." />
 		<text id="panelwin_deco_dragtip_title" name="Hinweis" />
 		<text id="panelwin_deco_nomore_expansion" name="Noch stehen keine nächsten Erweiterungen zur Verfügung." />
-		<text id="panelwin_deco_objectcount_counter" name="Du musst Level {0} erreichen, um einen weiteren Tresen kaufen zu können. Oder Du ziehst einen alten Tresen aus dem Café hier rein, um einen anderen kaufen zu können." />
-		<text id="panelwin_deco_objectcount_fridge" name="Du musst Level {0} erreichen, um einen weiteren Kühlschrank kaufen zu können. Oder Du ziehst einen alten Kühlschrank aus dem Café hier rein, um einen anderen kaufen zu können." />
-		<text id="panelwin_deco_objectcount_nomore_counter" name="Erstmal kannst Du keine Tresen mehr kaufen!" />
-		<text id="panelwin_deco_objectcount_nomore_fridge" name="Erstmal kannst Du keine Kühlschränke mehr kaufen!" />
-		<text id="panelwin_deco_objectcount_nomore_stove" name="Erstmal kannst Du keine Herde mehr kaufen!" />
-		<text id="panelwin_deco_objectcount_stove" name="Du musst Level {0} erreichen, um einen weiteren Herd kaufen zu können. Oder Du ziehst einen alten Herd aus dem Café hier rein, um einen anderen kaufen zu können." />
+		<text id="panelwin_deco_objectcount_counter" name="Du musst Level {0} erreichen, um einen weiteren Tresen kaufen zu können. Oder du ziehst einen alten Tresen aus dem Café hier rein, um einen anderen kaufen zu können." />
+		<text id="panelwin_deco_objectcount_fridge" name="Du musst Level {0} erreichen, um einen weiteren Kühlschrank kaufen zu können. Oder du ziehst einen alten Kühlschrank aus dem Café hier rein, um einen anderen kaufen zu können." />
+		<text id="panelwin_deco_objectcount_nomore_counter" name="Erstmal kannst du keine Tresen mehr kaufen!" />
+		<text id="panelwin_deco_objectcount_nomore_fridge" name="Erstmal kannst du keine Kühlschränke mehr kaufen!" />
+		<text id="panelwin_deco_objectcount_nomore_stove" name="Erstmal kannst du keine Herde mehr kaufen!" />
+		<text id="panelwin_deco_objectcount_stove" name="Du musst Level {0} erreichen, um einen weiteren Herd kaufen zu können. Oder du ziehst einen alten Herd aus dem Café hier rein, um einen anderen kaufen zu können." />
 		<text id="panelwin_login_email" name="Username/ E-Mail" />
 		<text id="panelwin_login_login" name="LOGIN" />
 		<text id="panelwin_login_lostpassword" name="Passwort vergessen?" />
@@ -1088,10 +1088,10 @@
 		<text id="panelwin_social_goout" name="hat das Café verlassen" />
 		<text id="panelwin_social_gooutmarketplace" name="hat den Marktplatz verlassen" />
 		<text id="panelwin_social_noingamefriends" name="Du hast noch keine Freunde!" />
-		<text id="panelwin_social_noplayerincafe" name="Derzeit bist Du alleine hier." />
+		<text id="panelwin_social_noplayerincafe" name="Derzeit bist du alleine hier." />
 		<text id="panelwin_social_say" name=":" />
-		<text id="panelwin_social_standardanswer" name="Demnächst kannst Du hier mit anderen Spielern in Deinem Café chatten!" />
-		<text id="panelwin_social_welcome_marketplace" name="Willkommen! Klicke auf das Schwarze Brett, wenn Du einen Job suchst!" />
+		<text id="panelwin_social_standardanswer" name="Demnächst kannst du hier mit anderen Spielern in deinem Café chatten!" />
+		<text id="panelwin_social_welcome_marketplace" name="Willkommen! Klicke auf das Schwarze Brett, wenn du einen Job suchst!" />
 		<text id="panelwin_social_welcome_mycafe" name="Willkommen" />
 		<text id="panelwin_social_writeable" name="Nur registrierte Spieler ab Level 1 dürfen den Chat benutzen." />
 	</panels>
@@ -1841,9 +1841,9 @@
 	</recipes_fastfood>
 	<server>
 		<mail>
-			<text id="mail_invite_friend" name="Hi %s!&lt;br /&gt;&lt;br /&gt;Ich habe gerade das tolle Onlinespiel &quot;Cappuccino Café&quot; entdeckt.&lt;br /&gt;&lt;br /&gt;Über diesen Link kommst Du direkt zum Spiel:&lt;br /&gt;http://www.Cappuccinostudios.com/cafe/&lt;br /&gt;&lt;br /&gt;Melde Dich über den Link an, um kostenlos Deine eigenes Café bei &quot;Cappuccino Café&quot; zu erstellen.&lt;br /&gt;&lt;br /&gt;Finde heraus wie es ist dein eigenes Café zu haben. Koche leckere Mahlzeiten, bewirtschafte deine Gäste und richte dir ein Café ganz nach deinem Geschmack ein!&lt;br /&gt;&lt;br /&gt;Viel Spaß beim Spielen und viele Grüße, %s" />
-			<text id="mail_lost_pw" name="Hallo %s!&lt;br /&gt;&lt;br /&gt;Du erhältst diese automatische E-Mail, weil Du ein neues Passwort angefragt hast.&lt;br /&gt;Dein Passwort lautet: %s&lt;br /&gt;&lt;br /&gt;Über diesen Link kommst Du direkt zum Spiel:&lt;br /&gt;http://www.Cappuccinostudios.com/cafe/&lt;br /&gt;&lt;br /&gt;Bei Fragen und Problemen wende Dich bitte an support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;Wir wünschen Dir weiterhin viel Spaß beim Spielen!&lt;br /&gt;&lt;br /&gt;Dein Team von&lt;br /&gt;Cappuccinostudios.com" />
-			<text id="mail_registration" name="Hallo,&lt;br /&gt;&lt;br /&gt;vielen Dank für Deine Anmeldung und Herzlich Willkommen bei &quot;Cappuccino Café&quot;.&lt;br /&gt;&lt;br /&gt;Du kannst Dich jederzeit mit den folgenden Daten einloggen:&lt;br /&gt;E-Mail: %s&lt;br /&gt;Passwort: %s&lt;br /&gt;&lt;br /&gt;Über diesen Link kommst Du direkt zum Spiel:&lt;br /&gt;http://www.Cappuccinostudios.com/cafe/&lt;br /&gt;&lt;br /&gt;Bei Fragen und Problemen wende Dich bitte an support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;Wir wünschen Dir viel Spaß beim Spielen!&lt;br /&gt;&lt;br /&gt;Dein Team von&lt;br /&gt;Cappuccinostudios.com" />
+			<text id="mail_invite_friend" name="Hi %s!&lt;br /&gt;&lt;br /&gt;Ich habe gerade das tolle Onlinespiel &quot;Cappuccino Café&quot; entdeckt.&lt;br /&gt;&lt;br /&gt;Über diesen Link kommst du direkt zum Spiel:&lt;br /&gt;http://www.Cappuccinostudios.com/cafe/&lt;br /&gt;&lt;br /&gt;Melde dich über den Link an, um kostenlos deine eigenes Café bei &quot;Cappuccino Café&quot; zu erstellen.&lt;br /&gt;&lt;br /&gt;Finde heraus wie es ist dein eigenes Café zu haben. Koche leckere Mahlzeiten, bewirtschafte deine Gäste und richte dir ein Café ganz nach deinem Geschmack ein!&lt;br /&gt;&lt;br /&gt;Viel Spaß beim Spielen und viele Grüße, %s" />
+			<text id="mail_lost_pw" name="Hallo %s!&lt;br /&gt;&lt;br /&gt;Du erhältst diese automatische E-Mail, weil du ein neues Passwort angefragt hast.&lt;br /&gt;Dein Passwort lautet: %s&lt;br /&gt;&lt;br /&gt;Über diesen Link kommst du direkt zum Spiel:&lt;br /&gt;http://www.Cappuccinostudios.com/cafe/&lt;br /&gt;&lt;br /&gt;Bei Fragen und Problemen wende dich bitte an support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;Wir wünschen dir weiterhin viel Spaß beim Spielen!&lt;br /&gt;&lt;br /&gt;Dein Team von&lt;br /&gt;Cappuccinostudios.com" />
+			<text id="mail_registration" name="Hallo,&lt;br /&gt;&lt;br /&gt;vielen Dank für deine Anmeldung und Herzlich Willkommen bei &quot;Cappuccino Café&quot;.&lt;br /&gt;&lt;br /&gt;Du kannst dich jederzeit mit den folgenden Daten einloggen:&lt;br /&gt;E-Mail: %s&lt;br /&gt;Passwort: %s&lt;br /&gt;&lt;br /&gt;Über diesen Link kommst du direkt zum Spiel:&lt;br /&gt;http://www.Cappuccinostudios.com/cafe/&lt;br /&gt;&lt;br /&gt;Bei Fragen und Problemen wende dich bitte an support@Cappuccinostudios.com&lt;br /&gt;&lt;br /&gt;Wir wünschen dir viel Spaß beim Spielen!&lt;br /&gt;&lt;br /&gt;Dein Team von&lt;br /&gt;Cappuccinostudios.com" />
 		</mail>
 		<misc>
 			<text id="marketplace" name="Marktplatz" />
@@ -1940,8 +1940,8 @@
 		<text id="tt_CafeDekoShopPanel_btn_invitefriends" name="Du brauchst noch {0} Netzwerkfreunde, um diese Erweiterung zu kaufen!" />
 		<text id="tt_CafeDekoShopPanel_btn_sell" name="Objekt zum Verkaufen hierauf ziehen" />
 		<text id="tt_CafeDekoShopPanel_cashexpansion" name="Du musst Level {0} haben um diese Erweiterung für Cafédollar zu kaufen." />
-		<text id="tt_CafeDekoShopPanel_dragItem" name="Zieh mich in Dein Café" />
-		<text id="tt_CafeDekoShopPanel_invalidexpansion" name="Du benötigst noch die vorherige Erweiterung, bevor Du Dir die nächste kaufen kannst." />
+		<text id="tt_CafeDekoShopPanel_dragItem" name="Zieh mich in dein Café" />
+		<text id="tt_CafeDekoShopPanel_invalidexpansion" name="Du benötigst noch die vorherige Erweiterung, bevor du dir die nächste kaufen kannst." />
 		<text id="tt_CafeIngredientShopDialog_btn_addcash" name="Cafédollar/Gold hinzufügen" />
 		<text id="tt_CafeIngredientShopDialog_btn_all" name="Alles" />
 		<text id="tt_CafeIngredientShopDialog_btn_buy" name="Kaufen" />
@@ -1962,8 +1962,8 @@
 		<text id="tt_CafeMasteryDialog_broncestar" name="Koche mehr Portionen!" />
 		<text id="tt_CafeMasteryDialog_goldstar" name="Koche schneller!" />
 		<text id="tt_CafeMasteryDialog_silverstar" name="Bekomme mehr XP!" />
-		<text id="tt_CafeNamePanel_mc_luxury" name="Luxuswert Deines Cafés" />
-		<text id="tt_CafeNamePanel_mc_rating" name="Beliebtheit Deines Cafés" />
+		<text id="tt_CafeNamePanel_mc_luxury" name="Luxuswert deines Cafés" />
+		<text id="tt_CafeNamePanel_mc_rating" name="Beliebtheit deines Cafés" />
 		<text id="tt_CafeOptionPanel_btn_blockfriends" name="Freundschaftsanfragen blockieren" />
 		<text id="tt_CafeOptionPanel_btn_bugreport" name="Melde uns Fehler" />
 		<text id="tt_CafeOptionPanel_btn_changePass" name="Passwort ändern" />
@@ -2011,16 +2011,16 @@
 		<text id="tt_Social_Achievement_Friendscount" name="Anzahl Netzwerk-Freunde" />
 	</tooltips>
 	<tutorial>
-		<text id="tut_buymissingingredient_copy" name="An der &apos;0&apos; neben dem kleinen Kühlschrank bei den Zwiebeln kannst Du erkennen, dass Du keine mehr im Kühlschrank hast.\nDarunter siehst Du den Preis.\nKaufe einmal Zwiebeln!" />
-		<text id="tut_cafeopen_copy" name="Spitze! Die ersten Gäste werden nicht mehr lange auf sich warten lassen.\nJetzt weißt Du eigentlich alles, was Du für den Anfang wissen musst. Sieh dich einfach noch ein bisschen um.\n\nViel Spaß!" />
-		<text id="tut_cookmeal_copy" name="Dann wollen wir endlich mal zur Sache kommen!\nZeig dem Salat, was Du drauf hast!" />
-		<text id="tut_cookopenshop_copy" name="Hier sind die Gerichte mit ihren benötigten Zutaten, Zubereitungszeiten und Erträgen zu sehen.\nOh nein! Du hast keine Zwiebeln für den Gartensalat mehr - aber Du kannst welche kaufen." />
+		<text id="tut_buymissingingredient_copy" name="An der &apos;0&apos; neben dem kleinen Kühlschrank bei den Zwiebeln kannst du erkennen, dass du keine mehr im Kühlschrank hast.\nDarunter siehst du den Preis.\nKaufe einmal Zwiebeln!" />
+		<text id="tut_cafeopen_copy" name="Spitze! Die ersten Gäste werden nicht mehr lange auf sich warten lassen.\nJetzt weißt du eigentlich alles, was du für den Anfang wissen musst. Sieh dich einfach noch ein bisschen um.\n\nViel Spaß!" />
+		<text id="tut_cookmeal_copy" name="Dann wollen wir endlich mal zur Sache kommen!\nZeig dem Salat, was du drauf hast!" />
+		<text id="tut_cookopenshop_copy" name="Hier sind die Gerichte mit ihren benötigten Zutaten, Zubereitungszeiten und Erträgen zu sehen.\nOh nein! Du hast keine Zwiebeln für den Gartensalat mehr - aber du kannst welche kaufen." />
 		<text id="tut_cookpreparecook_copy" name="Das Wichtigste ist natürlich das Essen. Lass uns einen Gartensalat zubereiten. Klicke auf den Herd!" />
 		<text id="tut_instantcook2_copy" name="Benutze &apos;Sofort fertig kochen&apos;.\nDas kostet Gold und ist extrem praktisch." />
 		<text id="tut_instantcook_copy" name="Normalerweise braucht Gartensalat drei Minuten, bis er fertig ist, aber es gibt auch die Möglichkeit, das ganze abzukürzen, was wir jetzt einfach mal tun werden." />
 		<text id="tut_preparesteps_copy" name="Klick ein paarmal auf den Herd, um die einzelnen Zubereitungs-Schritte durchzugehen." />
-		<text id="tut_servedish_copy" name="Gut gemacht!\nJetzt musst Du das Essen nur noch servieren.\nDie zehn Portionen werden aber nicht sehr lange halten, also vergiss nicht, für Nachschub zu sorgen!" />
-		<text id="tut_start_copy" name="Herzlich Willkommen in Deinem Café, {0}!\nDiese kurze Einführung wird dir helfen, dich in der wunderbaren Welt der Gastronomie zurecht zu finden." />
+		<text id="tut_servedish_copy" name="Gut gemacht!\nJetzt musst du das Essen nur noch servieren.\nDie zehn Portionen werden aber nicht sehr lange halten, also vergiss nicht, für Nachschub zu sorgen!" />
+		<text id="tut_start_copy" name="Herzlich Willkommen in deinem Café, {0}!\nDiese kurze Einführung wird dir helfen, dich in der wunderbaren Welt der Gastronomie zurecht zu finden." />
 		<text id="tut_title" name="Einleitung!" />
 		<text id="tut_welcome_title" name="Willkommen!" />
 	</tutorial>
@@ -2029,7 +2029,7 @@
 			<text id="generic_alert_bug" name="Fehler" />
 			<text id="generic_alert_connection_failed_copy" name="Aktuell finden Wartungsarbeiten am Spiel statt. Versuch es bitte später nochmal!" />
 			<text id="generic_alert_connection_failed_title" name="Wartungsarbeiten!" />
-			<text id="generic_alert_connection_lost_copy" name="Die Verbindung zum Spielserver wurde unterbrochen. Bitte versuch Dich neu zu verbinden." />
+			<text id="generic_alert_connection_lost_copy" name="Die Verbindung zum Spielserver wurde unterbrochen. Bitte versuch dich neu zu verbinden." />
 			<text id="generic_alert_connection_lost_description" name="Aktuell finden Wartungsarbeiten statt, dass muss leider ab und zu sein. Um Updates und neue Features einzuspielen oder einen Fehler auszubügeln.&lt;br&gt;&lt;br&gt; Wir arbeiten mit Hochdruck, damit Ihr schnellstmöglich wieder spielen könnt." />
 			<text id="generic_alert_connection_lost_promo" name="Probiere doch in der Zwischenzeit eins unserer anderen Spiele aus." />
 			<text id="generic_alert_connection_lost_thanks" name="Vielen Dank für euer Verständnis!" />
@@ -2043,9 +2043,9 @@
 			<text id="generic_alert_win7chromebug" name="Sollte die Texteingabe nicht möglich sein, bitte die Strg-Taste drücken." />
 			<text id="generic_invalid_email_provider" name="Eine E-Mail-Adresse von diesem Anbieter ist nicht zugelassen!" />
 			<text id="generic_js_alert_firstsessiontracking_loading" name="Deine Internetverbindung scheint gerade sehr langsam zu sein. Versuch es doch später nochmal!" />
-			<text id="generic_js_alert_firstsessiontracking_registered" name="Wie gefällt Dir das Spiel und was kann man besser machen? Schreib uns Deine Meinung in unserem Cappuccino-Forum bzw. Gruppe!" />
-			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Achtung: Dein Spielstand wird nur gespeichert, wenn Du Dich registrierst!" />
-			<text id="generic_register_error_invalidemail" name="Die E-Mail Adresse, die Du eingegeben hast ist nicht korrekt." />
+			<text id="generic_js_alert_firstsessiontracking_registered" name="Wie gefällt dir das Spiel und was kann man besser machen? Schreib uns deine Meinung in unserem Cappuccino-Forum bzw. Gruppe!" />
+			<text id="generic_js_alert_firstsessiontracking_unregistered" name="Achtung: Dein Spielstand wird nur gespeichert, wenn du dich registrierst!" />
+			<text id="generic_register_error_invalidemail" name="Die E-Mail Adresse, die du eingegeben hast ist nicht korrekt." />
 			<text id="generic_report_muted_chattry" name="Du kannst den Chat aufgrund deiner Sperre im Moment nicht benutzen." />
 		</alert>
 		<button>
@@ -2134,12 +2134,12 @@
 		</error>
 		<feeds id="" />
 		<friends>
-			<text id="generic_friends_add_copy" name="Möchtest Du {0} als Freund hinzufügen?" />
+			<text id="generic_friends_add_copy" name="Möchtest du {0} als Freund hinzufügen?" />
 			<text id="generic_friends_add_title" name="Freundschaftsanfrage" />
 			<text id="generic_friends_buddy_btn_morefriends" name="Mehr Freunde!" />
-			<text id="generic_friends_denied_copy" name="{0} hat Deine Anfrage leider abgelehnt." />
+			<text id="generic_friends_denied_copy" name="{0} hat deine Anfrage leider abgelehnt." />
 			<text id="generic_friends_denied_title" name="Anfrage abgelehnt!" />
-			<text id="generic_friends_invite_badword_copy" name="Der Name den Du eingegeben hast ist nicht erlaubt!" />
+			<text id="generic_friends_invite_badword_copy" name="Der Name den du eingegeben hast ist nicht erlaubt!" />
 			<text id="generic_friends_invite_badword_title" name="Achtung!" />
 			<text id="generic_friends_invite_error_copy" name="Du kannst nur als registrierter Spieler andere Freunde einladen." />
 			<text id="generic_friends_invite_error_title" name="Erst registrieren" />
@@ -2173,15 +2173,15 @@
 			<text id="generic_language_zh_TW" name="Chinesisch (traditionell)" />
 		</languages>
 		<login>
-			<text id="generic_login_banned" name="Dein Account wurde gesperrt! Bitte wende Dich an den Support!" />
-			<text id="generic_login_banned_2" name="Dein Account wurde gesperrt!  Die Sperre läuft bis: {0}  Falls Du Frage zu der Sperre hast, wende Dich bitte an den Support." />
-			<text id="generic_login_banned_3" name="Dein Account wurde permanent gesperrt.  Falls Du Frage zu der Sperre hast, wende Dich bitte an den Support." />
+			<text id="generic_login_banned" name="Dein Account wurde gesperrt! Bitte wende dich an den Support!" />
+			<text id="generic_login_banned_2" name="Dein Account wurde gesperrt!  Die Sperre läuft bis: {0}  Falls du Frage zu der Sperre hast, wende dich bitte an den Support." />
+			<text id="generic_login_banned_3" name="Dein Account wurde permanent gesperrt.  Falls du Frage zu der Sperre hast, wende dich bitte an den Support." />
 			<text id="generic_login_banned_permanent" name="permanent" />
 			<text id="generic_login_facebook" name="Über Facebook anmelden" />
 			<text id="generic_login_login" name="LOGIN" />
 			<text id="generic_login_loginname" name="Username/ E-Mail" />
 			<text id="generic_login_lostpassword" name="Passwort vergessen?" />
-			<text id="generic_login_lostpassword_copy" name="Gib Deine E-Mail Adresse ein und wir schicken Dir Dein Passwort zu." />
+			<text id="generic_login_lostpassword_copy" name="Gib deine E-Mail Adresse ein und wir schicken dir dein Passwort zu." />
 			<text id="generic_login_lostpassword_title" name="Passwort vergessen" />
 			<text id="generic_login_newplayer" name="NEU HIER?" />
 			<text id="generic_login_password" name="Passwort" />
@@ -2192,7 +2192,7 @@
 			<text id="generic_login_wronglogin" name="Benutzername oder Passwort falsch!" />
 		</login>
 		<logout>
-			<text id="generic_logout_guest_copy" name="Registriere Dich, um Deinen Spielstand zu speichern!" />
+			<text id="generic_logout_guest_copy" name="Registriere Dich, um deinen Spielstand zu speichern!" />
 			<text id="generic_logout_guest_title" name="Registrieren" />
 		</logout>
 		<notification>
@@ -2200,20 +2200,20 @@
 			<text id="servershutdownpremonition_copy" name="Der Spielserver wird in {0} heruntergefahren. Logge dich bitte aus oder registriere dich um deinen Spielstand zu sichern." />
 			<text id="servershutdownpremonition_registered_copy" name="Der Spielserver wird in {0} aufgrund von Wartungsarbeiten heruntergefahren." />
 			<text id="servershutdown_copy" name="Der Spielserver wird nun heruntergefahren. In ein paar Minuten kannst du dich wieder einloggen." />
-			<text id="welcomeback_copy" name="Schön Dich wieder zu sehen! Hier eine Kleinigkeit, um Dir den Wiedereinstieg zu erleichtern!" />
+			<text id="welcomeback_copy" name="Schön dich wieder zu sehen! Hier eine Kleinigkeit, um dir den Wiedereinstieg zu erleichtern!" />
 			<text id="welcomeback_title" name="Wieder da!" />
 		</notification>
 		<password>
 			<text id="generic_change_password_copy_newpass" name="Neues Passwort:" />
 			<text id="generic_change_password_copy_oldpass" name="Altes Passwort:" />
-			<text id="generic_change_password_copy_send" name="Dein neues Passwort wurde Dir an Deine E-Mail Adresse geschickt." />
-			<text id="generic_change_password_error_failed" name="Sorry, aber das ist nicht Dein altes Passwort." />
+			<text id="generic_change_password_copy_send" name="Dein neues Passwort wurde dir an deine E-Mail Adresse geschickt." />
+			<text id="generic_change_password_error_failed" name="Sorry, aber das ist nicht dein altes Passwort." />
 			<text id="generic_change_password_error_success" name="Passwort wurde erfolgreich geändert!" />
 			<text id="generic_change_password_faild_copy" name="Dein neues Passwort sollte länger als 2 Zeichen sein und das alte Passwort muss korrekt eingegeben worden sein!" />
 			<text id="generic_change_password_faild_specialcharacters" name="Dein Passwort darf nicht leer sein oder Sonderzeichen enthalten." />
 			<text id="generic_change_password_faild_title" name="Passworteingabe" />
 			<text id="generic_change_password_title" name="Passwortänderung" />
-			<text id="generic_guest_change_password_faild_copy" name="Du kannst nur als registrierter Spieler Dein Passwort ändern!" />
+			<text id="generic_guest_change_password_faild_copy" name="Du kannst nur als registrierter Spieler dein Passwort ändern!" />
 			<text id="generic_guest_change_password_faild_title" name="Erst registrieren" />
 		</password>
 		<payment>
@@ -2266,16 +2266,16 @@
 			<text id="generic_register_agb_copy" name="Ohne AGB geht&apos;s nicht. Einfach lesen und mit dem Button links bestätigen, dann kanns los gehen!" />
 			<text id="generic_register_agb_read" name="AGB lesen" />
 			<text id="generic_register_alreadyavatar" name="Der User hat schon einen Avatar." />
-			<text id="generic_register_badword" name="Du darfst {0} nicht in Deinem Namen verwenden." />
+			<text id="generic_register_badword" name="Du darfst {0} nicht in deinem Namen verwenden." />
 			<text id="generic_register_btn_agb" name="AGB akzeptieren" />
 			<text id="generic_register_btn_later" name="Später" />
 			<text id="generic_register_btn_next" name="Weiter" />
 			<text id="generic_register_btn_save" name="Speichern" />
-			<text id="generic_register_character" name="Erstelle Deinen Charakter" />
-			<text id="generic_register_copy_0" name="Registriere Dich jetzt kostenlos!" />
-			<text id="generic_register_copy_1" name="Speichere Deinen Spielstand!" />
+			<text id="generic_register_character" name="Erstelle deinen Charakter" />
+			<text id="generic_register_copy_0" name="Registriere dich jetzt kostenlos!" />
+			<text id="generic_register_copy_1" name="Speichere deinen Spielstand!" />
 			<text id="generic_register_emaillong_copy" name="Deine Email-Adresse ist leider zu lang." />
-			<text id="generic_register_emailwrong_copy" name="Die E-Mail Adresse, die Du eingegeben hast ist nicht korrekt." />
+			<text id="generic_register_emailwrong_copy" name="Die E-Mail Adresse, die du eingegeben hast ist nicht korrekt." />
 			<text id="generic_register_email_copy" name="Die E-Mail Adresse darf nicht leer sein oder Sonderzeichen enthalten." />
 			<text id="generic_register_error" name="Registrieren fehlgeschlagen" />
 			<text id="generic_register_errormistake" name="Fehler" />
@@ -2286,11 +2286,11 @@
 			<text id="generic_register_namealreadyused" name="Der Name ist bereits vergeben." />
 			<text id="generic_register_namenotvalid" name="Der eingegebene Name ist ungültig." />
 			<text id="generic_register_passwordshort_copy" name="Das eingegebene Passwort ist zu kurz. Es muss mindestens 4 Zeichen lang sein." />
-			<text id="generic_register_passwordwrong_copy" name="Das Passwort, das Du eingegeben hast ist nicht korrekt." />
+			<text id="generic_register_passwordwrong_copy" name="Das Passwort, das du eingegeben hast ist nicht korrekt." />
 			<text id="generic_register_password_copy" name="Dein Passwort darf nicht leer sein oder Sonderzeichen enthalten." />
 			<text id="generic_register_receivenews" name="News erhalten" />
 			<text id="generic_register_rememberdata" name="Daten merken" />
-			<text id="generic_register_reward" name="Melde Dich kostenlos an und bekomme {0} {1} als Geschenk!" />
+			<text id="generic_register_reward" name="Melde dich kostenlos an und bekomme {0} {1} als Geschenk!" />
 			<text id="generic_register_subscribe" name="Anmelden" />
 			<text id="generic_register_success" name="Du hast dich erfolgreich registriert." />
 			<text id="generic_register_title" name="Registrierfehler" />
@@ -2301,7 +2301,7 @@
 			<text id="generic_report_muted_badword2_copy" name="Du kannst den Chat in den nächsten {0} wegen wiederholtem Fehlverhalten nicht benutzen. Grund: {1}" />
 			<text id="generic_report_muted_domain1" name="Keine Internetadressen im Chat!" />
 			<text id="generic_report_muted_reported_copy" name="Es  haben sich mehrere Spieler über dich beschwert. Du kannst den Chat daher für die nächsten {0} nicht benutzen. Grund: {1}" />
-			<text id="generic_report_player_copy" name="Möchtest Du den Spieler {0} wirklich melden?\nAchtung! Ein Missbrauch dieser Funktion kann zur Sperrung des Accounts führen." />
+			<text id="generic_report_player_copy" name="Möchtest du den Spieler {0} wirklich melden?\nAchtung! Ein Missbrauch dieser Funktion kann zur Sperrung des Accounts führen." />
 			<text id="generic_report_player_reason_0" name="Beleidigung" />
 			<text id="generic_report_player_reason_1" name="sexuelle Belästigung" />
 			<text id="generic_report_player_reason_2" name="rassistische Äußerung" />
