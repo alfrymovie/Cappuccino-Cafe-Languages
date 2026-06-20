@@ -2079,7 +2079,7 @@
 			<text id="generic_bugreport" name="Melde uns Fehler" />
 			<text id="generic_changePass" name="Passwort ändern" />
 			<text id="generic_comma" name="," />
-			<text id="generic_conningsoon" name="*Coming Soon*" />
+			<text id="generic_conningsoon" name="*Kommt Bald*" />
 			<text id="generic_date" name="Datum" />
 			<text id="generic_day" name="Tag" />
 			<text id="generic_dayformat" name="{0}.{1}." />
@@ -2100,8 +2100,8 @@
 			<text id="generic_hour" name="Stunde" />
 			<text id="generic_hours" name="Stunden" />
 			<text id="generic_hour_short" name="Std" />
-			<text id="generic_limited" name="Limited" />
-			<text id="generic_logout" name="Logout" />
+			<text id="generic_limited" name="Limitiert" />
+			<text id="generic_logout" name="Ausloggen" />
 			<text id="generic_low" name="Niedrig" />
 			<text id="generic_medium" name="Mittel" />
 			<text id="generic_minute" name="Minute" />
@@ -2303,8 +2303,8 @@
 			<text id="generic_report_muted_reported_copy" name="Es  haben sich mehrere Spieler über dich beschwert. Du kannst den Chat daher für die nächsten {0} nicht benutzen. Grund: {1}" />
 			<text id="generic_report_player_copy" name="Möchtest du den Spieler {0} wirklich melden?\nAchtung! Ein Missbrauch dieser Funktion kann zur Sperrung des Accounts führen." />
 			<text id="generic_report_player_reason_0" name="Beleidigung" />
-			<text id="generic_report_player_reason_1" name="sexuelle Belästigung" />
-			<text id="generic_report_player_reason_2" name="rassistische Äußerung" />
+			<text id="generic_report_player_reason_1" name="Sexuelle Belästigung" />
+			<text id="generic_report_player_reason_2" name="Rassistische Äußerung" />
 			<text id="generic_report_player_reason_3" name="Drohung/Erpressung" />
 			<text id="generic_report_player_reason_title" name="Grund der Meldung:" />
 			<text id="generic_report_player_title" name="Spieler melden?" />
