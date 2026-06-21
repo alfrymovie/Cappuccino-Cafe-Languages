@@ -31,6 +31,58 @@ const CATEGORY_NAMES = {
   '5': 'Snack'
 };
 
+const TIME_BUCKETS = [
+  {
+    key: 'active',
+    recommendationLabel: 'Best active',
+    planLabel: 'Active-time plan',
+    note: 'Best XP/min for 10 minutes or less.',
+    matches: record => record.duration <= 10
+  },
+  {
+    key: 'fast',
+    recommendationLabel: 'Best fast',
+    planLabel: 'Fast-time plan',
+    note: 'Best XP/min between 11 minutes and 1 hour.',
+    matches: record => record.duration >= 11 && record.duration <= 60
+  },
+  {
+    key: 'short',
+    recommendationLabel: 'Best short',
+    planLabel: 'Short-time plan',
+    note: 'Best XP/min between 1 h 1 min and 3 h.',
+    matches: record => record.duration >= 61 && record.duration <= 180
+  },
+  {
+    key: 'medium',
+    recommendationLabel: 'Best medium',
+    planLabel: 'Medium-time plan',
+    note: 'Best XP/min between 3 h 1 min and 6 h.',
+    matches: record => record.duration >= 181 && record.duration <= 360
+  },
+  {
+    key: 'long',
+    recommendationLabel: 'Best long',
+    planLabel: 'Long-time plan',
+    note: 'Best XP/min between 6 h 1 min and 12 h.',
+    matches: record => record.duration >= 361 && record.duration <= 720
+  },
+  {
+    key: 'veryLong',
+    recommendationLabel: 'Best very long',
+    planLabel: 'Very-long time plan',
+    note: 'Best XP/min between 12 h 1 min and 23 h.',
+    matches: record => record.duration >= 721 && record.duration <= 1380
+  },
+  {
+    key: 'dayOff',
+    recommendationLabel: 'Best day-off',
+    planLabel: 'Day-off plan',
+    note: 'Best XP/min for 23 h 1 min or more.',
+    matches: record => record.duration >= 1381
+  }
+];
+
 let allDishRecords = [];
 
 document.addEventListener('DOMContentLoaded', main);
@@ -170,69 +222,50 @@ function renderMyDex() {
     return record.dishType === 'Holiday';
   });
 
-  const bestXpPerMin = findBestDish(regularCandidates, record => record.xpPerMin);
-
-  const bestFastXpPerMin = findBestDish(
+  renderBestXp(buildBucketRecommendations(
     regularCandidates,
-    record => record.xpPerMin,
-    record => record.duration < 60
-  );
+    'XP/min',
+    record => record.xpPerMin
+  ));
 
-  const bestRawXp = findBestDish(regularCandidates, record => record.xp);
-
-  const bestProfitPerMin = findBestDish(regularCandidates, record => record.profitPerMin);
-
-  const bestFastProfitPerMin = findBestDish(
+  renderBestProfit(buildBucketRecommendations(
     regularCandidates,
-    record => record.profitPerMin,
-    record => record.duration < 60
-  );
+    'profit/min',
+    record => record.profitPerMin
+  ));
 
-  const bestRawProfit = findBestDish(regularCandidates, record => record.profit);
-
-  const bestPortionPerMin = findBestDish(regularCandidates, record => record.servingsPerMin);
-
-  const bestFastPortionPerMin = findBestDish(
+  renderBestPortions(buildBucketRecommendations(
     regularCandidates,
-    record => record.servingsPerMin,
-    record => record.duration < 60
-  );
+    'portion/min',
+    record => record.servingsPerMin
+  ));
 
-  const bestRawPortion = findBestDish(regularCandidates, record => record.servings);
-
-  const bestLongRawXp = findBestDish(
-    regularCandidates,
-    record => record.xp,
-    record => record.duration >= 480
-  );
-
-  renderBestXp([
-    ['Best XP/min', bestXpPerMin],
-    ['Best fast XP/min', bestFastXpPerMin],
-    ['Best raw XP', bestRawXp]
-  ]);
-
-  renderBestProfit([
-    ['Best profit/min', bestProfitPerMin],
-    ['Best fast profit/min', bestFastProfitPerMin],
-    ['Best raw profit', bestRawProfit]
-  ]);
-
-  renderBestPortions([
-    ['Best portion/min', bestPortionPerMin],
-    ['Best fast portion/min', bestFastPortionPerMin],
-    ['Raw best portion', bestRawPortion]
-  ]);
-
-  renderPlans(settings, [
-    ['Short-Time Plan', bestFastXpPerMin, 'Best XP/min under 1 hour.', 'row-short'],
-    ['Long-Time Plan', bestLongRawXp, 'Best raw XP for 8h or more.', 'row-long']
-  ]);
+  renderPlans(settings, buildXpPlans(regularCandidates));
 
   renderDishCards('specialDishesBody', specialDishes, 'Special');
   renderDishCards('holidayDishesBody', holidayDishes, 'Holiday');
 
   renderAvailableDishes(regularCandidates, specialDishes, holidayDishes);
+}
+
+function buildBucketRecommendations(records, metricLabel, scoreFunction) {
+  return TIME_BUCKETS.map(bucket => {
+    return [
+      `${bucket.recommendationLabel} ${metricLabel}`,
+      findBestDish(records, scoreFunction, bucket.matches)
+    ];
+  });
+}
+
+function buildXpPlans(records) {
+  return TIME_BUCKETS.map(bucket => {
+    return [
+      bucket.planLabel,
+      findBestDish(records, record => record.xpPerMin, bucket.matches),
+      bucket.note,
+      `row-${bucket.key}`
+    ];
+  });
 }
 
 function getSettings() {
@@ -421,7 +454,7 @@ function renderAvailableDishes(regularCandidates, specialDishes, holidayDishes) 
   });
 
   if (rows.length === 0) {
-    body.innerHTML = emptyRow(10, 'No dishes available.');
+    body.innerHTML = emptyRow(12, 'No dishes available.');
     return;
   }
 
@@ -435,6 +468,8 @@ function renderAvailableDishes(regularCandidates, specialDishes, holidayDishes) 
         <td>${decimal(record.xpPerMin)}</td>
         <td>${number(record.profit)}</td>
         <td>${decimal(record.profitPerMin)}</td>
+        <td>${number(record.servings)}</td>
+        <td>${decimal(record.servingsPerMin)}</td>
         <td>${escapeHtml(record.durationText)}</td>
         <td>${escapeHtml(record.categoryName)}</td>
         <td>${escapeHtml(record.dishType)}</td>
