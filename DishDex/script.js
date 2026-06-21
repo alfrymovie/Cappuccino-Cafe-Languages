@@ -89,6 +89,9 @@ document.addEventListener('DOMContentLoaded', main);
 
 async function main() {
   try {
+    setupTheme();
+    setupNavigation();
+
     setStatus('Loading Café XML...', 'ok');
 
     allDishRecords = await loadDishRecords();
@@ -100,6 +103,7 @@ async function main() {
 
     bindInputs();
     renderMyDex();
+    renderFullDishDex();
 
   } catch (error) {
     console.error(error);
@@ -109,6 +113,52 @@ async function main() {
     document.getElementById('dataSummary').textContent =
       String(error.message || error);
   }
+}
+
+function setupTheme() {
+  const toggle = document.getElementById('themeToggle');
+  const savedTheme = localStorage.getItem('dishDexTheme');
+
+  const shouldUseDark = savedTheme === null ? true : savedTheme === 'dark';
+
+  document.body.classList.toggle('dark-theme', shouldUseDark);
+  toggle.checked = shouldUseDark;
+
+  toggle.addEventListener('change', () => {
+    const isDark = toggle.checked;
+
+    document.body.classList.toggle('dark-theme', isDark);
+    localStorage.setItem('dishDexTheme', isDark ? 'dark' : 'light');
+  });
+}
+
+function setupNavigation() {
+  document.getElementById('openMyDex').addEventListener('click', () => {
+    showScreen('myDexScreen');
+    renderMyDex();
+  });
+
+  document.getElementById('openFullDishDex').addEventListener('click', () => {
+    showScreen('fullDishDexScreen');
+    renderFullDishDex();
+  });
+
+  document.querySelectorAll('[data-back]').forEach(button => {
+    button.addEventListener('click', () => {
+      showScreen('welcomeScreen');
+    });
+  });
+
+  document.getElementById('fullSortSelect').addEventListener('change', renderFullDishDex);
+}
+
+function showScreen(screenId) {
+  document.querySelectorAll('.screen').forEach(screen => {
+    screen.classList.add('hidden');
+  });
+
+  document.getElementById(screenId).classList.remove('hidden');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 async function loadDishRecords() {
@@ -180,10 +230,7 @@ async function loadDishRecords() {
     };
   });
 
-  records.sort((a, b) => {
-    if (a.level !== b.level) return a.level - b.level;
-    return a.dishName.localeCompare(b.dishName);
-  });
+  records.sort(standardDishSort);
 
   return records;
 }
@@ -198,6 +245,8 @@ function bindInputs() {
 }
 
 function renderMyDex() {
+  if (!allDishRecords.length) return;
+
   const settings = getSettings();
 
   const availableDishes = allDishRecords.filter(record => {
@@ -247,8 +296,6 @@ function renderMyDex() {
 
   renderDishCards('specialDishesBody', specialDishes, 'Special');
   renderDishCards('holidayDishesBody', holidayDishes, 'Holiday');
-
-  renderAvailableDishes(regularCandidates, specialDishes, holidayDishes);
 }
 
 function buildBucketRecommendations(records, metricLabel, scoreFunction, sectionKey) {
@@ -446,22 +493,16 @@ function renderDishCards(containerId, records, fallbackType) {
   }).join('');
 }
 
-function renderAvailableDishes(regularCandidates, specialDishes, holidayDishes) {
-  const body = document.getElementById('availableDishBody');
+function renderFullDishDex() {
+  if (!allDishRecords.length) return;
 
-  const unique = new Map();
+  const body = document.getElementById('fullDishDexBody');
+  const sortMode = document.getElementById('fullSortSelect').value;
 
-  [...regularCandidates, ...specialDishes, ...holidayDishes].forEach(record => {
-    unique.set(record.dishKey, record);
-  });
-
-  const rows = Array.from(unique.values()).sort((a, b) => {
-    if (a.level !== b.level) return a.level - b.level;
-    return a.dishName.localeCompare(b.dishName);
-  });
+  const rows = getSortedFullDishDex(sortMode);
 
   if (rows.length === 0) {
-    body.innerHTML = emptyRow(12, 'No dishes available.');
+    body.innerHTML = emptyRow(15, 'No dishes available.');
     return;
   }
 
@@ -478,11 +519,127 @@ function renderAvailableDishes(regularCandidates, specialDishes, holidayDishes) 
         <td>${number(record.servings)}</td>
         <td>${decimal(record.servingsPerMin)}</td>
         <td>${escapeHtml(record.durationText)}</td>
+        <td>${number(record.ingredientCost)}</td>
+        <td>${number(record.revenue)}</td>
         <td>${escapeHtml(record.categoryName)}</td>
+        <td class="requirements-cell">${escapeHtml(record.requirements)}</td>
         <td>${escapeHtml(record.dishType)}</td>
       </tr>
     `;
   }).join('');
+}
+
+function getSortedFullDishDex(sortMode) {
+  const rows = [...allDishRecords];
+
+  const numericSort = (key, direction) => {
+    rows.sort((a, b) => {
+      const diff = Number(a[key] || 0) - Number(b[key] || 0);
+
+      if (diff !== 0) {
+        return direction === 'asc' ? diff : -diff;
+      }
+
+      return standardDishSort(a, b);
+    });
+  };
+
+  switch (sortMode) {
+    case 'level-asc':
+      numericSort('level', 'asc');
+      break;
+
+    case 'level-desc':
+      numericSort('level', 'desc');
+      break;
+
+    case 'name-asc':
+      rows.sort((a, b) => a.dishName.localeCompare(b.dishName));
+      break;
+
+    case 'name-desc':
+      rows.sort((a, b) => b.dishName.localeCompare(a.dishName));
+      break;
+
+    case 'category':
+      rows.sort((a, b) => {
+        const categoryCompare = a.categoryName.localeCompare(b.categoryName);
+
+        if (categoryCompare !== 0) return categoryCompare;
+
+        return standardDishSort(a, b);
+      });
+      break;
+
+    case 'duration-asc':
+      numericSort('duration', 'asc');
+      break;
+
+    case 'duration-desc':
+      numericSort('duration', 'desc');
+      break;
+
+    case 'profit-asc':
+      numericSort('profit', 'asc');
+      break;
+
+    case 'profit-desc':
+      numericSort('profit', 'desc');
+      break;
+
+    case 'xp-asc':
+      numericSort('xp', 'asc');
+      break;
+
+    case 'xp-desc':
+      numericSort('xp', 'desc');
+      break;
+
+    case 'profitPerMin-asc':
+      numericSort('profitPerMin', 'asc');
+      break;
+
+    case 'profitPerMin-desc':
+      numericSort('profitPerMin', 'desc');
+      break;
+
+    case 'xpPerMin-asc':
+      numericSort('xpPerMin', 'asc');
+      break;
+
+    case 'xpPerMin-desc':
+      numericSort('xpPerMin', 'desc');
+      break;
+
+    case 'servings-asc':
+      numericSort('servings', 'asc');
+      break;
+
+    case 'servings-desc':
+      numericSort('servings', 'desc');
+      break;
+
+    case 'servingsPerMin-asc':
+      numericSort('servingsPerMin', 'asc');
+      break;
+
+    case 'servingsPerMin-desc':
+      numericSort('servingsPerMin', 'desc');
+      break;
+
+    case 'standard':
+    default:
+      rows.sort(standardDishSort);
+      break;
+  }
+
+  return rows;
+}
+
+function standardDishSort(a, b) {
+  if (a.level !== b.level) return a.level - b.level;
+
+  return a.dishName.localeCompare(b.dishName);
 }
 
 function imageHtml(record) {
