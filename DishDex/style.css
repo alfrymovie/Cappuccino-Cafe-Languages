@@ -20,6 +20,9 @@
   --bronze: #cd7f32;
   --silver: #9fa6ad;
   --gold: #d6a600;
+  --effect-bronze: #8a4a17;
+  --effect-silver: #555f68;
+  --effect-gold: #805f00;
 }
 
 body.dark-theme {
@@ -38,6 +41,9 @@ body.dark-theme {
     radial-gradient(circle at top left, rgba(105, 65, 34, 0.8), transparent 34rem),
     linear-gradient(180deg, #15110e 0%, #241812 100%);
   --plain-cell: #2b211b;
+  --effect-bronze: #f0a24b;
+  --effect-silver: #cfd8e3;
+  --effect-gold: #f3cc4b;
 }
 
 * { box-sizing: border-box; }
@@ -504,12 +510,12 @@ td.effects-cell {
 .effect-line {
   display: block;
   margin: 2px 0;
-  color: #3b2618;
+  color: var(--text);
 }
 
-.effect-bronze { color: #8a4a17; }
-.effect-silver { color: #555f68; }
-.effect-gold { color: #805f00; }
+.effect-bronze { color: var(--effect-bronze); }
+.effect-silver { color: var(--effect-silver); }
+.effect-gold { color: var(--effect-gold); }
 
 .split-panels {
   display: grid;

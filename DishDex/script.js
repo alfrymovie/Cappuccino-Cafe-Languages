@@ -195,7 +195,7 @@ const I18N = {
     sortServingsPerMinAsc: 'Portions/min: low to high',
     sortServingsPerMinDesc: 'Portions/min: high to low',
     profileSettingsTitle: 'Chef Profile',
-    profileSettingsNote: 'Your level sets the default stove count from CafeLevelXp.xml. You can still change stoves in MyDex.',
+    profileSettingsNote: 'Your level helps the tool set your current available number of stoves. You can change this in MyDex later.',
     chefName: 'Chef name',
     profileSaved: 'Profile saved locally.',
     masteriesEyebrow: 'Dish perks',
@@ -354,7 +354,7 @@ const I18N = {
     sortServingsPerMinAsc: 'Porções/min: menor para maior',
     sortServingsPerMinDesc: 'Porções/min: maior para menor',
     profileSettingsTitle: 'Perfil do Chef',
-    profileSettingsNote: 'Seu nível define a quantidade padrão de fogões usando CafeLevelXp.xml. Você ainda pode alterar os fogões no MyDex.',
+    profileSettingsNote: 'Seu nível ajuda a ferramenta a definir sua quantidade atual de fogões disponíveis. Você pode alterar isso no MyDex depois.',
     chefName: 'Nome do chef',
     profileSaved: 'Perfil salvo localmente.',
     masteriesEyebrow: 'Bônus dos pratos',
@@ -494,30 +494,48 @@ function detectBrowserLanguage() {
   return language.startsWith('pt') ? 'pt' : 'en';
 }
 
+const SCREEN_HASHES = {
+  welcomeScreen: '#home',
+  myDexScreen: '#mydex',
+  fullDishDexScreen: '#fulldishdex',
+  profileScreen: '#profile',
+  masteriesScreen: '#masteries'
+};
+
+const HASH_TO_SCREEN = Object.fromEntries(
+  Object.entries(SCREEN_HASHES).map(([screenId, hash]) => [hash.toLowerCase(), screenId])
+);
+
 function setupNavigation() {
   document.getElementById('openMyDex').addEventListener('click', () => {
-    showScreen('myDexScreen');
-    renderMyDex();
+    navigateToScreen('myDexScreen');
   });
 
   document.getElementById('openFullDishDex').addEventListener('click', () => {
-    showScreen('fullDishDexScreen');
-    renderFullDishDex();
+    navigateToScreen('fullDishDexScreen');
   });
 
   document.getElementById('openProfile').addEventListener('click', () => {
-    showScreen('profileScreen');
-    syncProfileInputs();
+    navigateToScreen('profileScreen');
   });
 
   document.getElementById('openMasteries').addEventListener('click', () => {
-    showScreen('masteriesScreen');
-    renderMasteries();
+    navigateToScreen('masteriesScreen');
   });
 
   document.querySelectorAll('[data-back]').forEach(button => {
-    button.addEventListener('click', () => showScreen('welcomeScreen'));
+    button.addEventListener('click', () => {
+      navigateToScreen('welcomeScreen', { replace: true });
+    });
   });
+
+  window.addEventListener('popstate', () => {
+    showScreen(getScreenFromLocation(), { scroll: false });
+  });
+
+  const initialScreen = getScreenFromLocation();
+  history.replaceState({ dishDexScreen: initialScreen }, '', SCREEN_HASHES[initialScreen]);
+  showScreen(initialScreen, { scroll: false });
 
   document.getElementById('fullSortSelect').addEventListener('change', renderFullDishDex);
 }
@@ -584,10 +602,41 @@ function updateDataSummary() {
   document.getElementById('dataSummary').textContent = `${allDishRecords.length} ${t('dishesReady')}`;
 }
 
-function showScreen(screenId) {
+function getScreenFromLocation() {
+  return HASH_TO_SCREEN[String(window.location.hash || '#home').toLowerCase()] || 'welcomeScreen';
+}
+
+function navigateToScreen(screenId, options = {}) {
+  const targetHash = SCREEN_HASHES[screenId] || SCREEN_HASHES.welcomeScreen;
+  const state = { dishDexScreen: screenId };
+
+  if (options.replace) {
+    history.replaceState(state, '', targetHash);
+  } else {
+    history.pushState(state, '', targetHash);
+  }
+
+  showScreen(screenId);
+}
+
+function showScreen(screenId, options = {}) {
   document.querySelectorAll('.screen').forEach(screen => screen.classList.add('hidden'));
-  document.getElementById(screenId).classList.remove('hidden');
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  const targetScreen = document.getElementById(screenId) ? screenId : 'welcomeScreen';
+  document.getElementById(targetScreen).classList.remove('hidden');
+
+  afterScreenShown(targetScreen);
+
+  if (options.scroll !== false) {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+}
+
+function afterScreenShown(screenId) {
+  if (screenId === 'myDexScreen') renderMyDex();
+  if (screenId === 'fullDishDexScreen') renderFullDishDex();
+  if (screenId === 'profileScreen') syncProfileInputs();
+  if (screenId === 'masteriesScreen') renderMasteries();
 }
 
 function getTimeBuckets() {
