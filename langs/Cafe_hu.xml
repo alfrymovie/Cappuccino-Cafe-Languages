@@ -161,106 +161,106 @@
 	<cookstep>
 		<text id="cookstep_bananasplit1" name="Fagylaltot hűteni" />
 		<text id="cookstep_bananasplit2" name="Banánt felvágni" />
-		<text id="cookstep_brigadeiro1" name="Melting chocolate" />
-		<text id="cookstep_brigadeiro2" name="Shaping brigadeiros" />
+		<text id="cookstep_brigadeiro1" name="Csokoládét olvasztani" />
+		<text id="cookstep_brigadeiro2" name="Brigadeirokat formázni" />
 		<text id="cookstep_blackforestcherrycake1" name="Hozzávalókat összekeverni" />
 		<text id="cookstep_blackforestcherrycake2" name="Sütit sütni" />
-		<text id="cookstep_pizzasalad1" name="Making pizzas" />
-		<text id="cookstep_pizzasalad2" name="Making salads" />
-		<text id="cookstep_tripleomelette1" name="Mixing eggs strongly" />
-		<text id="cookstep_tripleomelette2" name="Folding everything" />
-		<text id="cookstep_chocolatewaffles1" name="Melting chocolate" />
-		<text id="cookstep_chocolatewaffles2" name="Covering waffles" />
-		<text id="cookstep_spanishomelette1" name="Mixing huevos" />
-		<text id="cookstep_spanishomelette2" name="Making the omelette bonito" />
-		<text id="cookstep_sausagepasta1" name="Boiling pasta" />
-		<text id="cookstep_sausagepasta2" name="Frying sausages" />
-		<text id="cookstep_applepie1" name="Building pies" />
-		<text id="cookstep_applepie2" name="Baking pies" />
-		<text id="cookstep_ramen1" name="Boiling pasta" />
-		<text id="cookstep_ramen2" name="Adding spices" />
-		<text id="cookstep_corncake1" name="Mixing ingredients" />
-		<text id="cookstep_corncake2" name="Baking cakes" />
-		<text id="cookstep_feijoada1" name="Prepping pork cuts" />
-		<text id="cookstep_feijoada2" name="Manifesting orange slices" />
-		<text id="cookstep_pinapjuice1" name="Squeezing pineapples" />
-		<text id="cookstep_pinapjuice2" name="Blending juice" />
-		<text id="cookstep_orangejuice1" name="Squeezing oranges" />
-		<text id="cookstep_orangejuice2" name="Blending juice" />
-		<text id="cookstep_discodrinks1" name="Mixing fruits" />
-		<text id="cookstep_discodrinks2" name="Pouring drinks" />
-		<text id="cookstep_applejuice1" name="Squeezing apples" />
-		<text id="cookstep_applejuice2" name="Blending juice" />
-		<text id="cookstep_rjuice1" name="Squeezing rhubarb" />
-		<text id="cookstep_rjuice2" name="Blending juice" />
-		<text id="cookstep_cherryjuice1" name="Pitting cherries" />
-		<text id="cookstep_cherryjuice2" name="Blending juice" />
-		<text id="cookstep_strawberryjuice1" name="Mashing strawberries" />
-		<text id="cookstep_strawberryjuice2" name="Blending juice" />
-		<text id="cookstep_cappuccino1" name="Brewing espresso" />
-		<text id="cookstep_cappuccino2" name="Frothing milk" />
-		<text id="cookstep_duckalcitrus1" name="Roasting duck" />
-		<text id="cookstep_duckalcitrus2" name="Adding citrus glaze" />
-		<text id="cookstep_ducktatters1" name="Frying ingredients" />
-		<text id="cookstep_ducktatters2" name="Mixing dish" />
-		<text id="cookstep_langos1" name="Making sauce" />
-		<text id="cookstep_langos2" name="Cooling sauce" />
-		<text id="cookstep_nasilemak1" name="Cooking rice" />
-		<text id="cookstep_nasilemak2" name="Plating dish" />
-		<text id="cookstep_citrusjuice1" name="Squeezing citrus" />
-		<text id="cookstep_citrusjuice2" name="Blending juice" />
-		<text id="cookstep_carrotcake1" name="Mixing batter" />
-		<text id="cookstep_carrotcake2" name="Baking cake" />
-		<text id="cookstep_carrotjuice1" name="Blending carrots" />
-		<text id="cookstep_carrotjuice2" name="Pouring juice" />
-		<text id="cookstep_francesinha1" name="Building sandwich" />
-		<text id="cookstep_francesinha2" name="Melting cheese" />
-		<text id="cookstep_dorayaki1" name="Prepping filling" />
-		<text id="cookstep_dorayaki2" name="Letting it cool" />
-		<text id="cookstep_tiramisu1" name="Layering dessert" />
-		<text id="cookstep_tiramisu2" name="Chilling tiramisu" />
-		<text id="cookstep_pridecupcakes1" name="Mixing batter" />
-		<text id="cookstep_pridecupcakes2" name="Decorating" />
-		<text id="cookstep_ratatouille1" name="Prepping vegetables" />
-		<text id="cookstep_ratatouille2" name="Stacking" />
-		<text id="cookstep_hotcherryricepudding1" name="Cooking rice" />
-		<text id="cookstep_hotcherryricepudding2" name="Adding cherries" />
-		<text id="cookstep_coconutcake1" name="Mixing ingredients" />
-		<text id="cookstep_coconutcake2" name="Baking cake" />
-		<text id="cookstep_paodequeijo1" name="Shaping dough" />
-		<text id="cookstep_paodequeijo2" name="Baking bread" />
-		<text id="cookstep_baiaodedois1" name="Mixing rice and beans" />
-		<text id="cookstep_baiaodedois2" name="Adding crispy bacon" />
-		<text id="cookstep_bakedalaska1" name="Cooling cream" />
-		<text id="cookstep_bakedalaska2" name="Browning meringue" />
-		<text id="cookstep_butterchicken1" name="Boiling sauce" />
-		<text id="cookstep_butterchicken2" name="Simmering curry sauce" />
-		<text id="cookstep_chickenbiryani1" name="Mixing spices" />
-		<text id="cookstep_chickenbiryani2" name="Spicing rice" />
-		<text id="cookstep_cottagepotatoes1" name="Preparing potatoes" />
-		<text id="cookstep_cottagepotatoes2" name="Spreading cottage" />
-		<text id="cookstep_cuzcuzcomovo1" name="Steaming cornmeal" />
-		<text id="cookstep_cuzcuzcomovo2" name="Frying eggs" />
-		<text id="cookstep_malaichickennaan1" name="Prepping batter" />
-		<text id="cookstep_malaichickennaan2" name="Folding naan" />
-		<text id="cookstep_veganplate1" name="Cooking rice" />
-		<text id="cookstep_veganplate2" name="Spreading rice" />
-		<text id="cookstep_neapolitancake1" name="Melting ingredients" />
-		<text id="cookstep_neapolitancake2" name="Baking cake" />
-		<text id="cookstep_strawberrycheesecake1" name="Mixing ingredients" />
-		<text id="cookstep_strawberrycheesecake2" name="Baking cake" />
-		<text id="cookstep_combomeal1" name="Frying burger meat" />
-		<text id="cookstep_combomeal2" name="Frying fries somehow" />
-		<text id="cookstep_zcordonbleu1" name="Preparing chicken" />
-		<text id="cookstep_zcordonbleu2" name="Adding lemon slices" />
-		<text id="cookstep_brazilianpastel1" name="Frying pastels" />
-		<text id="cookstep_brazilianpastel2" name="Almost there" />
-		<text id="cookstep_lechonkawali1" name="Preparing pork belly" />
-		<text id="cookstep_lechonkawali2" name="Frying until crispy" />
-		<text id="cookstep_sweetpizza1" name="Spreading chocolate" />
-		<text id="cookstep_sweetpizza2" name="Baking sweet pizza" />
-		<text id="cookstep_shakshuka1" name="Melting tomatoes" />
-		<text id="cookstep_shakshuka2" name="Simmering sauce" />
+		<text id="cookstep_pizzasalad1" name="Pizzaszeleteket készíteni" />
+		<text id="cookstep_pizzasalad2" name="Salátát készíteni" />
+		<text id="cookstep_tripleomelette1" name="Tojásokat felverni" />
+		<text id="cookstep_tripleomelette2" name="Összekeverni mindent" />
+		<text id="cookstep_chocolatewaffles1" name="Csokoládét olvasztani" />
+		<text id="cookstep_chocolatewaffles2" name="Gofrikat leönteni" />
+		<text id="cookstep_spanishomelette1" name="Huevost készíteni" />
+		<text id="cookstep_spanishomelette2" name="Omlettet készíteni" />
+		<text id="cookstep_sausagepasta1" name="Tésztát főzni" />
+		<text id="cookstep_sausagepasta2" name="Kolbászt pirítani" />
+		<text id="cookstep_applepie1" name="Pitét készíteni" />
+		<text id="cookstep_applepie2" name="Pitét sütni" />
+		<text id="cookstep_ramen1" name="Tésztát főzni" />
+		<text id="cookstep_ramen2" name="Fűszerezni" />
+		<text id="cookstep_corncake1" name="Hozzávalókat összekeverni" />
+		<text id="cookstep_corncake2" name="Sütit sütni" />
+		<text id="cookstep_feijoada1" name="Sertéshúst aprítani" />
+		<text id="cookstep_feijoada2" name="Narancsszeleteket manifesztálni" />
+		<text id="cookstep_pinapjuice1" name="Ananászt facsarni" />
+		<text id="cookstep_pinapjuice2" name="Levet kikeverni" />
+		<text id="cookstep_orangejuice1" name="Narancsot facsarni" />
+		<text id="cookstep_orangejuice2" name="Levet kikeverni" />
+		<text id="cookstep_discodrinks1" name="Gyümölcsöket összekeverni" />
+		<text id="cookstep_discodrinks2" name="Üdítőket kiönteni" />
+		<text id="cookstep_applejuice1" name="Almát facsarni" />
+		<text id="cookstep_applejuice2" name="Levet kikeverni" />
+		<text id="cookstep_rjuice1" name="Rebarbarát facsarni" />
+		<text id="cookstep_rjuice2" name="Levet kikeverni" />
+		<text id="cookstep_cherryjuice1" name="Cseresznyét magozni" />
+		<text id="cookstep_cherryjuice2" name="Levet kikeverni" />
+		<text id="cookstep_strawberryjuice1" name="Epret összenyomni" />
+		<text id="cookstep_strawberryjuice2" name="Levet kikeverni" />
+		<text id="cookstep_cappuccino1" name="Espressot főzni" />
+		<text id="cookstep_cappuccino2" name="Tejet habosítani" />
+		<text id="cookstep_duckalcitrus1" name="Kacsát pirítani" />
+		<text id="cookstep_duckalcitrus2" name="Citrust hozzáadni" />
+		<text id="cookstep_ducktatters1" name="Hozzávalók pirítása" />
+		<text id="cookstep_ducktatters2" name="Étel kikeverése" />
+		<text id="cookstep_langos1" name="Szósz készítése" />
+		<text id="cookstep_langos2" name="Szósz hűtése" />
+		<text id="cookstep_nasilemak1" name="Rizst főzni" />
+		<text id="cookstep_nasilemak2" name="Tányérra szedni az ételt" />
+		<text id="cookstep_citrusjuice1" name="Citrust facsarni" />
+		<text id="cookstep_citrusjuice2" name="Levet kikeverni" />
+		<text id="cookstep_carrotcake1" name="Vajat keverni" />
+		<text id="cookstep_carrotcake2" name="Tortát sütni" />
+		<text id="cookstep_carrotjuice1" name="Répát mixelni" />
+		<text id="cookstep_carrotjuice2" name="Levet kiönteni" />
+		<text id="cookstep_francesinha1" name="Szendvicset készíteni" />
+		<text id="cookstep_francesinha2" name="Sajtot olvasztani" />
+		<text id="cookstep_dorayaki1" name="Tölteléket előkészíteni" />
+		<text id="cookstep_dorayaki2" name="Hűlni hagyni" />
+		<text id="cookstep_tiramisu1" name="Desszert rétegzése" />
+		<text id="cookstep_tiramisu2" name="Tiramisut hűteni" />
+		<text id="cookstep_pridecupcakes1" name="Vajat keverni" />
+		<text id="cookstep_pridecupcakes2" name="Dekorálni" />
+		<text id="cookstep_ratatouille1" name="Zöldségeket előkészíteni" />
+		<text id="cookstep_ratatouille2" name="Tornyozni" />
+		<text id="cookstep_hotcherryricepudding1" name="Rizst főzni" />
+		<text id="cookstep_hotcherryricepudding2" name="Cseresznyét hozzáadni" />
+		<text id="cookstep_coconutcake1" name="Hozzávalók összekeverése" />
+		<text id="cookstep_coconutcake2" name="Tortát sütni" />
+		<text id="cookstep_paodequeijo1" name="Tésztát formázni" />
+		<text id="cookstep_paodequeijo2" name="Kenyeret sütni" />
+		<text id="cookstep_baiaodedois1" name="Rizst és babot keverni" />
+		<text id="cookstep_baiaodedois2" name="Szalonnát hozzáadni" />
+		<text id="cookstep_bakedalaska1" name="Krémet hűlni hagyni" />
+		<text id="cookstep_bakedalaska2" name="Habcsókot barnulni hagyni" />
+		<text id="cookstep_butterchicken1" name="Szószt főzni" />
+		<text id="cookstep_butterchicken2" name="Curry-t főzni" />
+		<text id="cookstep_chickenbiryani1" name="Fűszerezni" />
+		<text id="cookstep_chickenbiryani2" name="Rizst ízesíteni" />
+		<text id="cookstep_cottagepotatoes1" name="Krumplit előkészíteni" />
+		<text id="cookstep_cottagepotatoes2" name="Hozzávalót megkenni" />
+		<text id="cookstep_cuzcuzcomovo1" name="Kukoricalisztet gőzölni" />
+		<text id="cookstep_cuzcuzcomovo2" name="Tojást pirítani" />
+		<text id="cookstep_malaichickennaan1" name="Vajat előkészíteni" />
+		<text id="cookstep_malaichickennaan2" name="Naan-t összehajtani" />
+		<text id="cookstep_veganplate1" name="Rizst főzni" />
+		<text id="cookstep_veganplate2" name="Rizst szétteríteni" />
+		<text id="cookstep_neapolitancake1" name="Hozzávalókat olvasztani" />
+		<text id="cookstep_neapolitancake2" name="Tortát sütni" />
+		<text id="cookstep_strawberrycheesecake1" name="Hozzávalókat összekeverni" />
+		<text id="cookstep_strawberrycheesecake2" name="Tortát sütni" />
+		<text id="cookstep_combomeal1" name="Hamburger húst pirítani" />
+		<text id="cookstep_combomeal2" name="Hasábburgonyát pirítani" />
+		<text id="cookstep_zcordonbleu1" name="Csirkét előkészíteni" />
+		<text id="cookstep_zcordonbleu2" name="Citromszeleteket hozzáadni" />
+		<text id="cookstep_brazilianpastel1" name="Pasteleket pirítani" />
+		<text id="cookstep_brazilianpastel2" name="Majdnem megvagyunk!" />
+		<text id="cookstep_lechonkawali1" name="Sertéshúst előkészíteni" />
+		<text id="cookstep_lechonkawali2" name="Pirítani amíg ropogós" />
+		<text id="cookstep_sweetpizza1" name="Csokoládét szétteríteni" />
+		<text id="cookstep_sweetpizza2" name="Édes pizzát sütni" />
+		<text id="cookstep_shakshuka1" name="Paradicsomot melegíteni" />
+		<text id="cookstep_shakshuka2" name="Szószt főzni" />
 		<text id="cookstep_cheeseburger1" name="Darált húst sütni" />
 		<text id="cookstep_cheeseburger2" name="Hamburgert összeállítani" />
 		<text id="cookstep_cheesedish1" name="Sajtot tálalni" />
@@ -270,7 +270,7 @@
 		<text id="cookstep_cherriecake1" name="Hozzávalókat összekeverni" />
 		<text id="cookstep_cherriecake2" name="Sütit sütni" />
 		<text id="cookstep_cherrycompote1" name="Cseresznyét főzni" />
-		<text id="cookstep_cherrycompote2" name="lehűteni" />
+		<text id="cookstep_cherrycompote2" name="Lehűteni" />
 		<text id="cookstep_chickenburger1" name="Csirkét megsütni" />
 		<text id="cookstep_chickenburger2" name="Hamburgert összállítani" />
 		<text id="cookstep_chickensalad1" name="Csirkét kisütni" />
@@ -326,7 +326,7 @@
 		<text id="cookstep_maplepancakes1" name="Tésztát kikeverni" />
 		<text id="cookstep_maplepancakes2" name="Palacsintát kisütni" />
 		<text id="cookstep_marblecake1" name="Formát megtölteni" />
-		<text id="cookstep_marblecake2" name="sütni" />
+		<text id="cookstep_marblecake2" name="Sütni" />
 		<text id="cookstep_mexicansalad1" name="Babot főzni" />
 		<text id="cookstep_mexicansalad2" name="Hozzávalókat összekeverni" />
 		<text id="cookstep_minestrone1" name="Zöldséget párolni" />
@@ -410,7 +410,7 @@
 		<text id="cookstep_whitechocmousse1" name="Csokoládét olvasztani" />
 		<text id="cookstep_whitechocmousse2" name="Krémet hűlni hagyni" />
 		<text id="cookstep_coxinha1" name="Mixing ingredients" />
-		<text id="cookstep_coxinha2" name="Frying coxinhas" />
+		<text id="cookstep_coxinha2" name="Coxinha-t kisütni" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Tartunk egy főzőtanfolyamot, hogy az ételeidet tökéletesíthesd. Részt veszel rajta?" />
@@ -458,78 +458,78 @@
 		<text id="coop_title_7" name="Iskolai étkezés elmaradt" />
 		<text id="coop_title_8" name="Születésnapi buli" />
 		<text id="coop_title_9" name="Olasz büfé" />
-		<text id="coop_title_16" name="MORNING RUSH!" />
-		<text id="coop_desc_short_16" name="Start the day right!" />
-		<text id="coop_desc_long_16" name="Chef cupcakekittycat8 will host a big breakfast at the Marketplace. Can you provide some of what will be served?" />
-		<text id="coop_title_17" name="POST-LUNCH DESSERTS" />
-		<text id="coop_desc_short_17" name="Craving sweets are we?" />
-		<text id="coop_desc_long_17" name="Chef Gabriel served a salty lunch and the costumers are craving many sweets! Help out and sweeten the day!" />
-		<text id="coop_title_18" name="FOOD CRITIC VISIT!" />
-		<text id="coop_desc_short_18" name="Cook to impress!" />
-		<text id="coop_desc_long_18" name="Chef cupcakekittycat8 invited a food critic to visit your Café and he has a refined taste! It is time to cook!" />
+		<text id="coop_title_16" name="REGGELI TÖMEG!" />
+		<text id="coop_desc_short_16" name="Induljon jól a reggel!" />
+		<text id="coop_desc_long_16" name="Séf cupcakekittycat8 nagy reggelit fog tartani a piacon. Tudsz segíteni neki?" />
+		<text id="coop_title_17" name="EBÉD-UTÁNI DESSZERT!" />
+		<text id="coop_desc_short_17" name="Édességre vágyunk?" />
+		<text id="coop_desc_long_17" name="Séf Gabriel nagy ebédet szolgált fel, és a vendégek desszertet akarnak! Segíts, és édesítsd meg a napot!" />
+		<text id="coop_title_18" name="ÉTELKRITIKUS JÖN!" />
+		<text id="coop_desc_short_18" name="Főzz, hogy lenyűgözd!" />
+		<text id="coop_desc_long_18" name="Séf cupcakekittycat8 ételkritikust hívott a kávézódba akinek kényes ízlése van! Főzz valami finomat!" />
 		<text id="coop_title_19" name="LAN PARTY!" />
-		<text id="coop_desc_short_19" name="Fast food for fast games!" />
-		<text id="coop_desc_long_19" name="Chef Surfguiger5 decided to join a LAN party and was tasked with bringing the food. The attendees want a lot, though! Help out!" />
-		<text id="coop_title_20" name="LATE NIGHT DRIVE THRU" />
-		<text id="coop_desc_short_20" name="A quick dinner for a long day!" />
-		<text id="coop_desc_long_20" name="Chef Patawka opened a drive-thru and is willing to share profits with anyone that helps provide food for it. Participate!" />
-		<text id="coop_title_21" name="FIT FOOD ONLY!" />
-		<text id="coop_desc_short_21" name="It&apos;s time to eat well!" />
-		<text id="coop_desc_long_21" name="Chef Surfguiger5 learned about the craze of Triple Omelettes and is concerned about weight gain. Cook healthy food to prove that your Café is healthy too!" />
-		<text id="coop_title_22" name="HOTEL BRUNCH" />
-		<text id="coop_desc_short_22" name="Want a quick bite?" />
-		<text id="coop_desc_long_22" name="Chef Surfguiger5 was asked by the local hotel to provide food for a brunch. However, the stoves broke and it&apos;s up to you to help! Profits will be shared." />
-		<text id="coop_title_23" name="BRAZILIAN WAY" />
-		<text id="coop_desc_short_23" name="Enjoy what Brazil has to offer!" />
-		<text id="coop_desc_long_23" name="Chef Surfguiger5 wants everyone to taste Brazilian food. Cook it!" />
-		<text id="coop_title_24" name="THE CARB COUNTER" />
-		<text id="coop_desc_short_24" name="An energy refill!" />
-		<text id="coop_desc_long_24" name="The local gym asked chef Artemis to supply dishes rich in carbs to keep the clients energized. Help out to earn your share too!" />
-		<text id="coop_title_25" name="WEDDING TASTING" />
-		<text id="coop_desc_short_25" name="A marriage is coming!" />
-		<text id="coop_desc_long_25" name="Chef Kvmxl said that the Café Lady and the Muffin Man are getting married! It was said that they will pay nicely for any Café that has their favorite food. Are the rumors true?" />
+		<text id="coop_desc_short_19" name="Gyorskaja a gyors játékra!" />
+		<text id="coop_desc_long_19" name="Séf Surfguiger5 LAN partyra ment és meglett bízva azzal hogy ételt hozzon. A látogatók viszont sokat akarnak! Segíts!" />
+		<text id="coop_title_20" name="KÉSŐ ÉJSZAKAI KAJA" />
+		<text id="coop_desc_short_20" name="Egy gyors vacsi a hosszú nap után!" />
+		<text id="coop_desc_long_20" name="Séf Patawka Drive-thru-t nyitott és szívesen osztozkodna a profiton ha besegítesz. Vegyél részt!" />
+		<text id="coop_title_21" name="CSAK SPORTKAJA!" />
+		<text id="coop_desc_short_21" name="Itt az idő a helyes táplálkozásra!" />
+		<text id="coop_desc_long_21" name="Séf Surfguiger5 rájött a tripla omlett szörnyű és egészségtelen igazságára. Főzz valami egészségeset!" />
+		<text id="coop_title_22" name="HOTEL VILLÁSREGGELI" />
+		<text id="coop_desc_short_22" name="Szeretnél egy falatot?" />
+		<text id="coop_desc_long_22" name="Séf Surfguiger5-t megkérték egy hotelből hogy villásreggelit készítsen. Viszont a tűzhelyek elromlottak, szóval rajtad áll a sor! Profitot elosszátok." />
+		<text id="coop_title_23" name="BRAZIL ÉLET" />
+		<text id="coop_desc_short_23" name="Élvezd a Brazil életet!" />
+		<text id="coop_desc_long_23" name="Séf Surfguiger5 szeretné ha kipróbáld a Brazil ételeket. Irány főzni!" />
+		<text id="coop_title_24" name="A KALÓRIAMÉRŐ" />
+		<text id="coop_desc_short_24" name="Energia újratöltve!" />
+		<text id="coop_desc_long_24" name="Séf Artemis-t megkérték a közeli fitnesszteremből, hogy hozzon magas kalóriájú átelt. Segíts hogy te is kapj!" />
+		<text id="coop_title_25" name="ESKÜVŐI KÓSTOLÁS" />
+		<text id="coop_desc_short_25" name="Kézkérés lesz!" />
+		<text id="coop_desc_long_25" name="Séf Kvmxl azt mondta, hogy a kis kávézós hölgy és a muffin úr összeházasodnak! Azt mondják, hogy aki megfőzi a kedvenc ételeiket dúsan gazdagodnak. Igazak ezek a pletykák?" />
 		<text id="coop_title_26" name="DINNER BUFFET" />
-		<text id="coop_desc_short_26" name="Eat up!" />
-		<text id="coop_desc_long_26" name="Chef Cupcakekittycat8 wants a dinner with plenty of food. Help out!" />
-		<text id="coop_title_27" name="OISH-SOME" />
-		<text id="coop_desc_short_27" name="So great!" />
-		<text id="coop_desc_long_27" name="Chef Nao wants to serve food for an anime convention happening at the Café next door. Give a hand!" />
-		<text id="coop_title_28" name="COCOANFESSION" />
-		<text id="coop_desc_short_28" name="The true love is Chocolate!" />
-		<text id="coop_desc_long_28" name="Chef Nao wants to popularize chocolate dishes around the neighborhood and will pay for it. Why not participate?" />
-		<text id="coop_title_31" name="CURRY FESTIVAL" />
-		<text id="coop_desc_short_31" name="There&apos;s an option for everyone!" />
-		<text id="coop_desc_long_31" name="A local Indian festival wants to hand out as much curry as possible to guests. Can you help?" />
+		<text id="coop_desc_short_26" name="EGYÉ MÁ!" />
+		<text id="coop_desc_long_26" name="sÉF Cupcakekittycat8 nagy vacsorát szeretne. Segíts neki!" />
+		<text id="coop_title_27" name="OISHI! DE FINOM!" />
+		<text id="coop_desc_short_27" name="Annyira jó!" />
+		<text id="coop_desc_long_27" name="Séf Nao anime conra szeretne ételt felszolgálni. Segíts neki!" />
+		<text id="coop_title_28" name="CSOKI-SZERELEM!" />
+		<text id="coop_desc_short_28" name="Igaz szerelem egy kocka csokiban!" />
+		<text id="coop_desc_long_28" name="Séf Nao szeretne több csokis édességet eladni. Segítesz neki?" />
+		<text id="coop_title_31" name="CURRY FESZTIVÁL" />
+		<text id="coop_desc_short_31" name="Mindenkinek jut valami!" />
+		<text id="coop_desc_long_31" name="Egy indiai étterem szeretne curryt adni mindenkinek. Tudsz segíteni?" />
 		<text id="coop_title_29" name="CURRY FESTIVAL" />
-		<text id="coop_desc_short_29" name="There&apos;s an option for everyone!" />
-		<text id="coop_desc_long_29" name="A local Indian festival wants to hand out as much curry as possible to guests. Can you help?" />
-		<text id="coop_title_32" name="BRAZIL AND PORTUGAL" />
-		<text id="coop_desc_short_32" name="Shorten the distance with food!" />
-		<text id="coop_desc_long_32" name="An international event is happening but Brazilian and Portugese visitors are homesick. Make traditional food to make them happy!" />
-		<text id="coop_title_33" name="DEV&apos;S CHOICE!" />
-		<text id="coop_desc_short_33" name="Fuel for more development!" />
-		<text id="coop_desc_long_33" name="Chef Gab needs very large amounts of his favorite food to be cooked to stress test the servers! Help out!" />
-		<text id="coop_title_34" name="MOUSSE BATTLE!" />
-		<text id="coop_desc_short_34" name="Which one is the best?" />
-		<text id="coop_desc_long_34" name="Chefs all around the world are battling to see which mousse is the best. Play for all teams and see what&apos;s up!" />
-		<text id="coop_title_35" name="FAMILY FEAST" />
-		<text id="coop_desc_short_35" name="So many guests!" />
-		<text id="coop_desc_long_35" name="Your whole family, their friends, your friends and their families are ALL coming to your Café to celebrate your business. Do them proud!" />
-		<text id="coop_title_36" name="WE NEED LOTS OF EGGS!" />
-		<text id="coop_desc_short_36" name="Did they actually come first?" />
-		<text id="coop_desc_long_36" name="Chef Myleeek is conducting research on who came first: the chicken or the egg? Cook dishes with eggs to provide data!" />
-		<text id="coop_title_37" name="A GRATE MISTAKE!" />
-		<text id="coop_desc_short_37" name="The cheese rules all!" />
-		<text id="coop_desc_long_37" name="Chef Cupcakekittycat8 was hired to provide dishes for the birthday of a famous Mouse. Sadly, she used tofu instead of cheese and the mice are furious! Can you make food with cheese to help?" />
-		<text id="coop_title_38" name="BURGER FESTIVAL" />
-		<text id="coop_desc_short_38" name="A classic taste for a gathering!" />
-		<text id="coop_desc_long_38" name="Chef Franskmayn is going to serve burgers at the Marketplace. Provide some portions to get a share of the revenue!" />
-		<text id="coop_title_39" name="SWEET LIKE A STRAWBERRY!" />
-		<text id="coop_desc_short_39" name="A bountiful harvest!" />
-		<text id="coop_desc_long_39" name="The strawberry harvest was excellent and chef Gabriel wants to share the sweetness with everyone. Let&apos;s make some berry-licious dishes!" />
-		<text id="coop_title_30" name="A MOUSE IN THE KITCHEN!" />
-		<text id="coop_desc_short_30" name="Don&apos;t let anyone see it!" />
-		<text id="coop_desc_long_30" name="A mouse was spotted in your Café and it wants fancy food to be served or it will ruin your business! Why does this feel familiar?" />
+		<text id="coop_desc_short_29" name="Mindenkinek jut valami jó!" />
+		<text id="coop_desc_long_29" name="A közeli indiai fesztiválon curry-t szeretnének felszolgálni. Tudsz segíteni?" />
+		<text id="coop_title_32" name="BRAZÍLIA ÉS PORTUGÁLIA" />
+		<text id="coop_desc_short_32" name="Rövidítsd a távolságot étellel!" />
+		<text id="coop_desc_long_32" name="Nemzetközi esemény van de a Brazil és Portugál vendégek honvágyóak. Készíts tradicionális ételeket nekik!" />
+		<text id="coop_title_33" name="FEJLESZTŐK KEDVENCE!" />
+		<text id="coop_desc_short_33" name="Tüzelj még több frissítést!" />
+		<text id="coop_desc_long_33" name="Séf Gab szeretne egy nagy adagot főzni a kedvenc ételéből, hogy stressz-tesztelje a vendégeit! Segíts neki!" />
+		<text id="coop_title_34" name="MOUSSE CSATA!" />
+		<text id="coop_desc_short_34" name="Melyik a legjobb?" />
+		<text id="coop_desc_long_34" name="Séfek a világ minden területéről csatáznak, hogy melyik a legjobb mousse. Adj bele mindegyik csapatba!" />
+		<text id="coop_title_35" name="CSALÁDI VACSORA!" />
+		<text id="coop_desc_short_35" name="Mennyi vendég!" />
+		<text id="coop_desc_long_35" name="Az egész családod, a barátaik, a te barátaid és az ő családjuk MIND összegyűltek, hogy megünnepelják a kávézód sikerességét. Tedd büszkévé őket!" />
+		<text id="coop_title_36" name="EGY CSOMÓ TOJÁS KELL!" />
+		<text id="coop_desc_short_36" name="Ők voltak előbb?" />
+		<text id="coop_desc_long_36" name="Séf Myleeek kutatást végez: Mi volt előbb, a tyúk vagy a tojás? Főzz tojásos ételt, hogy segíts néhány adattal!" />
+		<text id="coop_title_37" name="RESZELŐS FELADAT!" />
+		<text id="coop_desc_short_37" name="Sajt mindenek felett!" />
+		<text id="coop_desc_long_37" name="Séf Cupcakekittycat8-et megbízták, hogy készítsen szülinapi ételt egy híres egérnek. Sajnos tofut használt sajt helyett, és az egerek bepipultak! Tudsz néhány sajtos ételt csinálni?" />
+		<text id="coop_title_38" name="BURGER FESZTIVÁL" />
+		<text id="coop_desc_short_38" name="Klasszikus ízek!" />
+		<text id="coop_desc_long_38" name="Séf Franskmayn burgert kínál a piacon. Segíts egy adaggal, hogy te is kapj a jutalomból!" />
+		<text id="coop_title_39" name="ÉDES MINT AZ EPER!" />
+		<text id="coop_desc_short_39" name="Egy csodás termés!" />
+		<text id="coop_desc_long_39" name="Az eper szépen termett és Séf Gabriel szeretne osztozni a javakon. Itt az idő az eprességre!" />
+		<text id="coop_title_30" name="EGÉR A KONYHÁBAN!" />
+		<text id="coop_desc_short_30" name="Ne hagyd hogy bárki lássa!" />
+		<text id="coop_desc_long_30" name="Egy egér jelent meg a kávézódban, és nagyra értékelt ételt szeretne felszolgálni. Ha nem teheti, akkor tönkreteszi a vállalkozásood! Ismerősen hangzik, nem?" />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="Kitüntetések" />
@@ -998,7 +998,7 @@
 		<text id="wheeloffortunetooltip_line3" name="Egy játék ingyenes" />
 	</ingame_tooltips>
 	<ingredients>
-		<text id="ingredient_cookfest" name="Event Ingredients" />
+		<text id="ingredient_cookfest" name="Ünnepi Ételcsomag" />
 		<text id="ingredient_limelemon" name="Citrus" />
 		<text id="ingredient_citrus" name="Citrus" />
 		<text id="ingredient_apple" name="Alma" />
@@ -1098,216 +1098,216 @@
 	<preparestep>
 		<text id="preparestep_bananasplit_banana" name="Banánt hámozni" />
 		<text id="preparestep_bananasplit_chocolate" name="Csokoládét darabolni" />
-		<text id="preparestep_brigadeiro_chocolate" name="Cut chocolate" />
-		<text id="preparestep_brigadeiro_cream" name="Mix cream" />
-		<text id="preparestep_brigadeiro_vanilla" name="Shave vanilla" />
+		<text id="preparestep_brigadeiro_chocolate" name="Csokoládét vágni" />
+		<text id="preparestep_brigadeiro_cream" name="Krémet keverni" />
+		<text id="preparestep_brigadeiro_vanilla" name="Vaníliát kaparni" />
 		<text id="preparestep_bananasplit_cream" name="Habot verni" />
 		<text id="preparestep_bananasplit_milk" name="Tejet kimérni" />
 		<text id="preparestep_bananasplit_sugar" name="Cukrot lemérni" />
 		<text id="preparestep_blackforestcherrycake_chocolate" name="Csokoládét reszelni" />
 		<text id="preparestep_blackforestcherrycake_cocktailcherry" name="Cseresznyét tisztítani" />
 		<text id="preparestep_blackforestcherrycake_cream" name="Habot verni" />
-		<text id="preparestep_pizzasalad_tomato" name="Cut tomatoes" />
-		<text id="preparestep_pizzasalad_onion" name="Cut onions" />
-		<text id="preparestep_pizzasalad_lettuce" name="Wash lettuce" />
-		<text id="preparestep_pizzasalad_cheese" name="Grate cheese" />
-		<text id="preparestep_pizzasalad_flour" name="Sift flour" />
-		<text id="preparestep_tripleomelette_eggs" name="Crack eggs strongly" />
-		<text id="preparestep_tripleomelette_chili" name="Make it spicy" />
-		<text id="preparestep_chocolatewaffles_flour" name="Measure flour" />
-		<text id="preparestep_chocolatewaffles_cream" name="Whip cream" />
-		<text id="preparestep_chocolatewaffles_eggs" name="Crack eggs softly" />
-		<text id="preparestep_chocolatewaffles_chocolate" name="Melt chocolate" />
-		<text id="preparestep_chocolatewaffles_vanilla" name="Add vanilla extract" />
-		<text id="preparestep_spanishomelette_potato" name="Peel potatoes" />
-		<text id="preparestep_spanishomelette_onion" name="Chop onions" />
-		<text id="preparestep_spanishomelette_eggs" name="Crack eggs in Spanish" />
-		<text id="preparestep_spanishomelette_parsley" name="Chop parsley" />
-		<text id="preparestep_sausagepasta_pasta" name="Boil pasta" />
-		<text id="preparestep_sausagepasta_sausages" name="Chop sausages" />
-		<text id="preparestep_sausagepasta_tomato" name="Make tomato sauce" />
-		<text id="preparestep_sausagepasta_coriander" name="Chop coriander" />
-		<text id="preparestep_applepie_cream" name="Whip cream" />
-		<text id="preparestep_applepie_eggs" name="Crack eggs elegantly" />
-		<text id="preparestep_applepie_flour" name="Measure flour" />
-		<text id="preparestep_applepie_apple" name="Think about apple economy" />
-		<text id="preparestep_applepie_cinnamon" name="Add cinnamon" />
-		<text id="preparestep_ramen_pasta" name="Boil pasta" />
-		<text id="preparestep_ramen_eggs" name="Boil eggs" />
-		<text id="preparestep_ramen_bacon" name="Chop bacon" />
-		<text id="preparestep_ramen_chili" name="Make it spicy" />
-		<text id="preparestep_corncake_sweetcorn" name="Make cornflakes" />
-		<text id="preparestep_corncake_butter" name="Melt butter" />
-		<text id="preparestep_corncake_eggs" name="Mix eggs" />
-		<text id="preparestep_corncake_milk" name="Add milk" />
-		<text id="preparestep_corncake_sugar" name="Mix sugar in the dough" />
-		<text id="preparestep_corncake_cinnamon" name="Add cinnamon" />
-		<text id="preparestep_feijoada_beans" name="Boil beans" />
-		<text id="preparestep_feijoada_bacon" name="Chop bacon chunks" />
-		<text id="preparestep_feijoada_sausages" name="Cut sausages" />
-		<text id="preparestep_feijoada_onion" name="Chop onions" />
-		<text id="preparestep_feijoada_garlic" name="Toss garlic in" />
-		<text id="preparestep_feijoada_coriander" name="Add coriander" />
-		<text id="preparestep_pinapjuice_pinapple" name="Chop pineapple" />
-		<text id="preparestep_pinapjuice_vanilla" name="Add vanilla" />
-		<text id="preparestep_orangejuice_orange" name="Slice oranges" />
-		<text id="preparestep_orangejuice_sugar" name="Add sugar" />
-		<text id="preparestep_orangejuice_vanilla" name="Add vanilla" />
-		<text id="preparestep_discodrinks_cream" name="Whip cream" />
-		<text id="preparestep_discodrinks_pinapple" name="Chop pineapple" />
-		<text id="preparestep_discodrinks_apple" name="Slice apples" />
-		<text id="preparestep_discodrinks_sugar" name="Add sugar" />
-		<text id="preparestep_discodrinks_milk" name="Pour milk" />
-		<text id="preparestep_discodrinks_vanilla" name="Add vanilla" />
-		<text id="preparestep_applejuice_apple" name="Slice apples" />
-		<text id="preparestep_applejuice_sugar" name="Add sugar" />
-		<text id="preparestep_applejuice_vanilla" name="Add vanilla" />
-		<text id="preparestep_rjuice_rhubarb" name="Chop rhubarb" />
-		<text id="preparestep_rjuice_sugar" name="Add sugar" />
-		<text id="preparestep_rjuice_vanilla" name="Add vanilla" />
-		<text id="preparestep_cherryjuice_cherries" name="Wash cherries" />
-		<text id="preparestep_cherryjuice_sugar" name="Add sugar" />
-		<text id="preparestep_cherryjuice_vanilla" name="Add vanilla" />
-		<text id="preparestep_strawberryjuice_strawberry" name="Wash strawberries" />
-		<text id="preparestep_strawberryjuice_sugar" name="Add sugar" />
-		<text id="preparestep_strawberryjuice_vanilla" name="Add vanilla" />
-		<text id="preparestep_cappuccino_cookfest" name="Think about next Cookfest" />
-		<text id="preparestep_cappuccino_cinnamon" name="Sprinkle cinnamon" />
-		<text id="preparestep_duckalcitrus_duck" name="Prepare duck" />
-		<text id="preparestep_duckalcitrus_butter" name="Melt butter" />
-		<text id="preparestep_duckalcitrus_onion" name="Chop onions" />
-		<text id="preparestep_duckalcitrus_citrus" name="Squeeze citrus" />
-		<text id="preparestep_ducktatters_duck" name="Prepare duck" />
-		<text id="preparestep_ducktatters_potato" name="Chop potatoes" />
-		<text id="preparestep_ducktatters_pasta" name="Boil pasta" />
-		<text id="preparestep_ducktatters_oil" name="Heat oil" />
-		<text id="preparestep_langos_flour" name="Sift flour" />
-		<text id="preparestep_langos_eggs" name="Crack eggs" />
-		<text id="preparestep_langos_cream" name="Whip cream" />
-		<text id="preparestep_langos_garlic" name="Press garlic" />
-		<text id="preparestep_langos_cheese" name="Grate cheese" />
-		<text id="preparestep_nasilemak_rice" name="Wash rice" />
-		<text id="preparestep_nasilemak_eggs" name="Boil eggs" />
-		<text id="preparestep_nasilemak_onion" name="Chop onions" />
-		<text id="preparestep_nasilemak_beans" name="Cook beans" />
-		<text id="preparestep_nasilemak_cucumber" name="Slice cucumbers" />
-		<text id="preparestep_citrusjuice_citrus" name="Squeeze citrus" />
-		<text id="preparestep_citrusjuice_sugar" name="Measure sugar" />
-		<text id="preparestep_carrotcake_carrots" name="Grate carrots" />
-		<text id="preparestep_carrotcake_flour" name="Sift flour" />
-		<text id="preparestep_carrotcake_whitechocolat" name="Chop white chocolate" />
-		<text id="preparestep_carrotcake_chocolate" name="Melt chocolate" />
-		<text id="preparestep_carrotcake_milk" name="Measure milk" />
-		<text id="preparestep_carrotjuice_carrots" name="Peel carrots" />
-		<text id="preparestep_carrotjuice_sugar" name="Measure sugar" />
-		<text id="preparestep_francesinha_cheese" name="Slice cheese" />
-		<text id="preparestep_francesinha_eggs" name="Fry eggs" />
-		<text id="preparestep_francesinha_mincemeat" name="Cook meat" />
-		<text id="preparestep_francesinha_sausages" name="Slice sausages" />
-		<text id="preparestep_francesinha_onion" name="Chop onions" />
-		<text id="preparestep_dorayaki_flour" name="Sift flour" />
-		<text id="preparestep_dorayaki_eggs" name="Crack eggs" />
-		<text id="preparestep_dorayaki_beans" name="Mash beans" />
-		<text id="preparestep_dorayaki_sugar" name="Measure sugar" />
-		<text id="preparestep_tiramisu_chocolate" name="Grate chocolate" />
-		<text id="preparestep_tiramisu_cookies" name="Soak cookies" />
-		<text id="preparestep_tiramisu_quark" name="Whip quark" />
-		<text id="preparestep_tiramisu_eggs" name="Separate eggs" />
-		<text id="preparestep_pridecupcakes_flour" name="Sift flour" />
-		<text id="preparestep_pridecupcakes_eggs" name="Crack eggs" />
-		<text id="preparestep_pridecupcakes_coconut" name="Shave coconut" />
-		<text id="preparestep_pridecupcakes_sugar" name="Measure sugar" />
-		<text id="preparestep_pridecupcakes_milk" name="Measure milk" />
-		<text id="preparestep_ratatouille_tomato" name="Cut tomatoes" />
-		<text id="preparestep_ratatouille_eggplant" name="Slice eggplant" />
-		<text id="preparestep_ratatouille_onion" name="Chop onions" />
-		<text id="preparestep_ratatouille_cream" name="Mix cream" />
-		<text id="preparestep_ratatouille_oil" name="Measure oil" />
-		<text id="preparestep_hotcherryricepudding_rice" name="Weigh rice" />
-		<text id="preparestep_hotcherryricepudding_cherries" name="Pit cherries" />
-		<text id="preparestep_hotcherryricepudding_sugar" name="Measure sugar" />
-		<text id="preparestep_hotcherryricepudding_milk" name="Measure milk" />
-		<text id="preparestep_coconutcake_flour" name="Sift flour" />
-		<text id="preparestep_coconutcake_eggs" name="Crack eggs" />
-		<text id="preparestep_coconutcake_milk" name="Pour milk" />
-		<text id="preparestep_coconutcake_coconut" name="Grate coconut" />
-		<text id="preparestep_coconutcake_sugar" name="Measure sugar" />
-		<text id="preparestep_paodequeijo_eggs" name="Crack eggs" />
-		<text id="preparestep_paodequeijo_cheese" name="Grate cheese" />
-		<text id="preparestep_paodequeijo_flour" name="Sift flour" />
-		<text id="preparestep_paodequeijo_oil" name="Measure oil" />
-		<text id="preparestep_baiaodedois_rice" name="Weigh rice" />
-		<text id="preparestep_baiaodedois_beans" name="Rinse beans" />
-		<text id="preparestep_baiaodedois_cheese" name="Cube cheese" />
-		<text id="preparestep_baiaodedois_bacon" name="Cube bacon" />
-		<text id="preparestep_baiaodedois_onion" name="Chop onion" />
-		<text id="preparestep_bakedalaska_cream" name="Whip cream" />
-		<text id="preparestep_bakedalaska_eggs" name="Separate eggs" />
-		<text id="preparestep_bakedalaska_sugar" name="Measure sugar" />
-		<text id="preparestep_butterchicken_tomato" name="Blend tomatoes" />
-		<text id="preparestep_butterchicken_chicken" name="Cut chicken" />
-		<text id="preparestep_butterchicken_cream" name="Measure cream" />
-		<text id="preparestep_butterchicken_butter" name="Melt butter" />
-		<text id="preparestep_butterchicken_curryspice" name="Add curry" />
-		<text id="preparestep_chickenbiryani_tomato" name="Chop tomatoes" />
-		<text id="preparestep_chickenbiryani_onion" name="Chop onions" />
-		<text id="preparestep_chickenbiryani_rice" name="Cook rice" />
-		<text id="preparestep_chickenbiryani_chicken" name="Sauté chicken" />
-		<text id="preparestep_chickenbiryani_potato" name="Cube potatoes" />
-		<text id="preparestep_cottagepotatoes_cream" name="Mix cream" />
-		<text id="preparestep_cottagepotatoes_onion" name="Chop onions" />
-		<text id="preparestep_cottagepotatoes_quark" name="Whip quark" />
-		<text id="preparestep_cottagepotatoes_butter" name="Add butter" />
-		<text id="preparestep_cottagepotatoes_potato" name="Boil potatoes" />
-		<text id="preparestep_cuzcuzcomovo_sweetcorn" name="Prepare cornmeal" />
-		<text id="preparestep_cuzcuzcomovo_eggs" name="Crack eggs" />
-		<text id="preparestep_cuzcuzcomovo_butter" name="Melt butter" />
-		<text id="preparestep_malaichickennaan_chicken" name="Cut chicken" />
-		<text id="preparestep_malaichickennaan_cream" name="Whip cream" />
-		<text id="preparestep_malaichickennaan_garlic" name="Press garlic" />
-		<text id="preparestep_malaichickennaan_oil" name="Heat oil" />
-		<text id="preparestep_malaichickennaan_flour" name="Sift flour" />
-		<text id="preparestep_veganplate_carrots" name="Peel carrots" />
-		<text id="preparestep_veganplate_peas" name="Cook peas" />
-		<text id="preparestep_veganplate_cucumber" name="Slice cucumber" />
-		<text id="preparestep_veganplate_tomato" name="Cut tomatoes" />
-		<text id="preparestep_veganplate_rice" name="Cook rice" />
-		<text id="preparestep_neapolitancake_whitechocolat" name="Melt white chocolate" />
-		<text id="preparestep_neapolitancake_chocolate" name="Melt chocolate" />
-		<text id="preparestep_neapolitancake_strawberry" name="Mash strawberries" />
-		<text id="preparestep_neapolitancake_flour" name="Sift flour" />
-		<text id="preparestep_neapolitancake_milk" name="Pour milk" />
-		<text id="preparestep_strawberrycheesecake_cream" name="Add Cream" />
-		<text id="preparestep_strawberrycheesecake_milk" name="Add Milk" />
-		<text id="preparestep_strawberrycheesecake_cookies" name="Crumble Cookies" />
-		<text id="preparestep_strawberrycheesecake_quark" name="Add Quark" />
-		<text id="preparestep_strawberrycheesecake_strawberry" name="Add Strawberries" />
-		<text id="preparestep_combomeal_flour" name="Make instant bread" />
-		<text id="preparestep_combomeal_mincemeat" name="Make patties" />
-		<text id="preparestep_combomeal_cheese" name="Slice cheese" />
-		<text id="preparestep_combomeal_potato" name="Cut fries" />
-		<text id="preparestep_combomeal_oil" name="Add lots of oil" />
-		<text id="preparestep_zcordonbleu_chicken" name="Flatten chicken" />
-		<text id="preparestep_zcordonbleu_flour" name="Sift flour" />
-		<text id="preparestep_zcordonbleu_cheese" name="Slice cheese" />
-		<text id="preparestep_zcordonbleu_oil" name="Heat oil" />
-		<text id="preparestep_zcordonbleu_eggs" name="Beat eggs" />
-		<text id="preparestep_brazilianpastel_flour" name="Make pastel dough" />
-		<text id="preparestep_brazilianpastel_cheese" name="Grate cheese" />
-		<text id="preparestep_brazilianpastel_oil" name="Heat oil" />
-		<text id="preparestep_brazilianpastel_sugar" name="Make sugarcane drink" />
-		<text id="preparestep_lechonkawali_bacon" name="Slice bacon" />
-		<text id="preparestep_lechonkawali_cucumber" name="Slice cucumber" />
-		<text id="preparestep_lechonkawali_garlic" name="Crush garlic" />
-		<text id="preparestep_lechonkawali_oil" name="Heat oil" />
-		<text id="preparestep_sweetpizza_flour" name="Prepare pizza dough" />
-		<text id="preparestep_sweetpizza_chocolate" name="Melt chocolate" />
-		<text id="preparestep_sweetpizza_strawberry" name="Slice strawberries" />
-		<text id="preparestep_sweetpizza_cookfest" name="Find fruits" />
-		<text id="preparestep_shakshuka_onion" name="Chop onions" />
-		<text id="preparestep_shakshuka_garlic" name="Crush garlic" />
-		<text id="preparestep_shakshuka_tomato" name="Chop tomatoes" />
-		<text id="preparestep_shakshuka_eggs" name="Crack eggs" />
+		<text id="preparestep_pizzasalad_tomato" name="Paradicsomot felvágni" />
+		<text id="preparestep_pizzasalad_onion" name="Hagymát aprítani" />
+		<text id="preparestep_pizzasalad_lettuce" name="Salátát mosni" />
+		<text id="preparestep_pizzasalad_cheese" name="Sajtot reszelni" />
+		<text id="preparestep_pizzasalad_flour" name="Lisztet szitálni" />
+		<text id="preparestep_tripleomelette_eggs" name="Tojást törni" />
+		<text id="preparestep_tripleomelette_chili" name="Csípősíteni" />
+		<text id="preparestep_chocolatewaffles_flour" name="Lisztet kimérni" />
+		<text id="preparestep_chocolatewaffles_cream" name="Krémet felverni" />
+		<text id="preparestep_chocolatewaffles_eggs" name="Óvatosan tojást törni" />
+		<text id="preparestep_chocolatewaffles_chocolate" name="Csokoládét olvasztani" />
+		<text id="preparestep_chocolatewaffles_vanilla" name="Vaníliakivonatot hozzáadni" />
+		<text id="preparestep_spanishomelette_potato" name="Krumplit hámozni" />
+		<text id="preparestep_spanishomelette_onion" name="Hagymát vágni" />
+		<text id="preparestep_spanishomelette_eggs" name="Spanyolosan tojást törni" />
+		<text id="preparestep_spanishomelette_parsley" name="Petrezselymet felvágni" />
+		<text id="preparestep_sausagepasta_pasta" name="Tésztát főzni" />
+		<text id="preparestep_sausagepasta_sausages" name="Kolbászt vágni" />
+		<text id="preparestep_sausagepasta_tomato" name="Paradicsomszószt készíteni" />
+		<text id="preparestep_sausagepasta_coriander" name="Koriandert vágni" />
+		<text id="preparestep_applepie_cream" name="Krémet felverni" />
+		<text id="preparestep_applepie_eggs" name="Elegánsan tojást törni" />
+		<text id="preparestep_applepie_flour" name="Lisztet kimérni" />
+		<text id="preparestep_applepie_apple" name="Almagazdaságról gondolkodni" />
+		<text id="preparestep_applepie_cinnamon" name="Fahéjat hozzáadni" />
+		<text id="preparestep_ramen_pasta" name="Tésztát főzni" />
+		<text id="preparestep_ramen_eggs" name="Tojást főzni" />
+		<text id="preparestep_ramen_bacon" name="Szalonnát szeletelni" />
+		<text id="preparestep_ramen_chili" name="Csípősíteni" />
+		<text id="preparestep_corncake_sweetcorn" name="Kukoricapelyhet készíteni" />
+		<text id="preparestep_corncake_butter" name="Vajat melegíteni" />
+		<text id="preparestep_corncake_eggs" name="Tojást felverni" />
+		<text id="preparestep_corncake_milk" name="Tejet hozzáadni" />
+		<text id="preparestep_corncake_sugar" name="Cukrot belekeverni a tésztába" />
+		<text id="preparestep_corncake_cinnamon" name="Fahéjat hozzáadni" />
+		<text id="preparestep_feijoada_beans" name="Babot főzni" />
+		<text id="preparestep_feijoada_bacon" name="Szalonnát darabolni" />
+		<text id="preparestep_feijoada_sausages" name="Kolbászt vágni" />
+		<text id="preparestep_feijoada_onion" name="Hagymát vágni" />
+		<text id="preparestep_feijoada_garlic" name="Fokhagymát hozzáadni" />
+		<text id="preparestep_feijoada_coriander" name="Koriandert hozzáadni" />
+		<text id="preparestep_pinapjuice_pinapple" name="Ananászt felvágni" />
+		<text id="preparestep_pinapjuice_vanilla" name="Vaníliát hozzáadni" />
+		<text id="preparestep_orangejuice_orange" name="Narancsot felszeletelni" />
+		<text id="preparestep_orangejuice_sugar" name="Cukrot hozzáadni" />
+		<text id="preparestep_orangejuice_vanilla" name="Vaníliát hozzáadni" />
+		<text id="preparestep_discodrinks_cream" name="WKrémet hozzáadni" />
+		<text id="preparestep_discodrinks_pinapple" name="Ananászt felvágni" />
+		<text id="preparestep_discodrinks_apple" name="Almát feldarabolni" />
+		<text id="preparestep_discodrinks_sugar" name="Cukrot hozzáadni" />
+		<text id="preparestep_discodrinks_milk" name="Tejet önteni" />
+		<text id="preparestep_discodrinks_vanilla" name="Vaníliát hozzáadni" />
+		<text id="preparestep_applejuice_apple" name="Almát feldarabolni" />
+		<text id="preparestep_applejuice_sugar" name="Cukrot hozzáadni" />
+		<text id="preparestep_applejuice_vanilla" name="Vaníliát hozzáadni" />
+		<text id="preparestep_rjuice_rhubarb" name="Rebarbarát felvágni" />
+		<text id="preparestep_rjuice_sugar" name="Cukrot hozzáadni" />
+		<text id="preparestep_rjuice_vanilla" name="Vaníliát hozzáadni" />
+		<text id="preparestep_cherryjuice_cherries" name="Cseresznyét mosni" />
+		<text id="preparestep_cherryjuice_sugar" name="Cukrot hozzáadni" />
+		<text id="preparestep_cherryjuice_vanilla" name="Vaníliát hozzáadni" />
+		<text id="preparestep_strawberryjuice_strawberry" name="Epret mosni" />
+		<text id="preparestep_strawberryjuice_sugar" name="Cukrot hozzáadni" />
+		<text id="preparestep_strawberryjuice_vanilla" name="Vaníliát hozzáadni" />
+		<text id="preparestep_cappuccino_cookfest" name="A következő főzőfesztiválon gondolkodni" />
+		<text id="preparestep_cappuccino_cinnamon" name="Fahéjjal megszórni" />
+		<text id="preparestep_duckalcitrus_duck" name="Kacsát előkészíteni" />
+		<text id="preparestep_duckalcitrus_butter" name="Vajat melegíteni" />
+		<text id="preparestep_duckalcitrus_onion" name="Hagymát vágni" />
+		<text id="preparestep_duckalcitrus_citrus" name="Citrust facsarni" />
+		<text id="preparestep_ducktatters_duck" name="Kacsát előkészíteni" />
+		<text id="preparestep_ducktatters_potato" name="Krumplit darabolni" />
+		<text id="preparestep_ducktatters_pasta" name="Tésztát főzni" />
+		<text id="preparestep_ducktatters_oil" name="Olajat felmelegíteni" />
+		<text id="preparestep_langos_flour" name="Tésztát szitálni" />
+		<text id="preparestep_langos_eggs" name="Tojást törni" />
+		<text id="preparestep_langos_cream" name="Krémet verni" />
+		<text id="preparestep_langos_garlic" name="Fokhagymát dörgölni" />
+		<text id="preparestep_langos_cheese" name="Sajtot reszelni" />
+		<text id="preparestep_nasilemak_rice" name="Rizst mosni" />
+		<text id="preparestep_nasilemak_eggs" name="Tojást főzni" />
+		<text id="preparestep_nasilemak_onion" name="Hagymát vágni" />
+		<text id="preparestep_nasilemak_beans" name="Babot főzni" />
+		<text id="preparestep_nasilemak_cucumber" name="Uborkát vágni" />
+		<text id="preparestep_citrusjuice_citrus" name="Citrust facsarni" />
+		<text id="preparestep_citrusjuice_sugar" name="Cukrot mérni" />
+		<text id="preparestep_carrotcake_carrots" name="Répát reszelni" />
+		<text id="preparestep_carrotcake_flour" name="Lisztet szitálni" />
+		<text id="preparestep_carrotcake_whitechocolat" name="Fehér csokoládét felvágni" />
+		<text id="preparestep_carrotcake_chocolate" name="Csokoládét olvasztani" />
+		<text id="preparestep_carrotcake_milk" name="Tejet kimérni" />
+		<text id="preparestep_carrotjuice_carrots" name="Répát hámozni" />
+		<text id="preparestep_carrotjuice_sugar" name="Cukrot kimérni" />
+		<text id="preparestep_francesinha_cheese" name="Sajtot vágni" />
+		<text id="preparestep_francesinha_eggs" name="Tojást kisütni" />
+		<text id="preparestep_francesinha_mincemeat" name="Húst kisütni" />
+		<text id="preparestep_francesinha_sausages" name="Kolbászt felvágni" />
+		<text id="preparestep_francesinha_onion" name="Hagymát vágni" />
+		<text id="preparestep_dorayaki_flour" name="Lisztet szitálni" />
+		<text id="preparestep_dorayaki_eggs" name="Tojást törni" />
+		<text id="preparestep_dorayaki_beans" name="Babot törni" />
+		<text id="preparestep_dorayaki_sugar" name="Cukrot kimérni" />
+		<text id="preparestep_tiramisu_chocolate" name="Csokoládét reszelni" />
+		<text id="preparestep_tiramisu_cookies" name="Sütiket beáztatni" />
+		<text id="preparestep_tiramisu_quark" name="Túrót verni" />
+		<text id="preparestep_tiramisu_eggs" name="Tojásokat szétválasztani" />
+		<text id="preparestep_pridecupcakes_flour" name="Lisztet szitálni" />
+		<text id="preparestep_pridecupcakes_eggs" name="Tojást törni" />
+		<text id="preparestep_pridecupcakes_coconut" name="Kókuszt hámozni" />
+		<text id="preparestep_pridecupcakes_sugar" name="Cukrot kimérni" />
+		<text id="preparestep_pridecupcakes_milk" name="Tejet kimérni" />
+		<text id="preparestep_ratatouille_tomato" name="Paradicsomot felvágni" />
+		<text id="preparestep_ratatouille_eggplant" name="Padlizsánt felvágni" />
+		<text id="preparestep_ratatouille_onion" name="Hagymát vágni" />
+		<text id="preparestep_ratatouille_cream" name="Krémet keverni" />
+		<text id="preparestep_ratatouille_oil" name="Olajat kimérni" />
+		<text id="preparestep_hotcherryricepudding_rice" name="Rizst kimérni" />
+		<text id="preparestep_hotcherryricepudding_cherries" name="Cseresznyét kimagozni" />
+		<text id="preparestep_hotcherryricepudding_sugar" name="Cukrot kimérni" />
+		<text id="preparestep_hotcherryricepudding_milk" name="Tejet kimérni" />
+		<text id="preparestep_coconutcake_flour" name="Lisztet szitálni" />
+		<text id="preparestep_coconutcake_eggs" name="Tojást törni" />
+		<text id="preparestep_coconutcake_milk" name="Tejet önteni" />
+		<text id="preparestep_coconutcake_coconut" name="Kókuszt reszelni" />
+		<text id="preparestep_coconutcake_sugar" name="Cukrot kimérni" />
+		<text id="preparestep_paodequeijo_eggs" name="Tojást törni" />
+		<text id="preparestep_paodequeijo_cheese" name="Sajtot reszelni" />
+		<text id="preparestep_paodequeijo_flour" name="Lisztet szitálni" />
+		<text id="preparestep_paodequeijo_oil" name="Olajat kimérni" />
+		<text id="preparestep_baiaodedois_rice" name="Rizst kimérni" />
+		<text id="preparestep_baiaodedois_beans" name="Babot áztatni" />
+		<text id="preparestep_baiaodedois_cheese" name="Sajtot kockázni" />
+		<text id="preparestep_baiaodedois_bacon" name="Szalonnát kockázni" />
+		<text id="preparestep_baiaodedois_onion" name="Hagymát vágni" />
+		<text id="preparestep_bakedalaska_cream" name="Krémet felverni" />
+		<text id="preparestep_bakedalaska_eggs" name="Tojásokat szétválasztani" />
+		<text id="preparestep_bakedalaska_sugar" name="Cukrot kimérni" />
+		<text id="preparestep_butterchicken_tomato" name="Paradicsomot mixelni" />
+		<text id="preparestep_butterchicken_chicken" name="Csirkét felvágni" />
+		<text id="preparestep_butterchicken_cream" name="Krémet kimérni" />
+		<text id="preparestep_butterchicken_butter" name="Vajat felmelegíteni" />
+		<text id="preparestep_butterchicken_curryspice" name="Curryt hozzáadni" />
+		<text id="preparestep_chickenbiryani_tomato" name="Paradicsommot felvágni" />
+		<text id="preparestep_chickenbiryani_onion" name="Hagymát felvágni" />
+		<text id="preparestep_chickenbiryani_rice" name="Rizst főzni" />
+		<text id="preparestep_chickenbiryani_chicken" name="Sauté-zd a csirkét" />
+		<text id="preparestep_chickenbiryani_potato" name="Krumplit kockázni" />
+		<text id="preparestep_cottagepotatoes_cream" name="Krémet keverni" />
+		<text id="preparestep_cottagepotatoes_onion" name="Hagymát vágni" />
+		<text id="preparestep_cottagepotatoes_quark" name="Túrót keverni" />
+		<text id="preparestep_cottagepotatoes_butter" name="Vajat hozzáadni" />
+		<text id="preparestep_cottagepotatoes_potato" name="KKrumplit főzni" />
+		<text id="preparestep_cuzcuzcomovo_sweetcorn" name="Kukoricalisztet előkészíteni" />
+		<text id="preparestep_cuzcuzcomovo_eggs" name="Tojást törni" />
+		<text id="preparestep_cuzcuzcomovo_butter" name="Vajat felolvasztani" />
+		<text id="preparestep_malaichickennaan_chicken" name="Csirkét vágni" />
+		<text id="preparestep_malaichickennaan_cream" name="Krémet felverni" />
+		<text id="preparestep_malaichickennaan_garlic" name="Fokhagymát dörgölni" />
+		<text id="preparestep_malaichickennaan_oil" name="Olajat hevíteni" />
+		<text id="preparestep_malaichickennaan_flour" name="Lisztet szitálni" />
+		<text id="preparestep_veganplate_carrots" name="Répát hámozni" />
+		<text id="preparestep_veganplate_peas" name="Borsót főzni" />
+		<text id="preparestep_veganplate_cucumber" name="Uborkát szeletelni" />
+		<text id="preparestep_veganplate_tomato" name="Paradicsomot szeletelni" />
+		<text id="preparestep_veganplate_rice" name="Rizst főzni" />
+		<text id="preparestep_neapolitancake_whitechocolat" name="Fehér csokoládét olvasztani" />
+		<text id="preparestep_neapolitancake_chocolate" name="Csokoládét olvasztani" />
+		<text id="preparestep_neapolitancake_strawberry" name="Epret összezúzni" />
+		<text id="preparestep_neapolitancake_flour" name="Lisztet szitálni" />
+		<text id="preparestep_neapolitancake_milk" name="Tejet önteni" />
+		<text id="preparestep_strawberrycheesecake_cream" name="Krémet hozzáadni" />
+		<text id="preparestep_strawberrycheesecake_milk" name="Tejet hozzáadni" />
+		<text id="preparestep_strawberrycheesecake_cookies" name="Sütiket összetörni" />
+		<text id="preparestep_strawberrycheesecake_quark" name="Túrót hozzáadni" />
+		<text id="preparestep_strawberrycheesecake_strawberry" name="Epret hozzáadni" />
+		<text id="preparestep_combomeal_flour" name="Instant kenyeret készíteni" />
+		<text id="preparestep_combomeal_mincemeat" name="Burgerhúst készíteni" />
+		<text id="preparestep_combomeal_cheese" name="Sajtot vágni" />
+		<text id="preparestep_combomeal_potato" name="Hasábburgonyát vágni" />
+		<text id="preparestep_combomeal_oil" name="Sok olajat hozzáadni" />
+		<text id="preparestep_zcordonbleu_chicken" name="Csirkét vágni" />
+		<text id="preparestep_zcordonbleu_flour" name="Lisztet szitálni" />
+		<text id="preparestep_zcordonbleu_cheese" name="Sajtot vágni" />
+		<text id="preparestep_zcordonbleu_oil" name="Olajat hevíteni" />
+		<text id="preparestep_zcordonbleu_eggs" name="Tojást verni" />
+		<text id="preparestep_brazilianpastel_flour" name="Pastel tésztát keverni" />
+		<text id="preparestep_brazilianpastel_cheese" name="Sajtot reszelni" />
+		<text id="preparestep_brazilianpastel_oil" name="Olajat hevíteni" />
+		<text id="preparestep_brazilianpastel_sugar" name="Cukornád italt készíteni" />
+		<text id="preparestep_lechonkawali_bacon" name="Szalonnát vágni" />
+		<text id="preparestep_lechonkawali_cucumber" name="Uborkát vágni" />
+		<text id="preparestep_lechonkawali_garlic" name="Fokhagymát összenyomni" />
+		<text id="preparestep_lechonkawali_oil" name="Olajat hevíteni" />
+		<text id="preparestep_sweetpizza_flour" name="Pizzatésztát készíteni" />
+		<text id="preparestep_sweetpizza_chocolate" name="Csokoládét olvasztani" />
+		<text id="preparestep_sweetpizza_strawberry" name="Epret darabolni" />
+		<text id="preparestep_sweetpizza_cookfest" name="Gyünölcsöt szórni" />
+		<text id="preparestep_shakshuka_onion" name="Hagymát vágni" />
+		<text id="preparestep_shakshuka_garlic" name="Fokhagymát összenyomni" />
+		<text id="preparestep_shakshuka_tomato" name="Paradicsomot vágni" />
+		<text id="preparestep_shakshuka_eggs" name="Tojást törni" />
 		<text id="preparestep_blackforestcherrycake_flour" name="Lisztet szitálni" />
 		<text id="preparestep_cheeseburger_cheese" name="Sajtot felvágni" />
 		<text id="preparestep_cheeseburger_flour" name="Lisztet szitálni" />
@@ -1578,46 +1578,46 @@
 		<text id="preparestep_whitechocmousse_cream" name="Habot verni" />
 		<text id="preparestep_whitechocmousse_eggs" name="Tojást feltörni" />
 		<text id="preparestep_whitechocmousse_whitechocolat" name="Csokoládét olvasztani" />
-		<text id="preparestep_coxinha_flour" name="Spread flour" />
-		<text id="preparestep_coxinha_chicken" name="Shred chicken" />
-		<text id="preparestep_coxinha_onion" name="Chop onions" />
-		<text id="preparestep_coxinha_cream" name="Make cream cheese" />
-		<text id="preparestep_coxinha_oil" name="Heat oil" />
-		<text id="preparestep_coxinha_coriander" name="Chop coriander" />
+		<text id="preparestep_coxinha_flour" name="Lisztet elszórni" />
+		<text id="preparestep_coxinha_chicken" name="Csirkét darabolni" />
+		<text id="preparestep_coxinha_onion" name="Hagymát vágni" />
+		<text id="preparestep_coxinha_cream" name="Krémsajtot készíteni" />
+		<text id="preparestep_coxinha_oil" name="Olajat hevíteni" />
+		<text id="preparestep_coxinha_coriander" name="Koriandert felvágni" />
 	</preparestep>
 	<preparestep_fancy>
-		<text id="preparestep_duckalcitrus_cinnamon" name="Sprinkle cinnamon" />
-		<text id="preparestep_ducktatters_parsley" name="Chop parsley" />
-		<text id="preparestep_langos_parsley" name="Chop parsley" />
-		<text id="preparestep_nasilemak_chili" name="Chop chili" />
-		<text id="preparestep_citrusjuice_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_carrotcake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_carrotjuice_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_francesinha_chili" name="Chop chili" />
-		<text id="preparestep_dorayaki_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_tiramisu_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_pridecupcakes_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_ratatouille_rosemary" name="Chop rosemary" />
-		<text id="preparestep_hotcherryricepudding_cinnamon" name="Sprinkle cinnamon" />
-		<text id="preparestep_coconutcake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_fancy_coconutcake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_paodequeijo_rosemary" name="Add rosemary" />
-		<text id="preparestep_baiaodedois_coriander" name="Chop coriander" />
-		<text id="preparestep_bakedalaska_vanilla" name="Add vanilla" />
-		<text id="preparestep_butterchicken_coriander" name="Chop coriander" />
-		<text id="preparestep_chickenbiryani_coriander" name="Add coriander" />
-		<text id="preparestep_cuzcuzcomovo_parsley" name="Chop parsley" />
-		<text id="preparestep_malaichickennaan_coriander" name="Chop coriander" />
-		<text id="preparestep_veganplate_parsley" name="Chop parsley" />
-		<text id="preparestep_neapolitancake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_strawberrycheesecake_vanilla" name="Add Vanilla" />
-		<text id="preparestep_combomeal_chili" name="Make spicy sauce packets" />
-		<text id="preparestep_zcordonbleu_parsley" name="Chop parsley" />
-		<text id="preparestep_brazilianpastel_basil" name="Chop basil" />
-		<text id="preparestep_lechonkawali_rosemary" name="Chop rosemary" />
-		<text id="preparestep_sweetpizza_cinnamon" name="Sprinkle cinnamon" />
-		<text id="preparestep_shakshuka_parsley" name="Chop parsley" />
-		<text id="preparestep_cottagepotatoes_parsley" name="Chop parsley" />
+		<text id="preparestep_duckalcitrus_cinnamon" name="Fahéjat szórni" />
+		<text id="preparestep_ducktatters_parsley" name="Petrezselymet felvágni" />
+		<text id="preparestep_langos_parsley" name="Petrezselymet darabolni" />
+		<text id="preparestep_nasilemak_chili" name="CChilit felvágni" />
+		<text id="preparestep_citrusjuice_vanilla" name="Vaníliát kikapargatni" />
+		<text id="preparestep_carrotcake_vanilla" name="Vaníliát kikapargatni" />
+		<text id="preparestep_carrotjuice_vanilla" name="Vaníliát kikapargatni" />
+		<text id="preparestep_francesinha_chili" name="Chilit felvágni" />
+		<text id="preparestep_dorayaki_vanilla" name="Vaníliát kikapargatni" />
+		<text id="preparestep_tiramisu_vanilla" name="Vaníliát kikapargatni" />
+		<text id="preparestep_pridecupcakes_vanilla" name="Vaníliát kikapargatni" />
+		<text id="preparestep_ratatouille_rosemary" name="Rozmaringot felvágni" />
+		<text id="preparestep_hotcherryricepudding_cinnamon" name="Fahéjat szórni" />
+		<text id="preparestep_coconutcake_vanilla" name="Vaníliát kikapargatni" />
+		<text id="preparestep_fancy_coconutcake_vanilla" name="Vaníliát kikapargatni" />
+		<text id="preparestep_paodequeijo_rosemary" name="Rozmaringot hozzáadni" />
+		<text id="preparestep_baiaodedois_coriander" name="Koriandert felvágni" />
+		<text id="preparestep_bakedalaska_vanilla" name="Vaníliát hozzáadni" />
+		<text id="preparestep_butterchicken_coriander" name="Koriandert felvágni" />
+		<text id="preparestep_chickenbiryani_coriander" name="Koriandert hozzáadni" />
+		<text id="preparestep_cuzcuzcomovo_parsley" name="Petrezselymet hozzáadni" />
+		<text id="preparestep_malaichickennaan_coriander" name="Koriandert felvágni" />
+		<text id="preparestep_veganplate_parsley" name="Petrezselymet felvágni" />
+		<text id="preparestep_neapolitancake_vanilla" name="Vaníliát kikapargatni" />
+		<text id="preparestep_strawberrycheesecake_vanilla" name="Vaníliát hozzáadni" />
+		<text id="preparestep_combomeal_chili" name="Csípős szósz tégelyeket hozzáadni" />
+		<text id="preparestep_zcordonbleu_parsley" name="Petrezselymet felvágni" />
+		<text id="preparestep_brazilianpastel_basil" name="Bazsalikomot felvágni" />
+		<text id="preparestep_lechonkawali_rosemary" name="Rozmaringot felvágni" />
+		<text id="preparestep_sweetpizza_cinnamon" name="Fahéjat szórni" />
+		<text id="preparestep_shakshuka_parsley" name="Petrezselymet felvágni" />
+		<text id="preparestep_cottagepotatoes_parsley" name="Petrezselymet felvágni" />
 		<text id="preparestep_bananasplit_vanilla" name="Vanília belsejét kikapargatni" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="Vaníliát kivájni" />
 		<text id="preparestep_pizzasalad_chili" name="Chop chili" />
@@ -1701,53 +1701,53 @@
 		<text id="recipe_bananasplit" name="Banánhajó" />
 		<text id="recipe_brigadeiro" name="Brigadeiro" />
 		<text id="recipe_beefstew" name="Pörkölt" />
-		<text id="recipe_pizzasalad" name="Pizza with Salad" />
-		<text id="recipe_tripleomelette" name="Triple Omelette" />
-		<text id="recipe_chocolatewaffles" name="Chocolate Waffles" />
-		<text id="recipe_spanishomelette" name="Spanish Omelette" />
-		<text id="recipe_sausagepasta" name="Sausage Spaghetti" />
-		<text id="recipe_applepie" name="Apple Pie" />
-		<text id="recipe_ramen" name="Ramen" />
-		<text id="recipe_corncake" name="Corn Cake" />
+		<text id="recipe_pizzasalad" name="Pizza Salátával" />
+		<text id="recipe_tripleomelette" name="Tripla Omlett" />
+		<text id="recipe_chocolatewaffles" name="Csokoládés Gofri" />
+		<text id="recipe_spanishomelette" name="Spanyol Omlett" />
+		<text id="recipe_sausagepasta" name="Kolbászos Spagetti" />
+		<text id="recipe_applepie" name="Almás Pite" />
+		<text id="recipe_ramen" name="Rámen" />
+		<text id="recipe_corncake" name="Kukorica Torta" />
 		<text id="recipe_feijoada" name="Feijoada" />
-		<text id="recipe_pinapjuice" name="Pineapple Juice" />
-		<text id="recipe_orangejuice" name="Orange Juice" />
-		<text id="recipe_discodrinks" name="Disco Drinks" />
-		<text id="recipe_applejuice" name="Apple Juice" />
-		<text id="recipe_rjuice" name="Rhubarb Juice" />
-		<text id="recipe_cherryjuice" name="Cherry Juice" />
-		<text id="recipe_strawberryjuice" name="Strawberry Juice" />
+		<text id="recipe_pinapjuice" name="Ananász Ital" />
+		<text id="recipe_orangejuice" name="Narancs Ital" />
+		<text id="recipe_discodrinks" name="Diszkó Italok" />
+		<text id="recipe_applejuice" name="Alma Ital" />
+		<text id="recipe_rjuice" name="Rebarbara Ital" />
+		<text id="recipe_cherryjuice" name="Cseresznye Ital" />
+		<text id="recipe_strawberryjuice" name="Eper Ital" />
 		<text id="recipe_cappuccino" name="Cappuccino" />
-		<text id="recipe_duckalcitrus" name="Duck à l&apos;Citrus" />
-		<text id="recipe_ducktatters" name="Duck with Pasta Taters" />
+		<text id="recipe_duckalcitrus" name="Citrusos Kacsa" />
+		<text id="recipe_ducktatters" name="Kacsa Tésztával" />
 		<text id="recipe_langos" name="Lángos" />
 		<text id="recipe_nasilemak" name="Nasi Lemak" />
-		<text id="recipe_citrusjuice" name="Citrus Juice" />
-		<text id="recipe_carrotcake" name="Carrot Cake" />
-		<text id="recipe_carrotjuice" name="Carrot Juice" />
+		<text id="recipe_citrusjuice" name="Citrus Ital" />
+		<text id="recipe_carrotcake" name="Répatorta" />
+		<text id="recipe_carrotjuice" name="Répa Ital" />
 		<text id="recipe_francesinha" name="Francesinha" />
 		<text id="recipe_dorayaki" name="Dorayaki" />
 		<text id="recipe_tiramisu" name="Tiramisù" />
-		<text id="recipe_pridecupcakes" name="Pride Cupcakes" />
-		<text id="recipe_ratatouille" name="Ratatouille" />
-		<text id="recipe_hotcherryricepudding" name="Rice Pudding with Hot Cherries" />
-		<text id="recipe_coconutcake" name="Coconut Cake" />
-		<text id="recipe_paodequeijo" name="Brazilian Cheese Bread" />
+		<text id="recipe_pridecupcakes" name="Pride Minitorta" />
+		<text id="recipe_ratatouille" name="Francia Lecsó" />
+		<text id="recipe_hotcherryricepudding" name="Rizspudding Forró Cseresznyével" />
+		<text id="recipe_coconutcake" name="Kókusztorta" />
+		<text id="recipe_paodequeijo" name="Brazil Sajtkenyér" />
 		<text id="recipe_baiaodedois" name="Baião de Dois" />
-		<text id="recipe_bakedalaska" name="Baked Alaska" />
-		<text id="recipe_butterchicken" name="Butter Chicken" />
-		<text id="recipe_chickenbiryani" name="Chicken Biriyani" />
-		<text id="recipe_cottagepotatoes" name="Cottage Potatoes" />
-		<text id="recipe_cuzcuzcomovo" name="Couscous with Egg" />
-		<text id="recipe_malaichickennaan" name="Malai Chicken Naan" />
-		<text id="recipe_veganplate" name="Vegan Plate" />
-		<text id="recipe_neapolitancake" name="Neapolitan Cake" />
-		<text id="recipe_strawberrycheesecake" name="Strawberry Cheesecake" />
-		<text id="recipe_combomeal" name="Combo Meal" />
-		<text id="recipe_zcordonbleu" name="Zagreb Cordon Bleu" />
-		<text id="recipe_brazilianpastel" name="Brazilian Pastel w/ Drink" />
-		<text id="recipe_lechonkawali" name="Lechon Kawali" />
-		<text id="recipe_sweetpizza" name="Sweet Pizza" />
+		<text id="recipe_bakedalaska" name="Sült Alaszka" />
+		<text id="recipe_butterchicken" name="Vajas Csirke" />
+		<text id="recipe_chickenbiryani" name="Biryani Csirke" />
+		<text id="recipe_cottagepotatoes" name="Rakott Krumpli" />
+		<text id="recipe_cuzcuzcomovo" name="Kuszkusz Tojással" />
+		<text id="recipe_malaichickennaan" name="Malai Csirke" />
+		<text id="recipe_veganplate" name="Vegán Tál" />
+		<text id="recipe_neapolitancake" name="Neapolitán Torta" />
+		<text id="recipe_strawberrycheesecake" name="Eper Sajttorta" />
+		<text id="recipe_combomeal" name="Nagymenü" />
+		<text id="recipe_zcordonbleu" name="Zágrábi Cordon Bleu" />
+		<text id="recipe_brazilianpastel" name="Brazil Patel Itallal" />
+		<text id="recipe_lechonkawali" name="Serpenyős Sültmalac" />
+		<text id="recipe_sweetpizza" name="Édes Pizza" />
 		<text id="recipe_shakshuka" name="Shakshuka" />
 		<text id="recipe_blackforestcherrycake" name="Feketeerdő torta" />
 		<text id="recipe_cheeseburger" name="Sajtos hamburger" />
@@ -1827,15 +1827,15 @@
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Zöld smoothie" />
-		<text id="recipe_smoothiemaker_defensepotion" name="Defense Potion" />
-		<text id="recipe_smoothiemaker_milk" name="Milk" />
-		<text id="recipe_smoothiemaker_soymilk" name="Soy Milk" />
-		<text id="recipe_smoothiemaker_icedcoffee" name="Iced Coffee" />
+		<text id="recipe_smoothiemaker_defensepotion" name="Védő Bájital" />
+		<text id="recipe_smoothiemaker_milk" name="Tej" />
+		<text id="recipe_smoothiemaker_soymilk" name="Szójatej" />
+		<text id="recipe_smoothiemaker_icedcoffee" name="Jegeskávé" />
 		<text id="recipe_smoothiemaker_kiba" name="Meggyes-Banános Smoothie" />
 		<text id="recipe_smoothiemaker_cola" name="Cappu-Cola" />
 		<text id="recipe_smoothiemaker_acai" name="Açaí Smoothie" />
 		<text id="recipe_smoothiemaker_orangesoda" name="Funta" />
-		<text id="recipe_smoothiemaker_guarana" name="Brazilian Guaraná" />
+		<text id="recipe_smoothiemaker_guarana" name="Brazil Guaraná" />
 		<text id="recipe_smoothiemaker_pinacolada" name="Virgin Colada" />
 		<text id="recipe_smoothiemaker_tomatojuice" name="Paradicsomlé" />
 	</recipes_fastfood>
