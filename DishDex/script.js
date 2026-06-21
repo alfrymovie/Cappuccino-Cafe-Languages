@@ -69,6 +69,13 @@ const I18N = {
     include: 'Include',
     auto: 'Auto',
     myDexHint: 'Insert your data for personalized recommendations.',
+    bestSummaryTitle: 'Best of Summary',
+    bestSummaryXpMin: 'Best XP/min',
+    bestSummaryRawXp: 'Best raw XP',
+    bestSummaryProfitMin: 'Best profit/min',
+    bestSummaryRawProfit: 'Best raw profit',
+    bestSummaryPortionMin: 'Best portion/min',
+    bestSummaryRawPortion: 'Best raw portion',
     bestXpTitle: 'Best Dishes (XP)',
     bestProfitTitle: 'Best Dishes (Profit)',
     bestPortionsTitle: 'Best dishes (Portions)',
@@ -138,13 +145,13 @@ const I18N = {
     metricXpMin: 'XP/min',
     metricProfitMin: 'profit/min',
     metricPortionMin: 'portion/min',
-    activePlan: 'Active-time plan',
-    fastPlan: 'Fast-time plan',
-    shortPlan: 'Short-time plan',
-    mediumPlan: 'Medium-time plan',
-    longPlan: 'Long-time plan',
-    veryLongPlan: 'Very-long time plan',
-    dayOffPlan: 'Day-off plan',
+    activePlan: 'Active-time',
+    fastPlan: 'Fast-time',
+    shortPlan: 'Short-time',
+    mediumPlan: 'Medium-time',
+    longPlan: 'Long-time',
+    veryLongPlan: 'Very long',
+    dayOffPlan: 'Day off',
     activeNote: 'Best XP/min for 10 minutes or less.',
     fastNote: 'Best XP/min between 11 minutes and 1 hour.',
     shortNote: 'Best XP/min between 1 h 1 min and 3 h.',
@@ -194,6 +201,13 @@ const I18N = {
     include: 'Incluir',
     auto: 'Auto',
     myDexHint: 'Insira seus dados para recomendações personalizadas.',
+    bestSummaryTitle: 'Resumo dos Melhores Pratos',
+    bestSummaryXpMin: 'Melhor XP/min',
+    bestSummaryRawXp: 'Melhor XP bruto',
+    bestSummaryProfitMin: 'Melhor lucro/min',
+    bestSummaryRawProfit: 'Melhor lucro bruto',
+    bestSummaryPortionMin: 'Melhor porção/min',
+    bestSummaryRawPortion: 'Melhor porção bruta',
     bestXpTitle: 'Melhores pratos (XP)',
     bestProfitTitle: 'Melhores pratos (Lucro)',
     bestPortionsTitle: 'Melhores pratos (Porções)',
@@ -263,12 +277,12 @@ const I18N = {
     metricXpMin: 'XP/min',
     metricProfitMin: 'lucro/min',
     metricPortionMin: 'porção/min',
-    activePlan: 'Plano ativo',
-    fastPlan: 'Plano rápido',
-    shortPlan: 'Plano curto',
-    mediumPlan: 'Plano médio',
-    longPlan: 'Plano longo',
-    veryLongPlan: 'Plano muito longo',
+    activePlan: 'Ativo',
+    fastPlan: 'Rápido',
+    shortPlan: 'Curto',
+    mediumPlan: 'Médio',
+    longPlan: 'Longo',
+    veryLongPlan: 'Muito longo',
     dayOffPlan: 'Dia de folga',
     activeNote: 'Melhor XP/min para 10 minutos ou menos.',
     fastNote: 'Melhor XP/min entre 11 minutos e 1 hora.',
@@ -660,6 +674,8 @@ function renderMyDex() {
     return record.dishType === 'Holiday';
   });
 
+  renderBestSummary(regularCandidates);
+
   renderBestXp(buildBucketRecommendations(
     regularCandidates,
     'metricXpMin',
@@ -685,6 +701,48 @@ function renderMyDex() {
 
   renderDishCards('specialDishesBody', specialDishes, 'Special');
   renderDishCards('holidayDishesBody', holidayDishes, 'Holiday');
+}
+
+function renderBestSummary(records) {
+  const items = [
+    [t('bestSummaryXpMin'), findBestDish(records, record => record.xpPerMin), 'best-xp-1'],
+    [t('bestSummaryRawXp'), findBestDish(records, record => record.xp), 'best-xp-3'],
+    [t('bestSummaryProfitMin'), findBestDish(records, record => record.profitPerMin), 'best-profit-1'],
+    [t('bestSummaryRawProfit'), findBestDish(records, record => record.profit), 'best-profit-3'],
+    [t('bestSummaryPortionMin'), findBestDish(records, record => record.servingsPerMin), 'best-portions-1'],
+    [t('bestSummaryRawPortion'), findBestDish(records, record => record.servings), 'best-portions-3']
+  ];
+
+  const body = document.getElementById('bestSummaryBody');
+  const validItems = items.filter(item => item[1]);
+
+  if (validItems.length === 0) {
+    body.innerHTML = emptyRow(12, t('noDishesAvailable'));
+    return;
+  }
+
+  body.innerHTML = validItems.map(item => {
+    const label = item[0];
+    const record = item[1];
+    const rowClass = item[2];
+
+    return `
+      <tr class="${rowClass}">
+        <td>${imageHtml(record)}</td>
+        <td>${escapeHtml(label)}</td>
+        <td class="dish-name">${escapeHtml(record.dishName)}</td>
+        <td>${number(record.level)}</td>
+        <td>${number(record.xp)}</td>
+        <td>${decimal(record.xpPerMin)}</td>
+        <td>${number(record.profit)}</td>
+        <td>${decimal(record.profitPerMin)}</td>
+        <td>${number(record.servings)}</td>
+        <td>${decimal(record.servingsPerMin)}</td>
+        <td>${escapeHtml(record.durationText)}</td>
+        <td>${escapeHtml(record.categoryName)}</td>
+      </tr>
+    `;
+  }).join('');
 }
 
 function buildBucketRecommendations(records, metricLabelKey, scoreFunction, sectionKey) {
