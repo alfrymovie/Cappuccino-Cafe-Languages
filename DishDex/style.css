@@ -173,11 +173,23 @@ h1 {
   margin-bottom: 18px;
 }
 
-.theme-toggle {
+.home-controls {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.theme-toggle,
+.language-select {
   display: flex;
   align-items: center;
   gap: 10px;
   white-space: nowrap;
+}
+
+.language-select select {
+  min-width: 150px;
 }
 
 .theme-toggle input {
@@ -376,145 +388,48 @@ td.requirements-cell {
 }
 
 /* Best Dishes (XP): light blue, increasing tone */
-.best-xp-1 td:not(:first-child) {
-  background: #edf6ff;
-}
-
-.best-xp-2 td:not(:first-child) {
-  background: #dceeff;
-}
-
-.best-xp-3 td:not(:first-child) {
-  background: #cbe6ff;
-}
-
-.best-xp-4 td:not(:first-child) {
-  background: #badfff;
-}
-
-.best-xp-5 td:not(:first-child) {
-  background: #a9d7ff;
-}
-
-.best-xp-6 td:not(:first-child) {
-  background: #98cfff;
-}
-
-.best-xp-7 td:not(:first-child) {
-  background: #87c7ff;
-}
+.best-xp-1 td:not(:first-child) { background: #edf6ff; }
+.best-xp-2 td:not(:first-child) { background: #dceeff; }
+.best-xp-3 td:not(:first-child) { background: #cbe6ff; }
+.best-xp-4 td:not(:first-child) { background: #badfff; }
+.best-xp-5 td:not(:first-child) { background: #a9d7ff; }
+.best-xp-6 td:not(:first-child) { background: #98cfff; }
+.best-xp-7 td:not(:first-child) { background: #87c7ff; }
 
 /* Best Dishes (Profit): light green, increasing tone */
-.best-profit-1 td:not(:first-child) {
-  background: #edf8e9;
-}
-
-.best-profit-2 td:not(:first-child) {
-  background: #def0d8;
-}
-
-.best-profit-3 td:not(:first-child) {
-  background: #cfe8c7;
-}
-
-.best-profit-4 td:not(:first-child) {
-  background: #c0dfb6;
-}
-
-.best-profit-5 td:not(:first-child) {
-  background: #b1d7a5;
-}
-
-.best-profit-6 td:not(:first-child) {
-  background: #a2cf94;
-}
-
-.best-profit-7 td:not(:first-child) {
-  background: #93c783;
-}
+.best-profit-1 td:not(:first-child) { background: #edf8e9; }
+.best-profit-2 td:not(:first-child) { background: #def0d8; }
+.best-profit-3 td:not(:first-child) { background: #cfe8c7; }
+.best-profit-4 td:not(:first-child) { background: #c0dfb6; }
+.best-profit-5 td:not(:first-child) { background: #b1d7a5; }
+.best-profit-6 td:not(:first-child) { background: #a2cf94; }
+.best-profit-7 td:not(:first-child) { background: #93c783; }
 
 /* Best Dishes (Portions): light orange, increasing tone */
-.best-portions-1 td:not(:first-child) {
-  background: #fff1df;
-}
-
-.best-portions-2 td:not(:first-child) {
-  background: #ffe7c9;
-}
-
-.best-portions-3 td:not(:first-child) {
-  background: #ffddb3;
-}
-
-.best-portions-4 td:not(:first-child) {
-  background: #ffd39d;
-}
-
-.best-portions-5 td:not(:first-child) {
-  background: #ffc987;
-}
-
-.best-portions-6 td:not(:first-child) {
-  background: #ffbf71;
-}
-
-.best-portions-7 td:not(:first-child) {
-  background: #ffb55b;
-}
+.best-portions-1 td:not(:first-child) { background: #fff1df; }
+.best-portions-2 td:not(:first-child) { background: #ffe7c9; }
+.best-portions-3 td:not(:first-child) { background: #ffddb3; }
+.best-portions-4 td:not(:first-child) { background: #ffd39d; }
+.best-portions-5 td:not(:first-child) { background: #ffc987; }
+.best-portions-6 td:not(:first-child) { background: #ffbf71; }
+.best-portions-7 td:not(:first-child) { background: #ffb55b; }
 
 /* XP Needed Plans */
-.row-active td:not(:first-child) {
-  background: #fff1df;
-}
-
-.row-fast td:not(:first-child) {
-  background: #ffe4c2;
-}
-
-.row-short td:not(:first-child) {
-  background: #ffd7a5;
-}
-
-.row-medium td:not(:first-child) {
-  background: #d9ead3;
-}
-
-.row-long td:not(:first-child) {
-  background: #dceeff;
-}
-
-.row-veryLong td:not(:first-child) {
-  background: #badfff;
-}
-
-.row-dayOff td:not(:first-child) {
-  background: #98cfff;
-}
+.row-active td:not(:first-child) { background: #fff1df; }
+.row-fast td:not(:first-child) { background: #ffe4c2; }
+.row-short td:not(:first-child) { background: #ffd7a5; }
+.row-medium td:not(:first-child) { background: #d9ead3; }
+.row-long td:not(:first-child) { background: #dceeff; }
+.row-veryLong td:not(:first-child) { background: #badfff; }
+.row-dayOff td:not(:first-child) { background: #98cfff; }
 
 /* Category colors: only used by the full Available DishDex table */
-.category-dessert td:not(:first-child) {
-  background: #ead1dc;
-}
-
-.category-main td:not(:first-child) {
-  background: #fce5cd;
-}
-
-.category-soup td:not(:first-child) {
-  background: #ead7c2;
-}
-
-.category-salad td:not(:first-child) {
-  background: #d9ead3;
-}
-
-.category-vegetarian td:not(:first-child) {
-  background: #b6d7a8;
-}
-
-.category-snack td:not(:first-child) {
-  background: #f4cccc;
-}
+.category-dessert td:not(:first-child) { background: #ead1dc; }
+.category-main td:not(:first-child) { background: #fce5cd; }
+.category-soup td:not(:first-child) { background: #ead7c2; }
+.category-salad td:not(:first-child) { background: #d9ead3; }
+.category-vegetarian td:not(:first-child) { background: #b6d7a8; }
+.category-snack td:not(:first-child) { background: #f4cccc; }
 
 /* Force dark readable text on colored rows, including dark theme */
 .best-xp-1 td:not(:first-child),
@@ -624,6 +539,11 @@ td.requirements-cell {
   }
 
   .theme-toggle-row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .home-controls {
     align-items: flex-start;
     flex-direction: column;
   }
