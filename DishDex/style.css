@@ -774,3 +774,23 @@ body.dark-theme .effect-requirement {
 body.dark-theme .cookbook-dish-card .effect-requirement {
   color: #6f5530;
 }
+/* Recommended Masteries effect text fix on light rows */
+body.dark-theme #recommendedMasteriesBody .effect-bronze,
+body.dark-theme .recommended-masteries-table .effect-bronze {
+  color: #9b5218;
+}
+
+body.dark-theme #recommendedMasteriesBody .effect-silver,
+body.dark-theme .recommended-masteries-table .effect-silver {
+  color: #5d6670;
+}
+
+body.dark-theme #recommendedMasteriesBody .effect-gold,
+body.dark-theme .recommended-masteries-table .effect-gold {
+  color: #8a6900;
+}
+
+body.dark-theme #recommendedMasteriesBody .effect-check,
+body.dark-theme .recommended-masteries-table .effect-check {
+  color: #17883a;
+}
