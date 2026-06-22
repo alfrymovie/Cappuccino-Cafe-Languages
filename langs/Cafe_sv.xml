@@ -516,22 +516,22 @@
 		<text id="coop_desc_long_34" name="Kockar runt hela världen tävlar om den ultimata mousse-rätten. Spela på alla lag och se!" />
 		<text id="coop_title_35" name="FAMILJBANKETT" />
 		<text id="coop_desc_short_35" name="Så många gäster!" />
-		<text id="coop_desc_long_35" name="Your whole family, their friends, your friends and their families are ALL coming to your Café to celebrate your business. Do them proud!" />
+		<text id="coop_desc_long_35" name="Alla dina nära och kära kommer besöka ditt kafé för att gratulera hur framgångsrik den har blivit. Gör dem stolta över dig!" />
 		<text id="coop_title_36" name="VI BEHÖVER FLERA ÄGG!" />
-		<text id="coop_desc_short_36" name="Kommer dem faktiskt först?" />
-		<text id="coop_desc_long_36" name="Kocken Myleeek is conducting research on who came first: the chicken or the egg? Cook dishes with eggs to provide data!" />
+		<text id="coop_desc_short_36" name="Kom de faktiskt först?" />
+		<text id="coop_desc_long_36" name="Kocken Myleeek utför ett experiment för att ta reda på om kycklingen eller ägget kom först. För testunderlag behövs rätter som innehåller ägg!" />
 		<text id="coop_title_37" name="FULLKOMLIGT RASERI(V)!" />
 		<text id="coop_desc_short_37" name="Ost regerar!" />
-		<text id="coop_desc_long_37" name="Kocken Cupcakekittycat8 was hired to provide dishes for the birthday of a famous Mouse. Sadly, she used tofu instead of cheese and the mice are furious! Can you make food with cheese to help?" />
+		<text id="coop_desc_long_37" name="Kocken Cupcakekittycat8 fick uppdrag om att förbereda födelsedagsmaten åt en särskild känd Mus. Tyvärr var allt gjort av tofu istället för ost och musgästerna är ursinniga! Kan du laga rätter gjort med ost i tid?" />
 		<text id="coop_title_38" name="BURGARFESTIVAL" />
-		<text id="coop_desc_short_38" name="A classic taste for a gathering!" />
-		<text id="coop_desc_long_38" name="Kocken Franskmayn is going to serve burgers at the Marketplace. Provide some portions to get a share of the revenue!" />
+		<text id="coop_desc_short_38" name="Klassiker!" />
+		<text id="coop_desc_long_38" name="Kocken Franskmayn kommer servera hamburgare på Marknaden. Hjälp till och bli belönad för ditt hårda arbete!" />
 		<text id="coop_title_39" name="JORDGUBBSÖT!" />
-		<text id="coop_desc_short_39" name="A bountiful harvest!" />
-		<text id="coop_desc_long_39" name="The strawberry harvest was excellent and kock Gabriel wants to share the sweetness with everyone. Let&apos;s make some berry-licious dishes!" />
+		<text id="coop_desc_short_39" name="En riklig skörd!" />
+		<text id="coop_desc_long_39" name="Denna jordgubbsskörd var lysande och kocken Gabriel vill dela lyckan med allihopa. Laga ihop några bär-ikata rätter!" />
 		<text id="coop_title_30" name="MUS I KÖKET!" />
-		<text id="coop_desc_short_30" name="Don&apos;t let anyone see it!" />
-		<text id="coop_desc_long_30" name="A mouse was spotted in your Café and it wants fancy food to be served or it will ruin your business! Why does this feel familiar?" />
+		<text id="coop_desc_short_30" name="Ingen får se den!" />
+		<text id="coop_desc_long_30" name="Du har hittat en levande mus i ditt kafé och den kräver överdrivet mycket lyxmat, annars kommer ditt företag att gå under! Varför känns detta bekant?" />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="Utmärkelser" />
