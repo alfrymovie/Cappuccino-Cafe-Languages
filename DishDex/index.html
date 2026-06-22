@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=20260622-xp-needed-save">
+  <link rel="stylesheet" href="style.css?v=20260622-coop-final-v7">
 </head>
 <body class="dark-theme">
   <main class="page">
@@ -51,7 +51,7 @@
           </div>
         </div>
 
-        <div class="mode-grid four-mode-grid">
+        <div class="mode-grid five-mode-grid">
           <button id="openMyDex" class="mode-card" type="button">
             <img src="MyDex.png" alt="" class="mode-icon" onerror="this.style.display='none'">
             <span class="mode-title">MyDex</span>
@@ -62,6 +62,12 @@
             <img src="DishDex.png" alt="" class="mode-icon" onerror="this.style.display='none'">
             <span class="mode-title" data-i18n="fullDishDexTitle">Full DishDex</span>
             <span class="mode-description" data-i18n="fullDishDexDescription">Access the complete DishDex with all information.</span>
+          </button>
+
+          <button id="openCoopPlanner" class="mode-card" type="button">
+            <img src="Coop.png" alt="" class="mode-icon" onerror="this.style.display='none'">
+            <span class="mode-title" data-i18n="coopPlannerTitle">Co-Op Planner</span>
+            <span class="mode-description" data-i18n="coopPlannerDescription">Browse co-op missions and prepare team plans.</span>
           </button>
 
           <button id="openProfile" class="mode-card" type="button">
@@ -114,6 +120,10 @@
               <option value="Auto" data-i18n="auto" selected>Auto</option>
             </select>
           </label>
+          <label class="inline-toggle setting-toggle">
+            <input id="showIngredientsToggle" type="checkbox">
+            <span data-i18n="showIngredients">Show ingredients?</span>
+          </label>
         </div>
         <p class="hint" data-i18n="myDexHint">Insert your data for personalized recommendations.</p>
       </section>
@@ -128,12 +138,9 @@
                 <th data-i18n="recommendation">Recommendation</th>
                 <th data-i18n="dish">Dish</th>
                 <th data-i18n="level">Level</th>
-                <th>XP</th>
-                <th>XP/min</th>
-                <th data-i18n="profit">Profit</th>
-                <th data-i18n="profitMin">Profit/min</th>
+                <th><span class="icon-heading"><img src="xp.png" alt="XP" class="header-icon"><small>/min</small></span></th>
+                <th><span class="icon-heading"><img src="cash.png" alt="Cash" class="header-icon"><small>/min</small></span></th>
                 <th data-i18n="portions">Portions</th>
-                <th data-i18n="portionsMin">Portions/min</th>
                 <th data-i18n="duration">Duration</th>
                 <th data-i18n="category">Category</th>
               </tr>
@@ -174,8 +181,7 @@
                 <th data-i18n="recommendation">Recommendation</th>
                 <th data-i18n="dish">Dish</th>
                 <th data-i18n="level">Level</th>
-                <th>XP</th>
-                <th>XP/min</th>
+                <th><span class="icon-heading"><img src="xp.png" alt="XP" class="header-icon"><small>/min</small></span></th>
                 <th data-i18n="duration">Duration</th>
                 <th data-i18n="category">Category</th>
               </tr>
@@ -195,8 +201,7 @@
                 <th data-i18n="recommendation">Recommendation</th>
                 <th data-i18n="dish">Dish</th>
                 <th data-i18n="level">Level</th>
-                <th data-i18n="profit">Profit</th>
-                <th data-i18n="profitMin">Profit/min</th>
+                <th><span class="icon-heading"><img src="cash.png" alt="Cash" class="header-icon"><small>/min</small></span></th>
                 <th data-i18n="duration">Duration</th>
                 <th data-i18n="category">Category</th>
               </tr>
@@ -217,7 +222,6 @@
                 <th data-i18n="dish">Dish</th>
                 <th data-i18n="level">Level</th>
                 <th data-i18n="portions">Portions</th>
-                <th data-i18n="portionsMin">Portions/min</th>
                 <th data-i18n="duration">Duration</th>
                 <th data-i18n="category">Category</th>
               </tr>
@@ -299,23 +303,110 @@
                 <th data-i18n="image">Image</th>
                 <th data-i18n="dish">Dish</th>
                 <th data-i18n="level">Level</th>
-                <th>XP</th>
-                <th>XP/min</th>
-                <th data-i18n="profit">Profit</th>
-                <th data-i18n="profitMin">Profit/min</th>
+                <th><span class="icon-heading"><img src="xp.png" alt="XP" class="header-icon"><small>/min</small></span></th>
+                <th><span class="icon-heading"><img src="cash.png" alt="Cash" class="header-icon"><small>/min</small></span></th>
                 <th data-i18n="portions">Portions</th>
-                <th data-i18n="portionsMin">Portions/min</th>
                 <th data-i18n="duration">Duration</th>
                 <th data-i18n="cost">Cost</th>
                 <th data-i18n="revenue">Revenue</th>
                 <th data-i18n="category">Category</th>
                 <th data-i18n="requirements">Requirements</th>
-                <th data-i18n="type">Type</th>
               </tr>
             </thead>
             <tbody id="fullDishDexBody"></tbody>
           </table>
         </div>
+      </section>
+    </section>
+
+    <section id="coopPlannerScreen" class="screen hidden">
+      <header class="sub-hero">
+        <button class="back-button" type="button" data-back data-i18n="backButton">← Back</button>
+        <div class="title-row compact-title-row">
+          <img src="Coopplanner.png" alt="" class="title-logo small-logo" onerror="this.style.display='none'">
+          <div>
+            <p class="eyebrow" data-i18n="coopPlannerEyebrow">Team cooking</p>
+            <h1 data-i18n="coopPlannerTitle">Co-Op Planner</h1>
+          </div>
+        </div>
+      </header>
+
+      <section class="panel coop-team-panel">
+        <div class="section-heading-row">
+          <div>
+            <h2 data-i18n="coopTeamTitle">Co-Op Team</h2>
+            <p class="section-note" data-i18n="coopTeamNote">Register up to five chefs and save up to ten teams.</p>
+          </div>
+          <div class="coop-team-actions">
+            <button id="newCoopTeamButton" type="button" class="action-button" data-i18n="newTeam">New team</button>
+            <button id="saveCoopTeamButton" type="button" class="action-button" data-i18n="saveTeam">Save team</button>
+            <button id="deleteCoopTeamButton" type="button" class="action-button danger-button" data-i18n="deleteTeam">Delete team</button>
+          </div>
+        </div>
+
+        <div class="coop-team-top-grid">
+          <label>
+            <span data-i18n="loadTeam">Load team</span>
+            <select id="coopTeamSelect"></select>
+          </label>
+          <label>
+            <span data-i18n="teamName">Team name</span>
+            <input id="coopTeamName" type="text" maxlength="40" autocomplete="off">
+          </label>
+          <button id="useProfileForLeaderButton" type="button" class="action-button profile-fill-button" data-i18n="useProfileForChef1">Use My Profile for Chef 1</button>
+        </div>
+
+        <label class="coop-masteries-toggle">
+          <input id="useMyMasteriesChef1Toggle" type="checkbox">
+          <span data-i18n="useMyMasteriesForChef1">Use my gold masteries for Chef 1</span>
+        </label>
+
+        <div class="coop-member-table-wrap">
+          <table class="coop-member-table">
+            <thead>
+              <tr>
+                <th data-i18n="chef">Chef</th>
+                <th data-i18n="chefName">Chef name</th>
+                <th data-i18n="level">Level</th>
+                <th data-i18n="stoves">Stoves</th>
+                <th data-i18n="actions">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="coopTeamMembersBody"></tbody>
+          </table>
+        </div>
+        <div id="coopGoldMasteryEditor" class="gold-mastery-editor hidden"></div>
+        <div id="coopManualAssignmentEditor" class="manual-assignment-editor hidden"></div>
+        <p id="coopTeamStatus" class="hint"></p>
+      </section>
+
+      <section class="panel">
+        <h2 data-i18n="coopListTitle">Available Co-Ops</h2>
+        <p class="section-note" data-i18n="coopListNote">Browse and plan your next Co-Op here!</p>
+        <label class="search-label">
+          <span data-i18n="coopSearch">Search co-op</span>
+          <input id="coopSearch" type="search" autocomplete="off" placeholder="Search co-op...">
+        </label>
+        <div class="table-wrap coop-list-scroll">
+          <table class="coop-table">
+            <thead>
+              <tr>
+                <th data-i18n="image">Image</th>
+                <th data-i18n="coopNumber">Co-Op</th>
+                <th data-i18n="duration">Duration</th>
+                <th data-i18n="rewardDetails">Reward Details</th>
+                <th data-i18n="requirements">Requirements</th>
+                <th data-i18n="plan">Plan</th>
+              </tr>
+            </thead>
+            <tbody id="coopListBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel coop-plan-preview-panel">
+        <h2 data-i18n="selectedCoopPlanTitle">Selected Co-Op Plan</h2>
+        <div id="coopPlanPreview" class="coop-plan-preview empty-coop-plan" data-i18n="noCoopSelected">Choose a co-op and click Plan!</div>
       </section>
     </section>
 
@@ -333,6 +424,11 @@
       <section class="panel profile-panel">
         <h2 data-i18n="profileSettingsTitle">Chef Profile</h2>
         <p class="section-note" data-i18n="profileSettingsNote">Your level sets the default stove count from CafeLevelXp.xml. You can still change stoves in MyDex.</p>
+        <div class="data-actions profile-data-actions">
+          <button id="profileLoadDataButton" type="button" class="action-button" data-i18n="loadData">Load data</button>
+          <button id="profileDownloadDataButton" type="button" class="action-button" data-i18n="downloadData">Download data</button>
+          <button id="profileDeleteDataButton" type="button" class="action-button danger-button" data-i18n="deleteData">Delete data</button>
+        </div>
         <div class="input-grid profile-grid">
           <label>
             <span data-i18n="chefName">Chef name</span>
@@ -413,6 +509,6 @@
     </section>
   </main>
 
-  <script src="script.js?v=20260622-xp-needed-save" defer></script>
+  <script src="script.js?v=20260622-coop-final-v7" defer></script>
 </body>
 </html>

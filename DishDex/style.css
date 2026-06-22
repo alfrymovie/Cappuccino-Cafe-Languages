@@ -196,6 +196,10 @@ h1 {
   grid-template-columns: repeat(4, minmax(180px, 1fr));
 }
 
+.five-mode-grid {
+  grid-template-columns: repeat(5, minmax(160px, 1fr));
+}
+
 .mode-card {
   border: 2px solid var(--border);
   background: var(--plain-cell);
@@ -336,7 +340,7 @@ table {
   border-radius: 14px;
 }
 
-.full-table { min-width: 1480px; }
+.full-table { min-width: 1260px; }
 .mastery-table { min-width: 1050px; }
 
 th,
@@ -366,6 +370,135 @@ td {
 }
 
 td.dish-name { font-weight: 900; }
+
+.dish-type-tag {
+  color: var(--muted);
+  font-size: 0.88em;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+body.dark-theme .dish-type-tag {
+  color: #f0d0a8;
+}
+
+
+.icon-heading {
+  display: inline-grid;
+  align-items: center;
+  justify-items: center;
+  gap: 1px;
+  line-height: 1.05;
+}
+
+.icon-heading small {
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.header-icon,
+.stat-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  vertical-align: middle;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.18));
+}
+
+.tiny-stat-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.value-with-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.metric-stack {
+  display: grid;
+  gap: 3px;
+  justify-items: center;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.metric-stack > span,
+.metric-stack > small {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.metric-stack small {
+  color: #6f5530;
+  font-weight: 900;
+  font-size: 0.82rem;
+}
+
+.inline-toggle.setting-toggle {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  background: var(--plain-cell);
+  color: var(--text);
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.inline-toggle.setting-toggle input {
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  padding: 0;
+  accent-color: var(--brown);
+}
+
+.inline-toggle.setting-toggle span {
+  color: var(--brown-dark);
+  font-weight: 900;
+}
+
+.ingredient-detail-row td {
+  text-align: left;
+  background: rgba(255, 248, 230, 0.94) !important;
+  color: #3b2618 !important;
+  font-weight: 800;
+}
+
+.ingredient-detail-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  align-items: center;
+}
+
+.ingredient-cost {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dish-card-ingredients {
+  font-size: 0.92rem;
+}
+
+body.dark-theme .metric-stack small {
+  color: #6f5530;
+}
+
+body.dark-theme .ingredient-detail-row td,
+body.dark-theme .ingredient-detail-row .value-with-icon {
+  color: #3b2618 !important;
+}
 
 td.note-cell,
 td.requirements-cell,
@@ -558,6 +691,70 @@ td.effects-cell {
 
 @media (max-width: 1100px) {
   .four-mode-grid { grid-template-columns: repeat(2, minmax(220px, 1fr)); }
+}
+
+
+
+/* Phase 2 v3: restored team editor and cleaner compact preview layout */
+.profile-data-actions {
+  justify-content: flex-start;
+  margin-bottom: 14px;
+}
+
+.coop-team-summary-list.compact-card-grid {
+  display: grid;
+  gap: 8px;
+}
+
+.coop-team-summary-list.team-count-1,
+.coop-team-summary-list.team-count-2,
+.coop-team-summary-list.team-count-3 {
+  grid-template-columns: 1fr;
+}
+
+.coop-team-summary-list.team-count-4,
+.coop-team-summary-list.team-count-5 {
+  grid-template-columns: repeat(2, minmax(190px, 1fr));
+}
+
+.coop-team-summary-item.compact-team-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 10px;
+  min-height: 42px;
+}
+
+.coop-team-summary-item.compact-team-card strong {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.coop-team-summary-item.compact-team-card span {
+  white-space: nowrap;
+}
+
+.coop-team-reward-list.compact-reward-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.coop-member-reward-item.compact-reward-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 42px;
+}
+
+.coop-member-reward-item.compact-reward-row strong {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.coop-member-reward-item.compact-reward-row .compact-reward-amounts {
+  justify-content: flex-end;
+  white-space: nowrap;
 }
 
 @media (max-width: 900px) {
@@ -892,4 +1089,1467 @@ body.bg-night {
 .full-mastery-toggle span {
   color: var(--brown-dark);
   font-weight: 900;
+}
+
+
+/* Co-Op Planner */
+.coop-table {
+  min-width: 980px;
+}
+
+
+.coop-list-scroll {
+  max-height: min(650px, 72vh);
+  overflow: auto;
+  overscroll-behavior: contain;
+  border-radius: 14px;
+}
+
+.coop-list-scroll table {
+  margin-bottom: 0;
+}
+
+.coop-list-scroll thead th {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.coop-title-cell {
+  min-width: 260px;
+  text-align: left;
+}
+
+.coop-title-cell strong,
+.coop-title-cell span,
+.coop-title-cell small {
+  display: block;
+}
+
+.coop-title-cell span {
+  margin-top: 2px;
+  color: #6f5530;
+  font-size: 0.9rem;
+}
+
+.coop-title-cell small {
+  margin-top: 4px;
+  color: #6f5530;
+  font-weight: 800;
+}
+
+.coop-icon {
+  width: 68px;
+  height: 68px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.16));
+}
+
+.coop-icon-large {
+  width: 96px;
+  height: 96px;
+}
+
+.coop-missing-icon {
+  font-size: 0.72rem;
+}
+
+.coop-reward-cell {
+  color: var(--text);
+  font-weight: 900;
+}
+
+.coop-reward-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-width: 260px;
+}
+
+.coop-reward-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 8px;
+  border: 1px solid #c89f71;
+  border-radius: 999px;
+  background: rgba(255, 248, 230, 0.9);
+  color: #3b2618;
+  font-size: 0.84rem;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.coop-reward-pill strong {
+  color: #3b2618;
+  font-weight: 900;
+}
+
+.reward-amount {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: #3b2618;
+  font-weight: 900;
+}
+
+.reward-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  vertical-align: middle;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.18));
+}
+
+.gold-tier {
+  background: rgba(255, 243, 190, 0.95);
+}
+
+.silver-tier {
+  background: rgba(241, 244, 247, 0.95);
+}
+
+.bronze-tier {
+  background: rgba(255, 232, 205, 0.95);
+}
+
+.coop-requirements-cell {
+  min-width: 340px;
+}
+
+.duration-stack {
+  display: grid;
+  gap: 4px;
+  justify-items: center;
+  line-height: 1.2;
+}
+
+.duration-stack strong {
+  color: var(--text);
+  font-weight: 900;
+}
+
+.duration-stack small {
+  color: var(--muted);
+  font-weight: 900;
+}
+
+.requirement-pill {
+  display: inline-block;
+  margin: 2px;
+  padding: 4px 8px;
+  border: 1px solid #c89f71;
+  border-radius: 999px;
+  background: rgba(255, 248, 230, 0.88);
+  color: #3b2618;
+  font-size: 0.86rem;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.plan-button {
+  border: 2px solid #3f8f3a;
+  border-radius: 999px;
+  background: #d9ead3;
+  color: #1f5b1d;
+  padding: 9px 14px;
+  font: inherit;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.plan-button:hover {
+  filter: brightness(0.96);
+  transform: translateY(-1px);
+}
+
+.coop-plan-preview {
+  color: var(--text);
+}
+
+.empty-coop-plan {
+  padding: 18px;
+  border: 2px dashed var(--border);
+  border-radius: 16px;
+  text-align: center;
+  color: var(--muted);
+  font-weight: 900;
+}
+
+.coop-plan-card {
+  display: grid;
+  gap: 18px;
+}
+
+.coop-plan-heading {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 16px;
+}
+
+.coop-plan-heading h3 {
+  margin: 0 0 6px;
+  color: var(--brown-dark);
+  font-size: 1.65rem;
+}
+
+.coop-plan-heading p {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.coop-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.coop-stat-grid div {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--plain-cell);
+  padding: 10px;
+  text-align: center;
+}
+
+.coop-stat-grid strong,
+.coop-stat-grid span {
+  display: block;
+}
+
+.coop-stat-grid strong {
+  color: var(--brown-dark);
+  font-size: 0.85rem;
+}
+
+.coop-stat-grid span {
+  color: var(--text);
+  font-weight: 900;
+  margin-top: 4px;
+}
+
+.coop-detail-grid {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.8fr) minmax(320px, 1.2fr);
+  gap: 16px;
+}
+
+.coop-detail-grid section {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--plain-cell);
+  padding: 14px;
+}
+
+.coop-detail-grid h4 {
+  margin: 0 0 10px;
+  color: var(--brown-dark);
+  font-size: 1.12rem;
+}
+
+.coop-detail-grid p {
+  margin: 6px 0;
+  color: var(--text);
+  font-weight: 800;
+}
+
+.coop-detail-grid .coop-reward-pills {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.coop-detail-grid .coop-reward-pill {
+  justify-content: flex-start;
+  border-radius: 12px;
+  padding: 8px 10px;
+  font-size: 0.94rem;
+}
+
+.coop-detail-grid small {
+  display: block;
+  margin-top: 10px;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.coop-requirement-list {
+  display: grid;
+  gap: 8px;
+}
+
+.coop-requirement-item {
+  display: grid;
+  grid-template-columns: 58px 1fr;
+  gap: 10px;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid rgba(138, 84, 47, 0.25);
+  border-radius: 12px;
+  background: rgba(255, 248, 230, 0.66);
+}
+
+.coop-requirement-item strong,
+.coop-requirement-item span {
+  display: block;
+}
+
+.coop-requirement-item strong {
+  color: #3b2618;
+}
+
+.coop-requirement-item span {
+  color: #6f5530;
+  font-weight: 800;
+}
+
+body.dark-theme .coop-table td,
+body.dark-theme .coop-title-cell,
+body.dark-theme .coop-title-cell strong,
+body.dark-theme .coop-reward-cell,
+body.dark-theme .coop-requirements-cell,
+body.dark-theme .duration-stack strong {
+  color: var(--text);
+}
+
+body.dark-theme .coop-title-cell span,
+body.dark-theme .coop-title-cell small,
+body.dark-theme .duration-stack small {
+  color: var(--muted);
+}
+
+body.dark-theme .requirement-pill,
+body.dark-theme .coop-requirement-item strong,
+body.dark-theme .coop-requirement-item span,
+body.dark-theme .coop-reward-pill,
+body.dark-theme .coop-reward-pill strong,
+body.dark-theme .reward-amount {
+  color: #3b2618;
+}
+
+@media (max-width: 1100px) {
+  .five-mode-grid {
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+  }
+
+  .coop-stat-grid {
+    grid-template-columns: repeat(3, minmax(120px, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .five-mode-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .coop-plan-heading,
+  .coop-detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .coop-stat-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Phase 2: Co-Op team registration */
+.section-heading-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.coop-team-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.coop-team-top-grid {
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) minmax(220px, 1fr) auto;
+  gap: 12px;
+  align-items: end;
+  margin-bottom: 14px;
+}
+
+.profile-fill-button {
+  min-height: 45px;
+  white-space: nowrap;
+}
+
+.coop-member-table-wrap {
+  overflow-x: auto;
+}
+
+.coop-member-table {
+  min-width: 720px;
+}
+
+.coop-member-table th,
+.coop-member-table td {
+  text-align: center;
+}
+
+.coop-member-table td:first-child {
+  width: 110px;
+  color: var(--brown-dark);
+}
+
+.coop-member-table input {
+  width: 100%;
+  min-width: 90px;
+}
+
+.coop-team-preview-section {
+  grid-column: 1 / -1;
+}
+
+.coop-team-compact-section {
+  display: grid;
+  gap: 10px;
+}
+
+.coop-team-compact-section h4 {
+  margin: 0;
+}
+
+.coop-team-compact-grid {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.9fr) minmax(320px, 1.1fr);
+  gap: 12px;
+  align-items: start;
+}
+
+.coop-team-compact-column {
+  display: grid;
+  gap: 8px;
+}
+
+.coop-team-compact-column h5 {
+  margin: 0;
+  color: var(--brown-dark);
+  font-size: 0.98rem;
+}
+
+.compact-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 8px;
+}
+
+.compact-team-card,
+.compact-reward-card {
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 0;
+}
+
+.compact-team-card {
+  display: grid;
+  gap: 2px;
+}
+
+.compact-reward-card {
+  display: grid;
+  gap: 5px;
+}
+
+.compact-reward-amounts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.coop-team-summary-list,
+.coop-team-reward-list {
+  display: grid;
+  gap: 8px;
+}
+
+.coop-team-summary-item,
+.coop-member-reward-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border: 1px solid rgba(138, 84, 47, 0.25);
+  border-radius: 12px;
+  background: rgba(255, 248, 230, 0.66);
+}
+
+.coop-team-summary-item strong,
+.coop-member-reward-item strong {
+  color: #3b2618;
+  font-weight: 900;
+}
+
+.coop-team-summary-item span,
+.coop-member-reward-item span {
+  color: #6f5530;
+  font-weight: 900;
+}
+
+.coop-member-reward-item .reward-amount {
+  margin-left: 6px;
+}
+
+body.dark-theme .coop-member-table td,
+body.dark-theme .coop-member-table td:first-child {
+  color: var(--text);
+}
+
+body.dark-theme .coop-team-summary-item strong,
+body.dark-theme .coop-member-reward-item strong,
+body.dark-theme .coop-team-summary-item span,
+body.dark-theme .coop-member-reward-item span {
+  color: #3b2618;
+}
+
+/* Full DishDex type tags sit on light category rows even in dark mode. */
+body.dark-theme .full-table .dish-type-tag {
+  color: #6f5530;
+}
+
+@media (max-width: 900px) {
+  .section-heading-row,
+  .coop-team-top-grid,
+  .coop-team-compact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-heading-row {
+    display: grid;
+  }
+
+  .coop-team-actions {
+    justify-content: flex-start;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .coop-team-summary-list.team-count-4,
+  .coop-team-summary-list.team-count-5 {
+    grid-template-columns: 1fr;
+  }
+
+  .coop-team-summary-item.compact-team-card,
+  .coop-member-reward-item.compact-reward-row {
+    grid-template-columns: 1fr;
+    display: grid;
+    justify-items: start;
+  }
+
+  .coop-member-reward-item.compact-reward-row .compact-reward-amounts {
+    justify-content: flex-start;
+    white-space: normal;
+  }
+}
+
+/* Co-Op Planner final phase: workload controls and assignment plan */
+.coop-team-summary-list.team-count-5 .compact-team-card:last-child {
+  grid-column: 1 / -1;
+}
+
+.coop-team-summary-item.compact-team-card {
+  grid-template-columns: minmax(110px, 1fr) auto auto minmax(140px, auto);
+  align-items: center;
+}
+
+.mini-select-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  white-space: nowrap;
+  font-size: 0.86rem;
+  font-weight: 800;
+  color: var(--row-text, var(--text));
+}
+
+.mini-select-label span {
+  white-space: nowrap;
+}
+
+.mini-select-label select {
+  min-width: 104px;
+  padding: 5px 8px;
+  border-radius: 10px;
+  font-size: 0.86rem;
+}
+
+.final-plan-grid {
+  grid-template-columns: minmax(340px, 1.05fr) minmax(300px, 0.95fr);
+}
+
+.plan-summary-column {
+  align-content: start;
+}
+
+.plan-status-card {
+  border: 2px solid var(--border);
+  background: var(--plain-cell);
+  border-radius: 16px;
+  padding: 12px 14px;
+  display: grid;
+  gap: 4px;
+  color: var(--row-text, var(--text));
+}
+
+.plan-status-card span,
+.plan-status-card small {
+  color: var(--row-text, var(--text));
+  font-weight: 800;
+}
+
+.plan-status-card strong {
+  font-size: 1.35rem;
+  color: var(--brown-dark);
+}
+
+.plan-status-card.status-gold {
+  border-color: #d6a600;
+  background: rgba(255, 230, 128, 0.20);
+}
+
+.plan-status-card.status-silver {
+  border-color: #9fa6ad;
+  background: rgba(210, 220, 230, 0.18);
+}
+
+.plan-status-card.status-bronze {
+  border-color: #cd7f32;
+  background: rgba(205, 127, 50, 0.14);
+}
+
+.plan-status-card.status-impossible,
+.plan-status-card.status-not-doable {
+  border-color: #c46b5d;
+  background: rgba(196, 107, 93, 0.14);
+}
+
+.predicted-reward-list {
+  max-width: 100%;
+}
+
+.coop-assignment-section {
+  display: grid;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.coop-assignment-section h4 {
+  margin: 0;
+  color: var(--brown-dark);
+}
+
+.assignment-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 10px;
+}
+
+.assignment-card {
+  border: 2px solid var(--border);
+  background: var(--plain-cell);
+  border-radius: 16px;
+  padding: 10px;
+  display: grid;
+  gap: 8px;
+  color: var(--row-text, var(--text));
+}
+
+.assignment-card-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.assignment-card-heading strong {
+  overflow-wrap: anywhere;
+}
+
+.assignment-card-heading span {
+  white-space: nowrap;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.assignment-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.assignment-warning {
+  border: 2px solid rgba(196, 107, 93, 0.6);
+  background: rgba(196, 107, 93, 0.12);
+  color: var(--row-text, var(--text));
+  border-radius: 14px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.assignment-warning p {
+  margin: 0;
+  width: 100%;
+  font-weight: 800;
+}
+
+.muted-small,
+.muted-reward-row {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+body.dark-theme .assignment-card,
+body.dark-theme .plan-status-card,
+body.dark-theme .mini-select-label,
+body.dark-theme .assignment-warning {
+  color: var(--text);
+}
+
+@media (max-width: 980px) {
+  .final-plan-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .coop-team-summary-item.compact-team-card {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .mini-select-label {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+
+/* Final phase v2: stable team preview layout + copy assignment button */
+.final-plan-grid {
+  grid-template-columns: minmax(420px, 1fr) minmax(360px, 0.9fr);
+  gap: 14px;
+}
+
+.coop-team-summary-list.compact-card-grid.team-count-1,
+.coop-team-summary-list.compact-card-grid.team-count-2,
+.coop-team-summary-list.compact-card-grid.team-count-3 {
+  grid-template-columns: 1fr;
+}
+
+.coop-team-summary-list.compact-card-grid.team-count-4,
+.coop-team-summary-list.compact-card-grid.team-count-5 {
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+}
+
+.coop-team-summary-list.team-count-5 .compact-team-card:last-child {
+  grid-column: 1 / -1;
+}
+
+.coop-team-summary-item.compact-team-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas:
+    "chef workload"
+    "meta workload";
+  align-items: center;
+  column-gap: 12px;
+  row-gap: 2px;
+  min-height: 54px;
+  overflow: visible;
+}
+
+.compact-chef-name {
+  grid-area: chef;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  line-height: 1.12;
+}
+
+.compact-chef-meta {
+  grid-area: meta;
+  min-width: 0;
+  white-space: normal !important;
+  line-height: 1.15;
+}
+
+.compact-chef-workload {
+  grid-area: workload;
+  justify-self: end;
+  min-width: 0;
+}
+
+.mini-select-label {
+  max-width: 150px;
+}
+
+.mini-select-label select {
+  min-width: 104px;
+  max-width: 112px;
+}
+
+.assignment-heading-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.copy-assignment-button {
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  background: var(--brown);
+  color: #fff8ef;
+  padding: 8px 14px;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+.copy-assignment-button:hover,
+.copy-assignment-button.copied {
+  background: var(--brown-dark);
+}
+
+@media (max-width: 980px) {
+  .final-plan-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .coop-team-summary-list.compact-card-grid.team-count-4,
+  .coop-team-summary-list.compact-card-grid.team-count-5 {
+    grid-template-columns: 1fr;
+  }
+
+  .coop-team-summary-item.compact-team-card {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "chef"
+      "meta"
+      "workload";
+    justify-items: start;
+  }
+
+  .compact-chef-workload {
+    justify-self: start;
+    width: 100%;
+  }
+
+  .mini-select-label {
+    max-width: none;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+/* Final phase v3: keep workload controls inside chef cards */
+.coop-team-summary-item.compact-team-card {
+  grid-template-columns: minmax(0, 1fr) !important;
+  grid-template-areas:
+    "chef"
+    "meta"
+    "workload" !important;
+  align-items: start !important;
+  justify-items: stretch !important;
+  row-gap: 6px !important;
+  min-height: 74px;
+}
+
+.compact-chef-workload {
+  justify-self: stretch !important;
+  width: 100%;
+}
+
+.compact-chef-workload .mini-select-label,
+.mini-select-label {
+  max-width: none !important;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.compact-chef-workload select,
+.mini-select-label select {
+  flex: 0 0 118px;
+  min-width: 112px;
+  max-width: 126px;
+}
+
+/* Co-Op team row actions */
+.coop-member-action-cell {
+  text-align: center;
+  width: 72px;
+}
+
+.clear-chef-button {
+  width: 42px;
+  height: 42px;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  background: var(--plain-cell);
+  color: var(--text);
+  font: inherit;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+}
+
+.clear-chef-button:hover {
+  filter: brightness(0.96);
+  transform: translateY(-1px);
+}
+
+.coop-member-table th:last-child,
+.coop-member-table td:last-child {
+  min-width: 72px;
+  width: 72px;
+}
+
+/* Stronger contrast for the predicted status card in dark mode */
+body.dark-theme .plan-status-card,
+body.dark-theme .plan-status-card span,
+body.dark-theme .plan-status-card small,
+body.dark-theme .plan-status-card strong {
+  color: #fff4e8;
+}
+
+body.dark-theme .plan-status-card.status-gold {
+  background: rgba(214, 166, 0, 0.20);
+}
+
+body.dark-theme .plan-status-card.status-silver {
+  background: rgba(159, 166, 173, 0.22);
+}
+
+body.dark-theme .plan-status-card.status-bronze {
+  background: rgba(205, 127, 50, 0.18);
+}
+
+body.dark-theme .plan-status-card.status-impossible,
+body.dark-theme .plan-status-card.status-not-doable {
+  background: rgba(196, 107, 93, 0.20);
+}
+
+
+/* Final phase v5: cleaner selected team cards, reset workloads button, and visible action column */
+.coop-member-table {
+  min-width: 820px;
+}
+
+.coop-member-table th:last-child,
+.coop-member-table td:last-child {
+  min-width: 82px;
+  width: 82px;
+}
+
+.selected-team-column {
+  align-self: start;
+}
+
+.coop-team-summary-list.compact-card-grid.team-count-5 .compact-team-card:last-child {
+  grid-column: 1 / -1;
+  width: min(100%, calc((100% - 8px) / 2));
+  justify-self: center;
+}
+
+.reset-workloads-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 6px;
+}
+
+.reset-workloads-button {
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  background: var(--plain-cell);
+  color: var(--row-text, var(--text));
+  padding: 8px 14px;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+.reset-workloads-button:hover {
+  filter: brightness(0.96);
+  transform: translateY(-1px);
+}
+
+body.dark-theme .reset-workloads-button {
+  color: var(--text);
+  border-color: var(--border);
+}
+
+@media (max-width: 720px) {
+  .coop-team-summary-list.compact-card-grid.team-count-5 .compact-team-card:last-child {
+    width: 100%;
+  }
+
+  .reset-workloads-row {
+    justify-content: stretch;
+  }
+
+  .reset-workloads-button {
+    width: 100%;
+  }
+}
+
+
+/* Co-Op Planner v6 polish */
+.welcome-hero .title-block {
+  width: fit-content;
+  max-width: min(720px, 100%);
+  padding: 16px 20px;
+  border-radius: 22px;
+  background: rgba(43, 27, 15, 0.34);
+  border: 1px solid rgba(255, 224, 164, 0.38);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
+}
+
+.welcome-hero .title-block h1,
+.welcome-hero .title-block .eyebrow,
+.welcome-hero .title-block .subtitle {
+  text-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.65),
+    1px 0 0 rgba(60, 34, 17, 0.55),
+    -1px 0 0 rgba(60, 34, 17, 0.55),
+    0 1px 0 rgba(60, 34, 17, 0.55),
+    0 -1px 0 rgba(60, 34, 17, 0.55);
+}
+
+.coop-masteries-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0 14px;
+  color: var(--text);
+  font-weight: 800;
+}
+
+.coop-masteries-toggle input {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--gold);
+}
+
+.gold-mastery-button,
+.close-editor-button {
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  background: var(--plain-cell);
+  color: var(--text);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.gold-mastery-button {
+  min-width: 42px;
+  min-height: 38px;
+  color: #8a6900;
+}
+
+.gold-mastery-editor.hidden { display: none; }
+
+.gold-mastery-editor-card {
+  margin-top: 14px;
+  border: 2px solid var(--border);
+  border-radius: 18px;
+  background: var(--plain-cell);
+  color: var(--text);
+  padding: 14px;
+}
+
+.gold-mastery-editor-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.gold-mastery-editor-heading h3 {
+  margin: 0 0 4px;
+  color: var(--brown-dark);
+}
+
+.gold-mastery-editor-heading p,
+.gold-mastery-count,
+.gold-mastery-profile-note {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.gold-mastery-search-label {
+  display: grid;
+  gap: 6px;
+  margin: 10px 0;
+  font-weight: 800;
+}
+
+.gold-mastery-search-label input {
+  width: 100%;
+}
+
+.gold-mastery-dish-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 8px;
+  max-height: 300px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.gold-mastery-dish-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  background: var(--cream);
+  color: var(--text);
+  padding: 8px 12px;
+  font-weight: 900;
+  cursor: pointer;
+  text-align: left;
+}
+
+.gold-mastery-dish-button.active {
+  border-color: var(--gold);
+  background: #fff4be;
+  color: #3b2618;
+}
+
+.workload-control-stack {
+  display: grid;
+  gap: 8px;
+}
+
+.manual-workload-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 0.88rem;
+  color: var(--text);
+  font-weight: 800;
+}
+
+.manual-workload-label input {
+  width: 92px;
+  padding: 8px 10px;
+  text-align: center;
+}
+
+.compact-chef-name .mastery-star,
+.assignment-pills .mastery-star {
+  color: var(--gold);
+}
+
+body.dark-theme .gold-mastery-editor-card,
+body.dark-theme .gold-mastery-dish-button,
+body.dark-theme .gold-mastery-button,
+body.dark-theme .manual-workload-label {
+  color: var(--text);
+}
+
+
+/* Co-Op Planner v7 modal and contrast fixes */
+.gold-mastery-editor,
+.manual-assignment-editor {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(20, 12, 7, 0.72);
+}
+
+.gold-mastery-editor.hidden,
+.manual-assignment-editor.hidden {
+  display: none !important;
+}
+
+.gold-mastery-editor-card,
+.manual-assignment-card {
+  width: min(920px, 96vw);
+  max-height: 86vh;
+  overflow: auto;
+  margin: 0;
+  background: var(--card);
+  color: var(--text);
+  border-color: var(--border);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+}
+
+body.dark-theme .gold-mastery-dish-button.active,
+.gold-mastery-dish-button.active {
+  background: #fff4be;
+  color: #3b2618;
+  border-color: #d6a600;
+}
+
+body.dark-theme .gold-mastery-dish-button.active span,
+.gold-mastery-dish-button.active span {
+  color: #8a6900;
+}
+
+.manual-workload-actions {
+  display: grid;
+  gap: 6px;
+}
+
+.manual-assignment-button {
+  width: 100%;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  background: var(--plain-cell);
+  color: var(--text);
+  padding: 8px 10px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.manual-workload-actions small {
+  color: var(--muted);
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.manual-assignment-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.manual-assignment-row {
+  display: grid;
+  grid-template-columns: 1fr 90px;
+  gap: 12px;
+  align-items: center;
+  border: 2px solid var(--border);
+  border-radius: 16px;
+  background: var(--plain-cell);
+  color: var(--row-text, var(--text));
+  padding: 10px;
+}
+
+.manual-assignment-row.disabled {
+  opacity: 0.58;
+}
+
+.manual-assignment-dish-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.manual-assignment-dish-info img,
+.manual-assignment-dish-info .dish-img,
+.manual-assignment-dish-info .missing-img {
+  width: 46px;
+  height: 46px;
+  flex: 0 0 auto;
+}
+
+.manual-assignment-dish-info strong,
+.manual-assignment-dish-info span {
+  display: block;
+  color: inherit;
+}
+
+.manual-assignment-dish-info span {
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.manual-assignment-row input {
+  width: 100%;
+  text-align: center;
+}
+
+body.dark-theme .manual-assignment-row {
+  background: #2b211b;
+  color: #fff4e8;
+}
+
+body:not(.dark-theme) .manual-assignment-row {
+  background: #fffaf4;
+  color: #3b2618;
+}
+
+.welcome-hero .title-block {
+  background: rgba(43, 27, 15, 0.48);
+}
+
+@media (max-width: 720px) {
+  .manual-assignment-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Final phase v9: contrast and compact single-assignment cards */
+body.dark-theme .coop-team-summary-item.compact-team-card,
+body.dark-theme .coop-member-reward-item.compact-reward-row,
+body.dark-theme .compact-team-card,
+body.dark-theme .compact-reward-card {
+  color: #3b2618;
+}
+
+body.dark-theme .coop-team-summary-item.compact-team-card strong,
+body.dark-theme .coop-team-summary-item.compact-team-card span,
+body.dark-theme .coop-team-summary-item.compact-team-card label,
+body.dark-theme .coop-team-summary-item.compact-team-card .mini-select-label,
+body.dark-theme .coop-team-summary-item.compact-team-card .manual-workload-actions small,
+body.dark-theme .coop-member-reward-item.compact-reward-row strong,
+body.dark-theme .coop-member-reward-item.compact-reward-row span {
+  color: #3b2618;
+}
+
+body.dark-theme .coop-team-summary-item.compact-team-card .manual-workload-actions small {
+  color: #6f5530;
+}
+
+.assignment-list {
+  align-items: start;
+}
+
+.assignment-card {
+  align-self: start;
+  height: auto;
+}
+
+.assignment-card:has(.requirement-pill:only-child) {
+  min-height: 0;
+}
+
+.assignment-pills {
+  align-items: flex-start;
+}
+
+.assignment-pills .requirement-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 0;
+  line-height: 1.15;
+  padding: 5px 10px;
+}
+
+body:not(.dark-theme) .assignment-card,
+body:not(.dark-theme) .assignment-card strong,
+body:not(.dark-theme) .assignment-card span,
+body:not(.dark-theme) .assignment-card .requirement-pill,
+body:not(.dark-theme) .manual-assignment-card,
+body:not(.dark-theme) .manual-assignment-card strong,
+body:not(.dark-theme) .manual-assignment-card span,
+body:not(.dark-theme) .gold-mastery-editor-card,
+body:not(.dark-theme) .gold-mastery-editor-card strong,
+body:not(.dark-theme) .gold-mastery-editor-card span {
+  color: #3b2618;
+}
+
+body.dark-theme .assignment-card,
+body.dark-theme .assignment-card-heading strong,
+body.dark-theme .assignment-card-heading span,
+body.dark-theme .manual-assignment-card,
+body.dark-theme .manual-assignment-card strong,
+body.dark-theme .gold-mastery-editor-card,
+body.dark-theme .gold-mastery-editor-card strong {
+  color: #fff4e8;
+}
+
+body.dark-theme .assignment-pills .requirement-pill,
+body.dark-theme .manual-assignment-row,
+body.dark-theme .manual-assignment-row strong,
+body.dark-theme .manual-assignment-row span {
+  color: #fff4e8;
+}
+
+body.dark-theme .manual-assignment-row .manual-assignment-dish-info span {
+  color: #d9bd9e;
+}
+
+body.dark-theme .gold-mastery-dish-button.active,
+body.dark-theme .gold-mastery-dish-button.active strong,
+body.dark-theme .gold-mastery-dish-button.active span {
+  color: #3b2618;
+}
+
+/* Final phase v10: assignment pill contrast fix */
+.assignment-card .assignment-pills .requirement-pill,
+.assignment-card .assignment-pills .requirement-pill strong,
+.assignment-card .assignment-pills .requirement-pill span {
+  color: #3b2618 !important;
+  text-shadow: none;
+}
+
+.assignment-card .assignment-pills .requirement-pill .mastery-star {
+  color: #8a6900 !important;
+  text-shadow: none;
+}
+
+body.dark-theme .assignment-card .assignment-pills .requirement-pill,
+body.dark-theme .assignment-card .assignment-pills .requirement-pill strong,
+body.dark-theme .assignment-card .assignment-pills .requirement-pill span,
+body:not(.dark-theme) .assignment-card .assignment-pills .requirement-pill,
+body:not(.dark-theme) .assignment-card .assignment-pills .requirement-pill strong,
+body:not(.dark-theme) .assignment-card .assignment-pills .requirement-pill span {
+  color: #3b2618 !important;
+}
+
+body.dark-theme .assignment-card .assignment-pills .requirement-pill .mastery-star,
+body:not(.dark-theme) .assignment-card .assignment-pills .requirement-pill .mastery-star {
+  color: #8a6900 !important;
+}
+
+/* Final phase v12: fix assignment-card name wrapping in PT/long labels */
+.assignment-card-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 4px;
+  align-items: start;
+}
+
+.assignment-card-heading strong {
+  display: block;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: auto;
+  line-height: 1.2;
+}
+
+.assignment-card-heading span {
+  display: block;
+  white-space: normal;
+  line-height: 1.2;
+}
+
+.assignment-card {
+  min-width: 0;
+}
+
+@media (min-width: 980px) {
+  .assignment-list {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
 }

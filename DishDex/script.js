@@ -19,12 +19,23 @@ const PATHS = {
       '../Cafe_pt.xml'
     ]
   },
-  imageBase: '../dishimages/'
+  imageBase: '../dishimages/',
+  coopIconBase: './coopicons/'
 };
 
 const STORAGE_KEY = 'dishDexUserDataV1';
 const MASTERY_VIEW_STORAGE_KEY = 'dishDexMasteryViewMode';
 const FULL_USE_MASTERIES_STORAGE_KEY = 'dishDexFullUseMasteries';
+const MAX_COOP_TEAMS = 10;
+const MAX_COOP_MEMBERS = 5;
+const COOP_WORKLOAD_WEIGHTS = {
+  minimum: 0.05,
+  low: 0.65,
+  equal: 1,
+  high: 1.45,
+  veryHigh: 2,
+  manual: 1
+};
 const MASTERY_PAGE_SIZE = 4;
 const MASTERY_DAYS_LV1 = 1;
 const MASTERY_DAYS_LV2 = 5;
@@ -34,6 +45,9 @@ const MASTERY_SERVING_BONUS = 1.05;
 const MASTERY_XP_BONUS = 1.05;
 const MASTERY_TIME_BONUS = 0.70;
 const MIN_COOKING_TIME = 0.5;
+let activeCoopGoldMasteryMemberIndex = null;
+let coopGoldMasterySearchTerm = '';
+let activeCoopManualAssignmentMemberSlot = null;
 
 const SPECIAL_DISH_KEYS = [
   'Duckalorange',
@@ -80,6 +94,93 @@ const I18N = {
     myProfileDescription: 'Save your chef name, level and default stove count.',
     myMasteriesTitle: 'My Masteries',
     myMasteriesDescription: 'Register your dish mastery stars and apply them to MyDex.',
+    coopPlannerTitle: 'Co-Op Planner',
+    coopPlannerDescription: 'Browse and plan your next Co-Op here.',
+    coopPlannerEyebrow: 'Team cooking',
+    coopListTitle: 'Co-Op Planner',
+    coopListNote: 'Browse and plan your next Co-Op here!',
+    coopSearch: 'Search co-op',
+    coopSearchPlaceholder: 'Search co-op...',
+    coopNumber: 'Co-Op',
+    maxMembers: 'Max members',
+    baseRewards: 'Base rewards',
+    maxRewardsYourLevel: 'Max Rewards (your level)',
+    rewardDetails: 'Reward Details',
+    cashReward: 'Cash',
+    goldReward: 'Gold',
+    goldDeadline: 'Gold deadline',
+    silverDeadline: 'Silver deadline',
+    bronzeDeadline: 'Bronze deadline',
+    planCoop: 'Plan!',
+    selectedCoopPlanTitle: 'Selected Co-Op Plan',
+    noCoopSelected: 'Choose a co-op and click Plan!',
+    noCoopsAvailable: 'No co-ops available.',
+    coopShortDescription: 'Description',
+    coopRequirements: 'Required dishes',
+    minimumDishLevel: 'Minimum dish level',
+    totalStoveHours: 'Total stove-hours',
+    rewardEstimateAtYourLevel: 'XP estimate at your level',
+    coopTeamTitle: 'Co-Op Team',
+    coopTeamNote: 'Register up to five chefs and save up to ten teams.',
+    loadTeam: 'Load team',
+    teamName: 'Team name',
+    newTeam: 'New team',
+    saveTeam: 'Save team',
+    deleteTeam: 'Delete team',
+    useProfileForChef1: 'Use My Profile for Chef 1',
+    chef: 'Chef',
+    chefFallback: 'Chef',
+    teamSaved: 'Team saved locally.',
+    teamDeleted: 'Team deleted.',
+    teamLimitReached: 'You can save up to 10 teams.',
+    confirmDeleteTeam: 'Delete this saved team?',
+    selectedTeam: 'Selected team',
+    teamRewardsGold: 'Team rewards if Gold',
+    noTeamMembers: 'Add at least one chef to this team.',
+    assignmentComingSoon: 'Dish assignment comes in the next phase.',
+    assignmentPlanTitle: 'Dish assignment plan',
+    copyAssignment: 'Copy assignment',
+    assignmentCopied: 'Assignment copied!',
+    assignmentCopyFailed: 'Could not copy assignment.',
+    workload: 'Workload',
+    workloadMinimum: 'Minimum',
+    workloadLow: 'Low',
+    workloadEqual: 'Equal',
+    workloadHigh: 'High',
+    workloadVeryHigh: 'Very high',
+    workloadManual: 'Manual',
+    manualDishes: 'Manual dishes',
+    manualDishesShort: 'dishes',
+    editManualDishes: 'Edit dishes',
+    manualAssignmentTitle: 'Manual assignment',
+    manualAssignmentNote: 'Choose exactly which required dishes this chef should cook. The planner assigns the remaining dishes after this.',
+    manualAssignmentSaved: 'Manual assignment saved.',
+    manualAssignmentSummaryEmpty: 'No manual dishes set',
+    manualAssignmentUnavailable: 'Choose a Co-Op first to edit manual dishes.',
+    cannotCookDish: 'Cannot cook',
+    useMyMasteriesForChef1: 'Use my gold masteries for Chef 1',
+    goldMasteries: 'Gold masteries',
+    editGoldMasteries: 'Edit gold masteries',
+    goldMasteriesNote: 'Only Gold mastery matters here because it reduces cooking time.',
+    searchDishes: 'Search dishes',
+    noGoldMasteriesSelected: 'No Gold masteries selected yet.',
+    myMasteriesActive: 'Using My Masteries for Chef 1',
+    manualCountWarning: 'One or more manual workloads could not be filled completely.',
+    estimatedWithTeam: 'Estimated with this team',
+    predictedStatus: 'Predicted Status',
+    assignedDishes: 'Assigned dishes',
+    noAssignedDishes: 'No dishes assigned',
+    noEligibleChef: 'No eligible chef can cook one or more required dishes.',
+    impossibleMissingUnlock: 'Impossible: missing dish unlock',
+    notDoable: 'Not doable',
+    predictedRewards: 'Team rewards at predicted status',
+    noRewardNoContribution: 'No reward without contribution',
+    contributionWarning: 'Each chef must cook at least one required dish to receive rewards.',
+    unassignedDishes: 'Unassigned dishes',
+    chefCookTime: 'Cook time',
+    bronze: 'Bronze',
+    silver: 'Silver',
+    gold: 'Gold',
     backButton: '← Back',
     personalRecommendations: 'Personal recommendations',
     myDexSettings: 'MyDex Settings',
@@ -87,6 +188,9 @@ const I18N = {
     xpNeeded: 'XP Needed',
     availableStoves: 'Available Stoves',
     holidayMode: 'Include holiday foods?',
+    showIngredients: 'Show ingredients?',
+    ingredientDetails: 'Ingredients',
+    ingredientCost: 'Ingredient cost',
     exclude: 'Exclude',
     include: 'Include',
     auto: 'Auto',
@@ -129,6 +233,9 @@ const I18N = {
     batches: 'Batches',
     totalCookTime: 'Total Cook Time',
     stoves: 'Stoves',
+    actions: 'Actions',
+    clearChef: 'Clear chef',
+    resetWorkloads: 'Reset workloads',
     note: 'Note',
     specialDishes: 'Special Dishes',
     specialDishesNote: 'Special dishes are shown separately.',
@@ -157,6 +264,9 @@ const I18N = {
     special: 'Special',
     holiday: 'Holiday',
     regular: 'Regular',
+    fullTagSpecial: 'Special',
+    fullTagChristmas: 'Christmas',
+    fullTagEaster: 'Easter',
     holidayActive: 'Holiday: Active',
     holidayInactive: 'Holiday: Inactive',
     profitLower: 'profit',
@@ -228,8 +338,8 @@ const I18N = {
     gold: 'Gold',
     portionsLower: 'portion(s)',
     xpUpper: 'XP',
-    confirmDelete: 'Are you sure? This will delete your saved profile and masteries.',
-    dataDeleted: 'Saved profile and masteries deleted.',
+    confirmDelete: 'Are you sure? This will delete your saved profile, masteries and Co-Op teams.',
+    dataDeleted: 'Saved profile, masteries and Co-Op teams deleted.',
     dataLoadedMessage: 'Data loaded successfully.',
     dataLoadError: 'Could not load this data file.',
     dataDownloaded: 'Data file downloaded.',
@@ -256,6 +366,93 @@ const I18N = {
     myProfileDescription: 'Salve o nome do chef, nível e quantidade padrão de fogões.',
     myMasteriesTitle: 'Minhas Estrelas',
     myMasteriesDescription: 'Registre as estrelas dos pratos e aplique os bônus no MyDex.',
+    coopPlannerTitle: 'Planejador de Co-Ops',
+    coopPlannerDescription: 'Consulte e planeje sua próxima Co-Op aqui.',
+    coopPlannerEyebrow: 'Cozinha em equipe',
+    coopListTitle: 'Co-Op planner',
+    coopListNote: 'Consulte e planeje sua próxima Co-Op aqui!',
+    coopSearch: 'Procurar Co-Op',
+    coopSearchPlaceholder: 'Procurar Co-Op...',
+    coopNumber: 'Co-Op',
+    maxMembers: 'Máx. membros',
+    baseRewards: 'Recompensas base',
+    maxRewardsYourLevel: 'Recompensas máximas (seu nível)',
+    rewardDetails: 'Detalhes da recompensa',
+    cashReward: 'Cafédólares',
+    goldReward: 'Ouro',
+    goldDeadline: 'Prazo para Ouro',
+    silverDeadline: 'Prazo para Prata',
+    bronzeDeadline: 'Prazo para Bronze',
+    planCoop: 'Planejar!',
+    selectedCoopPlanTitle: 'Plano de Co-Op selecionado',
+    noCoopSelected: 'Escolha uma Co-Op e clique em Planejar!',
+    noCoopsAvailable: 'Nenhuma Co-Op disponível.',
+    coopShortDescription: 'Descrição',
+    coopRequirements: 'Pratos necessários',
+    minimumDishLevel: 'Nível mínimo dos pratos',
+    totalStoveHours: 'Horas de fogão totais',
+    rewardEstimateAtYourLevel: 'Estimativa de XP no seu nível',
+    coopTeamTitle: 'Equipe de Co-Op',
+    coopTeamNote: 'Registre até cinco chefs e salve até dez equipes.',
+    loadTeam: 'Carregar equipe',
+    teamName: 'Nome da equipe',
+    newTeam: 'Nova equipe',
+    saveTeam: 'Salvar equipe',
+    deleteTeam: 'Apagar equipe',
+    useProfileForChef1: 'Usar Meu Perfil no Chef 1',
+    chef: 'Chef',
+    chefFallback: 'Chef',
+    teamSaved: 'Equipe salva localmente.',
+    teamDeleted: 'Equipe apagada.',
+    teamLimitReached: 'Você pode salvar até 10 equipes.',
+    confirmDeleteTeam: 'Apagar esta equipe salva?',
+    selectedTeam: 'Equipe selecionada',
+    teamRewardsGold: 'Recompensas da equipe com Ouro',
+    noTeamMembers: 'Adicione pelo menos um chef nesta equipe.',
+    assignmentComingSoon: 'A distribuição dos pratos vem na próxima fase.',
+    assignmentPlanTitle: 'Distribuição dos pratos',
+    workload: 'Carga',
+    workloadMinimum: 'Mínima',
+    workloadLow: 'Baixa',
+    workloadEqual: 'Igual',
+    workloadHigh: 'Alta',
+    workloadVeryHigh: 'Muito alta',
+    workloadManual: 'Manual',
+    manualDishes: 'Pratos manuais',
+    manualDishesShort: 'pratos',
+    editManualDishes: 'Editar pratos',
+    manualAssignmentTitle: 'Distribuição manual',
+    manualAssignmentNote: 'Escolha exatamente quais pratos necessários este chef deve cozinhar. O planejador distribui o restante depois disso.',
+    manualAssignmentSaved: 'Distribuição manual salva.',
+    manualAssignmentSummaryEmpty: 'Nenhum prato manual definido',
+    manualAssignmentUnavailable: 'Escolha uma Co-Op primeiro para editar os pratos manuais.',
+    cannotCookDish: 'Não pode cozinhar',
+    useMyMasteriesForChef1: 'Usar minhas estrelas douradas no Chef 1',
+    goldMasteries: 'Estrelas douradas',
+    editGoldMasteries: 'Editar estrelas douradas',
+    goldMasteriesNote: 'Aqui só a estrela de Ouro importa, porque ela reduz o tempo de preparo.',
+    searchDishes: 'Procurar pratos',
+    noGoldMasteriesSelected: 'Nenhuma estrela dourada selecionada ainda.',
+    myMasteriesActive: 'Usando Minhas Estrelas no Chef 1',
+    manualCountWarning: 'Uma ou mais cargas manuais não puderam ser preenchidas completamente.',
+    estimatedWithTeam: 'Estimado com esta equipe',
+    predictedStatus: 'Status previsto',
+    assignedDishes: 'Pratos atribuídos',
+    noAssignedDishes: 'Nenhum prato atribuído',
+    noEligibleChef: 'Nenhum chef elegível pode cozinhar um ou mais pratos necessários.',
+    impossibleMissingUnlock: 'Impossível: falta desbloquear prato',
+    notDoable: 'Não viável',
+    predictedRewards: 'Recompensas no status previsto',
+    noRewardNoContribution: 'Sem recompensa sem contribuição',
+    contributionWarning: 'Cada chef precisa cozinhar pelo menos um prato necessário para receber recompensas.',
+    unassignedDishes: 'Pratos não atribuídos',
+    chefCookTime: 'Tempo de preparo',
+    bronze: 'Bronze',
+    silver: 'Prata',
+    gold: 'Ouro',
+    copyAssignment: 'Copiar distribuição',
+    assignmentCopied: 'Distribuição copiada!',
+    assignmentCopyFailed: 'Não foi possível copiar a distribuição.',
     backButton: '← Voltar',
     personalRecommendations: 'Recomendações pessoais',
     myDexSettings: 'Configurações do MyDex',
@@ -263,6 +460,9 @@ const I18N = {
     xpNeeded: 'XP necessário',
     availableStoves: 'Fogões disponíveis',
     holidayMode: 'Incluir comidas de feriado?',
+    showIngredients: 'Mostrar ingredientes?',
+    ingredientDetails: 'Ingredientes',
+    ingredientCost: 'Custo dos ingredientes',
     exclude: 'Excluir',
     include: 'Incluir',
     auto: 'Auto',
@@ -305,6 +505,9 @@ const I18N = {
     batches: 'Rodadas',
     totalCookTime: 'Tempo total',
     stoves: 'Fogões',
+    actions: 'Ações',
+    clearChef: 'Limpar chef',
+    resetWorkloads: 'Resetar cargas',
     note: 'Nota',
     specialDishes: 'Pratos especiais',
     specialDishesNote: 'Pratos especiais são exibidos separadamente.',
@@ -333,6 +536,9 @@ const I18N = {
     special: 'Especial',
     holiday: 'Feriado',
     regular: 'Normal',
+    fullTagSpecial: 'Especial',
+    fullTagChristmas: 'Natal',
+    fullTagEaster: 'Páscoa',
     holidayActive: 'Feriado: ativo',
     holidayInactive: 'Feriado: inativo',
     profitLower: 'lucro',
@@ -404,8 +610,8 @@ const I18N = {
     gold: 'Ouro',
     portionsLower: 'porções',
     xpUpper: 'XP',
-    confirmDelete: 'Tem certeza? Isso apagará seu perfil e suas estrelas salvas.',
-    dataDeleted: 'Perfil e estrelas salvos foram apagados.',
+    confirmDelete: 'Tem certeza? Isso apagará seu perfil, suas estrelas e suas equipes de Co-Op salvas.',
+    dataDeleted: 'Perfil, estrelas e equipes de Co-Op salvos foram apagados.',
     dataLoadedMessage: 'Dados carregados com sucesso.',
     dataLoadError: 'Não foi possível carregar este arquivo de dados.',
     dataDownloaded: 'Arquivo de dados baixado.',
@@ -444,6 +650,7 @@ const SORT_OPTIONS = [
 ];
 
 let allDishRecords = [];
+let allCoopRecords = [];
 let levelLimitsByLevel = new Map();
 let currentLanguage = 'en';
 let userData = loadUserData();
@@ -464,10 +671,13 @@ async function main() {
 
     levelLimitsByLevel = await loadLevelLimits();
     ensureUserDefaults();
+    ensureCoopTeamDefaults();
     syncProfileInputs();
     syncMyDexInputs();
+    renderCoopTeamEditor();
 
     allDishRecords = await loadDishRecords(currentLanguage);
+    allCoopRecords = await loadCoopRecords(currentLanguage);
 
     setStatus(t('dataLoaded'), 'ok');
     updateDataSummary();
@@ -475,6 +685,8 @@ async function main() {
     bindInputs();
     renderMyDex();
     renderFullDishDex();
+    renderCoopPlanner();
+    restoreLastCoopPlanPreview();
     renderMasteries();
     if (!window.location.hash) {
       history.replaceState(null, '', '#home');
@@ -565,12 +777,16 @@ function setupLanguage() {
       setStatus(t('loadingXml'), 'ok');
       document.getElementById('dataSummary').textContent = '';
       allDishRecords = await loadDishRecords(currentLanguage);
+      allCoopRecords = await loadCoopRecords(currentLanguage);
       setStatus(t('dataLoaded'), 'ok');
       updateDataSummary();
       syncProfileInputs();
       syncMyDexInputs(false);
+      renderCoopTeamEditor();
       renderMyDex();
       renderFullDishDex();
+      renderCoopPlanner();
+      restoreLastCoopPlanPreview();
       renderMasteries();
     } catch (error) {
       console.error(error);
@@ -589,6 +805,7 @@ const SCREEN_HASHES = {
   welcomeScreen: 'home',
   myDexScreen: 'mydex',
   fullDishDexScreen: 'fulldishdex',
+  coopPlannerScreen: 'coopplanner',
   profileScreen: 'profile',
   masteriesScreen: 'masteries'
 };
@@ -604,6 +821,10 @@ function setupNavigation() {
 
   document.getElementById('openFullDishDex').addEventListener('click', () => {
     navigateToScreen('fullDishDexScreen');
+  });
+
+  document.getElementById('openCoopPlanner').addEventListener('click', () => {
+    navigateToScreen('coopPlannerScreen');
   });
 
   document.getElementById('openProfile').addEventListener('click', () => {
@@ -652,18 +873,80 @@ function handleHashNavigation() {
 }
 
 function setupDataActions() {
-  document.getElementById('loadDataButton').addEventListener('click', () => {
-    document.getElementById('dataFileInput').click();
+  const dataFileInput = document.getElementById('dataFileInput');
+  ['loadDataButton', 'profileLoadDataButton'].forEach(id => {
+    const button = document.getElementById(id);
+    if (button) button.addEventListener('click', () => dataFileInput?.click());
   });
 
-  document.getElementById('dataFileInput').addEventListener('change', event => {
-    const file = event.target.files && event.target.files[0];
-    if (file) importUserData(file);
-    event.target.value = '';
+  if (dataFileInput) {
+    dataFileInput.addEventListener('change', event => {
+      const file = event.target.files && event.target.files[0];
+      if (file) importUserData(file);
+      event.target.value = '';
+    });
+  }
+
+  ['downloadDataButton', 'profileDownloadDataButton'].forEach(id => {
+    const button = document.getElementById(id);
+    if (button) button.addEventListener('click', exportUserData);
   });
 
-  document.getElementById('downloadDataButton').addEventListener('click', exportUserData);
-  document.getElementById('deleteDataButton').addEventListener('click', deleteUserData);
+  ['deleteDataButton', 'profileDeleteDataButton'].forEach(id => {
+    const button = document.getElementById(id);
+    if (button) button.addEventListener('click', deleteUserData);
+  });
+
+  const coopSearch = document.getElementById('coopSearch');
+  if (coopSearch) coopSearch.addEventListener('input', renderCoopPlanner);
+
+  const coopListBody = document.getElementById('coopListBody');
+  if (coopListBody) {
+    coopListBody.addEventListener('click', event => {
+      const button = event.target.closest('[data-coop-number]');
+      if (!button) return;
+      const coopNumber = Math.max(0, Math.floor(Number(button.getAttribute('data-coop-number') || 0)));
+      userData.selectedCoopNumber = coopNumber;
+      saveUserData();
+      renderCoopPlanPreview(coopNumber);
+    });
+  }
+
+  const coopPlanPreview = document.getElementById('coopPlanPreview');
+  if (coopPlanPreview) {
+    coopPlanPreview.addEventListener('change', event => {
+      const select = event.target.closest('[data-plan-workload]');
+      if (select) {
+        updateCoopMemberWorkload(select);
+        return;
+      }
+
+    });
+
+    coopPlanPreview.addEventListener('input', event => {
+    });
+
+    coopPlanPreview.addEventListener('click', event => {
+      const manualButton = event.target.closest('[data-open-manual-assignment]');
+      if (manualButton) {
+        openManualAssignmentEditor(Number(manualButton.getAttribute('data-member-slot')));
+        return;
+      }
+
+      const resetButton = event.target.closest('[data-reset-workloads]');
+      if (resetButton) {
+        resetCoopWorkloads();
+        return;
+      }
+
+      const button = event.target.closest('[data-copy-assignment]');
+      if (!button) return;
+      copyCurrentCoopAssignment(button);
+    });
+  }
+
+  bindCoopTeamControls();
+
   document.getElementById('masterySearch').addEventListener('input', () => {
     masteryCookbookPage = 0;
     renderMasteries();
@@ -722,6 +1005,8 @@ function applyUiLanguage() {
 function syncSearchPlaceholder() {
   const search = document.getElementById('masterySearch');
   if (search) search.placeholder = t('searchDishPlaceholder');
+  const coopSearch = document.getElementById('coopSearch');
+  if (coopSearch) coopSearch.placeholder = t('coopSearchPlaceholder');
 }
 
 function populateSortSelect() {
@@ -741,7 +1026,7 @@ function t(key) {
 }
 
 function updateDataSummary() {
-  document.getElementById('dataSummary').textContent = `${allDishRecords.length} ${t('dishesReady')}`;
+  document.getElementById('dataSummary').textContent = `${allDishRecords.length} ${t('dishesReady')} · ${allCoopRecords.length} Co-Ops`;
 }
 
 function showScreen(screenId) {
@@ -855,12 +1140,63 @@ async function loadDishRecords(languageCode) {
   return records;
 }
 
+async function loadCoopRecords(languageCode) {
+  const cafeItemsText = await fetchText(PATHS.cafeItems);
+  const cafeItemsXml = parseLooseXml(cafeItemsText, 'CafeItems.xml');
+  const languageResult = await fetchFirstWorkingLanguageFile(PATHS.languageFiles[languageCode]);
+  const cafeLanguageXml = parseNormalOrLooseXml(languageResult.text, 'Cafe language XML');
+  const textNodes = Array.from(cafeLanguageXml.getElementsByTagName('text'));
+  const coopTextByNumber = buildCoopTextMap(textNodes);
+  const dishById = new Map(allDishRecords.map(record => [String(record.dishId), record]));
+
+  return Array.from(cafeItemsXml.getElementsByTagName('wod'))
+    .filter(node => getAttr(node, 'g') === 'Coop')
+    .map((node, sourceIndex) => {
+      const wodId = getAttr(node, 'id');
+      const coopNumber = Number(getAttr(node, 't') || 0);
+      const duration = Number(getAttr(node, 'duration') || 0);
+      const requirementText = getAttr(node, 'dishes');
+      const requirements = parseCoopRequirements(requirementText, dishById);
+      const text = coopTextByNumber[String(coopNumber)] || {};
+      const levels = requirements
+        .map(req => Number(req.dish?.level || 0))
+        .filter(level => Number.isFinite(level) && level > 0);
+      const totalStoveMinutes = requirements.reduce((sum, req) => {
+        return sum + Number(req.amount || 0) * Number(req.dish?.duration || 0);
+      }, 0);
+
+      return {
+        wodId,
+        coopNumber,
+        sourceIndex,
+        title: text.title || `Co-Op ${coopNumber}`,
+        shortDescription: text.shortDescription || '',
+        longDescription: text.longDescription || '',
+        maxMembers: Number(getAttr(node, 'maxMember') || 0),
+        rewardCash: Number(getAttr(node, 'chips') || 0),
+        baseXp: Number(getAttr(node, 'xp') || 0),
+        rewardGold: Number(getAttr(node, 'gold') || 0),
+        duration,
+        durationText: formatDuration(duration),
+        goldDeadline: Math.floor(duration * 0.5),
+        silverDeadline: Math.floor(duration * 0.75),
+        requirements,
+        requirementText,
+        minDishLevel: levels.length ? Math.min(...levels) : 0,
+        totalStoveMinutes,
+        iconUrl: `${PATHS.coopIconBase}${coopNumber}.png`
+      };
+    })
+    .filter(coop => coop.coopNumber > 0 && coop.coopNumber !== 29)
+    .sort((a, b) => a.coopNumber - b.coopNumber);
+}
+
 function getCategoryName(categoryId) {
   return CATEGORY_NAMES[currentLanguage]?.[String(categoryId)] || CATEGORY_NAMES.en[String(categoryId)] || String(categoryId);
 }
 
 function bindInputs() {
-  ['playerLevel', 'xpNeeded', 'stoveCount', 'holidayMode'].forEach(id => {
+  ['playerLevel', 'xpNeeded', 'stoveCount', 'holidayMode', 'showIngredientsToggle'].forEach(id => {
     const element = document.getElementById(id);
     element.addEventListener('input', handleMyDexInputChange);
     element.addEventListener('change', handleMyDexInputChange);
@@ -875,9 +1211,11 @@ function handleMyDexInputChange() {
   userData.level = clampNumber(Number(document.getElementById('playerLevel').value || 1), 0, 999);
   userData.xpNeeded = Math.max(0, Number(document.getElementById('xpNeeded').value || 0));
   userData.availableStoves = Math.max(1, Number(document.getElementById('stoveCount').value || 1));
+  userData.showIngredients = Boolean(document.getElementById('showIngredientsToggle')?.checked);
   saveUserData();
   syncProfileInputs(false);
   renderMyDex();
+  renderCoopPlanner();
 }
 
 function handleProfileLevelChange() {
@@ -889,7 +1227,10 @@ function handleProfileLevelChange() {
   syncMyDexInputs(false);
   setProfileStatus(t('profileSaved'));
   renderMyDex();
+  renderCoopTeamEditor();
+  renderCoopPlanner();
 }
+
 
 function handleProfileInputChange() {
   userData.chefName = document.getElementById('profileChefName').value.trim();
@@ -899,7 +1240,10 @@ function handleProfileInputChange() {
   syncMyDexInputs(false);
   setProfileStatus(t('profileSaved'));
   renderMyDex();
+  renderCoopTeamEditor();
+  renderCoopPlanner();
 }
+
 
 function renderMyDex() {
   if (!allDishRecords.length) return;
@@ -942,7 +1286,7 @@ function renderBestSummary(records) {
   const validItems = items.filter(item => item[1]);
 
   if (validItems.length === 0) {
-    body.innerHTML = emptyRow(12, t('noDishesAvailable'));
+    body.innerHTML = emptyRow(9, t('noDishesAvailable'));
     return;
   }
 
@@ -1021,6 +1365,59 @@ function recommendedMasteryBenefitHtml(record, targetLevel) {
   return `<span class="effect-line effect-gold">★ ${escapeHtml(t('gold'))}: -${escapeHtml(formatDuration(savedTime))}: ${escapeHtml(formatDuration(finalTime))}</span>`;
 }
 
+
+function assetIconHtml(type, className = 'stat-icon') {
+  const icons = {
+    cash: { src: 'cash.png', alt: t('cashReward') },
+    xp: { src: 'xp.png', alt: 'XP' },
+    gold: { src: 'gold.png', alt: t('goldReward') }
+  };
+  const icon = icons[type];
+  if (!icon) return '';
+  return `<img src="${escapeHtml(icon.src)}" alt="${escapeHtml(icon.alt)}" class="${escapeHtml(className)}" onerror="this.style.display='none'">`;
+}
+
+function valueWithIconHtml(type, value) {
+  return `<span class="value-with-icon">${number(value)} ${assetIconHtml(type)}</span>`;
+}
+
+function decimalWithIconHtml(type, value) {
+  return `<span class="value-with-icon">${decimal(value)} ${assetIconHtml(type)}</span>`;
+}
+
+function metricStackHtml(type, value, perMin) {
+  return `
+    <div class="metric-stack">
+      <span>${number(value)} ${assetIconHtml(type)}</span>
+      <small>${decimal(perMin)} ${assetIconHtml(type, 'stat-icon tiny-stat-icon')}/min</small>
+    </div>
+  `;
+}
+
+function portionMetricStackHtml(value, perMin) {
+  return `
+    <div class="metric-stack">
+      <span>${number(value)}</span>
+      <small>${decimal(perMin)}/min</small>
+    </div>
+  `;
+}
+
+function ingredientDetailsRowHtml(record, colspan, rowClass = '') {
+  if (!getSettings().showIngredients || !record) return '';
+  return `
+    <tr class="ingredient-detail-row ${escapeHtml(rowClass)}">
+      <td colspan="${number(colspan)}">
+        <div class="ingredient-detail-content">
+          <strong>${escapeHtml(t('ingredientDetails'))}:</strong>
+          <span>${escapeHtml(record.requirements || '—')}</span>
+          <span class="ingredient-cost"><strong>${escapeHtml(t('ingredientCost'))}:</strong> ${valueWithIconHtml('cash', record.ingredientCost)}</span>
+        </div>
+      </td>
+    </tr>
+  `;
+}
+
 function summaryRowHtml(label, record, rowClass) {
   return `
     <tr class="${rowClass}">
@@ -1028,15 +1425,13 @@ function summaryRowHtml(label, record, rowClass) {
       <td>${escapeHtml(label)}</td>
       <td class="dish-name">${escapeHtml(record.dishName)}</td>
       <td>${number(record.level)}</td>
-      <td>${number(record.xp)}</td>
-      <td>${decimal(record.xpPerMin)}</td>
-      <td>${number(record.profit)}</td>
-      <td>${decimal(record.profitPerMin)}</td>
-      <td>${number(record.servings)}</td>
-      <td>${decimal(record.servingsPerMin)}</td>
+      <td>${metricStackHtml('xp', record.xp, record.xpPerMin)}</td>
+      <td>${metricStackHtml('cash', record.profit, record.profitPerMin)}</td>
+      <td>${portionMetricStackHtml(record.servings, record.servingsPerMin)}</td>
       <td>${escapeHtml(record.durationText)}</td>
       <td>${escapeHtml(record.categoryName)}</td>
     </tr>
+    ${ingredientDetailsRowHtml(record, 9, rowClass)}
   `;
 }
 
@@ -1066,7 +1461,8 @@ function getSettings() {
     playerLevel: clampNumber(Number(document.getElementById('playerLevel').value || 0), 0, 999),
     xpNeeded: Math.max(0, Number(document.getElementById('xpNeeded').value || 0)),
     stoveCount: Math.max(1, Number(document.getElementById('stoveCount').value || 1)),
-    holidayMode: document.getElementById('holidayMode').value || 'Auto'
+    holidayMode: document.getElementById('holidayMode').value || 'Auto',
+    showIngredients: Boolean(document.getElementById('showIngredientsToggle')?.checked)
   };
 }
 
@@ -1074,7 +1470,7 @@ function renderBestXp(items) {
   const body = document.getElementById('bestXpBody');
   const validItems = items.filter(item => item[1]);
   if (validItems.length === 0) {
-    body.innerHTML = emptyRow(8, t('noXpRecommendations'));
+    body.innerHTML = emptyRow(7, t('noXpRecommendations'));
     return;
   }
   body.innerHTML = validItems.map(([label, record, rowClass]) => `
@@ -1083,11 +1479,11 @@ function renderBestXp(items) {
       <td>${escapeHtml(label)}</td>
       <td class="dish-name">${escapeHtml(record.dishName)}</td>
       <td>${number(record.level)}</td>
-      <td>${number(record.xp)}</td>
-      <td>${decimal(record.xpPerMin)}</td>
+      <td>${metricStackHtml('xp', record.xp, record.xpPerMin)}</td>
       <td>${escapeHtml(record.durationText)}</td>
       <td>${escapeHtml(record.categoryName)}</td>
     </tr>
+    ${ingredientDetailsRowHtml(record, 7, rowClass)}
   `).join('');
 }
 
@@ -1095,7 +1491,7 @@ function renderBestProfit(items) {
   const body = document.getElementById('bestProfitBody');
   const validItems = items.filter(item => item[1]);
   if (validItems.length === 0) {
-    body.innerHTML = emptyRow(8, t('noProfitRecommendations'));
+    body.innerHTML = emptyRow(7, t('noProfitRecommendations'));
     return;
   }
   body.innerHTML = validItems.map(([label, record, rowClass]) => `
@@ -1104,11 +1500,11 @@ function renderBestProfit(items) {
       <td>${escapeHtml(label)}</td>
       <td class="dish-name">${escapeHtml(record.dishName)}</td>
       <td>${number(record.level)}</td>
-      <td>${number(record.profit)}</td>
-      <td>${decimal(record.profitPerMin)}</td>
+      <td>${metricStackHtml('cash', record.profit, record.profitPerMin)}</td>
       <td>${escapeHtml(record.durationText)}</td>
       <td>${escapeHtml(record.categoryName)}</td>
     </tr>
+    ${ingredientDetailsRowHtml(record, 7, rowClass)}
   `).join('');
 }
 
@@ -1116,7 +1512,7 @@ function renderBestPortions(items) {
   const body = document.getElementById('bestPortionsBody');
   const validItems = items.filter(item => item[1]);
   if (validItems.length === 0) {
-    body.innerHTML = emptyRow(8, t('noPortionRecommendations'));
+    body.innerHTML = emptyRow(7, t('noPortionRecommendations'));
     return;
   }
   body.innerHTML = validItems.map(([label, record, rowClass]) => `
@@ -1125,11 +1521,11 @@ function renderBestPortions(items) {
       <td>${escapeHtml(label)}</td>
       <td class="dish-name">${escapeHtml(record.dishName)}</td>
       <td>${number(record.level)}</td>
-      <td>${number(record.servings)}</td>
-      <td>${decimal(record.servingsPerMin)}</td>
+      <td>${portionMetricStackHtml(record.servings, record.servingsPerMin)}</td>
       <td>${escapeHtml(record.durationText)}</td>
       <td>${escapeHtml(record.categoryName)}</td>
     </tr>
+    ${ingredientDetailsRowHtml(record, 7, rowClass)}
   `).join('');
 }
 
@@ -1158,7 +1554,7 @@ function renderPlans(settings, planItems) {
         <td>${imageHtml(record)}</td>
         <td>${escapeHtml(planName)}</td>
         <td class="dish-name">${escapeHtml(record.dishName)}</td>
-        <td>${number(record.xp)}</td>
+        <td>${valueWithIconHtml('xp', record.xp)}</td>
         <td>${escapeHtml(record.durationText)}</td>
         <td>${number(dishesNeeded)}</td>
         <td>${number(batchesNeeded)}</td>
@@ -1166,6 +1562,7 @@ function renderPlans(settings, planItems) {
         <td>${number(settings.stoveCount)}</td>
         <td class="note-cell">${escapeHtml(note)}</td>
       </tr>
+      ${ingredientDetailsRowHtml(record, 10, rowClass)}
     `;
   }).join('');
 }
@@ -1182,17 +1579,1086 @@ function renderDishCards(containerId, records, fallbackType) {
     if (fallbackType === 'Holiday') {
       typeLabel = isHolidayDishActive(record.dishKey, new Date()) ? t('holidayActive') : t('holidayInactive');
     }
+    const ingredientLine = getSettings().showIngredients
+      ? `<p class="dish-card-ingredients"><strong>${escapeHtml(t('ingredientDetails'))}:</strong> ${escapeHtml(record.requirements || '—')} · <strong>${escapeHtml(t('ingredientCost'))}:</strong> ${valueWithIconHtml('cash', record.ingredientCost)}</p>`
+      : '';
     return `
       <article class="dish-card">
         <div>${imageHtml(record)}</div>
         <div>
           <h3>${escapeHtml(record.dishName)}</h3>
-          <p>${escapeHtml(typeLabel)} · ${t('level')} ${number(record.level)} · ${number(record.xp)} XP · ${escapeHtml(record.durationText)}</p>
-          <p>${number(record.profit)} ${t('profitLower')} · ${decimal(record.xpPerMin)} XP/min</p>
+          <p>${escapeHtml(typeLabel)} · ${t('level')} ${number(record.level)} · ${valueWithIconHtml('xp', record.xp)} · ${escapeHtml(record.durationText)}</p>
+          <p>${valueWithIconHtml('cash', record.profit)} · ${decimalWithIconHtml('xp', record.xpPerMin)}/min</p>
+          ${ingredientLine}
         </div>
       </article>
     `;
   }).join('');
+}
+
+function bindCoopTeamControls() {
+  const teamSelect = document.getElementById('coopTeamSelect');
+  const teamName = document.getElementById('coopTeamName');
+  const membersBody = document.getElementById('coopTeamMembersBody');
+  const newButton = document.getElementById('newCoopTeamButton');
+  const saveButton = document.getElementById('saveCoopTeamButton');
+  const deleteButton = document.getElementById('deleteCoopTeamButton');
+  const profileButton = document.getElementById('useProfileForLeaderButton');
+  const useMyMasteriesToggle = document.getElementById('useMyMasteriesChef1Toggle');
+  const goldMasteryEditor = document.getElementById('coopGoldMasteryEditor');
+  const manualAssignmentEditor = document.getElementById('coopManualAssignmentEditor');
+
+  if (teamSelect) {
+    teamSelect.addEventListener('change', () => {
+      userData.selectedCoopTeamId = teamSelect.value;
+      saveUserData();
+      activeCoopGoldMasteryMemberIndex = null;
+      activeCoopManualAssignmentMemberSlot = null;
+      renderCoopTeamEditor();
+      renderCoopPlanner();
+      clearCoopPlanPreview();
+    });
+  }
+
+  if (teamName) {
+    teamName.addEventListener('input', () => {
+      const team = getSelectedCoopTeam();
+      team.name = teamName.value.trim() || team.name;
+      saveUserData();
+      renderCoopTeamSelectOnly();
+      refreshCurrentCoopPlanPreview();
+      setCoopTeamStatus(t('teamSaved'));
+    });
+  }
+
+  if (membersBody) {
+    membersBody.addEventListener('input', event => {
+      const input = event.target.closest('[data-team-field]');
+      if (!input) return;
+      updateSelectedTeamFromMemberInput(input);
+      setCoopTeamStatus(t('teamSaved'));
+    });
+
+    membersBody.addEventListener('change', event => {
+      const input = event.target.closest('[data-team-field]');
+      if (!input) return;
+      updateSelectedTeamFromMemberInput(input, true);
+      setCoopTeamStatus(t('teamSaved'));
+    });
+
+    membersBody.addEventListener('click', event => {
+      const masteryButton = event.target.closest('[data-edit-member-masteries-index]');
+      if (masteryButton) {
+        activeCoopGoldMasteryMemberIndex = Number(masteryButton.getAttribute('data-edit-member-masteries-index'));
+        coopGoldMasterySearchTerm = '';
+        renderCoopGoldMasteryEditor();
+        return;
+      }
+
+      const button = event.target.closest('[data-clear-member-index]');
+      if (!button) return;
+      clearCoopTeamMember(Number(button.getAttribute('data-clear-member-index')));
+    });
+  }
+
+  if (newButton) newButton.addEventListener('click', createNewCoopTeam);
+  if (saveButton) saveButton.addEventListener('click', () => {
+    saveSelectedTeamFromInputs();
+    setCoopTeamStatus(t('teamSaved'));
+  });
+  if (deleteButton) deleteButton.addEventListener('click', deleteSelectedCoopTeam);
+  if (profileButton) profileButton.addEventListener('click', fillTeamLeaderFromProfile);
+
+  if (useMyMasteriesToggle) {
+    useMyMasteriesToggle.addEventListener('change', () => {
+      const team = getSelectedCoopTeam();
+      team.useMyMasteriesForChef1 = Boolean(useMyMasteriesToggle.checked);
+      saveUserData();
+      renderCoopGoldMasteryEditor();
+      refreshCurrentCoopPlanPreview();
+      setCoopTeamStatus(t('teamSaved'));
+    });
+  }
+
+  if (goldMasteryEditor) {
+    goldMasteryEditor.addEventListener('input', event => {
+      const input = event.target.closest('[data-coop-gold-mastery-search]');
+      if (!input) return;
+      coopGoldMasterySearchTerm = input.value;
+      const cursorPosition = input.selectionStart;
+      renderCoopGoldMasteryEditor();
+      const nextInput = document.querySelector('[data-coop-gold-mastery-search]');
+      if (nextInput) {
+        nextInput.focus();
+        if (Number.isFinite(cursorPosition)) nextInput.setSelectionRange(cursorPosition, cursorPosition);
+      }
+    });
+
+    goldMasteryEditor.addEventListener('click', event => {
+      if (event.target === goldMasteryEditor) {
+        activeCoopGoldMasteryMemberIndex = null;
+        renderCoopGoldMasteryEditor();
+        return;
+      }
+
+      const toggleButton = event.target.closest('[data-toggle-coop-gold-mastery]');
+      if (toggleButton) {
+        toggleCoopGoldMastery(
+          Number(toggleButton.getAttribute('data-member-index')),
+          String(toggleButton.getAttribute('data-dish-id'))
+        );
+        return;
+      }
+
+      const closeButton = event.target.closest('[data-close-gold-mastery-editor]');
+      if (closeButton) {
+        activeCoopGoldMasteryMemberIndex = null;
+        renderCoopGoldMasteryEditor();
+      }
+    });
+  }
+
+
+  if (manualAssignmentEditor) {
+    manualAssignmentEditor.addEventListener('input', event => {
+      const input = event.target.closest('[data-manual-assignment-dish-id]');
+      if (!input) return;
+      updateManualAssignmentDish(input);
+    });
+
+    manualAssignmentEditor.addEventListener('click', event => {
+      if (event.target === manualAssignmentEditor) {
+        activeCoopManualAssignmentMemberSlot = null;
+        renderCoopManualAssignmentEditor();
+        return;
+      }
+
+      const closeButton = event.target.closest('[data-close-manual-assignment-editor]');
+      if (closeButton) {
+        activeCoopManualAssignmentMemberSlot = null;
+        renderCoopManualAssignmentEditor();
+      }
+    });
+  }
+
+  document.addEventListener('keydown', event => {
+    if (event.key !== 'Escape') return;
+    let shouldRender = false;
+    if (activeCoopGoldMasteryMemberIndex !== null && activeCoopGoldMasteryMemberIndex !== undefined) {
+      activeCoopGoldMasteryMemberIndex = null;
+      shouldRender = true;
+    }
+    if (activeCoopManualAssignmentMemberSlot !== null && activeCoopManualAssignmentMemberSlot !== undefined) {
+      activeCoopManualAssignmentMemberSlot = null;
+      renderCoopManualAssignmentEditor();
+    }
+    if (shouldRender) renderCoopGoldMasteryEditor();
+  });
+}
+
+function renderCoopTeamEditor() {
+  const teamSelect = document.getElementById('coopTeamSelect');
+  const teamName = document.getElementById('coopTeamName');
+  const membersBody = document.getElementById('coopTeamMembersBody');
+  const newButton = document.getElementById('newCoopTeamButton');
+  if (!teamSelect || !teamName || !membersBody) return;
+
+  ensureCoopTeamDefaults();
+  const selectedTeam = getSelectedCoopTeam();
+
+  renderCoopTeamSelectOnly();
+  teamName.value = selectedTeam?.name || '';
+  const useMyMasteriesToggle = document.getElementById('useMyMasteriesChef1Toggle');
+  if (useMyMasteriesToggle) useMyMasteriesToggle.checked = Boolean(selectedTeam.useMyMasteriesForChef1);
+  membersBody.innerHTML = selectedTeam.members.map((member, index) => coopTeamMemberRowHtml(member, index)).join('');
+  renderCoopGoldMasteryEditor();
+  renderCoopManualAssignmentEditor();
+  if (newButton) newButton.disabled = userData.coopTeams.length >= MAX_COOP_TEAMS;
+}
+
+function renderCoopTeamSelectOnly() {
+  const teamSelect = document.getElementById('coopTeamSelect');
+  if (!teamSelect) return;
+  const currentValue = userData.selectedCoopTeamId;
+  teamSelect.innerHTML = (userData.coopTeams || []).map((team, index) => {
+    const name = team.name || (currentLanguage === 'pt' ? `Equipe ${index + 1}` : `Team ${index + 1}`);
+    return `<option value="${escapeHtml(team.id)}">${escapeHtml(name)}</option>`;
+  }).join('');
+  teamSelect.value = currentValue;
+}
+
+function coopTeamMemberRowHtml(member, index) {
+  const slot = index + 1;
+  const levelValue = member.level === '' || member.level === null || member.level === undefined ? '' : number(member.level);
+  const stovesValue = member.stoves === '' || member.stoves === null || member.stoves === undefined ? '' : number(member.stoves);
+
+  return `
+    <tr>
+      <td><strong>${escapeHtml(t('chef'))} ${number(slot)}</strong></td>
+      <td><input data-team-field="name" data-member-index="${index}" type="text" maxlength="40" value="${escapeHtml(member.name || '')}" placeholder="${escapeHtml(`${t('chefFallback')} ${slot}`)}"></td>
+      <td><input data-team-field="level" data-member-index="${index}" type="number" min="0" max="999" value="${escapeHtml(levelValue)}"></td>
+      <td><input data-team-field="stoves" data-member-index="${index}" type="number" min="0" value="${escapeHtml(stovesValue)}"></td>
+      <td class="coop-member-action-cell">
+        <button type="button" class="gold-mastery-button" data-edit-member-masteries-index="${index}" title="${escapeHtml(t('editGoldMasteries'))}" aria-label="${escapeHtml(t('editGoldMasteries'))}">⭐</button>
+        <button type="button" class="clear-chef-button" data-clear-member-index="${index}" title="${escapeHtml(t('clearChef'))}" aria-label="${escapeHtml(t('clearChef'))}">🗑️</button>
+      </td>
+    </tr>
+  `;
+}
+
+function clearCoopTeamMember(index) {
+  const team = getSelectedCoopTeam();
+  if (!team || !Number.isFinite(index) || !team.members[index]) return;
+
+  team.members[index] = {
+    name: '',
+    level: '',
+    stoves: '',
+    workload: 'equal',
+    manualCount: '',
+    manualAssignments: {},
+    goldMasteries: {}
+  };
+
+  saveUserData();
+  activeCoopGoldMasteryMemberIndex = null;
+  renderCoopTeamEditor();
+  renderCoopPlanner();
+  refreshCurrentCoopPlanPreview();
+  setCoopTeamStatus(t('teamSaved'));
+}
+
+function updateSelectedTeamFromMemberInput(input, allowAutoStove = false) {
+  const team = getSelectedCoopTeam();
+  const index = Number(input.getAttribute('data-member-index'));
+  const field = input.getAttribute('data-team-field');
+  if (!team || !Number.isFinite(index) || !team.members[index]) return;
+
+  const member = team.members[index];
+  if (field === 'name') {
+    member.name = input.value;
+  } else if (field === 'level') {
+    const level = input.value === '' ? '' : clampNumber(Number(input.value || 0), 0, 999);
+    member.level = level;
+    if (allowAutoStove && level !== '') {
+      member.stoves = getDefaultStovesForLevel(level);
+      const stoveInput = document.querySelector(`[data-team-field="stoves"][data-member-index="${index}"]`);
+      if (stoveInput) stoveInput.value = member.stoves;
+    }
+  } else if (field === 'stoves') {
+    member.stoves = input.value === '' ? '' : Math.max(0, Number(input.value || 0));
+  }
+
+  saveUserData();
+  renderCoopPlanner();
+  refreshCurrentCoopPlanPreview();
+}
+
+function saveSelectedTeamFromInputs() {
+  const team = getSelectedCoopTeam();
+  if (!team) return;
+  const teamName = document.getElementById('coopTeamName');
+  if (teamName) team.name = teamName.value.trim() || team.name;
+
+  document.querySelectorAll('#coopTeamMembersBody [data-team-field]').forEach(input => {
+    updateSelectedTeamFromMemberInput(input, false);
+  });
+
+  saveUserData();
+  renderCoopTeamSelectOnly();
+  renderCoopPlanner();
+  refreshCurrentCoopPlanPreview();
+}
+
+function createNewCoopTeam() {
+  ensureCoopTeamDefaults();
+  if (userData.coopTeams.length >= MAX_COOP_TEAMS) {
+    setCoopTeamStatus(t('teamLimitReached'));
+    return;
+  }
+
+  const team = createDefaultCoopTeam();
+  userData.coopTeams.push(team);
+  userData.selectedCoopTeamId = team.id;
+  saveUserData();
+  renderCoopTeamEditor();
+  renderCoopPlanner();
+  clearCoopPlanPreview();
+  setCoopTeamStatus(t('teamSaved'));
+}
+
+function deleteSelectedCoopTeam() {
+  ensureCoopTeamDefaults();
+  if (!window.confirm(t('confirmDeleteTeam'))) return;
+  const selectedId = userData.selectedCoopTeamId;
+  userData.coopTeams = userData.coopTeams.filter(team => team.id !== selectedId);
+  if (!userData.coopTeams.length) userData.coopTeams.push(createDefaultCoopTeam());
+  userData.selectedCoopTeamId = userData.coopTeams[0].id;
+  saveUserData();
+  renderCoopTeamEditor();
+  renderCoopPlanner();
+  clearCoopPlanPreview();
+  setCoopTeamStatus(t('teamDeleted'));
+}
+
+function fillTeamLeaderFromProfile() {
+  const team = getSelectedCoopTeam();
+  if (!team || !team.members[0]) return;
+  const level = clampNumber(Number(userData.level || 1), 0, 999);
+  team.members[0].name = (userData.chefName || '').trim();
+  team.members[0].level = level;
+  team.members[0].stoves = Number(userData.availableStoves || getDefaultStovesForLevel(level));
+  saveUserData();
+  renderCoopTeamEditor();
+  renderCoopPlanner();
+  refreshCurrentCoopPlanPreview();
+  setCoopTeamStatus(t('teamSaved'));
+}
+
+function setCoopTeamStatus(message) {
+  const status = document.getElementById('coopTeamStatus');
+  if (status) status.textContent = message;
+}
+
+
+function normalizeCoopWorkload(value) {
+  return Object.prototype.hasOwnProperty.call(COOP_WORKLOAD_WEIGHTS, value) ? value : 'equal';
+}
+
+function coopWorkloadLabel(value) {
+  const normalized = normalizeCoopWorkload(value);
+  const keyByValue = {
+    minimum: 'workloadMinimum',
+    low: 'workloadLow',
+    equal: 'workloadEqual',
+    high: 'workloadHigh',
+    veryHigh: 'workloadVeryHigh',
+    manual: 'workloadManual'
+  };
+  return t(keyByValue[normalized] || 'workloadEqual');
+}
+
+function manualAssignmentSummary(member) {
+  const assignments = normalizeManualAssignments(member?.manualAssignments);
+  const parts = Object.entries(assignments)
+    .filter(([, amount]) => Number(amount) > 0)
+    .map(([dishId, amount]) => {
+      const dish = allDishRecords.find(record => String(record.dishId) === String(dishId));
+      return `${number(amount)}× ${dish ? dish.dishName : dishId}`;
+    });
+  return parts.length ? parts.join(', ') : t('manualAssignmentSummaryEmpty');
+}
+
+function workloadSelectHtml(member) {
+  const current = normalizeCoopWorkload(member.workload);
+  const options = ['minimum', 'low', 'equal', 'high', 'veryHigh', 'manual'];
+  return `
+    <div class="workload-control-stack">
+      <label class="mini-select-label">
+        <span>${escapeHtml(t('workload'))}</span>
+        <select data-plan-workload data-member-slot="${number(member.slot)}">
+          ${options.map(option => `<option value="${escapeHtml(option)}" ${option === current ? 'selected' : ''}>${escapeHtml(coopWorkloadLabel(option))}</option>`).join('')}
+        </select>
+      </label>
+      ${current === 'manual' ? `
+        <div class="manual-workload-actions">
+          <button type="button" class="manual-assignment-button" data-open-manual-assignment data-member-slot="${number(member.slot)}">${escapeHtml(t('editManualDishes'))}</button>
+          <small>${escapeHtml(manualAssignmentSummary(member))}</small>
+        </div>
+      ` : ''}
+    </div>
+  `;
+}
+
+function refreshCurrentCoopPlanPreview() {
+  const preview = document.getElementById('coopPlanPreview');
+  const coopNumber = Number(preview?.getAttribute('data-current-coop-number') || 0);
+  if (coopNumber) renderCoopPlanPreview(coopNumber, false);
+}
+
+function updateCoopMemberWorkload(select) {
+  const team = getSelectedCoopTeam();
+  const slot = Number(select.getAttribute('data-member-slot'));
+  if (!team || !Number.isFinite(slot) || !team.members[slot - 1]) return;
+  const member = team.members[slot - 1];
+  member.workload = normalizeCoopWorkload(select.value);
+  if (member.workload !== 'manual') {
+    member.manualCount = '';
+    member.manualAssignments = {};
+  } else {
+    if (!member.manualAssignments || typeof member.manualAssignments !== 'object') member.manualAssignments = {};
+    activeCoopManualAssignmentMemberSlot = slot;
+  }
+  saveUserData();
+  refreshCurrentCoopPlanPreview();
+  renderCoopManualAssignmentEditor();
+}
+
+function updateCoopMemberManualCount(input) {
+  const team = getSelectedCoopTeam();
+  const slot = Number(input.getAttribute('data-member-slot'));
+  if (!team || !Number.isFinite(slot) || !team.members[slot - 1]) return;
+  team.members[slot - 1].manualCount = input.value === '' ? '' : Math.max(0, Math.floor(Number(input.value || 0)));
+  saveUserData();
+  refreshCurrentCoopPlanPreview();
+}
+
+function resetCoopWorkloads() {
+  const team = getSelectedCoopTeam();
+  if (!team || !Array.isArray(team.members)) return;
+  team.members.forEach(member => {
+    if (member) {
+      member.workload = 'equal';
+      member.manualCount = '';
+      member.manualAssignments = {};
+    }
+  });
+  saveUserData();
+  activeCoopManualAssignmentMemberSlot = null;
+  renderCoopManualAssignmentEditor();
+  refreshCurrentCoopPlanPreview();
+}
+
+
+function getStatusMultiplier(status) {
+  if (status === 'gold') return 4;
+  if (status === 'silver') return 2;
+  if (status === 'bronze') return 1;
+  return 0;
+}
+
+function statusLabel(status) {
+  if (status === 'gold') return t('gold');
+  if (status === 'silver') return t('silver');
+  if (status === 'bronze') return t('bronze');
+  if (status === 'impossible') return t('impossibleMissingUnlock');
+  return t('notDoable');
+}
+
+function statusClass(status) {
+  return ['gold', 'silver', 'bronze', 'impossible'].includes(status) ? `status-${status}` : 'status-not-doable';
+}
+
+
+function estimateMemberCookMinutes(member) {
+  if (!member || Number(member.stoves || 0) <= 0) return Infinity;
+  const durations = [];
+  Array.from(member.assignments?.values?.() || []).forEach(item => {
+    const duration = Number(item.duration ?? item.req?.duration ?? 0);
+    const amount = Number(item.amount || 0);
+    for (let index = 0; index < amount; index += 1) {
+      durations.push(duration);
+    }
+  });
+
+  if (!durations.length) return 0;
+
+  const stoveCount = Math.max(1, Math.floor(Number(member.stoves || 1)));
+  const loads = Array.from({ length: Math.min(stoveCount, durations.length) }, () => 0);
+  durations.sort((a, b) => b - a).forEach(duration => {
+    let lightestIndex = 0;
+    for (let index = 1; index < loads.length; index += 1) {
+      if (loads[index] < loads[lightestIndex]) lightestIndex = index;
+    }
+    loads[lightestIndex] += duration;
+  });
+
+  return Math.max(...loads);
+}
+
+function buildCoopAssignmentPlan(coop, team = getSelectedCoopTeam()) {
+  const useMyMasteriesForChef1 = Boolean(team?.useMyMasteriesForChef1);
+  const members = getValidCoopTeamMembers(team).map(member => ({
+    ...member,
+    weight: COOP_WORKLOAD_WEIGHTS[normalizeCoopWorkload(member.workload)] || 1,
+    manualLimit: null,
+    manualAssignments: normalizeManualAssignments(member.manualAssignments),
+    useMyMasteries: member.slot === 1 && useMyMasteriesForChef1,
+    assignments: new Map(),
+    assignedCount: 0,
+    stoveMinutes: 0
+  }));
+
+  const requirements = (coop.requirements || []).map(req => ({
+    ...req,
+    remaining: Number(req.amount || 0),
+    duration: Number(req.dish?.duration || 0),
+    level: Number(req.dish?.level || 0)
+  }));
+
+  const unassigned = [];
+  const warnings = [];
+
+  if (!members.length) {
+    return {
+      status: 'impossible',
+      estimatedMinutes: Infinity,
+      members,
+      requirements,
+      unassigned: requirements.map(req => ({ ...req, amount: req.remaining })),
+      warnings: [t('noTeamMembers')]
+    };
+  }
+
+  let impossible = false;
+  requirements.forEach(req => {
+    if (!req.dish || req.level <= 0 || !members.some(member => member.level >= req.level)) {
+      impossible = true;
+      unassigned.push({ ...req, amount: req.remaining });
+      req.remaining = 0;
+    }
+  });
+
+  if (!impossible) {
+    const manualWarnings = [];
+
+    members
+      .filter(member => normalizeCoopWorkload(member.workload) === 'manual')
+      .forEach(member => {
+        Object.entries(normalizeManualAssignments(member.manualAssignments)).forEach(([dishId, requestedAmount]) => {
+          let assigned = 0;
+          const req = requirements.find(item => String(item.dishId) === String(dishId));
+          const target = Math.max(0, Math.floor(Number(requestedAmount || 0)));
+          while (assigned < target && req && req.remaining > 0 && member.level >= req.level && member.stoves > 0) {
+            assignCoopDishUnit(member, req);
+            assigned += 1;
+          }
+          if (assigned < target) manualWarnings.push(member.name);
+        });
+      });
+
+    members
+      .filter(member => normalizeCoopWorkload(member.workload) === 'minimum')
+      .forEach(member => {
+        if (member.assignedCount > 0) return;
+        const req = getShortestEligibleRequirement(member, requirements);
+        if (req) assignCoopDishUnit(member, req);
+      });
+
+    members
+      .filter(member => normalizeCoopWorkload(member.workload) !== 'minimum' && normalizeCoopWorkload(member.workload) !== 'manual')
+      .forEach(member => {
+        if (member.assignedCount > 0) return;
+        const req = getShortestEligibleRequirement(member, requirements);
+        if (req) assignCoopDishUnit(member, req);
+      });
+
+    if (manualWarnings.length) warnings.push(t('manualCountWarning'));
+
+    const orderedRequirements = [...requirements].sort((a, b) => {
+      const aEligible = members.filter(member => member.level >= a.level).length;
+      const bEligible = members.filter(member => member.level >= b.level).length;
+      if (aEligible !== bEligible) return aEligible - bEligible;
+      return b.duration - a.duration;
+    });
+
+    orderedRequirements.forEach(req => {
+      while (req.remaining > 0) {
+        const eligibleMembers = members.filter(member => canAssignRequirementToMember(member, req));
+
+        if (!eligibleMembers.length) {
+          unassigned.push({ ...req, amount: req.remaining });
+          req.remaining = 0;
+          impossible = true;
+          break;
+        }
+
+        const chosen = eligibleMembers.sort((a, b) => {
+          const durationA = getMemberDishDuration(a, req);
+          const durationB = getMemberDishDuration(b, req);
+          const scoreA = ((a.stoveMinutes + durationA) / Math.max(1, a.stoves)) / Math.max(0.05, a.weight);
+          const scoreB = ((b.stoveMinutes + durationB) / Math.max(1, b.stoves)) / Math.max(0.05, b.weight);
+          if (scoreA !== scoreB) return scoreA - scoreB;
+          return b.level - a.level;
+        })[0];
+
+        assignCoopDishUnit(chosen, req);
+      }
+    });
+  }
+
+  members.forEach(member => {
+    member.estimatedMinutes = estimateMemberCookMinutes(member);
+  });
+
+  const estimatedMinutes = members.length
+    ? Math.max(...members.map(member => Number.isFinite(member.estimatedMinutes) ? member.estimatedMinutes : Infinity))
+    : Infinity;
+
+  let status = 'notDoable';
+  if (impossible || unassigned.length) {
+    status = 'impossible';
+  } else if (estimatedMinutes <= coop.goldDeadline) {
+    status = 'gold';
+  } else if (estimatedMinutes <= coop.silverDeadline) {
+    status = 'silver';
+  } else if (estimatedMinutes <= coop.duration) {
+    status = 'bronze';
+  }
+
+  const zeroContribution = members.filter(member => member.assignedCount <= 0);
+  if (zeroContribution.length) warnings.push(t('contributionWarning'));
+  if (status === 'impossible') warnings.push(t('noEligibleChef'));
+
+  return { status, estimatedMinutes, members, requirements, unassigned, warnings };
+}
+
+function canAssignRequirementToMember(member, req) {
+  if (!member || !req) return false;
+  if (member.level < req.level) return false;
+  if (member.stoves <= 0) return false;
+  const workload = normalizeCoopWorkload(member.workload);
+  if (workload === 'minimum' && member.assignedCount > 0) return false;
+  if (workload === 'manual') return false;
+  return true;
+}
+
+function getShortestEligibleRequirement(member, requirements) {
+  return requirements
+    .filter(req => req.remaining > 0 && member.level >= req.level && member.stoves > 0)
+    .sort((a, b) => {
+      const durationA = getMemberDishDuration(member, a);
+      const durationB = getMemberDishDuration(member, b);
+      if (durationA !== durationB) return durationA - durationB;
+      const eligibleA = requirements.length ? 0 : 0;
+      return String(a.dishName || '').localeCompare(String(b.dishName || '')) || eligibleA;
+    })[0] || null;
+}
+
+function getMemberDishDuration(member, req) {
+  const baseDuration = Number(req?.dish?.duration ?? req?.duration ?? 0);
+  if (baseDuration <= 0) return 0;
+  if (memberHasGoldMastery(member, req?.dishId || req?.dish?.dishId)) {
+    return getMasteredDuration(baseDuration, 3);
+  }
+  return baseDuration;
+}
+
+function memberHasGoldMastery(member, dishId) {
+  const key = String(dishId || '');
+  if (!key) return false;
+  if (member?.useMyMasteries && getMasteryLevel(key) >= 3) return true;
+  return Boolean(member?.goldMasteries?.[key]);
+}
+
+function assignCoopDishUnit(member, req) {
+  req.remaining = Math.max(0, Number(req.remaining || 0) - 1);
+  member.assignedCount += 1;
+  const duration = getMemberDishDuration(member, req);
+  member.stoveMinutes += duration;
+  const key = String(req.dishId || req.dishName);
+  const current = member.assignments.get(key) || { req, amount: 0, duration };
+  current.amount += 1;
+  current.duration = duration;
+  current.goldMastered = memberHasGoldMastery(member, req.dishId || req.dish?.dishId);
+  member.assignments.set(key, current);
+}
+
+function memberAssignmentsHtml(member) {
+  const assignments = Array.from(member.assignments.values());
+  if (!assignments.length) return `<span class="muted-small">${escapeHtml(t('noAssignedDishes'))}</span>`;
+  return assignments.map(item => `<span class="requirement-pill">${number(item.amount)}× ${escapeHtml(item.req.dishName)}${item.goldMastered ? ' ★' : ''}</span>`).join(' ');
+}
+
+function unassignedDishesHtml(plan) {
+  if (!plan.unassigned.length) return '';
+  return `
+    <div class="assignment-warning">
+      <strong>${escapeHtml(t('unassignedDishes'))}:</strong>
+      ${plan.unassigned.map(item => `<span class="requirement-pill">${number(item.amount)}× ${escapeHtml(item.dishName)}</span>`).join(' ')}
+    </div>
+  `;
+}
+
+function planWarningsHtml(plan) {
+  const uniqueWarnings = [...new Set(plan.warnings || [])];
+  if (!uniqueWarnings.length) return '';
+  return `<div class="assignment-warning">${uniqueWarnings.map(warning => `<p>${escapeHtml(warning)}</p>`).join('')}</div>`;
+}
+
+function predictedRewardsHtml(coop, plan) {
+  const multiplier = getStatusMultiplier(plan.status);
+  if (!multiplier) return `<p class="hint">${escapeHtml(t('notDoable'))}</p>`;
+
+  return `
+    <div class="coop-team-reward-list compact-reward-list predicted-reward-list">
+      ${plan.members.map(member => {
+        if (member.assignedCount <= 0) {
+          return `
+            <div class="coop-member-reward-item compact-reward-row muted-reward-row">
+              <strong>${escapeHtml(member.name)}</strong>
+              <span>${escapeHtml(t('noRewardNoContribution'))}</span>
+            </div>
+          `;
+        }
+        const reward = getCoopRewardAtLevel(coop, multiplier, member.level);
+        const goldPart = reward.gold > 0 ? ` ${rewardAmountHtml('gold', reward.gold)}` : '';
+        return `
+          <div class="coop-member-reward-item compact-reward-row">
+            <strong>${escapeHtml(member.name)}</strong>
+            <span class="compact-reward-amounts">${rewardAmountHtml('cash', reward.cash)} ${rewardAmountHtml('xp', reward.xp)}${goldPart}</span>
+          </div>
+        `;
+      }).join('')}
+    </div>
+  `;
+}
+
+function assignmentPlanHtml(coop, plan) {
+  return `
+    <section class="coop-assignment-section">
+      <div class="assignment-heading-row">
+        <h4>${escapeHtml(t('assignmentPlanTitle'))}</h4>
+        <button type="button" class="copy-assignment-button" data-copy-assignment>${escapeHtml(t('copyAssignment'))}</button>
+      </div>
+      <div class="assignment-list">
+        ${plan.members.map(member => `
+          <article class="assignment-card">
+            <div class="assignment-card-heading">
+              <strong>${escapeHtml(member.name)}</strong>
+              <span>${escapeHtml(t('chefCookTime'))}: ${escapeHtml(formatDuration(member.estimatedMinutes || 0))}</span>
+            </div>
+            <div class="assignment-pills">${memberAssignmentsHtml(member)}</div>
+          </article>
+        `).join('')}
+      </div>
+      ${unassignedDishesHtml(plan)}
+      ${planWarningsHtml(plan)}
+    </section>
+  `;
+}
+
+function assignmentMarkdownLine(member) {
+  const assignments = Array.from(member.assignments.values());
+  if (!assignments.length) return `- **${member.name}**: ${t('noAssignedDishes')}`;
+  const assignmentText = assignments
+    .map(item => `${number(item.amount)}× ${item.req.dishName}${item.goldMastered ? ' ★' : ''}`)
+    .join(', ');
+  const cookTime = formatDuration(member.estimatedMinutes || 0);
+  return `- **${member.name}** (${cookTime}): ${assignmentText}`;
+}
+
+function buildCoopAssignmentMarkdown(coop, plan) {
+  const lines = [
+    `## ${coop.title} — Co-Op ${number(coop.coopNumber)}`,
+    `Estimated with this team: ${Number.isFinite(plan.estimatedMinutes) ? formatDuration(plan.estimatedMinutes) : '—'}`,
+    `Predicted status: ${statusLabel(plan.status)}`,
+    '',
+    `### ${t('assignmentPlanTitle')}`,
+    ...plan.members.map(member => assignmentMarkdownLine(member))
+  ];
+
+  if (plan.unassigned.length) {
+    lines.push('', `**${t('unassignedDishes')}:**`);
+    plan.unassigned.forEach(item => {
+      lines.push(`- ${number(item.amount)}× ${item.dishName}`);
+    });
+  }
+
+  const uniqueWarnings = [...new Set(plan.warnings || [])];
+  if (uniqueWarnings.length) {
+    lines.push('', '**Warnings:**');
+    uniqueWarnings.forEach(warning => lines.push(`- ${warning}`));
+  }
+
+  return lines.join('\n');
+}
+
+async function copyTextToClipboard(text) {
+  if (navigator.clipboard && window.isSecureContext) {
+    await navigator.clipboard.writeText(text);
+    return;
+  }
+
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  textarea.setAttribute('readonly', '');
+  textarea.style.position = 'fixed';
+  textarea.style.left = '-9999px';
+  document.body.appendChild(textarea);
+  textarea.select();
+  const ok = document.execCommand('copy');
+  document.body.removeChild(textarea);
+  if (!ok) throw new Error('copy failed');
+}
+
+async function copyCurrentCoopAssignment(button) {
+  const preview = document.getElementById('coopPlanPreview');
+  const coopNumber = Number(preview?.getAttribute('data-current-coop-number') || 0);
+  const coop = allCoopRecords.find(item => Number(item.coopNumber) === coopNumber);
+  if (!coop) return;
+
+  const plan = buildCoopAssignmentPlan(coop, getSelectedCoopTeam());
+  const originalText = button.textContent;
+
+  try {
+    await copyTextToClipboard(buildCoopAssignmentMarkdown(coop, plan));
+    button.textContent = t('assignmentCopied');
+    button.classList.add('copied');
+  } catch (error) {
+    button.textContent = t('assignmentCopyFailed');
+  }
+
+  setTimeout(() => {
+    button.textContent = originalText || t('copyAssignment');
+    button.classList.remove('copied');
+  }, 1800);
+}
+
+function clearCoopPlanPreview() {
+  const container = document.getElementById('coopPlanPreview');
+  if (!container) return;
+  container.className = 'coop-plan-preview empty-coop-plan';
+  container.textContent = t('noCoopSelected');
+}
+
+function renderCoopPlanner() {
+  const body = document.getElementById('coopListBody');
+  if (!body) return;
+
+  const search = normalizeSearch(document.getElementById('coopSearch')?.value || '');
+  const records = allCoopRecords.filter(coop => {
+    if (!search) return true;
+    const haystack = [
+      coop.coopNumber,
+      coop.title,
+      coop.shortDescription,
+      coop.longDescription,
+      coop.requirements.map(req => req.dishName).join(' ')
+    ].join(' ');
+    return normalizeSearch(haystack).includes(search);
+  });
+
+  if (!records.length) {
+    body.innerHTML = emptyRow(6, t('noCoopsAvailable'));
+    return;
+  }
+
+  body.innerHTML = records.map(coop => coopRowHtml(coop)).join('');
+}
+
+function restoreLastCoopPlanPreview() {
+  const coopNumber = Math.max(0, Math.floor(Number(userData.selectedCoopNumber || 0)));
+  if (!coopNumber) {
+    clearCoopPlanPreview();
+    return;
+  }
+
+  const exists = allCoopRecords.some(item => Number(item.coopNumber) === coopNumber);
+  if (!exists) {
+    userData.selectedCoopNumber = 0;
+    saveUserData();
+    clearCoopPlanPreview();
+    return;
+  }
+
+  renderCoopPlanPreview(coopNumber, false);
+}
+
+function getCoopRewardAtLevel(coop, multiplier = 4, levelOverride = null) {
+  const playerLevel = clampNumber(Number(levelOverride ?? userData.level ?? 1), 0, 999);
+  return {
+    cash: Number(coop.rewardCash || 0) * multiplier,
+    xp: Math.trunc(Number(coop.baseXp || 0) * (playerLevel / 3) * multiplier),
+    gold: multiplier >= 4 ? Number(coop.rewardGold || 0) : 0,
+    playerLevel
+  };
+}
+
+function coopDurationStackHtml(coop) {
+  return `
+    <div class="duration-stack">
+      <strong>${escapeHtml(coop.durationText)}</strong>
+      <small>${escapeHtml(formatDuration(coop.goldDeadline))} (${escapeHtml(String(t('gold')).toLowerCase())})</small>
+    </div>
+  `;
+}
+
+function rewardIconHtml(type) {
+  return assetIconHtml(type, 'reward-icon');
+}
+
+function rewardAmountHtml(type, value) {
+  return `<span class="reward-amount reward-${escapeHtml(type)}">${rewardIconHtml(type)}<span>${number(value)}</span></span>`;
+}
+
+function coopRewardTierPillHtml(label, reward, className = '') {
+  const goldPart = reward.gold > 0 ? rewardAmountHtml('gold', reward.gold) : '';
+  return `
+    <div class="coop-reward-pill ${escapeHtml(className)}">
+      <strong>${escapeHtml(label)}</strong>
+      <span>${rewardAmountHtml('cash', reward.cash)}</span>
+      <span>${rewardAmountHtml('xp', reward.xp)}</span>
+      ${goldPart ? `<span>${goldPart}</span>` : ''}
+    </div>
+  `;
+}
+
+function coopRewardDetailsHtml(coop, levelOverride = null) {
+  const goldReward = getCoopRewardAtLevel(coop, 4, levelOverride);
+  const silverReward = getCoopRewardAtLevel(coop, 2, levelOverride);
+  const bronzeReward = getCoopRewardAtLevel(coop, 1, levelOverride);
+  return `
+    <div class="coop-reward-cell coop-reward-pills">
+      ${coopRewardTierPillHtml(t('gold'), goldReward, 'gold-tier')}
+      ${coopRewardTierPillHtml(t('silver'), silverReward, 'silver-tier')}
+      ${coopRewardTierPillHtml(t('bronze'), bronzeReward, 'bronze-tier')}
+    </div>
+  `;
+}
+
+function coopMaxRewardHtml(coop) {
+  return coopRewardDetailsHtml(coop);
+}
+
+function coopTeamPreviewHtml(coop) {
+  const team = getSelectedCoopTeam();
+  const members = getValidCoopTeamMembers(team);
+
+  if (!members.length) {
+    return `
+      <section class="coop-team-preview-section coop-team-compact-section">
+        <h4>${escapeHtml(t('selectedTeam'))}</h4>
+        <p>${escapeHtml(t('noTeamMembers'))}</p>
+      </section>
+    `;
+  }
+
+  const plan = buildCoopAssignmentPlan(coop, team);
+  const countClass = `team-count-${Math.min(members.length, MAX_COOP_MEMBERS)}`;
+
+  const memberRows = plan.members.map(member => `
+    <div class="coop-team-summary-item compact-team-card">
+      <strong class="compact-chef-name">${escapeHtml(member.name)}${member.useMyMasteries ? ' ★' : ''}</strong>
+      <span class="compact-chef-meta">${escapeHtml(t('level'))} ${number(member.level)} · ${number(member.stoves)} ${escapeHtml(t('stoves'))}</span>
+      <div class="compact-chef-workload">${workloadSelectHtml(member)}</div>
+    </div>
+  `).join('');
+
+  return `
+    <section class="coop-team-preview-section coop-team-compact-section">
+      <h4>${escapeHtml(t('selectedTeam'))}: ${escapeHtml(team.name)}</h4>
+      <div class="coop-team-compact-grid final-plan-grid">
+        <div class="coop-team-compact-column selected-team-column">
+          <div class="coop-team-summary-list compact-card-grid ${escapeHtml(countClass)}">${memberRows}</div>
+          <div class="reset-workloads-row">
+            <button type="button" class="reset-workloads-button" data-reset-workloads>${escapeHtml(t('resetWorkloads'))}</button>
+          </div>
+        </div>
+        <div class="coop-team-compact-column plan-summary-column">
+          <div class="plan-status-card ${escapeHtml(statusClass(plan.status))}">
+            <span>${escapeHtml(t('estimatedWithTeam'))}</span>
+            <strong>${Number.isFinite(plan.estimatedMinutes) ? escapeHtml(formatDuration(plan.estimatedMinutes)) : '—'}</strong>
+            <small>${escapeHtml(t('predictedStatus'))}: ${escapeHtml(statusLabel(plan.status))}</small>
+          </div>
+          <h5>${escapeHtml(t('predictedRewards'))}</h5>
+          ${predictedRewardsHtml(coop, plan)}
+        </div>
+      </div>
+      ${assignmentPlanHtml(coop, plan)}
+    </section>
+  `;
+}
+
+function coopRowHtml(coop) {
+  return `
+    <tr>
+      <td>${coopIconHtml(coop)}</td>
+      <td class="coop-title-cell">
+        <strong>${escapeHtml(coop.title)}</strong>
+        <span>Co-Op ${number(coop.coopNumber)}</span>
+        ${coop.shortDescription ? `<small>${escapeHtml(coop.shortDescription)}</small>` : ''}
+      </td>
+      <td>${coopDurationStackHtml(coop)}</td>
+      <td>${coopMaxRewardHtml(coop)}</td>
+      <td class="requirements-cell coop-requirements-cell">${coopRequirementPillsHtml(coop.requirements)}</td>
+      <td><button type="button" class="plan-button" data-coop-number="${number(coop.coopNumber)}">${escapeHtml(t('planCoop'))}</button></td>
+    </tr>
+  `;
+}
+
+function renderCoopPlanPreview(coopNumber, shouldScroll = true) {
+  const container = document.getElementById('coopPlanPreview');
+  if (!container) return;
+
+  const coop = allCoopRecords.find(item => Number(item.coopNumber) === Number(coopNumber));
+  if (!coop) {
+    container.className = 'coop-plan-preview empty-coop-plan';
+    container.setAttribute('data-i18n', 'noCoopSelected');
+    container.textContent = t('noCoopSelected');
+    return;
+  }
+
+  const playerLevel = Number(userData.level || 1);
+
+  userData.selectedCoopNumber = Number(coop.coopNumber || coopNumber);
+  saveUserData();
+
+  container.className = 'coop-plan-preview';
+  container.setAttribute('data-current-coop-number', String(coopNumber));
+  container.removeAttribute('data-i18n');
+  container.innerHTML = `
+    <article class="coop-plan-card">
+      <div class="coop-plan-heading">
+        ${coopIconHtml(coop, 'large')}
+        <div>
+          <p class="eyebrow">Co-Op ${number(coop.coopNumber)}</p>
+          <h3>${escapeHtml(coop.title)}</h3>
+          ${coop.longDescription ? `<p>${escapeHtml(coop.longDescription)}</p>` : ''}
+        </div>
+      </div>
+      <div class="coop-stat-grid">
+        <div><strong>${escapeHtml(t('duration'))}</strong><span>${escapeHtml(coop.durationText)}</span></div>
+        <div><strong>${escapeHtml(t('goldDeadline'))}</strong><span>${escapeHtml(formatDuration(coop.goldDeadline))}</span></div>
+        <div><strong>${escapeHtml(t('silverDeadline'))}</strong><span>${escapeHtml(formatDuration(coop.silverDeadline))}</span></div>
+        <div><strong>${escapeHtml(t('minimumDishLevel'))}</strong><span>${number(coop.minDishLevel)}</span></div>
+        <div><strong>${escapeHtml(t('totalStoveHours'))}</strong><span>${escapeHtml(formatDuration(coop.totalStoveMinutes))}</span></div>
+      </div>
+      <div class="coop-detail-grid">
+        <section>
+          <h4>${escapeHtml(t('rewardDetails'))}</h4>
+          ${coopRewardDetailsHtml(coop)}
+          <small>${escapeHtml(t('rewardEstimateAtYourLevel'))}: ${number(playerLevel)}</small>
+        </section>
+        <section>
+          <h4>${escapeHtml(t('coopRequirements'))}</h4>
+          <div class="coop-requirement-list">${coopRequirementListHtml(coop.requirements)}</div>
+        </section>
+        ${coopTeamPreviewHtml(coop)}
+      </div>
+    </article>
+  `;
+
+  if (shouldScroll) container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function coopIconHtml(coop, size = 'normal') {
+  const className = size === 'large' ? 'coop-icon coop-icon-large' : 'coop-icon';
+  const coopNumber = Number(coop.coopNumber || 0);
+  const primarySrc = `./coopicons/${coopNumber}.png`;
+  const fallbackSrc = `${PATHS.coopIconBase}${coopNumber}.png`;
+  const fallbackMarkup = '&lt;span class=&quot;missing-img coop-missing-icon&quot;&gt;Co-Op&lt;/span&gt;';
+  return `<img src="${escapeHtml(primarySrc)}" data-fallback-src="${escapeHtml(fallbackSrc)}" alt="${escapeHtml(coop.title)}" class="${className}" loading="lazy" onerror="if(!this.dataset.triedFallback && this.dataset.fallbackSrc && this.dataset.fallbackSrc !== this.src){this.dataset.triedFallback='1';this.src=this.dataset.fallbackSrc;}else{this.outerHTML='${fallbackMarkup}';}">`;
+}
+
+function coopRequirementPillsHtml(requirements) {
+  if (!requirements.length) return '—';
+  return requirements.map(req => {
+    return `<span class="requirement-pill">${number(req.amount)}× ${escapeHtml(req.dishName)}</span>`;
+  }).join(' ');
+}
+
+function coopRequirementListHtml(requirements) {
+  if (!requirements.length) return '<p>—</p>';
+  return requirements.map(req => `
+    <div class="coop-requirement-item">
+      ${req.dish ? imageHtml(req.dish) : '<span class="missing-img">?</span>'}
+      <div>
+        <strong>${number(req.amount)}× ${escapeHtml(req.dishName)}</strong>
+        <span>${escapeHtml(t('level'))} ${number(req.dish?.level || 0)} · ${escapeHtml(req.dish?.durationText || '')}</span>
+      </div>
+    </div>
+  `).join('');
 }
 
 function renderFullDishDex() {
@@ -1202,27 +2668,23 @@ function renderFullDishDex() {
   const rows = getSortedFullDishDex(sortMode, getFullUseMasteriesSetting());
 
   if (rows.length === 0) {
-    body.innerHTML = emptyRow(15, t('noDishesAvailable'));
+    body.innerHTML = emptyRow(11, t('noDishesAvailable'));
     return;
   }
 
   body.innerHTML = rows.map(record => `
     <tr class="${categoryClass(record.categoryId)}">
       <td>${imageHtml(record)}</td>
-      <td class="dish-name">${escapeHtml(record.dishName)}</td>
+      <td class="dish-name">${fullDishNameHtml(record)}</td>
       <td>${number(record.level)}</td>
-      <td>${number(record.xp)}</td>
-      <td>${decimal(record.xpPerMin)}</td>
-      <td>${number(record.profit)}</td>
-      <td>${decimal(record.profitPerMin)}</td>
-      <td>${number(record.servings)}</td>
-      <td>${decimal(record.servingsPerMin)}</td>
+      <td>${metricStackHtml('xp', record.xp, record.xpPerMin)}</td>
+      <td>${metricStackHtml('cash', record.profit, record.profitPerMin)}</td>
+      <td>${portionMetricStackHtml(record.servings, record.servingsPerMin)}</td>
       <td>${escapeHtml(record.durationText)}</td>
-      <td>${number(record.ingredientCost)}</td>
-      <td>${number(record.revenue)}</td>
+      <td>${valueWithIconHtml('cash', record.ingredientCost)}</td>
+      <td>${valueWithIconHtml('cash', record.revenue)}</td>
       <td>${escapeHtml(record.categoryName)}</td>
       <td class="requirements-cell">${escapeHtml(record.requirements)}</td>
-      <td>${escapeHtml(dishTypeLabel(record.dishType))}</td>
     </tr>
   `).join('');
 }
@@ -1602,8 +3064,267 @@ function normalizeUserData(raw) {
     level: clampNumber(Number(data.level || 1), 0, 999),
     xpNeeded: Math.max(0, Number(data.xpNeeded ?? 1000)),
     availableStoves: Number(data.availableStoves || 0),
-    masteries: normalizeMasteries(data.masteries)
+    showIngredients: Boolean(data.showIngredients),
+    masteries: normalizeMasteries(data.masteries),
+    coopTeams: normalizeCoopTeams(data.coopTeams),
+    selectedCoopTeamId: typeof data.selectedCoopTeamId === 'string' ? data.selectedCoopTeamId : '',
+    selectedCoopNumber: Math.max(0, Math.floor(Number(data.selectedCoopNumber || 0)))
   };
+}
+
+function normalizeCoopTeams(rawTeams) {
+  if (!Array.isArray(rawTeams)) return [];
+  const seen = new Set();
+
+  return rawTeams
+    .map((team, index) => normalizeCoopTeam(team, index + 1))
+    .filter(team => {
+      if (!team.id || seen.has(team.id)) return false;
+      seen.add(team.id);
+      return true;
+    })
+    .slice(0, MAX_COOP_TEAMS);
+}
+
+function normalizeCoopTeam(rawTeam, fallbackNumber = 1) {
+  const team = rawTeam && typeof rawTeam === 'object' ? rawTeam : {};
+  const id = typeof team.id === 'string' && team.id.trim() ? team.id.trim() : createTeamId();
+  const fallbackName = currentLanguage === 'pt' ? `Equipe ${fallbackNumber}` : `Team ${fallbackNumber}`;
+  const name = typeof team.name === 'string' && team.name.trim() ? team.name.trim() : fallbackName;
+  const rawMembers = Array.isArray(team.members) ? team.members : [];
+  const members = Array.from({ length: MAX_COOP_MEMBERS }, (_, index) => normalizeCoopMember(rawMembers[index], index));
+
+  return { id, name, members, useMyMasteriesForChef1: Boolean(team.useMyMasteriesForChef1) };
+}
+
+function normalizeCoopMember(rawMember, index = 0) {
+  const member = rawMember && typeof rawMember === 'object' ? rawMember : {};
+  const levelRaw = member.level === '' || member.level === null || member.level === undefined ? '' : clampNumber(Number(member.level), 0, 999);
+  const stovesRaw = member.stoves === '' || member.stoves === null || member.stoves === undefined ? '' : Math.max(0, Number(member.stoves));
+  const workload = normalizeCoopWorkload(member.workload);
+  const manualCount = member.manualCount === '' || member.manualCount === null || member.manualCount === undefined
+    ? ''
+    : Math.max(0, Math.floor(Number(member.manualCount || 0)));
+  const goldMasteries = normalizeCoopGoldMasteries(member.goldMasteries);
+  const manualAssignments = normalizeManualAssignments(member.manualAssignments);
+
+  return {
+    name: typeof member.name === 'string' ? member.name : '',
+    level: levelRaw,
+    stoves: stovesRaw,
+    workload,
+    manualCount,
+    manualAssignments,
+    goldMasteries,
+    slot: index + 1
+  };
+}
+
+function createTeamId() {
+  return `team_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+}
+
+function normalizeCoopGoldMasteries(rawMasteries) {
+  const out = {};
+  if (!rawMasteries || typeof rawMasteries !== 'object') return out;
+  Object.entries(rawMasteries).forEach(([dishId, value]) => {
+    if (value) out[String(dishId)] = true;
+  });
+  return out;
+}
+
+function normalizeManualAssignments(rawAssignments) {
+  const out = {};
+  if (!rawAssignments || typeof rawAssignments !== 'object') return out;
+  Object.entries(rawAssignments).forEach(([dishId, value]) => {
+    const amount = Math.max(0, Math.floor(Number(value || 0)));
+    if (amount > 0) out[String(dishId)] = amount;
+  });
+  return out;
+}
+
+function renderCoopGoldMasteryEditor() {
+  const editor = document.getElementById('coopGoldMasteryEditor');
+  if (!editor) return;
+
+  const team = getSelectedCoopTeam();
+  if (activeCoopGoldMasteryMemberIndex === null || activeCoopGoldMasteryMemberIndex === undefined || activeCoopGoldMasteryMemberIndex === '') {
+    editor.classList.add('hidden');
+    editor.innerHTML = '';
+    return;
+  }
+
+  const index = Number(activeCoopGoldMasteryMemberIndex);
+  if (!team || !Number.isFinite(index) || index < 0 || !team.members[index]) {
+    editor.classList.add('hidden');
+    editor.innerHTML = '';
+    return;
+  }
+
+  const member = team.members[index];
+  const memberName = String(member.name || '').trim() || `${t('chefFallback')} ${index + 1}`;
+  const selected = normalizeCoopGoldMasteries(member.goldMasteries);
+  const searchTerm = normalizeSearch(coopGoldMasterySearchTerm || '');
+  const selectedCount = Object.keys(selected).length;
+
+  const dishRows = allDishRecords
+    .filter(record => {
+      if (!searchTerm) return true;
+      return normalizeSearch(record.dishName).includes(searchTerm) || normalizeSearch(record.internalName).includes(searchTerm);
+    })
+    .sort(standardDishSort)
+    .map(record => {
+      const dishId = String(record.dishId);
+      const active = Boolean(selected[dishId]);
+      return `
+        <button type="button" class="gold-mastery-dish-button ${active ? 'active' : ''}" data-toggle-coop-gold-mastery data-member-index="${index}" data-dish-id="${escapeHtml(dishId)}">
+          <span>${active ? '★' : '☆'}</span>
+          ${escapeHtml(record.dishName)}
+        </button>
+      `;
+    }).join('') || `<p class="hint">${escapeHtml(t('noDishesAvailable'))}</p>`;
+
+  editor.classList.remove('hidden');
+  editor.innerHTML = `
+    <div class="gold-mastery-editor-card">
+      <div class="gold-mastery-editor-heading">
+        <div>
+          <h3>${escapeHtml(t('goldMasteries'))}: ${escapeHtml(memberName)}</h3>
+          <p>${escapeHtml(t('goldMasteriesNote'))}</p>
+        </div>
+        <button type="button" class="close-editor-button" data-close-gold-mastery-editor>×</button>
+      </div>
+      <label class="gold-mastery-search-label">
+        <span>${escapeHtml(t('searchDishes'))}</span>
+        <input data-coop-gold-mastery-search type="search" value="${escapeHtml(coopGoldMasterySearchTerm || '')}" autocomplete="off">
+      </label>
+      ${index === 0 && team.useMyMasteriesForChef1 ? `<p class="gold-mastery-profile-note">★ ${escapeHtml(t('myMasteriesActive'))}</p>` : ''}
+      ${selectedCount ? `<p class="gold-mastery-count">${number(selectedCount)} ${escapeHtml(t('goldMasteries'))}</p>` : `<p class="gold-mastery-count">${escapeHtml(t('noGoldMasteriesSelected'))}</p>`}
+      <div class="gold-mastery-dish-grid">${dishRows}</div>
+    </div>
+  `;
+}
+
+function toggleCoopGoldMastery(index, dishId) {
+  const team = getSelectedCoopTeam();
+  if (!team || !Number.isFinite(index) || !team.members[index]) return;
+  const member = team.members[index];
+  if (!member.goldMasteries || typeof member.goldMasteries !== 'object') member.goldMasteries = {};
+  const key = String(dishId || '');
+  if (!key) return;
+  if (member.goldMasteries[key]) delete member.goldMasteries[key];
+  else member.goldMasteries[key] = true;
+  saveUserData();
+  renderCoopGoldMasteryEditor();
+  refreshCurrentCoopPlanPreview();
+  setCoopTeamStatus(t('teamSaved'));
+}
+
+function openManualAssignmentEditor(slot) {
+  const team = getSelectedCoopTeam();
+  if (!team || !Number.isFinite(slot) || !team.members[slot - 1]) return;
+  team.members[slot - 1].workload = 'manual';
+  if (!team.members[slot - 1].manualAssignments || typeof team.members[slot - 1].manualAssignments !== 'object') {
+    team.members[slot - 1].manualAssignments = {};
+  }
+  activeCoopManualAssignmentMemberSlot = slot;
+  saveUserData();
+  refreshCurrentCoopPlanPreview();
+  renderCoopManualAssignmentEditor();
+}
+
+function getCurrentPreviewCoop() {
+  const preview = document.getElementById('coopPlanPreview');
+  const coopNumber = Number(preview?.getAttribute('data-current-coop-number') || 0);
+  return allCoopRecords.find(item => Number(item.coopNumber) === Number(coopNumber)) || null;
+}
+
+function renderCoopManualAssignmentEditor() {
+  const editor = document.getElementById('coopManualAssignmentEditor');
+  if (!editor) return;
+  const team = getSelectedCoopTeam();
+  const slot = Number(activeCoopManualAssignmentMemberSlot);
+  const coop = getCurrentPreviewCoop();
+
+  if (!team || !Number.isFinite(slot) || !team.members[slot - 1]) {
+    editor.classList.add('hidden');
+    editor.innerHTML = '';
+    return;
+  }
+
+  const member = team.members[slot - 1];
+  const memberName = String(member.name || '').trim() || `${t('chefFallback')} ${slot}`;
+  const assignments = normalizeManualAssignments(member.manualAssignments);
+
+  if (!coop) {
+    editor.classList.remove('hidden');
+    editor.innerHTML = `
+      <div class="manual-assignment-card">
+        <div class="gold-mastery-editor-heading">
+          <div>
+            <h3>${escapeHtml(t('manualAssignmentTitle'))}: ${escapeHtml(memberName)}</h3>
+            <p>${escapeHtml(t('manualAssignmentUnavailable'))}</p>
+          </div>
+          <button type="button" class="close-editor-button" data-close-manual-assignment-editor>×</button>
+        </div>
+      </div>
+    `;
+    return;
+  }
+
+  const rows = (coop.requirements || []).map(req => {
+    const dishId = String(req.dishId || req.dish?.dishId || '');
+    const amount = Math.min(Number(req.amount || 0), Number(assignments[dishId] || 0));
+    const canCook = Number(member.level || 0) >= Number(req.dish?.level || req.level || 0) && Number(member.stoves || 0) > 0;
+    return `
+      <div class="manual-assignment-row ${canCook ? '' : 'disabled'}">
+        <div class="manual-assignment-dish-info">
+          ${req.dish ? imageHtml(req.dish) : '<span class="missing-img">?</span>'}
+          <div>
+            <strong>${escapeHtml(req.dishName)}</strong>
+            <span>${number(req.amount)} ${escapeHtml(t('dishesRequired'))} · ${escapeHtml(t('level'))} ${number(req.dish?.level || req.level || 0)}${canCook ? '' : ` · ${escapeHtml(t('cannotCookDish'))}`}</span>
+          </div>
+        </div>
+        <input data-manual-assignment-dish-id="${escapeHtml(dishId)}" data-manual-assignment-member-slot="${number(slot)}" type="number" min="0" max="${number(req.amount)}" step="1" value="${number(amount)}" ${canCook ? '' : 'disabled'}>
+      </div>
+    `;
+  }).join('') || `<p class="hint">${escapeHtml(t('noDishesAvailable'))}</p>`;
+
+  editor.classList.remove('hidden');
+  editor.innerHTML = `
+    <div class="manual-assignment-card">
+      <div class="gold-mastery-editor-heading">
+        <div>
+          <h3>${escapeHtml(t('manualAssignmentTitle'))}: ${escapeHtml(memberName)}</h3>
+          <p>${escapeHtml(t('manualAssignmentNote'))}</p>
+        </div>
+        <button type="button" class="close-editor-button" data-close-manual-assignment-editor>×</button>
+      </div>
+      <div class="manual-assignment-list">${rows}</div>
+    </div>
+  `;
+}
+
+function updateManualAssignmentDish(input) {
+  const team = getSelectedCoopTeam();
+  const slot = Number(input.getAttribute('data-manual-assignment-member-slot'));
+  const dishId = String(input.getAttribute('data-manual-assignment-dish-id') || '');
+  const coop = getCurrentPreviewCoop();
+  if (!team || !Number.isFinite(slot) || !team.members[slot - 1] || !dishId || !coop) return;
+
+  const req = (coop.requirements || []).find(item => String(item.dishId || item.dish?.dishId || '') === dishId);
+  const max = Math.max(0, Math.floor(Number(req?.amount || input.max || 0)));
+  const value = Math.min(max, Math.max(0, Math.floor(Number(input.value || 0))));
+  input.value = value;
+
+  const member = team.members[slot - 1];
+  member.workload = 'manual';
+  if (!member.manualAssignments || typeof member.manualAssignments !== 'object') member.manualAssignments = {};
+  if (value > 0) member.manualAssignments[dishId] = value;
+  else delete member.manualAssignments[dishId];
+  saveUserData();
+  refreshCurrentCoopPlanPreview();
+  setCoopTeamStatus(t('manualAssignmentSaved'));
 }
 
 function normalizeMasteries(rawMasteries) {
@@ -1626,6 +3347,78 @@ function ensureUserDefaults() {
     userData.availableStoves = getDefaultStovesForLevel(userData.level);
   }
   saveUserData();
+}
+
+function ensureCoopTeamDefaults() {
+  userData.coopTeams = normalizeCoopTeams(userData.coopTeams);
+
+  if (!userData.coopTeams.length) {
+    const team = createDefaultCoopTeam();
+    userData.coopTeams.push(team);
+    userData.selectedCoopTeamId = team.id;
+  }
+
+  if (!userData.selectedCoopTeamId || !userData.coopTeams.some(team => team.id === userData.selectedCoopTeamId)) {
+    userData.selectedCoopTeamId = userData.coopTeams[0]?.id || '';
+  }
+
+  saveUserData();
+}
+
+function createDefaultCoopTeam() {
+  const numberSuffix = getNextCoopTeamNumber();
+  const profileName = (userData.chefName || '').trim();
+  const profileLevel = clampNumber(Number(userData.level || 1), 0, 999);
+  const profileStoves = Number(userData.availableStoves || getDefaultStovesForLevel(profileLevel));
+  const members = Array.from({ length: MAX_COOP_MEMBERS }, (_, index) => ({
+    name: index === 0 ? profileName : '',
+    level: index === 0 ? profileLevel : '',
+    stoves: index === 0 ? profileStoves : '',
+    workload: 'equal',
+    manualCount: '',
+    manualAssignments: {},
+    goldMasteries: {},
+    slot: index + 1
+  }));
+
+  return {
+    id: createTeamId(),
+    name: currentLanguage === 'pt' ? `Equipe ${numberSuffix}` : `Team ${numberSuffix}`,
+    members,
+    useMyMasteriesForChef1: false
+  };
+}
+
+function getNextCoopTeamNumber() {
+  const used = new Set((userData.coopTeams || []).map(team => {
+    const match = String(team.name || '').match(/(\d+)$/);
+    return match ? Number(match[1]) : 0;
+  }));
+  let number = 1;
+  while (used.has(number)) number += 1;
+  return number;
+}
+
+function getSelectedCoopTeam() {
+  ensureCoopTeamDefaults();
+  return userData.coopTeams.find(team => team.id === userData.selectedCoopTeamId) || userData.coopTeams[0];
+}
+
+function getValidCoopTeamMembers(team = getSelectedCoopTeam()) {
+  if (!team || !Array.isArray(team.members)) return [];
+  return team.members
+    .map((member, index) => ({
+      ...member,
+      slot: index + 1,
+      name: String(member.name || '').trim() || `${t('chefFallback')} ${index + 1}`,
+      level: member.level === '' ? 0 : clampNumber(Number(member.level || 0), 0, 999),
+      stoves: member.stoves === '' ? 0 : Math.max(0, Number(member.stoves || 0)),
+      workload: normalizeCoopWorkload(member.workload),
+      manualCount: member.manualCount === '' ? '' : Math.max(0, Math.floor(Number(member.manualCount || 0))),
+      manualAssignments: normalizeManualAssignments(member.manualAssignments),
+      goldMasteries: normalizeCoopGoldMasteries(member.goldMasteries)
+    }))
+    .filter(member => member.level > 0 && member.stoves > 0);
 }
 
 function saveUserData() {
@@ -1657,6 +3450,8 @@ function syncMyDexInputs(updateStoves = true) {
   if (updateStoves) {
     document.getElementById('stoveCount').value = Number(userData.availableStoves || getDefaultStovesForLevel(userData.level));
   }
+  const showIngredientsToggle = document.getElementById('showIngredientsToggle');
+  if (showIngredientsToggle) showIngredientsToggle.checked = Boolean(userData.showIngredients);
 }
 
 function setProfileStatus(message) {
@@ -1669,6 +3464,11 @@ function setMasteryStatus(message) {
   if (status) status.textContent = message;
 }
 
+function setDataStatus(message) {
+  setMasteryStatus(message);
+  setProfileStatus(message);
+}
+
 function exportUserData() {
   const hasProfile = Boolean((userData.chefName || '').trim());
   const data = hasProfile
@@ -1678,12 +3478,20 @@ function exportUserData() {
         level: Number(userData.level || 1),
         xpNeeded: Math.max(0, Number(userData.xpNeeded ?? 1000)),
         availableStoves: Number(userData.availableStoves || getDefaultStovesForLevel(userData.level)),
-        masteries: userData.masteries || {}
+        showIngredients: Boolean(userData.showIngredients),
+        masteries: userData.masteries || {},
+        coopTeams: normalizeCoopTeams(userData.coopTeams),
+        selectedCoopTeamId: userData.selectedCoopTeamId || '',
+        selectedCoopNumber: Math.max(0, Math.floor(Number(userData.selectedCoopNumber || 0)))
       }
     : {
         version: 1,
         xpNeeded: Math.max(0, Number(userData.xpNeeded ?? 1000)),
-        masteries: userData.masteries || {}
+        showIngredients: Boolean(userData.showIngredients),
+        masteries: userData.masteries || {},
+        coopTeams: normalizeCoopTeams(userData.coopTeams),
+        selectedCoopTeamId: userData.selectedCoopTeamId || '',
+        selectedCoopNumber: Math.max(0, Math.floor(Number(userData.selectedCoopNumber || 0)))
       };
 
   const filename = hasProfile
@@ -1699,7 +3507,7 @@ function exportUserData() {
   link.click();
   link.remove();
   URL.revokeObjectURL(url);
-  setMasteryStatus(t('dataDownloaded'));
+  setDataStatus(t('dataDownloaded'));
 }
 
 function importUserData(file) {
@@ -1714,6 +3522,9 @@ function importUserData(file) {
       if ('xpNeeded' in parsed) {
         userData.xpNeeded = Math.max(0, Number(parsed.xpNeeded || 0));
       }
+      if ('showIngredients' in parsed) {
+        userData.showIngredients = Boolean(parsed.showIngredients);
+      }
 
       if ('chefName' in parsed || 'level' in parsed || 'availableStoves' in parsed) {
         userData.chefName = typeof parsed.chefName === 'string' ? parsed.chefName : userData.chefName;
@@ -1721,21 +3532,35 @@ function importUserData(file) {
         userData.availableStoves = Number(parsed.availableStoves || getDefaultStovesForLevel(userData.level));
       }
 
+      if ('coopTeams' in parsed) {
+        userData.coopTeams = normalizeCoopTeams(parsed.coopTeams);
+      }
+      if ('selectedCoopTeamId' in parsed) {
+        userData.selectedCoopTeamId = typeof parsed.selectedCoopTeamId === 'string' ? parsed.selectedCoopTeamId : '';
+      }
+      if ('selectedCoopNumber' in parsed) {
+        userData.selectedCoopNumber = Math.max(0, Math.floor(Number(parsed.selectedCoopNumber || 0)));
+      }
+
       ensureUserDefaults();
+      ensureCoopTeamDefaults();
       saveUserData();
       syncProfileInputs(false);
       syncMyDexInputs(true);
+      renderCoopTeamEditor();
+      renderCoopPlanner();
+      restoreLastCoopPlanPreview();
       renderMasteries();
       renderMyDex();
       renderFullDishDex();
-      setMasteryStatus(t('dataLoadedMessage'));
+      setDataStatus(t('dataLoadedMessage'));
     } catch (error) {
       console.error(error);
-      setMasteryStatus(t('dataLoadError'));
+      setDataStatus(t('dataLoadError'));
     }
   };
 
-  reader.onerror = () => setMasteryStatus(t('dataLoadError'));
+  reader.onerror = () => setDataStatus(t('dataLoadError'));
   reader.readAsText(file);
 }
 
@@ -1744,12 +3569,16 @@ function deleteUserData() {
   localStorage.removeItem(STORAGE_KEY);
   userData = normalizeUserData({});
   ensureUserDefaults();
+  ensureCoopTeamDefaults();
   syncProfileInputs(false);
   syncMyDexInputs(true);
+  renderCoopTeamEditor();
+  renderCoopPlanner();
+  restoreLastCoopPlanPreview();
   renderMasteries();
   renderMyDex();
   renderFullDishDex();
-  setMasteryStatus(t('dataDeleted'));
+  setDataStatus(t('dataDeleted'));
 }
 
 async function fetchText(path) {
@@ -1819,6 +3648,36 @@ function buildRecipeNameMap(textNodes) {
   return map;
 }
 
+function buildCoopTextMap(textNodes) {
+  const map = {};
+  textNodes.forEach(node => {
+    const id = getAttr(node, 'id');
+    const name = getAttr(node, 'name');
+    if (!id || !name) return;
+
+    let match = id.match(/^coop_title_(\d+)$/i);
+    if (match) {
+      map[match[1]] = map[match[1]] || {};
+      map[match[1]].title = decodeEntities(name);
+      return;
+    }
+
+    match = id.match(/^coop_desc_short_(\d+)$/i);
+    if (match) {
+      map[match[1]] = map[match[1]] || {};
+      map[match[1]].shortDescription = decodeEntities(name);
+      return;
+    }
+
+    match = id.match(/^coop_desc_long_(\d+)$/i);
+    if (match) {
+      map[match[1]] = map[match[1]] || {};
+      map[match[1]].longDescription = decodeEntities(name);
+    }
+  });
+  return map;
+}
+
 function buildIngredientNameMap(textNodes) {
   const map = {};
   textNodes.forEach(node => {
@@ -1830,6 +3689,20 @@ function buildIngredientNameMap(textNodes) {
     map[lowerId.replace(/^ingredient_/, '')] = decodeEntities(name);
   });
   return map;
+}
+
+function parseCoopRequirements(requirements, dishById) {
+  if (!requirements) return [];
+  return requirements.split('#').map(part => {
+    const [dishId, amount] = part.split('+');
+    const dish = dishById.get(String(dishId));
+    return {
+      dishId: String(dishId || ''),
+      amount: Number(amount || 0),
+      dish,
+      dishName: dish ? dish.dishName : `Dish ${dishId}`
+    };
+  }).filter(req => req.dishId && Number.isFinite(req.amount) && req.amount > 0);
 }
 
 function calculateRequirementCost(requirements, costById) {
@@ -1866,6 +3739,22 @@ function dishTypeLabel(type) {
   if (type === 'Holiday') return t('holiday');
   return t('regular');
 }
+
+function fullDishNameHtml(record) {
+  const baseName = escapeHtml(record.dishName);
+  const tag = fullDishTypeTag(record);
+  if (!tag) return baseName;
+  return `${baseName} <span class="dish-type-tag">(${escapeHtml(tag)})</span>`;
+}
+
+function fullDishTypeTag(record) {
+  const key = String(record?.dishKey || '').toLowerCase();
+  if (SPECIAL_DISH_KEYS.map(item => item.toLowerCase()).includes(key)) return t('fullTagSpecial');
+  if (key === 'christmasturkey') return t('fullTagChristmas');
+  if (key === 'easterdish' || key === 'fruitpudding') return t('fullTagEaster');
+  return '';
+}
+
 
 function shouldIncludeHolidayDish(dishKey, mode) {
   if (mode === 'Include') return true;
