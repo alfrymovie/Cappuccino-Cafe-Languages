@@ -590,3 +590,137 @@ td.effects-cell {
   .small-logo { width: 54px; height: 54px; }
   .title-row { align-items: flex-start; }
 }
+/* Cokbook layout restore */
+
+.masteries-cookbook {
+  display: block;
+  border: 2px solid var(--border);
+  border-radius: 24px;
+  padding: 18px;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.07) 0%,
+      transparent 7%,
+      transparent 47%,
+      rgba(0, 0, 0, 0.14) 50%,
+      transparent 53%,
+      transparent 93%,
+      rgba(0, 0, 0, 0.07) 100%
+    ),
+    #d9c68b;
+  box-shadow: var(--shadow);
+}
+
+.masteries-cookbook.hidden {
+  display: none !important;
+}
+
+.cookbook-spread {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "leftTop rightTop"
+    "leftBottom rightBottom";
+  gap: 18px 34px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.book-slot-left-top {
+  grid-area: leftTop;
+}
+
+.book-slot-left-bottom {
+  grid-area: leftBottom;
+}
+
+.book-slot-right-top {
+  grid-area: rightTop;
+}
+
+.book-slot-right-bottom {
+  grid-area: rightBottom;
+}
+
+.cookbook-dish-card {
+  border: 2px solid #7d6332;
+  border-radius: 16px;
+  padding: 12px;
+  background: rgba(255, 239, 181, 0.9);
+  color: #3b2618;
+  min-height: 188px;
+  display: grid;
+  gap: 8px;
+}
+
+.cookbook-dish-main {
+  display: grid;
+  grid-template-columns: 66px 1fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.cookbook-dish-main h3 {
+  margin: 0 0 4px;
+  color: #5f351d;
+  font-size: 1rem;
+}
+
+.cookbook-dish-main p {
+  margin: 0;
+  color: #6f5530;
+  font-weight: 800;
+}
+
+.cookbook-stars {
+  text-align: center;
+}
+
+.cookbook-effects {
+  font-size: 0.92rem;
+}
+
+body.dark-theme .cookbook-dish-card {
+  color: #3b2618;
+}
+
+body.dark-theme .cookbook-dish-main h3 {
+  color: #5f351d;
+}
+
+body.dark-theme .cookbook-dish-main p {
+  color: #6f5530;
+}
+
+body.dark-theme .cookbook-dish-card .effect-bronze {
+  color: #9b5218;
+}
+
+body.dark-theme .cookbook-dish-card .effect-silver {
+  color: #5d6670;
+}
+
+body.dark-theme .cookbook-dish-card .effect-gold {
+  color: #8a6900;
+}
+
+body.dark-theme .cookbook-dish-card .effect-check {
+  color: #17883a;
+}
+
+@media (max-width: 760px) {
+  .cookbook-spread {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "leftTop"
+      "rightTop"
+      "leftBottom"
+      "rightBottom";
+    gap: 14px;
+  }
+
+  .masteries-cookbook {
+    padding: 12px;
+  }
+}
