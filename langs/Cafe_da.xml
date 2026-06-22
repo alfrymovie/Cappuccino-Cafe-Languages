@@ -217,16 +217,16 @@
 		<text id="cookstep_francesinha2" name="Smelter osten" />
 		<text id="cookstep_dorayaki1" name="Forbereder fyldet" />
 		<text id="cookstep_dorayaki2" name="Lader det køle" />
-		<text id="cookstep_tiramisu1" name="Layering dessert" />
-		<text id="cookstep_tiramisu2" name="Chilling tiramisu" />
-		<text id="cookstep_pridecupcakes1" name="Mixing batter" />
-		<text id="cookstep_pridecupcakes2" name="Decorating" />
-		<text id="cookstep_ratatouille1" name="Prepping vegetables" />
-		<text id="cookstep_ratatouille2" name="Stacking" />
-		<text id="cookstep_hotcherryricepudding1" name="Cooking rice" />
-		<text id="cookstep_hotcherryricepudding2" name="Adding cherries" />
-		<text id="cookstep_coconutcake1" name="Mixing ingredients" />
-		<text id="cookstep_coconutcake2" name="Baking cake" />
+		<text id="cookstep_tiramisu1" name="Forbereder desserten" />
+		<text id="cookstep_tiramisu2" name="Køler tiramisu" />
+		<text id="cookstep_pridecupcakes1" name="Mikser dejen" />
+		<text id="cookstep_pridecupcakes2" name="Dekorerer" />
+		<text id="cookstep_ratatouille1" name="Forbereder grøntsagerne" />
+		<text id="cookstep_ratatouille2" name="Stabler" />
+		<text id="cookstep_hotcherryricepudding1" name="Koger ris" />
+		<text id="cookstep_hotcherryricepudding2" name="Tilsætter kirsebær" />
+		<text id="cookstep_coconutcake1" name="Blander det hele" />
+		<text id="cookstep_coconutcake2" name="Bager kagen" />
 		<text id="cookstep_paodequeijo1" name="Shaping dough" />
 		<text id="cookstep_paodequeijo2" name="Baking bread" />
 		<text id="cookstep_baiaodedois1" name="Mixing rice and beans" />
@@ -263,8 +263,8 @@
 		<text id="cookstep_shakshuka2" name="Simmering sauce" />
 		<text id="cookstep_cheeseburger1" name="Brun hakkekød" />
 		<text id="cookstep_cheeseburger2" name="Belæg burger" />
-		<text id="cookstep_cheesedish1" name="Anret osten" />
-		<text id="cookstep_cheesedish2" name="Lad osten modne" />
+		<text id="cookstep_cheesedish1" name="Anretter osten" />
+		<text id="cookstep_cheesedish2" name="Lader osten modne" />
 		<text id="cookstep_cheesefondue1" name="Bag brød" />
 		<text id="cookstep_cheesefondue2" name="Opvarm ost" />
 		<text id="cookstep_cherriecake1" name="Bland ingredienserne" />
@@ -304,7 +304,7 @@
 		<text id="cookstep_fishandchips1" name="Frituresteg" />
 		<text id="cookstep_fishandchips2" name="Mos ærterne" />
 		<text id="cookstep_friedpotatoes1" name="Kog kartofler" />
-		<text id="cookstep_friedpotatoes2" name="Bras kartofler" />
+		<text id="cookstep_friedpotatoes2" name="Braser kartofler" />
 		<text id="cookstep_fruitpudding1" name="Lad dejen hvile" />
 		<text id="cookstep_fruitpudding2" name="Bag" />
 		<text id="cookstep_fruitsalad1" name="Skær frugt" />
@@ -458,12 +458,12 @@
 		<text id="coop_title_7" name="SKOLEMAD UDGÅET" />
 		<text id="coop_title_8" name="FØDSELSDAGSPARTY" />
 		<text id="coop_title_9" name="ITALIENSK BUFFET" />
-		<text id="coop_title_16" name="MORNING RUSH!" />
-		<text id="coop_desc_short_16" name="Start the day right!" />
-		<text id="coop_desc_long_16" name="Chef cupcakekittycat8 will host a big breakfast at the Marketplace. Can you provide some of what will be served?" />
-		<text id="coop_title_17" name="POST-LUNCH DESSERTS" />
-		<text id="coop_desc_short_17" name="Craving sweets are we?" />
-		<text id="coop_desc_long_17" name="Chef Gabriel served a salty lunch and the costumers are craving many sweets! Help out and sweeten the day!" />
+		<text id="coop_title_16" name="MORGEN MYLDRETID!" />
+		<text id="coop_desc_short_16" name="Start dagen rigtigt!" />
+		<text id="coop_desc_long_16" name="Kok cupcakekittycat8 vil servere en stor frokost på markedspladsen. Can du hjælpe med at lave nogle af retterne?" />
+		<text id="coop_title_17" name="EFTER-FROKOST DESSERTER" />
+		<text id="coop_desc_short_17" name="Mangler vi lidt til den søde tand?" />
+		<text id="coop_desc_long_17" name="Kok Gabriel har serveret en saltet frokost, og gæsterne craver nu søde sager! Hjælp ham, og gør dagen lidt sødere!" />
 		<text id="coop_title_18" name="FOOD CRITIC VISIT!" />
 		<text id="coop_desc_short_18" name="Cook to impress!" />
 		<text id="coop_desc_long_18" name="Chef cupcakekittycat8 invited a food critic to visit your Café and he has a refined taste! It is time to cook!" />
@@ -522,8 +522,8 @@
 		<text id="coop_desc_short_37" name="The cheese rules all!" />
 		<text id="coop_desc_long_37" name="Chef Cupcakekittycat8 was hired to provide dishes for the birthday of a famous Mouse. Sadly, she used tofu instead of cheese and the mice are furious! Can you make food with cheese to help?" />
 		<text id="coop_title_38" name="BURGER FESTIVAL" />
-		<text id="coop_desc_short_38" name="A classic taste for a gathering!" />
-		<text id="coop_desc_long_38" name="Chef Franskmayn is going to serve burgers at the Marketplace. Provide some portions to get a share of the revenue!" />
+		<text id="coop_desc_short_38" name="En ren klassiker til enhver lejlighed!" />
+		<text id="coop_desc_long_38" name="Kok Franskmayn vil sælge burgere på Markedspladsen. Kom med nogle portioner for at få del i salget!" />
 		<text id="coop_title_39" name="SWEET LIKE A STRAWBERRY!" />
 		<text id="coop_desc_short_39" name="A bountiful harvest!" />
 		<text id="coop_desc_long_39" name="The strawberry harvest was excellent and chef Gabriel wants to share the sweetness with everyone. Let&apos;s make some berry-licious dishes!" />
@@ -539,8 +539,8 @@
 		<text id="dialogwin_avatarcreate_txt_avatar_title" name="Udarbejd din karakter" />
 		<text id="dialogwin_avatarcreate_woman" />
 		<text id="dialogwin_avatarnameselect_copy" name="Navnet findes allerede. Navneforslag:" />
-		<text id="dialogwin_avatarnameselect_title" name="Oops!" />
-		<text id="dialogwin_avatar_btn_random" name="Tilfælde" />
+		<text id="dialogwin_avatarnameselect_title" name="Ups!" />
+		<text id="dialogwin_avatar_btn_random" name="Tilfældigt" />
 		<text id="dialogwin_bonus_copy_achievement" name="Du har nået trin {0} af denne udmærkelse! Hjerteligt tillykke!" />
 		<text id="dialogwin_bonus_copy_counter" name="Du kan nu købe dig en yderligere disk." />
 		<text id="dialogwin_bonus_copy_dish" name="Der blev åbnet nye opskrifter til dig:" />
@@ -689,7 +689,7 @@
 		<text id="dialogwin_lonelyingredient_title" name="Overraskelse!" />
 		<text id="dialogwin_lonelytip_copy" name="En gæst har givet dig en enorm stor sum drikkepenge! Aflever nogle af disse til dine venner!" />
 		<text id="dialogwin_lonelytip_title" name="Hurra!" />
-		<text id="dialogwin_muffinman_beforebet" name="Vælg din indsats. Når du vinder får du det doppelte tilbage!" />
+		<text id="dialogwin_muffinman_beforebet" name="Vælg din indsats. Når du vinder får du det dobbelte tilbage!" />
 		<text id="dialogwin_muffinman_btn_again" name="Endnu engang!" />
 		<text id="dialogwin_muffinman_btn_go" name="Igang!" />
 		<text id="dialogwin_muffinman_header" name="Find fyldet!" />
@@ -698,13 +698,13 @@
 		<text id="dialogwin_muffinman_nopayment" name="Nå du vil spille om guld, må du mindst have nået level 10!" />
 		<text id="dialogwin_muffinman_noregister" name="Kun som registreret spiller må du spille &quot;Find fyldet&quot;!" />
 		<text id="dialogwin_muffinman_nosale" name="Du må ikke sælge muffinbageren!" />
-		<text id="dialogwin_muffinman_onlyonebuy" name="Du må kun pladsere en muffinbager in din Café!" />
+		<text id="dialogwin_muffinman_onlyonebuy" name="Du må kun pladsere én muffinbager in din Café!" />
 		<text id="dialogwin_muffinman_placedbet" name="Meget godt! I hvilken muffin er fyldet gemt?" />
-		<text id="dialogwin_muffinman_toohighbet" name="Så meget må du ikke sætte! Maksimumsindsatsen er {0} guld og {1} cafédollar!" />
-		<text id="dialogwin_muffinman_wonbet" name="Mmh, lækker! Du har fundet fyldet! Forsøg dog igen lige straks." />
+		<text id="dialogwin_muffinman_toohighbet" name="Så meget må du ikke satse! Maksimumsindsatsen er {0} guld og {1} cafédollar!" />
+		<text id="dialogwin_muffinman_wonbet" name="Mmh, lækker! Du har fundet fyldet! Vil du prøve igen?." />
 		<text id="dialogwin_nomoney_avatarchange" name="Du har ikke nok guld til at kunne klæde dig om!" />
-		<text id="dialogwin_nomoney_clean_copy" name="Du har ikke nok Cafédollar til at kunne pudse dit komfur." />
-		<text id="dialogwin_nomoney_copy" name="Oops, du har desværre ikke nok Cafédollar/Guld til at købe denne Artikel!" />
+		<text id="dialogwin_nomoney_clean_copy" name="Du har ikke nok Cafédollar til at kunne rengøre dit komfur." />
+		<text id="dialogwin_nomoney_copy" name="Ups, du har desværre ikke nok Cafédollar/Guld til at købe denne Artikel!" />
 		<text id="dialogwin_nomoney_courier" name="Du har ikke nok Cafédollar/Guld til at kunne betale kureren!" />
 		<text id="dialogwin_nomoney_instantcook_copy" name="Du har ikke nok cafédollar til at kunne koge færdig med det samme." />
 		<text id="dialogwin_nomoney_moregold" name="Køb af Cafédollar/Guld" />
@@ -810,22 +810,22 @@
 		<text id="createavatar_errorcode_18" name="Det indtastede navn er ugyldigt." />
 		<text id="createavatar_error_invalide" name="Dit brugernavn må ikke stå tomt eller indeholde specialtegn." />
 		<text id="createavatar_error_nogender" name="Vælg venligst en karakter!" />
-		<text id="editbuy_errorcode_1" name="Attention!" />
+		<text id="editbuy_errorcode_1" name="Advarsel!" />
 		<text id="editbuy_errorcode_3" name="Du har ikke nået det mindste level endnu for at kunne købe denne artikel!" />
 		<text id="editbuy_errorcode_38" name="Du kan kun ændre din café i ombygningsmodus." />
 		<text id="editbuy_errorcode_39" name="Positionen er ugyldig. Træk objektet til en fri plads i din café." />
-		<text id="editextend_errorcode_1" name="Attention!" />
+		<text id="editextend_errorcode_1" name="Advarsel!" />
 		<text id="editextend_errorcode_38" name="Du kan kun ændre din café i ombygningsmodus." />
 		<text id="editextend_errorcode_53" name="Denne udvidelse har du allerede." />
 		<text id="editextend_errorcode_54" name="Denne udvidelse må du ikke købe endnu." />
-		<text id="editmode_errorcode_1" name="Attention!" />
-		<text id="editmoveobj_errorcode_1" name="Attention!" />
+		<text id="editmode_errorcode_1" name="Advarsel!" />
+		<text id="editmoveobj_errorcode_1" name="Advarsel!" />
 		<text id="editmoveobj_errorcode_38" name="Du kan kun ændre din café i ombygningsmodus." />
 		<text id="editmoveobj_errorcode_39" name="Positionen er ugyldig. Træk objektet til en fri plads i din café." />
-		<text id="editrotateobj_errorcode_1" name="Attention!" />
+		<text id="editrotateobj_errorcode_1" name="Advarsel!" />
 		<text id="editrotateobj_errorcode_38" name="Du kan kun ændre din Café i ombygningsmodus." />
 		<text id="editrotateobj_errorcode_39" name="Positionen er ugyldig. Træk objektet til en fri plads i din café." />
-		<text id="editsell_errorcode_1" name="Attention!" />
+		<text id="editsell_errorcode_1" name="Advarsel!" />
 		<text id="editsell_errorcode_32" name="Artiklen haves ikke på lager." />
 		<text id="editsell_errorcode_38" name="Du kan kun ændre din Café i en ombygningsmodus." />
 		<text id="editsell_errorcode_39" name="Positionen er ugyldig. Træk objektet til en fri plads i din Café." />
@@ -856,10 +856,10 @@
 		<text id="invitefriend_errorcode_14" name="Ugyldig e-mailadresse!" />
 		<text id="jobrefill_error" name="Går ikke!" />
 		<text id="jobrefill_errorcode_1" name="Arbejdstilladelser er for tiden udsolgt." />
-		<text id="jobrefill_errorcode_61" name="Du kan kun engang per dag udfylde din arbejdstilladelser." />
+		<text id="jobrefill_errorcode_61" name="Du kan kun en gang per dag udfylde din arbejdstilladelser." />
 		<text id="joincafe_error" name="Går ikke" />
 		<text id="joincafe_errorcode_20" name="Lukket selskab. Der er desværre ikke plads til flere." />
-		<text id="joincafe_errorcode_21" name="Du er da allerede i denne café!" />
+		<text id="joincafe_errorcode_21" name="Du er allerede i denne café!" />
 		<text id="joincafe_errorcode_22" name="Denne Café findes desværre slet ikke!" />
 		<text id="level_error" name="Caféen er fejlbehæftet. Informer venligst Supporten." />
 		<text id="level_errorcode_1" name="Din café kunne ikke åbnes. Informer venligst Cappuccino-Support." />
@@ -880,7 +880,7 @@
 		<text id="npcfire_errorcode_1" name="Din tjener kunne ikke blive fyret." />
 		<text id="npchire_errorcode_1" name="Den nye tjener kunne ikke blive ansat." />
 		<text id="npcrename_errorcode_12" name="Navnet er ugyldigt!" />
-		<text id="npc_error" name="Attention!" />
+		<text id="npc_error" name="Advarsel!" />
 		<text id="register_error" name="Fejlregistrering" />
 		<text id="register_errorcode_1" name="Fejl" />
 		<text id="register_errorcode_10" name="Det password som du har indtastet, er ikke korrekt." />
@@ -934,7 +934,7 @@
 		<text id="featureDialog_2_text_2" name="Udbyg din café endnu mere!" />
 		<text id="featureDialog_30_text_0" name="Mere plads i dit køleskab! Fra nu af bliver fancyingredienserne ikke mere talt til kapaciteten i dit køleskab. Du kan lagre så mange som du har lyst til." />
 		<text id="featureDialog_30_text_1" name="Fra nu af kan du købe også købe dine udvidelser for Cafédollar!" />
-		<text id="featureDialog_31_text_0" name="Mere plads i dit køleskab! Fra nu af bliver fancyingredienserne ikke talt til kapaciteten i dit køleskab. Du kan lagre så mange du har lyst til." />
+		<text id="featureDialog_31_text_0" name="Mere plads i dit køleskab! Fra nu af bliver de fancy ingredienser ikke talt til kapaciteten i dit køleskab. Du kan lagre så mange du har lyst til." />
 		<text id="featureDialog_31_text_1" name="Fra nu af er dine udvidelser gratis, når du har nok venner!" />
 		<text id="featureDialog_32_text_0" name="Er dine gæster tørstige? Så hent dig hurtigt en Frosty og forfrisk dine gæster!" />
 		<text id="featureDialog_33_text_0" name="Opdag omeletten! Den nye og superkorte ret i din kogebog!" />
