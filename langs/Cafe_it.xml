@@ -507,7 +507,7 @@
 		
 		<text id="coop_title_24" name="IL CONTA-CARBOIDRATI" />
 		<text id="coop_desc_short_24" name="Una ricarica di energia!" />
-		<text id="coop_desc_long_24" name="Una palestra ha chiesto aiuto a Chef Artemis di fornire piatti pieni di carboidrati per dare energia ai clienti. Dai una mano per ottenere una ricompensa!" />
+		<text id="coop_desc_long_24" name="Una palestra ha chiesto aiuto a Chef Artemis di fornire delle pietanze piene di carboidrati così da dar energia ai clienti. Dai una mano e verrai ricompensato!" />
 		
 		<text id="coop_title_25" name="MENU DI NOZZE" />
 		<text id="coop_desc_short_25" name="Questo matrimonio s&apos;ha da fare!" />
@@ -553,13 +553,13 @@
 		<text id="coop_desc_short_35" name="Così tanti invitati!" />
 		<text id="coop_desc_long_35" name="La tua famiglia intera, gli amici di famiglia, i tuoi amici stretti e persino le loro famiglie verranno TUTTI al tuo Café per festeggiare il tuo business. Non deluderli!" />
 		
-		<text id="coop_title_36" name="ABBIAMO BISOGNO DI UN SACCO DI UOVA!" />
+		<text id="coop_title_36" name="ABBIAMO BISOGNO DI TANTE UOVA!" />
 		<text id="coop_desc_short_36" name="Ma saranno nate prima loro?" />
 		<text id="coop_desc_long_36" name="Chef Myleeek sta portando avanti una ricerca su chi sia nato prima: l&apos;uovo o la gallina? Cucina dei piatti a base di uova per raccogliere dati di vitale importanza!" />
 		
 		<text id="coop_title_37" name="UN ERRORE... GRATTUGIATO!" />
 		<text id="coop_desc_short_37" name="Il formaggio domina su tutto!" />
-		<text id="coop_desc_long_37" name="Chef Cupcakekittycat8 deve fornire del cibo per il compleanno di un certo Topo. Ahimè, ha usato il tofu al posto del formaggio e ora i topi sono furiosi! Puoi preparare del cibo con formaggio per risolvere la situazione?" />
+		<text id="coop_desc_long_37" name="Chef Cupcakekittycat8 deve fornire del cibo per il compleanno di un certo Topo. Ahimè, ha usato il tofu al posto del formaggio e ora i topi sono furiosi! Puoi dare una mano preparando del cibo appropriato?" />
 		
 		<text id="coop_title_38" name="FESTIVAL DEI BURGER" />
 		<text id="coop_desc_short_38" name="Un classico per ogni raduno!" />
@@ -1796,7 +1796,7 @@
 		<text id="recipe_chickensalad" name="Insalata di pollo" />
 		<text id="recipe_chickensoup" name="Zuppa di pollo" />
 		<text id="recipe_chiliconcarne" name="Chili con carne" />
-		<text id="recipe_chocmousse" name="Mousse al Cioccolato" />
+		<text id="recipe_chocmousse" name="Mousse al cioccolato" />
 		<text id="recipe_chocolatecake" name="Torta al cioccolato" />
 		<text id="recipe_chocolatecheesecake" name="Cheesecake al cioccolato" />
 		<text id="recipe_chocolatefondue" name="Fonduta al cioccolato" />
