@@ -2102,7 +2102,7 @@ function buildCoopAssignmentPlan(coop, team = getSelectedCoopTeam()) {
 
   let impossible = false;
   requirements.forEach(req => {
-    if (!req.dish || req.level <= 0 || !members.some(member => member.level >= req.level)) {
+    if (!req.dish || req.level < 0 || !members.some(member => member.level >= req.level)) {
       impossible = true;
       unassigned.push({ ...req, amount: req.remaining });
       req.remaining = 0;
