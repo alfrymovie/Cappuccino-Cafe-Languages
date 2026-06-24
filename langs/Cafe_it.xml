@@ -86,11 +86,11 @@
 		<text id="alert_jobrefill_title" name="Registrati" />
 		<text id="alert_lostpassword_copy" name="Scrivi il tuo indirizzo email e ti invieremo la password." />
 		<text id="alert_lostpassword_title" name="Password dimenticata?" />
-		<text id="alert_marketplace_jobcancled_copy" name="Purtroppo {0} ha rifiutato la tua offerta di lavoro." />
+		<text id="alert_marketplace_jobcancled_copy" name="Perdindirindina! {0} ha rifiutato la tua offerta di lavoro." />
 		<text id="alert_marketplace_jobcancled_title" name="Lavoro rifiutato" />
 		<text id="alert_marketplace_jobempty_copy" name="Per oggi hai utilizzato tutti i tuoi permessi di lavoro." />
 		<text id="alert_marketplace_jobempty_title" name="Permessi di lavoro finiti!" />
-		<text id="alert_marketplace_jobhired_copy" name="{0} ha accettato la tua offerta di lavoro!" />
+		<text id="alert_marketplace_jobhired_copy" name="Daje! {0} ha accettato la tua offerta di lavoro!" />
 		<text id="alert_marketplace_jobhired_title" name="Lavoro accettato" />
 		<text id="alert_marketplace_job_copy" name="{0} (livello {1}) ti offre un lavoro da cameriere. Vuoi accettarlo?" />
 		<text id="alert_marketplace_job_title" name="Offerta di lavoro!" />
@@ -119,9 +119,9 @@
 		<text id="alert_smoothiemaker_full_copy" name="Ci sono ancora drink nel tuo frosty! Servili ai clienti, poi potrai mixare qualcos&apos;altro!" />
 		<text id="alert_smoothiemaker_outofreach_copy" name="Non riesci a raggiungere il tuo frosty! Prova a spostare qualcosa!" />
 		<text id="alert_smoothiemaker_storage_copy" name="Ci sono ancora drink nel tuo frosty! Se lo metti via i drink rimasti andranno persi!" />
-		<text id="alert_stafffire_copy" name="Sei sicuro di voler mandar via il tuo fedele cameriere?" />
+		<text id="alert_stafffire_copy" name="Vuoi davvero licenziare il tuo cameriere? Con l&apos;economia che c&apos;è oggi??" />
 		<text id="alert_stafffire_title" name="Confermare?" />
-		<text id="alert_staffhire_copy" name="Dai un nome al tuo cameriere." />
+		<text id="alert_staffhire_copy" name="Dai un bel nome al tuo cameriere." />
 		<text id="alert_staffhire_title" name="Assumi" />
 		<text id="alert_storefull_copy" name="Il tuo frigo è pieno! Vendi qualche ingrediente per avere più spazio." />
 		<text id="alert_storefull_title" name="Il frigo è pieno!" />
@@ -129,9 +129,9 @@
 		<text id="alert_stove_outofreach_title" name="Attenzione!" />
 		<text id="alert_unlockitem_copy" name="Fatti portare l&apos;ingrediente dal corriere espresso. L&apos;esclusività ha però un costo." />
 		<text id="alert_unlockitem_title" name="Consegna via corriere?" />
-		<text id="alert_userkicked_copy" name="Sei stato buttato fuori dal Café." />
+		<text id="alert_userkicked_copy" name="Ti hanno cacciato dal Café... che modi!" />
 		<text id="alert_userkicked_title" name="Fuori!" />
-		<text id="alert_workinghero_copy" name="Lo Chef è ancora all&apos;opera." />
+		<text id="alert_workinghero_copy" name="Lo Chef è ancora all&apos;opera!" />
 		<text id="alert_workinghero_title" name="Un attimo!" />
 	</alerts>
 	<commons>
@@ -587,7 +587,7 @@
 		<text id="dialogwin_bonus_copy_instant" name="Ancora un altro instant cooking. Un solo clic e il piatto è pronto da servire." />
 		<text id="dialogwin_bonus_copy_level2" name="Lo sapevi? Puoi ampliare il tuo Café e aver più spazio per i tuoi clienti!" />
 		<text id="dialogwin_bonus_copy_login" name="Cos&apos;è successo mentre non c&apos;eri:" />
-		<text id="dialogwin_bonus_copy_newwaiter" name="Ora hai un nuovo cameriere nel tuo cafè! I clienti possono arrivare!" />
+		<text id="dialogwin_bonus_copy_newwaiter" name="Ora hai un nuovo cameriere! Che arrivino i clienti!" />
 		<text id="dialogwin_bonus_copy_stove" name="Adesso puoi comprare un altro fornello." />
 		<text id="dialogwin_bonus_copy_waiter" name="Ora puoi assumere un nuovo cameriere." />
 		<text id="dialogwin_bonus_title_achievement" name="Nuovo trofeo" />
@@ -631,7 +631,7 @@
 		<text id="dialogwin_coop_btn_quit" name="Abbandona" />
 		<text id="dialogwin_coop_extendtime_copy" name="Vuoi estendere il Co-Op per {0} Gold? Tempo oro: {1} ore Tempo argento: {2} ore Tempo bronzo: {3} ore" />
 		<text id="dialogwin_coop_extendtime_title" name="Serve più tempo?" />
-		<text id="dialogwin_coop_maxdone" name="Oggi hai già cominciato un Co-Op! Ne potrai fare un altro domani!" />
+		<text id="dialogwin_coop_maxdone" name="Oggi hai già cominciato un Co-Op! Domani ne potrai fare un altro!" />
 		<text id="dialogwin_coop_maxuser" name="Numero massimo di partecipanti: {0}" />
 		<text id="dialogwin_coop_member" name="Partecipanti ai Co-Op:" />
 		<text id="dialogwin_coop_minlevel" name="Livello minimo per partecipare: {0}" />
@@ -641,8 +641,8 @@
 		<text id="dialogwin_coop_timeleft" name="Tempo rimanente:" />
 		<text id="dialogwin_coop_txt_noactive" name="Al momento non ci sono Co-Op attivi.\nCominciane uno!" />
 		<text id="dialogwin_coop_txt_title" name="CO-OP" />
-		<text id="dialogwin_decoshophelp_copy" name="Se trascini i tuoi mobili o decorazioni qui e NON sulla cassa, li stai immagazzinando.\nQuando li risistemi nel Café non ti costano nulla.\nL&apos;adesivo rosso mostra quanti pezzi hai di questo oggetto." />
-		<text id="dialogwin_decoshophelp_copy_1" name="I mobili e le decorazioni incrementano i punti-lusso del tuo Café! Quanto chic è il tuo locale?" />
+		<text id="dialogwin_decoshophelp_copy" name="Se trascini i tuoi mobili e decorazioni in questo pannello, e NON sulla cassa, saranno immagazzinati.\nQuando li risistemi nel tuo Café non ti costeranno nulla.\nL&apos;adesivo rosso mostra quanti pezzi hai di questo oggetto." />
+		<text id="dialogwin_decoshophelp_copy_1" name="I mobili e le decorazioni incrementano i punti-lusso del tuo Café! Quanto figo è il tuo locale?" />
 		<text id="dialogwin_decoshophelp_title" name="Immagazzinare mobile/decorazione?" />
 		<text id="dialogwin_decoshophelp_title_1" name="Punti-lusso?" />
 		<text id="dialogwin_dishmastery_copy_0" name="Hai ottenuto una stella per {0}!" />
@@ -662,8 +662,8 @@
 		<text id="dialogwin_FriendShop_copy" name="Hai bisogno dell&apos;aiuto di altri {0} amici per espandere il tuo Café!\nAltrimenti puoi incaricare un operaio per {1} Gold!" />
 		<text id="dialogwin_FriendShop_title" name="Nuovi amici" />
 		<text id="dialogwin_giftbox_close" name="chiudi" />
-		<text id="dialogwin_giftbox_friendlist_empty" name="Puoi mandare a tutti i tuoi amici un solo regalo al giorno." />
-		<text id="dialogwin_giftbox_friendlist_notavailable" name="Potrai mandare domani nuovi regali ai tuoi amici!" />
+		<text id="dialogwin_giftbox_friendlist_empty" name="Puoi mandare ai tuoi amici un solo regalo al giorno." />
+		<text id="dialogwin_giftbox_friendlist_notavailable" name="Hai già inviato un regalo per oggi! Domani potrai mandarne uno nuovo." />
 		<text id="dialogwin_giftbox_ggsgifts_empty" name="Nessun regalo! Puoi avere nuovi regali grazie al bonus giornaliero!" />
 		<text id="dialogwin_giftbox_mygifts_empty" name="Non hai ricevuto regali. Mandane qualcuno ai tuoi amici, magari ti ricambieranno." />
 		<text id="dialogwin_giftbox_remove" name="Dai via" />
@@ -939,7 +939,7 @@
 		<text id="waiter_name_invalide" name="Questo nome per il cameriere non è permesso." />
 	</error_codes>
 	<feature>
-		<text id="featureDialog_0_text_0" name="Nuove decorazione per rendere il tuo Café ancora più chic!" />
+		<text id="featureDialog_0_text_0" name="Nuove decorazione per rendere il tuo Café ancora più figo!" />
 		<text id="featureDialog_0_text_0_sozial" name="Ottieni ricompense speciali per il tuo duro lavoro!" />
 		<text id="featureDialog_0_text_1" name="Il tuo lavoro viene ricompensato con Cafédollar, XP o Gold!" />
 		<text id="featureDialog_0_text_1_sozial" name="Nel negozio ci sono nuove decorazioni!" />
@@ -962,8 +962,8 @@
 		<text id="featureDialog_23_text_0" name="Cuciniamo insieme! I nuovi Co-Op sono pronti per te e i tuoi amici!" />
 		<text id="featureDialog_24_text_0" name="Il Coniglio Pasquale è già al lavoro!\nLe nuove decorazioni sono arrivate!" />
 		<text id="featureDialog_24_text_1" name="È ora di carni bianche!\nScopri l&apos;anatra all&apos;arancia!" />
-		<text id="featureDialog_25_text_0" name="Baciato dalla fortuna?  Mettiti alla prova con il nuovo gioco dei muffin!" />
-		<text id="featureDialog_26_text_0" name="Sei un tipo fortunato? Scoprilo al Mercato, con la nuova ruota della fortuna!" />
+		<text id="featureDialog_25_text_0" name="Baciato dalla fortuna?  Mettiti alla prova col gioco dell&apos;Omino dei Muffin!" />
+		<text id="featureDialog_26_text_0" name="Sei una persona fortunata? Scoprilo al Mercato, con la nuova Ruota della Fortuna!" />
 		<text id="featureDialog_27_text_0" name="Aumenta la popolarità del tuo locale con la macchina dello zucchero filato! Puoi vincerla alla Ruota della Fortuna!" />
 		<text id="featureDialog_28_text_0" name="OGGI è l&apos;ultimo giorno in cui puoi vincere la macchina per lo zucchero filato! Buona fortuna!" />
 		<text id="featureDialog_29_text_0" name="Da oggi puoi cambiare l&apos;aspetto del tuo avatar ogni volta che vuoi!" />
@@ -1396,7 +1396,7 @@
 		<text id="preparestep_cookieplate_butter" name="Sciogli il burro" />
 		<text id="preparestep_cookieplate_chocolate" name="Spezzetta il cioccolato" />
 		<text id="preparestep_cookieplate_flour" name="Setaccia la farina" />
-		<text id="preparestep_cookieplate_sugar" name="Fa&apos; caramellare lo zucchero" />
+		<text id="preparestep_cookieplate_sugar" name="Caramella lo zucchero" />
 		<text id="preparestep_cornonthecob_butter" name="Aggiungi il burro" />
 		<text id="preparestep_cornonthecob_lettuce" name="Lava l&apos;insalata" />
 		<text id="preparestep_cornonthecob_sweetcorn" name="Lava il mais" />
@@ -1447,7 +1447,7 @@
 		<text id="preparestep_jamspongepudding_flour" name="Setaccia la farina" />
 		<text id="preparestep_jamspongepudding_milk" name="Scalda il latte" />
 		<text id="preparestep_jamspongepudding_strawberry" name="Lava le fragole" />
-		<text id="preparestep_jamspongepudding_sugar" name="Fa&apos; caramellare lo zucchero" />
+		<text id="preparestep_jamspongepudding_sugar" name="Caramella lo zucchero" />
 		<text id="preparestep_lasagne_cheese" name="Grattugia il formaggio" />
 		<text id="preparestep_lasagne_mincemeat" name="Insaporisci il macinato" />
 		<text id="preparestep_lasagne_pasta" name="Cuoci la pasta" />
@@ -1519,7 +1519,7 @@
 		<text id="preparestep_redberrycompote_cherries" name="Lava le ciliegie" />
 		<text id="preparestep_redberrycompote_rhubarb" name="Lava il rabarbaro" />
 		<text id="preparestep_redberrycompote_strawberry" name="Lava le fragole" />
-		<text id="preparestep_redberrycompote_sugar" name="Fa&apos; caramellare lo zucchero" />
+		<text id="preparestep_redberrycompote_sugar" name="Caramella lo zucchero" />
 		<text id="preparestep_ricepudding_apple" name="Sbuccia le mele" />
 		<text id="preparestep_ricepudding_cream" name="Monta la panna" />
 		<text id="preparestep_ricepudding_milk" name="Dosa il latte" />
@@ -1553,7 +1553,7 @@
 		<text id="preparestep_steak_potato" name="Sbuccia le patate" />
 		<text id="preparestep_steak_tomato" name="Taglia i pomodori" />
 		<text id="preparestep_stewedrhubarb_rhubarb" name="Taglia il rabarbaro" />
-		<text id="preparestep_stewedrhubarb_sugar" name="Fa&apos; caramellare lo zucchero" />
+		<text id="preparestep_stewedrhubarb_sugar" name="Caramella lo zucchero" />
 		<text id="preparestep_stew_meat" name="Taglia la carne" />
 		<text id="preparestep_stew_oil" name="Scalda l&apos;olio" />
 		<text id="preparestep_stew_onion" name="Trita le cipolle" />
@@ -1741,7 +1741,7 @@
 		<text id="recipe_pizzasalad" name="Pizza con insalata" />
 		<text id="recipe_tripleomelette" name="Omelette tripla" />
 		<text id="recipe_chocolatewaffles" name="Waffle al cioccolato" />
-		<text id="recipe_spanishomelette" name="Omelette Spagnola" />
+		<text id="recipe_spanishomelette" name="Tortilla di patate" />
 		<text id="recipe_sausagepasta" name="Spaghetti con salsiccia" />
 		<text id="recipe_applepie" name="Torta alle mele" />
 		<text id="recipe_ramen" name="Ramen" />
