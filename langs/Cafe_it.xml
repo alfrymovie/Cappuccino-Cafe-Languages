@@ -641,10 +641,10 @@
 		<text id="dialogwin_coop_timeleft" name="Tempo rimanente:" />
 		<text id="dialogwin_coop_txt_noactive" name="Al momento non ci sono Co-Op attivi.\nCominciane uno!" />
 		<text id="dialogwin_coop_txt_title" name="CO-OP" />
-		<text id="dialogwin_decoshophelp_copy" name="Se trascini i tuoi mobili e decorazioni in questo pannello, e NON sulla cassa, saranno immagazzinati.\nQuando li risistemi nel tuo Café non ti costeranno nulla.\nL&apos;adesivo rosso mostra quanti pezzi hai di questo oggetto." />
-		<text id="dialogwin_decoshophelp_copy_1" name="I mobili e le decorazioni incrementano i punti-lusso del tuo Café! Quanto figo è il tuo locale?" />
-		<text id="dialogwin_decoshophelp_title" name="Immagazzinare mobile/decorazione?" />
-		<text id="dialogwin_decoshophelp_title_1" name="Punti-lusso?" />
+		<text id="dialogwin_decoshophelp_copy" name="Se trascini i tuoi oggetti direttamente nel catalogo, e NON sulla piccola cassa, questi saranno immagazzinati.\nSe li risistemi nel tuo Café non ti costeranno nulla.\nAd ogni oggetto è associato un&apos;adesivo rosso che ne mostra la quantità già posseduta." />
+		<text id="dialogwin_decoshophelp_copy_1" name="Determinati mobili e decorazioni incrementano i punti-lusso del tuo Café! Chiediti: quanto figo posso rendere il mio locale?" />
+		<text id="dialogwin_decoshophelp_title" name="Come immagazzino un oggetto?" />
+		<text id="dialogwin_decoshophelp_title_1" name="Cosa sono i punti-lusso?" />
 		<text id="dialogwin_dishmastery_copy_0" name="Hai ottenuto una stella per {0}!" />
 		<text id="dialogwin_dishmastery_copy_1" name="Offri ai tuoi amici un paio di porzioni extra!" />
 		<text id="dialogwin_dishmastery_info" name="Ogni stella conferisce nuovi vantaggi ai tuoi piatti!" />
