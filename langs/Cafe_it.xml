@@ -621,7 +621,7 @@
 		<text id="dialogwin_coopreward_finish_1" name="Argento" />
 		<text id="dialogwin_coopreward_finish_2" name="Bronzo" />
 		<text id="dialogwin_coopreward_title_fail" name="Co-Op non completato!" />
-		<text id="dialogwin_coopreward_title_success" name="Co-Op realizzata con {0}" />
+		<text id="dialogwin_coopreward_title_success" name="Co-Op realizzato con {0}" />
 		<text id="dialogwin_coopshelp_copy" name="Qui puoi preparare ordini assieme ai tuoi amici e guadagnare XP e Cafédollar extra.\nPrima sarà pronto l&apos;ordine, maggiore sarà la ricompensa!\n\nE se vi mancasse il tempo, puoi estendere il termine quando vuoi!\n\nMa ricordati: devi aver collaborato anche tu per ottenere la ricompensa!" />
 		<text id="dialogwin_coopshelp_title" name="Cosa sono i Co-Op?" />
 		<text id="dialogwin_coop_btn_action" name="Dettagli" />
@@ -633,7 +633,7 @@
 		<text id="dialogwin_coop_extendtime_title" name="Serve più tempo?" />
 		<text id="dialogwin_coop_maxdone" name="Oggi hai già cominciato un Co-Op! Domani ne potrai fare un altro!" />
 		<text id="dialogwin_coop_maxuser" name="Numero massimo di partecipanti: {0}" />
-		<text id="dialogwin_coop_member" name="Partecipanti ai Co-Op:" />
+		<text id="dialogwin_coop_member" name="Partecipanti al Co-Op:" />
 		<text id="dialogwin_coop_minlevel" name="Livello minimo per partecipare: {0}" />
 		<text id="dialogwin_coop_quit_copy" name="Vuoi davvero lasciare questo Co-Op?" />
 		<text id="dialogwin_coop_subtitle" name="Tu devi preparare:" />
