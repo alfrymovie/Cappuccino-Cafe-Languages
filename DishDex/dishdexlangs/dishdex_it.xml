@@ -154,7 +154,7 @@
   <text id="marginShort" name="Margine" />
   <text id="masteriesEyebrow" name="Vantaggi per i piatti" />
   <text id="mastery" name="Stelle" />
-  <text id="masteryTotalForGold" name="Total: {0} dishes required for Gold" />
+  <text id="masteryTotalForGold" name="Totale: {0} piatti richiesti per l&apos;Oro" />
   <text id="masteryBookPage" name="Pagina" />
   <text id="masteryCookbook" name="Ricettario" />
   <text id="masteryListHorizontal" name="Lista (lettura orizzontale)" />
