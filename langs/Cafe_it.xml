@@ -1911,7 +1911,7 @@
 		<text id="tt_CafeClearStoveDialog_btn_instantcook" name="Instant cooking" />
 		<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="Oggi non puoi più attivare instant cooking." />
 		<text id="tt_CafeClearStoveDialog_instantButton" name="Instant cooking" />
-		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Bulk purchase" />
+		<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Acquisto multiplo" />
 		<text id="tt_CafeCookBookDialog_0" name="Dolci" />
 		<text id="tt_CafeCookBookDialog_1" name="Piatti principali" />
 		<text id="tt_CafeCookBookDialog_2" name="Minestre" />
