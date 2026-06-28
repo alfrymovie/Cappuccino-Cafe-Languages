@@ -2050,6 +2050,7 @@ Available for limited time only!"  />
 			<text id="tt_CafeClearStoveDialog_btn_instantcook" name="Instant cooking"  />
 			<text id="tt_CafeClearStoveDialog_btn_instantcook_na" name="You can't do any more 'Instant cooking' today."  />
 			<text id="tt_CafeClearStoveDialog_instantButton" name="Instant cooking"  />
+			<text id="tt_CafeIngredientShopDialog_btn_bulkCappuccino" name="Bulk purchase" />
 			<text id="tt_CafeCookBookDialog_0" name="Sweets"  />
 			<text id="tt_CafeCookBookDialog_1" name="Main Dishes"  />
 			<text id="tt_CafeCookBookDialog_2" name="Soups"  />
