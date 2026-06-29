@@ -265,6 +265,8 @@ If you put it into storage, you will lose the remaining portions!"  />
 			<text id="cookstep_sweetpizza2" name="Baking sweet pizza" />
 			<text id="cookstep_shakshuka1" name="Melting tomatoes" />
 			<text id="cookstep_shakshuka2" name="Simmering sauce" />
+			<text id="cookstep_matildacake1" name="Mixing chocolate" />
+			<text id="cookstep_matildacake2" name="Baking cake" />
 			<text id="cookstep_blackforestcherrycake1" name="Mixing ingredients"  />
 			<text id="cookstep_blackforestcherrycake2" name="Baking cake"  />
 			<text id="cookstep_cheeseburger1" name="Searing minced meat"  />
@@ -1431,6 +1433,11 @@ Available for limited time only!"  />
 			<text id="preparestep_shakshuka_tomato" name="Chop tomatoes" />
 			<text id="preparestep_shakshuka_eggs" name="Crack eggs" />
 
+			<text id="preparestep_matildacake_chocolate" name="Melt lots of chocolate" />
+			<text id="preparestep_matildacake_flour" name="Levitate flour" />
+			<text id="preparestep_matildacake_cream" name="Toss cream in strongly" />
+			<text id="preparestep_matildacake_cocktailcherry" name="Add cherries" />
+
 			<text id="preparestep_bananasplit_cream" name="Whip cream"  />
 			<text id="preparestep_bananasplit_milk" name="Measure milk"  />
 			<text id="preparestep_bananasplit_sugar" name="Measure sugar"  />
@@ -1756,6 +1763,7 @@ Available for limited time only!"  />
 			<text id="preparestep_lechonkawali_rosemary" name="Chop rosemary" />
 			<text id="preparestep_sweetpizza_cinnamon" name="Sprinkle cinnamon" />
 			<text id="preparestep_shakshuka_parsley" name="Chop parsley" />
+			<text id="preparestep_matildacake_vanilla" name="Scrape out vanilla" />
 			<text id="preparestep_bananasplit_vanilla" name="Scrape out vanilla"  />
 			<text id="preparestep_blackforestcherrycake_vanilla" name="Scrape out vanilla"  />
 			<text id="preparestep_pizzasalad_chili" name="Chop chili" />
@@ -1887,6 +1895,7 @@ Available for limited time only!"  />
 			<text id="recipe_lechonkawali" name="Lechon Kawali" />
 			<text id="recipe_sweetpizza" name="Sweet Pizza" />
 			<text id="recipe_shakshuka" name="Shakshuka" />
+			<text id="recipe_matildacake" name="Matilda Cake" />
 			<text id="recipe_beefstew" name="Stew"  />
 			<text id="recipe_blackforestcherrycake" name="Black Forest Cake"  />
 			<text id="recipe_cheeseburger" name="Cheeseburger"  />

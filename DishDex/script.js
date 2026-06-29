@@ -64,10 +64,10 @@ let activeCoopGoldMasteryMemberIndex = null;
 let coopGoldMasterySearchTerm = '';
 let activeCoopManualAssignmentMemberSlot = null;
 
-const SPECIAL_DISH_KEYS = [
-  'Duckalorange',
-  'Orangejuice',
-  'Blackforestcherrycake'
+const SPECIAL_DISH_KEYS = [];
+const SPECIAL_INGREDIENT_KEYS = [
+  'Orange',
+  'Cocktailcherry'
 ];
 
 const HOLIDAY_DISH_KEYS = [
@@ -1219,12 +1219,14 @@ async function loadDishRecords(languageCode) {
   const ingredientNameByKey = buildIngredientNameMap(textNodes);
   const costById = {};
   const ingredientNameById = {};
+  const ingredientKeyById = {};
 
   ingredientNodes.forEach(node => {
     const id = getAttr(node, 'id');
     const ingredientKey = getAttr(node, 't');
     if (!id) return;
     costById[id] = Number(getAttr(node, 'cash') || 0);
+    ingredientKeyById[id] = ingredientKey;
     ingredientNameById[id] = ingredientNameByKey[ingredientKey.toLowerCase()] || prettyName(ingredientKey);
   });
 
@@ -1262,7 +1264,7 @@ async function loadDishRecords(languageCode) {
       categoryId,
       categoryName: getCategoryName(categoryId),
       requirements: formatRequirements(requirements, ingredientNameById),
-      dishType: getDishType(dishKey),
+      dishType: getDishType(dishKey, requirements, ingredientKeyById),
       imageUrl: PATHS.imageBase + dishKey + '.png'
     };
   });
@@ -4098,10 +4100,30 @@ function formatRequirements(requirements, ingredientNameById) {
   }).join(', ');
 }
 
-function getDishType(dishKey) {
+function normalizeItemKey(value) {
+  return String(value || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+}
+
+function getRequirementItemIds(requirements) {
+  if (!requirements) return [];
+  return String(requirements).split('#')
+    .map(part => String(part || '').split('+')[0])
+    .filter(Boolean);
+}
+
+function hasSpecialIngredient(requirements, ingredientKeyById) {
+  const specialKeys = SPECIAL_INGREDIENT_KEYS.map(normalizeItemKey);
+  return getRequirementItemIds(requirements).some(itemId => {
+    const ingredientKey = ingredientKeyById[String(itemId)] || '';
+    return specialKeys.includes(normalizeItemKey(ingredientKey));
+  });
+}
+
+function getDishType(dishKey, requirements, ingredientKeyById) {
   const key = String(dishKey || '').toLowerCase();
-  if (SPECIAL_DISH_KEYS.map(item => item.toLowerCase()).includes(key)) return 'Special';
   if (HOLIDAY_DISH_KEYS.map(item => item.toLowerCase()).includes(key)) return 'Holiday';
+  if (SPECIAL_DISH_KEYS.map(item => item.toLowerCase()).includes(key)) return 'Special';
+  if (hasSpecialIngredient(requirements, ingredientKeyById)) return 'Special';
   return 'Regular';
 }
 
@@ -4120,7 +4142,7 @@ function fullDishNameHtml(record) {
 
 function fullDishTypeTag(record) {
   const key = String(record?.dishKey || '').toLowerCase();
-  if (SPECIAL_DISH_KEYS.map(item => item.toLowerCase()).includes(key)) return t('fullTagSpecial');
+  if (record?.dishType === 'Special') return t('fullTagSpecial');
   if (key === 'christmasturkey') return t('fullTagChristmas');
   if (key === 'easterdish' || key === 'fruitpudding') return t('fullTagEaster');
   return '';
