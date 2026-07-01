@@ -156,7 +156,7 @@
   <text id="mastery" name="Stelle" />
   <text id="masteryTotalForGold" name="Totale: {0} piatti richiesti per l&apos;Oro" />
   <text id="masteryBookPage" name="Pagina" />
-  <text id="masteryCookbook" name="Cook Book (Legacy)" />
+  <text id="masteryCookbook" name="Ricettario (Legacy)" />
   <text id="masteryListHorizontal" name="Lista (lettura orizzontale)" />
   <text id="masteryListVertical" name="Lista (lettura verticale)" />
   <text id="masteryView" name="Visualizza" />
@@ -308,12 +308,12 @@
   <text id="xpUpper" name="XP" />
 
   <!-- DishDex profile/FashionDex additions -->
-  <text id="toFashionDex" name="To FashionDex" />
-  <text id="fashionDexDescription" name="Open Cappuccino Fashion FashionDex." />
-  <text id="profileLevelUnlocksTitle" name="Level {0} unlocks:" />
-  <text id="fridges" name="Fridges" />
-  <text id="counters" name="Counters" />
-  <text id="waiters" name="Waiters" />
-  <text id="instantCookings" name="Instant cookings" />
-  <text id="masteryCompletionProgress" name="Mastery completion progress:" />
+  <text id="toFashionDex" name="Vai al FashionDex" />
+  <text id="fashionDexDescription" name="Apri il FashionDex di Cappuccino Fashion" />
+  <text id="profileLevelUnlocksTitle" name="Il tuo livello {0} ti dà accesso a:" />
+  <text id="fridges" name="Frigoriferi" />
+  <text id="counters" name="Banchi" />
+  <text id="waiters" name="Camerieri" />
+  <text id="instantCookings" name="Instant cooking disp." />
+  <text id="masteryCompletionProgress" name="Progresso nell&apos;ottenimento delle stelle:" />
 </dishdex>
