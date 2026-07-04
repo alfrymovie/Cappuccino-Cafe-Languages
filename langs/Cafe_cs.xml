@@ -49,7 +49,7 @@
 		<text id="alert_clearstove_cancelButton" name="ponechat" />
 		<text id="alert_clearstove_okButton" name="odstranit" />
 		<text id="alert_clearstove_title" name="Na tomto pultu se právě servíruje jídlo. Chceš si ponechat jídlo?" />
-		<text id="alert_counter_outofreach_copy" name="Pult není dostupný. Skus něco přemístit!" />
+		<text id="alert_counter_outofreach_copy" name="Pult není dostupný. Zkus něco přemístit!" />
 		<text id="alert_counter_outofreach_title" name="Pozor!" />
 		<text id="alert_dekoshop_humanwaiter_copy" name="Dokud u tebe v kavárně pracují i jiní hráči, nemůžeš nic měnit v režimu Přestavba." />
 		<text id="alert_dekoshop_humanwaiter_title" name="Nejde to!" />
@@ -64,7 +64,7 @@
 		<text id="alert_guestchangepassword_copy" name="Heslo si může změnit jenom registrovaný hráč!" />
 		<text id="alert_guestchangepassword_title" name="nejdřív registrovat" />
 		<text id="alert_guestcoop_copy" name="Aby jsi mohl spolupracovat, musíš se nejdřív zaregistrovat!" />
-		<text id="alert_guestinvitefriend_copy" name="Jenom jako registrovaný hráč můžeš zvát další přítely." />
+		<text id="alert_guestinvitefriend_copy" name="Jenom jako registrovaný hráč můžeš zvát další přátele." />
 		<text id="alert_guestinvitefriend_title" name="nejdřív zaregistrovat" />
 		<text id="alert_guestlogout_copy" name="Zaregistruj se, aby byl uložen stav tvé hry!" />
 		<text id="alert_guestlogout_title" name="Registrovat" />
@@ -93,9 +93,9 @@
 		<text id="alert_marketplace_jobhired_copy" name="{0} přijal tvoji nabídku práce!" />
 		<text id="alert_marketplace_jobhired_title" name="práce přijata" />
 		<text id="alert_marketplace_job_copy" name="{0} (level {1}) ti nabídnul práci číšníka. Chceš nabídku přijmout?" />
-		<text id="alert_marketplace_job_title" name="Ponuka práce!" />
-		<text id="alert_marketplace_noticeboard_copy" name="Přihlaš se jako hledajíci práci, nebo jestli jsi tak už udělal, můžeš tady doplnit své pracovné povolení." />
-		<text id="alert_marketplace_noticeboard_title" name="pracovné povolení" />
+		<text id="alert_marketplace_job_title" name="Nabídka práce!" />
+		<text id="alert_marketplace_noticeboard_copy" name="Přihlaš se jako uchazeč o práci, nebo jestli jsi tak už udělal, můžeš tady doplnit své pracovné povolení." />
+		<text id="alert_marketplace_noticeboard_title" name="pracovní povolení" />
 		<text id="alert_marketplace_playerjobempty_copy" name="Hráč již dnes pracoval dost." />
 		<text id="alert_marketplace_playerjobempty_title" name="práce odmítnuta" />
 		<text id="alert_marketplace_playerleaved_copy" name="Hráč opustil trh." />
@@ -104,28 +104,28 @@
 		<text id="alert_nofreecounter_title" name="Ups!" />
 		<text id="alert_nofridge_copy" name="V kavárně ještě nemáš žádnou lednici. Rozhlídni se v režimu Přestavba a vyber si lednici do kavárny." />
 		<text id="alert_nofridge_title" name="Žádná lednice?" />
-		<text id="alert_nojobpermission_copy" name="Jestli se chceš přihlásit jako hledající práci, potřebuješ povolení k práci!" />
+		<text id="alert_nojobpermission_copy" name="Jestli se chceš přihlásit jako uchazeč o práci, potřebuješ povolení k práci!" />
 		<text id="alert_nojobpermission_title" name="Pozor!" />
-		<text id="alert_register_agb_copy" name="Bez Všeobecných obchodních podmínek to nejde. Jednoducho přečíst a potvrdit tlačítkem vlevo! Pak můžeš začít." />
+		<text id="alert_register_agb_copy" name="Bez Všeobecných obchodních podmínek to nejde. Jednoduše přečíst a potvrdit tlačítkem vlevo! Pak můžeš začít." />
 		<text id="alert_register_email_copy" name="E-mailová adresa nesmí být prázdná a nesmí obsahovat zvláštní znaky." />
 		<text id="alert_register_password_copy" name="Heslo nesmí být prázdné a nesmí obsahovat zvláštní znaky." />
 		<text id="alert_register_title" name="chyba v registraci" />
-		<text id="alert_seekingjob_copy" name="Aby si mohl pracovat, musíš se nejdřív zaregistrovat." />
+		<text id="alert_seekingjob_copy" name="Abys mohl pracovat, musíš se nejdřív zaregistrovat." />
 		<text id="alert_seekingjob_title" name="registrovat" />
 		<text id="alert_selldeco_copy" name="Opravdu chceš tento předmět prodat za {0}?" />
 		<text id="alert_selldeco_title" name="Prodat?" />
 		<text id="alert_sellitem_copy" name="Opravdu chceš tento předmět prodat za {0}?" />
 		<text id="alert_sellitem_title" name="Prodat?" />
-		<text id="alert_smoothiemaker_full_copy" name="Ve Tvém Frosty jsou ještě drinky! Podávej je hostům, pak můžeš namíchat nové!" />
-		<text id="alert_smoothiemaker_outofreach_copy" name="Tvůj Frosty není k dispozici. Zkus něco přestavět!" />
-		<text id="alert_smoothiemaker_storage_copy" name="Ve Tvém Frosty jsou ještě drinky! Jestli ho uskladníš, zbylé porce zmizí!" />
+		<text id="alert_smoothiemaker_full_copy" name="Ve Tvém výrobníku ledové tříště jsou ještě drinky! Podávej je hostům, pak můžeš namíchat nové!" />
+		<text id="alert_smoothiemaker_outofreach_copy" name="Tvůj výrobník ledové tříště není k dispozici. Zkus něco přestavět!" />
+		<text id="alert_smoothiemaker_storage_copy" name="Ve Tvém výrobníku ledové tříště jsou ještě drinky! Jestli ho uskladníš, zbylé porce zmizí!" />
 		<text id="alert_stafffire_copy" name="Chceš svého věrného číšníka opravdu propustit?" />
 		<text id="alert_stafffire_title" name="Propustit číšníka?" />
 		<text id="alert_staffhire_copy" name="Dej svému novému číšníkovi jméno." />
 		<text id="alert_staffhire_title" name="nově přijmout" />
 		<text id="alert_storefull_copy" name="Tvá lednice je plná! Aby jsi měl opět místo, musíš prodat přísady!" />
 		<text id="alert_storefull_title" name="Plná lednice!" />
-		<text id="alert_stove_outofreach_copy" name="Sporák není dostupný. Skus něco přemístit!" />
+		<text id="alert_stove_outofreach_copy" name="Sporák není dostupný. Zkus něco přemístit!" />
 		<text id="alert_stove_outofreach_title" name="Pozor!" />
 		<text id="alert_unlockitem_copy" name="Nech si tuto přísadu poslat kurýrem! Něco to ale stojí." />
 		<text id="alert_unlockitem_title" name="Doručit kurýrem?" />
@@ -159,96 +159,96 @@
 		<text id="xp" name="XP" />
 	</commons>
 	<cookstep>
-		<text id="cookstep_bananasplit1" name="ochladit zmrzlinu" />
-		<text id="cookstep_bananasplit2" name="krájet banány" />
-		<text id="cookstep_brigadeiro1" name="Melting chocolate" />
-		<text id="cookstep_brigadeiro2" name="Shaping brigadeiros" />
-		<text id="cookstep_blackforestcherrycake1" name="míchat přísady" />
-		<text id="cookstep_blackforestcherrycake2" name="upéct koláč" />
-		<text id="cookstep_pizzasalad1" name="Making pizzas" />
-		<text id="cookstep_pizzasalad2" name="Making salads" />
-		<text id="cookstep_tripleomelette1" name="Mixing eggs strongly" />
-		<text id="cookstep_tripleomelette2" name="Folding everything" />
-		<text id="cookstep_chocolatewaffles1" name="Melting chocolate" />
-		<text id="cookstep_chocolatewaffles2" name="Covering waffles" />
-		<text id="cookstep_spanishomelette1" name="Mixing huevos" />
-		<text id="cookstep_spanishomelette2" name="Making the omelette bonito" />
-		<text id="cookstep_sausagepasta1" name="Boiling pasta" />
-		<text id="cookstep_sausagepasta2" name="Frying sausages" />
-		<text id="cookstep_applepie1" name="Building pies" />
-		<text id="cookstep_applepie2" name="Baking pies" />
-		<text id="cookstep_ramen1" name="Boiling pasta" />
-		<text id="cookstep_ramen2" name="Adding spices" />
-		<text id="cookstep_corncake1" name="Mixing ingredients" />
-		<text id="cookstep_corncake2" name="Baking cakes" />
-		<text id="cookstep_feijoada1" name="Prepping pork cuts" />
-		<text id="cookstep_feijoada2" name="Manifesting orange slices" />
-		<text id="cookstep_pinapjuice1" name="Squeezing pineapples" />
-		<text id="cookstep_pinapjuice2" name="Blending juice" />
-		<text id="cookstep_orangejuice1" name="Squeezing oranges" />
-		<text id="cookstep_orangejuice2" name="Blending juice" />
-		<text id="cookstep_discodrinks1" name="Mixing fruits" />
-		<text id="cookstep_discodrinks2" name="Pouring drinks" />
-		<text id="cookstep_applejuice1" name="Squeezing apples" />
-		<text id="cookstep_applejuice2" name="Blending juice" />
-		<text id="cookstep_rjuice1" name="Squeezing rhubarb" />
-		<text id="cookstep_rjuice2" name="Blending juice" />
-		<text id="cookstep_cherryjuice1" name="Pitting cherries" />
-		<text id="cookstep_cherryjuice2" name="Blending juice" />
-		<text id="cookstep_strawberryjuice1" name="Mashing strawberries" />
-		<text id="cookstep_strawberryjuice2" name="Blending juice" />
-		<text id="cookstep_cappuccino1" name="Brewing espresso" />
-		<text id="cookstep_cappuccino2" name="Frothing milk" />
-		<text id="cookstep_duckalcitrus1" name="Roasting duck" />
-		<text id="cookstep_duckalcitrus2" name="Adding citrus glaze" />
-		<text id="cookstep_ducktatters1" name="Frying ingredients" />
-		<text id="cookstep_ducktatters2" name="Mixing dish" />
-		<text id="cookstep_langos1" name="Making sauce" />
-		<text id="cookstep_langos2" name="Cooling sauce" />
-		<text id="cookstep_nasilemak1" name="Cooking rice" />
-		<text id="cookstep_nasilemak2" name="Plating dish" />
-		<text id="cookstep_citrusjuice1" name="Squeezing citrus" />
-		<text id="cookstep_citrusjuice2" name="Blending juice" />
-		<text id="cookstep_carrotcake1" name="Mixing batter" />
-		<text id="cookstep_carrotcake2" name="Baking cake" />
-		<text id="cookstep_carrotjuice1" name="Blending carrots" />
-		<text id="cookstep_carrotjuice2" name="Pouring juice" />
-		<text id="cookstep_francesinha1" name="Building sandwich" />
-		<text id="cookstep_francesinha2" name="Melting cheese" />
-		<text id="cookstep_dorayaki1" name="Prepping filling" />
-		<text id="cookstep_dorayaki2" name="Letting it cool" />
-		<text id="cookstep_tiramisu1" name="Layering dessert" />
-		<text id="cookstep_tiramisu2" name="Chilling tiramisu" />
-		<text id="cookstep_pridecupcakes1" name="Mixing batter" />
-		<text id="cookstep_pridecupcakes2" name="Decorating" />
-		<text id="cookstep_ratatouille1" name="Prepping vegetables" />
-		<text id="cookstep_ratatouille2" name="Stacking" />
-		<text id="cookstep_hotcherryricepudding1" name="Cooking rice" />
-		<text id="cookstep_hotcherryricepudding2" name="Adding cherries" />
-		<text id="cookstep_coconutcake1" name="Mixing ingredients" />
-		<text id="cookstep_coconutcake2" name="Baking cake" />
-		<text id="cookstep_paodequeijo1" name="Shaping dough" />
-		<text id="cookstep_paodequeijo2" name="Baking bread" />
-		<text id="cookstep_baiaodedois1" name="Mixing rice and beans" />
-		<text id="cookstep_baiaodedois2" name="Adding crispy bacon" />
-		<text id="cookstep_bakedalaska1" name="Cooling cream" />
-		<text id="cookstep_bakedalaska2" name="Browning meringue" />
-		<text id="cookstep_butterchicken1" name="Boiling sauce" />
-		<text id="cookstep_butterchicken2" name="Simmering curry sauce" />
-		<text id="cookstep_chickenbiryani1" name="Mixing spices" />
-		<text id="cookstep_chickenbiryani2" name="Spicing rice" />
+		<text id="cookstep_bananasplit1" name="Mražení zmrzliny" />
+		<text id="cookstep_bananasplit2" name="Krájení banánů" />
+		<text id="cookstep_brigadeiro1" name="Rozpouštění čokolády" />
+		<text id="cookstep_brigadeiro2" name="Tvarování brigadeirů" />
+		<text id="cookstep_blackforestcherrycake1" name="Míchání přísad" />
+		<text id="cookstep_blackforestcherrycake2" name="Pečení koláče" />
+		<text id="cookstep_pizzasalad1" name="Příprava pizzy" />
+		<text id="cookstep_pizzasalad2" name="Příprava salátu" />
+		<text id="cookstep_tripleomelette1" name="Šlehání vajec" />
+		<text id="cookstep_tripleomelette2" name="Vmíchávání ingrediencí" />
+		<text id="cookstep_chocolatewaffles1" name="Rozpouštění čokolády" />
+		<text id="cookstep_chocolatewaffles2" name="Zdobení Vaflí" />
+		<text id="cookstep_spanishomelette1" name="Šlehání vajec" />
+		<text id="cookstep_spanishomelette2" name="Aranžování omelety" />
+		<text id="cookstep_sausagepasta1" name="Vaření špaget" />
+		<text id="cookstep_sausagepasta2" name="Smažení párků" />
+		<text id="cookstep_applepie1" name="Příprava koláče" />
+		<text id="cookstep_applepie2" name="Pečení koláče" />
+		<text id="cookstep_ramen1" name="Vaření špaget" />
+		<text id="cookstep_ramen2" name="Přidávání koření" />
+		<text id="cookstep_corncake1" name="Míchání ingrediencí" />
+		<text id="cookstep_corncake2" name="Pečení dortu" />
+		<text id="cookstep_feijoada1" name="Krájení vepřového masa" />
+		<text id="cookstep_feijoada2" name="Zdobení plátky pomeranče" />
+		<text id="cookstep_pinapjuice1" name="Odšťavňování ananasu" />
+		<text id="cookstep_pinapjuice2" name="Míchání džusu" />
+		<text id="cookstep_orangejuice1" name="Odšťavňování pomerančů" />
+		<text id="cookstep_orangejuice2" name="Míchání džusu" />
+		<text id="cookstep_discodrinks1" name="Mixování ovoce" />
+		<text id="cookstep_discodrinks2" name="Nalévání drinků" />
+		<text id="cookstep_applejuice1" name="Odšťavňování jablek" />
+		<text id="cookstep_applejuice2" name="Míchání džusu" />
+		<text id="cookstep_rjuice1" name="Odšťavňování rebarbory" />
+		<text id="cookstep_rjuice2" name="Míchání džusu" />
+		<text id="cookstep_cherryjuice1" name="Vypeckovávání třešní" />
+		<text id="cookstep_cherryjuice2" name="Míchání džusu" />
+		<text id="cookstep_strawberryjuice1" name="Rozmačkávání jahod" />
+		<text id="cookstep_strawberryjuice2" name="Míchání džusu" />
+		<text id="cookstep_cappuccino1" name="Vaření espressa" />
+		<text id="cookstep_cappuccino2" name="Napěňování mléka" />
+		<text id="cookstep_duckalcitrus1" name="Pečení kachny" />
+		<text id="cookstep_duckalcitrus2" name="Potírání citrusovou glazurou" />
+		<text id="cookstep_ducktatters1" name="Opékání ingrediencí" />
+		<text id="cookstep_ducktatters2" name="Promíchání pokrmu" />
+		<text id="cookstep_langos1" name="Příprava omáčky" />
+		<text id="cookstep_langos2" name="Chlazení omáčky" />
+		<text id="cookstep_nasilemak1" name="Vaření rýže" />
+		<text id="cookstep_nasilemak2" name="Servírování" />
+		<text id="cookstep_citrusjuice1" name="Odšťavňování citrusů" />
+		<text id="cookstep_citrusjuice2" name="Míchání džusu" />
+		<text id="cookstep_carrotcake1" name="Míchání těsta" />
+		<text id="cookstep_carrotcake2" name="Pečení dortu" />
+		<text id="cookstep_carrotjuice1" name="Odšťavňování mrkve" />
+		<text id="cookstep_carrotjuice2" name="Nalévání džusu" />
+		<text id="cookstep_francesinha1" name="Příprava sendviče" />
+		<text id="cookstep_francesinha2" name="Rozpouštění sýra" />
+		<text id="cookstep_dorayaki1" name="Příprava náplně" />
+		<text id="cookstep_dorayaki2" name="Chlazení náplně" />
+		<text id="cookstep_tiramisu1" name="Vrstvení těsta a náplně" />
+		<text id="cookstep_tiramisu2" name="Nechávání tiramisu odležet" />
+		<text id="cookstep_pridecupcakes1" name="Míchání těsta" />
+		<text id="cookstep_pridecupcakes2" name="Zdobení" />
+		<text id="cookstep_ratatouille1" name="Krájení zeleniny" />
+		<text id="cookstep_ratatouille2" name="Vrstvení zeleniny" />
+		<text id="cookstep_hotcherryricepudding1" name="Vaření rýže" />
+		<text id="cookstep_hotcherryricepudding2" name="Přidávání třešničky" />
+		<text id="cookstep_coconutcake1" name="Míchání ingrediencí" />
+		<text id="cookstep_coconutcake2" name="Pečení dortu" />
+		<text id="cookstep_paodequeijo1" name="Tvarování těsta" />
+		<text id="cookstep_paodequeijo2" name="Pečení chleba" />
+		<text id="cookstep_baiaodedois1" name="Smíchání rýže a fazolí" />
+		<text id="cookstep_baiaodedois2" name="Přidání křupavé slaniny" />
+		<text id="cookstep_bakedalaska1" name="Chlazení krému" />
+		<text id="cookstep_bakedalaska2" name="Zapékání sněhové hmoty" />
+		<text id="cookstep_butterchicken1" name="Vaření omáčky" />
+		<text id="cookstep_butterchicken2" name="Pozvolné vaření kari omáčky" />
+		<text id="cookstep_chickenbiryani1" name="Vmíchání koření" />
+		<text id="cookstep_chickenbiryani2" name="Ochucování rýže" />
 		<text id="cookstep_cottagepotatoes1" name="Preparing potatoes" />
 		<text id="cookstep_cottagepotatoes2" name="Spreading cottage" />
 		<text id="cookstep_cuzcuzcomovo1" name="Steaming cornmeal" />
 		<text id="cookstep_cuzcuzcomovo2" name="Frying eggs" />
 		<text id="cookstep_malaichickennaan1" name="Prepping batter" />
 		<text id="cookstep_malaichickennaan2" name="Folding naan" />
-		<text id="cookstep_veganplate1" name="Cooking rice" />
+		<text id="cookstep_veganplate1" name="Vaření rýže" />
 		<text id="cookstep_veganplate2" name="Spreading rice" />
 		<text id="cookstep_neapolitancake1" name="Melting ingredients" />
-		<text id="cookstep_neapolitancake2" name="Baking cake" />
-		<text id="cookstep_strawberrycheesecake1" name="Mixing ingredients" />
-		<text id="cookstep_strawberrycheesecake2" name="Baking cake" />
+		<text id="cookstep_neapolitancake2" name="Pečení dortu" />
+		<text id="cookstep_strawberrycheesecake1" name="Míchání ingrediencí" />
+		<text id="cookstep_strawberrycheesecake2" name="Pečení dortu" />
 		<text id="cookstep_combomeal1" name="Frying burger meat" />
 		<text id="cookstep_combomeal2" name="Frying fries somehow" />
 		<text id="cookstep_zcordonbleu1" name="Preparing chicken" />
@@ -262,7 +262,7 @@
 		<text id="cookstep_shakshuka1" name="Melting tomatoes" />
 		<text id="cookstep_shakshuka2" name="Simmering sauce" />
 		<text id="cookstep_matildacake1" name="Mixing chocolate" />
-		<text id="cookstep_matildacake2" name="Baking cake" />
+		<text id="cookstep_matildacake2" name="Pečení dortu" />
 		<text id="cookstep_cheeseburger1" name="opéct sekanou" />
 		<text id="cookstep_cheeseburger2" name="obložit burger" />
 		<text id="cookstep_cheesedish1" name="nachystat sýr" />
@@ -411,7 +411,7 @@
 		<text id="cookstep_whitechoccheesecake2" name="upéct koláč" />
 		<text id="cookstep_whitechocmousse1" name="rozpustit čokoládu" />
 		<text id="cookstep_whitechocmousse2" name="vychladit pěnu" />
-		<text id="cookstep_coxinha1" name="Mixing ingredients" />
+		<text id="cookstep_coxinha1" name="Míchání ingrediencí" />
 		<text id="cookstep_coxinha2" name="Frying coxinhas" />
 	</cookstep>
 	<coopmission>
@@ -883,7 +883,7 @@
 		<text id="lostpassword_errorcode_1" name="chyba" />
 		<text id="lostpassword_errorcode_11" name="Pod touto adresou není registrován žádný uživatel!" />
 		<text id="marketplace_error" name="trh" />
-		<text id="marketplace_errorcode_20" name="Trh je bohužel plný, skus to ještě jednou později." />
+		<text id="marketplace_errorcode_20" name="Trh je bohužel plný, zkus to ještě jednou později." />
 		<text id="marketplace_errorcode_21" name="Již jsi na trhu." />
 		<text id="npcfire_errorcode_1" name="Tvůj číšník nemůže dostat výpověď." />
 		<text id="npchire_errorcode_1" name="Nový číšník nemůže být přijat." />
@@ -975,7 +975,7 @@
 		<text id="limitedfeatureDialog_title" name="Dávej pozor!" />
 	</feature>
 	<feeds>
-		<text id="descriptionfeedcafe" name="Právě jsem nainstaloval Cappuccino Café. Chceš si taky otevřít vlastní kavárnu a vařit chutné jídla? Tak to skus!" />
+		<text id="descriptionfeedcafe" name="Právě jsem nainstaloval Cappuccino Café. Chceš si taky otevřít vlastní kavárnu a vařit chutné jídla? Tak to zkus!" />
 		<text id="descriptionlongcafe" name="Hra Cappuccino Café je žhavá novinka od Cappuccino. Otevři vlastní kavárnu a a nadchni hosty svím kuchřským uměním. Sám rozhodni, jaké jídla budou na tvém jídelním lístku a nakupuj čerstvé přísady pro tvé recepty. Zaměstnej své kamarády jako číšníky a udělej ze své kavárny nejvyhlášenější místo setkání ve městě." />
 	</feeds>
 	<ingame_tooltips>
@@ -1432,7 +1432,7 @@
 		<text id="preparestep_macncheese_pasta" name="uvařit nudle" />
 		<text id="preparestep_maplepancakes_eggs" name="oddělit žloutek od bílku" />
 		<text id="preparestep_maplepancakes_flour" name="prosít mouku" />
-		<text id="preparestep_maplepancakes_maple" name="skusit javorový sirup" />
+		<text id="preparestep_maplepancakes_maple" name="zkusit javorový sirup" />
 		<text id="preparestep_maplepancakes_milk" name="odměřit mléko" />
 		<text id="preparestep_marblecake_butter" name="rozpustit máslo" />
 		<text id="preparestep_marblecake_chocolate" name="rozpustit čokoládu" />
