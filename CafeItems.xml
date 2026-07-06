@@ -679,6 +679,7 @@
 
 <wod id="1210" n="Basic" g="Dish" t="Mexicansalad" events="0" xp="232" incomePerServing="3" servings="260" duration="120" level="7" dishcategory="3" requirements="1303+1#1326+1#1318+1#1301+1#1402+1" />
 <wod id="2226" n="Basic" g="Dish" t="Ramen" events="0" xp="806" incomePerServing="2" servings="617" duration="480" level="7" dishcategory="2" requirements="1319+1#1311+1#1301+1#1402+1" />
+<wod id="2266" n="Basic" g="Dish" t="Birthdaycake" events="0" xp="1182" incomePerServing="2" servings="975" duration="777" level="7" dishcategory="0" requirements="1308+2#1307+1#1312+1#1311+1#1408+1" />
 
 <wod id="1211" n="Basic" g="Dish" t="Stuffedpeppers" events="0" xp="1287" incomePerServing="1" servings="1950" duration="900" level="8" dishcategory="4" requirements="1311+1#1324+1#1302+1#1406+1" />
 
@@ -1003,8 +1004,8 @@
 
 <wod id="2201" n="Smoothie" g="Fastfood" t="Tomatojuice" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="5" level="0" incomePerServing="1" servings="10" color="D83600" ratingBonus="20" />
 <wod id="2202" n="Smoothie" g="Fastfood" t="Greensmoothie" cash="2500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="8" level="0" incomePerServing="2" servings="60" color="B1CC28" ratingBonus="40" />
-<wod id="2203" n="Smoothie" g="Fastfood" t="Kiba" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="12" level="0" incomePerServing="3" servings="200" color="E65C8A" ratingBonus="60" />
-<wod id="2204" n="Smoothie" g="Fastfood" t="Pinacolada" cash="0" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="20" level="0" incomePerServing="4" servings="400" color="EBA600" ratingBonus="80" />
+<wod id="2203" n="Smoothie" g="Fastfood" t="Kiba" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="12" level="0" incomePerServing="3" servings="400" color="E65C8A" ratingBonus="60" />
+<wod id="2204" n="Smoothie" g="Fastfood" t="Pinacolada" cash="0" gold="2" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="20" level="0" incomePerServing="4" servings="800" color="EBA600" ratingBonus="80" />
 <wod id="6000" n="Smoothie" g="Fastfood" t="Defensepotion" cash="1300" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="6" level="0" incomePerServing="1" servings="20" color="03FCEC" ratingBonus="24" />
 <wod id="6001" n="Smoothie" g="Fastfood" t="Milk" cash="1600" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="6" level="0" incomePerServing="1" servings="30" color="FDFFF5" ratingBonus="28" />
 <wod id="6002" n="Smoothie" g="Fastfood" t="Soymilk" cash="1900" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="7" level="0" incomePerServing="2" servings="40" color="D5D2C7" ratingBonus="32" />
@@ -1013,4 +1014,12 @@
 <wod id="6005" n="Smoothie" g="Fastfood" t="Acai" cash="3100" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="10" level="0" incomePerServing="2" servings="80" color="48335E" ratingBonus="48" />
 <wod id="6006" n="Smoothie" g="Fastfood" t="Orangesoda" cash="3400" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="10" level="0" incomePerServing="3" servings="90" color="FF5F17" ratingBonus="52" />
 <wod id="6007" n="Smoothie" g="Fastfood" t="Guarana" cash="3700" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="11" level="0" incomePerServing="3" servings="100" color="CD853F" ratingBonus="56" />
+<wod id="6008" n="Smoothie" g="Fastfood" t="Swimmingpool" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="10" level="0" incomePerServing="2" servings="460" color="1A9B7F" ratingBonus="52" />
+<wod id="6009" n="Smoothie" g="Fastfood" t="Caipirinha" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="15" level="0" incomePerServing="3" servings="340" color="B3B590" ratingBonus="54" />
+<wod id="6010" n="Smoothie" g="Fastfood" t="Pinklady" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="12" level="0" incomePerServing="4" servings="280" color="E08EA8" ratingBonus="58" />
+<wod id="6011" n="Smoothie" g="Fastfood" t="Mojito" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="14" level="0" incomePerServing="3" servings="260" color="EAEDDC" ratingBonus="64" />
+<wod id="6012" n="Smoothie" g="Fastfood" t="Grasshopper" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="10" level="0" incomePerServing="4" servings="300" color="57AC71" ratingBonus="66" />
+<wod id="6013" n="Smoothie" g="Fastfood" t="Longisland" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="13" level="0" incomePerServing="2" servings="390" color="7C2D0E" ratingBonus="56" />
+<wod id="6014" n="Smoothie" g="Fastfood" t="Maitai" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="11" level="0" incomePerServing="3" servings="370" color="D28F1A" ratingBonus="68" />
+<wod id="6015" n="Smoothie" g="Fastfood" t="Whiterussian" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="13" level="0" incomePerServing="3" servings="320" color="EFF0E6" ratingBonus="62" />
 </wodIds>
