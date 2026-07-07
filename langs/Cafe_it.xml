@@ -613,7 +613,7 @@
 		<text id="dialogwin_coop_timeleft" name="Tempo rimanente:" />
 		<text id="dialogwin_coop_txt_noactive" name="Al momento non ci sono Co-Op attivi.\nCominciane uno!" />
 		<text id="dialogwin_coop_txt_title" name="CO-OP" />
-		<text id="dialogwin_decoshophelp_copy" name="Se trascini i tuoi mobili/decorazioni nel catalogo, e NON sulla cassa, questi saranno immagazzinati.\nQuando li vorrai risistemare, non ti costeranno nulla.\nL&apos;adesivo rosso, affianco ciascun oggetto, ne mostra la quantità nel magazzino." />
+		<text id="dialogwin_decoshophelp_copy" name="Se trascini i tuoi mobili/decorazioni nel catalogo, e NON sulla cassa, questi saranno immagazzinati.\nQuando li vorrai risistemare, non ti costeranno nulla.\nL&apos;adesivo rosso, al fianco di ciascun oggetto, ne mostra la quantità nel magazzino." />
 		<text id="dialogwin_decoshophelp_copy_1" name="Ad ogni oggetto è associato una quantità di Punti-lusso, e posizionandoli ne incrementerai il totale. Quanto bello è il tuo locale?" />
 		<text id="dialogwin_decoshophelp_title" name="Come immagazzino un oggetto?" />
 		<text id="dialogwin_decoshophelp_title_1" name="Cosa sono i Punti-lusso?" />
@@ -911,7 +911,7 @@
 		<text id="waiter_name_invalide" name="Questo nome per il cameriere non è permesso." />
 	</error_codes>
 	<feature>
-		<text id="featureDialog_0_text_0" name="Nuove decorazione per rendere il tuo Café ancora più bello!" />
+		<text id="featureDialog_0_text_0" name="Nuove decorazioni per rendere il tuo Café ancora più bello!" />
 		<text id="featureDialog_0_text_0_sozial" name="Ottieni ricompense speciali per il tuo duro lavoro!" />
 		<text id="featureDialog_0_text_1" name="Il tuo lavoro viene ricompensato con Cafédollar, XP o Gold!" />
 		<text id="featureDialog_0_text_1_sozial" name="Nel negozio ci sono nuove decorazioni!" />
