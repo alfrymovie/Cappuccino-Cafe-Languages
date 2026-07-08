@@ -119,7 +119,7 @@
 		<text id="alert_smoothiemaker_full_copy" name="Ci sono ancora drink nel tuo frosty! Servili ai clienti, poi potrai mixare qualcos&apos;altro!" />
 		<text id="alert_smoothiemaker_outofreach_copy" name="Non riesci a raggiungere il tuo frosty! Prova a spostare qualcosa!" />
 		<text id="alert_smoothiemaker_storage_copy" name="Ci sono ancora drink nel tuo frosty! Se lo metti via i drink rimasti andranno persi!" />
-		<text id="alert_stafffire_copy" name="Vuoi davvero licenziare il tuo cameriere? Con l&apos;economia che c&apos;è oggi??" />
+		<text id="alert_stafffire_copy" name="Vuoi davvero licenziare il tuo cameriere? Con l&apos;economia che c&apos;è oggi?" />
 		<text id="alert_stafffire_title" name="Confermare?" />
 		<text id="alert_staffhire_copy" name="Dai un bel nome al tuo cameriere." />
 		<text id="alert_staffhire_title" name="Assumi" />
@@ -129,7 +129,7 @@
 		<text id="alert_stove_outofreach_title" name="Attenzione!" />
 		<text id="alert_unlockitem_copy" name="Fatti portare l&apos;ingrediente dal corriere espresso. L&apos;esclusività ha però un costo." />
 		<text id="alert_unlockitem_title" name="Consegna via corriere?" />
-		<text id="alert_userkicked_copy" name="Ti hanno cacciato dal Café... che modi!" />
+		<text id="alert_userkicked_copy" name="Ti hanno cacciato dal Café... ma che modi!" />
 		<text id="alert_userkicked_title" name="Fuori!" />
 		<text id="alert_workinghero_copy" name="Lo Chef è ancora all&apos;opera!" />
 		<text id="alert_workinghero_title" name="Un attimo!" />
@@ -263,8 +263,8 @@
 		<text id="cookstep_shakshuka2" name="Sobbollendo la salsa" />
 		<text id="cookstep_matildacake1" name="Mescolando il cioccolato" />
 		<text id="cookstep_matildacake2" name="Infornando la torta" />
-		<text id="cookstep_birthdaycake1" name="Singing happy birthday" />
-		<text id="cookstep_birthdaycake2" name="Frosting cake" />
+		<text id="cookstep_birthdaycake1" name="Cantando il tanti auguri" />
+		<text id="cookstep_birthdaycake2" name="Glassando la torta" />
 		<text id="cookstep_cheeseburger1" name="Rosolando il macinato" />
 		<text id="cookstep_cheeseburger2" name="Farcendo l&apos;hamburger" />
 		<text id="cookstep_cheesedish1" name="Disponendo il formaggio" />
@@ -613,10 +613,10 @@
 		<text id="dialogwin_coop_timeleft" name="Tempo rimanente:" />
 		<text id="dialogwin_coop_txt_noactive" name="Al momento non ci sono Co-Op attivi.\nCominciane uno!" />
 		<text id="dialogwin_coop_txt_title" name="CO-OP" />
-		<text id="dialogwin_decoshophelp_copy" name="Se trascini i tuoi mobili e decorazioni in questo pannello, e NON sulla cassa, saranno immagazzinati.\nQuando li risistemi nel tuo Café non ti costeranno nulla.\nL&apos;adesivo rosso mostra quanti pezzi hai di questo oggetto." />
-		<text id="dialogwin_decoshophelp_copy_1" name="I mobili e le decorazioni incrementano i punti-lusso del tuo Café! Quanto figo è il tuo locale?" />
-		<text id="dialogwin_decoshophelp_title" name="Immagazzinare mobile/decorazione?" />
-		<text id="dialogwin_decoshophelp_title_1" name="Punti-lusso?" />
+		<text id="dialogwin_decoshophelp_copy" name="Se trascini i tuoi mobili/decorazioni nel catalogo, e NON sulla cassa, questi saranno immagazzinati.\nQuando li vorrai risistemare, non ti costeranno nulla.\nL&apos;adesivo rosso, al fianco di ciascun oggetto, ne mostra la quantità nel magazzino." />
+		<text id="dialogwin_decoshophelp_copy_1" name="Ad ogni oggetto che posizioni è associato una quantità di Punti-lusso. Poniti questa domanda: quanto bello è il mio locale?" />
+		<text id="dialogwin_decoshophelp_title" name="Come immagazzino un oggetto?" />
+		<text id="dialogwin_decoshophelp_title_1" name="Cosa sono i Punti-lusso?" />
 		<text id="dialogwin_dishmastery_copy_0" name="Hai ottenuto una stella per {0}!" />
 		<text id="dialogwin_dishmastery_copy_1" name="Offri ai tuoi amici un paio di porzioni extra!" />
 		<text id="dialogwin_dishmastery_info" name="Ogni stella conferisce nuovi vantaggi ai tuoi piatti!" />
@@ -664,9 +664,9 @@
 		<text id="dialogwin_ingamehelp_3_2" name="Ricevi punti esperienza quando servi i piatti pronti, ma puoi ottenere XP anche lavorando come cameriere in altri ristoranti, realizzando Co-Op, ottenendo trofei o servendo bevande." />
 		<text id="dialogwin_ingamehelp_3_3" name="La popolarità del tuo locale stabilisce quanti clienti verranno da te. La tua popolarità sale se i clienti sono soddisfatti quando lasciano il tuo Café, e scende se sono insoddisfatti. I tuoi clienti sono soddifsatti quando possono mangiare qualcosa." />
 		<text id="dialogwin_ingamehelp_3_4" name="Puoi guadagnare Cafédollar innanzitutto con i piatti che vendi. Ma anche lavorando come cameriere in altri ristoranti, realizzando Co-Op o ottenendo trofei." />
-		<text id="dialogwin_ingamehelp_3_5" name="Ogni oggetto ha un punteggio lusso, che influisce sulla tua popolarità: più lussuoso è il tuo locale più sarà amato..." />
+		<text id="dialogwin_ingamehelp_3_5" name="Ogni oggetto ha un punteggio lusso che influisce sulla popolarità del tuo Café: più lussuoso è il tuo locale, più sarà apprezzato dai clienti!" />
 		<text id="dialogwin_ingamehelp_3_6" name="Nel menu &quot;Ristruttura&quot; troverai fornelli, banchi, tavoli e molti altri oggetti. Sii creativo!" />
-		<text id="dialogwin_ingamehelp_3_7" name="Se il locale diventa troppo piccolo puoi anche espanderlo ed avere più spazio per i tuoi clienti." />
+		<text id="dialogwin_ingamehelp_3_7" name="Se il tuo locale diventa troppo piccolo puoi anche espanderlo ed avere più spazio per i tuoi clienti." />
 		<text id="dialogwin_ingamehelp_4_1" name="Cos&apos;altro dovrei sapere?" />
 		<text id="dialogwin_ingamehelp_4_2" name="Al Mercato puoi conoscere altri giocatori, cercare lavoro o chattare." />
 		<text id="dialogwin_ingamehelp_4_3" name="Otterrai trofei per diversi tipi di attività e potrai così guadagnare XP e Cafédollar extra." />
@@ -911,7 +911,7 @@
 		<text id="waiter_name_invalide" name="Questo nome per il cameriere non è permesso." />
 	</error_codes>
 	<feature>
-		<text id="featureDialog_0_text_0" name="Nuove decorazione per rendere il tuo Café ancora più figo!" />
+		<text id="featureDialog_0_text_0" name="Nuove decorazioni per rendere il tuo Café ancora più bello!" />
 		<text id="featureDialog_0_text_0_sozial" name="Ottieni ricompense speciali per il tuo duro lavoro!" />
 		<text id="featureDialog_0_text_1" name="Il tuo lavoro viene ricompensato con Cafédollar, XP o Gold!" />
 		<text id="featureDialog_0_text_1_sozial" name="Nel negozio ci sono nuove decorazioni!" />
@@ -1139,7 +1139,7 @@
 		<text id="preparestep_applepie_cream" name="Monta la panna" />
 		<text id="preparestep_applepie_eggs" name="Rompi le uova con eleganza" />
 		<text id="preparestep_applepie_flour" name="Pesa la farina" />
-		<text id="preparestep_applepie_apple" name="Concentrati sull&apos;economia agricola" />
+		<text id="preparestep_applepie_apple" name="Pensa all&apos;economia agricola" />
 		<text id="preparestep_applepie_cinnamon" name="Aggiungi la cannella" />
 		<text id="preparestep_ramen_pasta" name="Fai bollire la pasta" />
 		<text id="preparestep_ramen_eggs" name="Fai bollire le uova" />
@@ -1321,10 +1321,10 @@
 		<text id="preparestep_matildacake_flour" name="Lievita la farina" />
 		<text id="preparestep_matildacake_cream" name="Buttaci dentro la crema" />
 		<text id="preparestep_matildacake_cocktailcherry" name="Aggiungi le ciliegie" />
-		<text id="preparestep_birthdaycake_chocolate" name="Melt chocolate happily" />
-		<text id="preparestep_birthdaycake_cream" name="Whip cream joyfulyy" />
-		<text id="preparestep_birthdaycake_eggs" name="Separate eggs laughing" />
-		<text id="preparestep_birthdaycake_flour" name="Sift flour celebrating" />
+		<text id="preparestep_birthdaycake_chocolate" name="Sciogli il cacao con felicità" />
+		<text id="preparestep_birthdaycake_cream" name="Monta la panna con gioia" />
+		<text id="preparestep_birthdaycake_eggs" name="Rompi le uova ridendo" />
+		<text id="preparestep_birthdaycake_flour" name="Setaccia la farina cantando" />
 		<text id="preparestep_blackforestcherrycake_flour" name="Setaccia la farina" />
 		<text id="preparestep_cheeseburger_cheese" name="Taglia il formaggio" />
 		<text id="preparestep_cheeseburger_flour" name="Setaccia la farina" />
@@ -1635,7 +1635,7 @@
 		<text id="preparestep_sweetpizza_cinnamon" name="Macina la cannella" />
 		<text id="preparestep_shakshuka_parsley" name="Trita il prezzemolo" />
 		<text id="preparestep_matildacake_vanilla" name="Raschia la vaniglia" />
-		<text id="preparestep_birthdaycake_vanilla" name="Ask how old is vanilla" />
+		<text id="preparestep_birthdaycake_vanilla" name="Chiedi l&apos;età alla vaniglia" />
 		<text id="preparestep_cottagepotatoes_parsley" name="Trita il prezzemolo" />
 		<text id="preparestep_bananasplit_vanilla" name="Raschia la vaniglia" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="Raschia la vaniglia" />
@@ -1769,7 +1769,7 @@
 		<text id="recipe_sweetpizza" name="Pizza dolce" />
 		<text id="recipe_shakshuka" name="Shakshuka" />
 		<text id="recipe_matildacake" name="Torta Matilda" />
-		<text id="recipe_birthdaycake" name="Icy Birthday Cake" />
+		<text id="recipe_birthdaycake" name="Torta di Buon Compleanno" />
 		<text id="recipe_blackforestcherrycake" name="Torta Foresta Nera" />
 		<text id="recipe_cheeseburger" name="Cheeseburger" />
 		<text id="recipe_cheesedish" name="Formaggi misti" />
