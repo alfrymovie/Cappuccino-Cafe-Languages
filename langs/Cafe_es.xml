@@ -265,6 +265,8 @@
 		<text id="cookstep_cheeseburger2" name="Disponer hamburguesa" />
 		<text id="cookstep_birthdaycake1" name="Singing happy birthday" />
 		<text id="cookstep_birthdaycake2" name="Frosting cake" />
+		<text id="cookstep_chickennuggets1" name="Frying nuggets" />
+		<text id="cookstep_chickennuggets2" name="Frying more nuggets" />
 		<text id="cookstep_cheesedish1" name="Colocar queso" />
 		<text id="cookstep_cheesedish2" name="Madurar queso" />
 		<text id="cookstep_cheesefondue1" name="Hacer pan" />
@@ -537,6 +539,9 @@
 		<text id="coop_title_41" name="BALATON PARTY" />
 		<text id="coop_desc_short_41" name="Let&apos;s eat by the lake!" />
 		<text id="coop_desc_long_41" name="Chef Flinsical is hosting a leisure session around Lake Balaton. Help out with food and refreshments for this scenic event!" />
+		<text id="coop_title_42" name="GRILL, FRY AND SLICE" />
+		<text id="coop_desc_short_42" name="Save the festival!" />
+		<text id="coop_desc_long_42" name="Chef EarthHunt3r was hired to work for a very important Food Festival. However, his kitchen equipment broke! Help him out and save the festival!" />
 		<text id="coop_title_30" name="¡RATA DE DOS PATAS!" />
 		<text id="coop_desc_short_30" name="¡No dejes que nadie lo vea!" />
 		<text id="coop_desc_long_30" name="¡Se ha visto un ratón en tu cafetería y quiere que le sirvan comida de lujo o arruinará tu negocio! ¿Por qué me suena esto?" />
@@ -1326,6 +1331,9 @@
 		<text id="preparestep_birthdaycake_cream" name="Whip cream joyfulyy" />
 		<text id="preparestep_birthdaycake_eggs" name="Separate eggs laughing" />
 		<text id="preparestep_birthdaycake_flour" name="Sift flour celebrating" />
+		<text id="preparestep_chickennuggets_chicken" name="Cut chicken" />
+		<text id="preparestep_chickennuggets_flour" name="Coat in flour" />
+		<text id="preparestep_chickennuggets_oil" name="Heat oil" />
 		<text id="preparestep_cheeseburger_tomato" name="Cortar tomates" />
 		<text id="preparestep_cheesedish_cheese" name="Cortar queso" />
 		<text id="preparestep_cheesefondue_cheese" name="Derretir queso" />
@@ -1637,6 +1645,7 @@
 		<text id="preparestep_shakshuka_parsley" name="Pica el perejil" />
 		<text id="preparestep_cottagepotatoes_parsley" name="Pica el perejil" />
 		<text id="preparestep_birthdaycake_vanilla" name="Ask how old is vanilla" />
+		<text id="preparestep_chickennuggets_coriander" name="Chop coriander" />
 		<text id="preparestep_bananasplit_vanilla" name="Raspar vainilla" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="Raspar la vainilla" />
 		<text id="preparestep_pizzasalad_chili" name="Picar chile" />
@@ -1771,6 +1780,7 @@
 		<text id="recipe_shakshuka" name="Shakshuka" />
 		<text id="recipe_blackforestcherrycake" name="Torta selva negra" />
 		<text id="recipe_birthdaycake" name="Icy Birthday Cake" />
+		<text id="recipe_chickennuggets" name="Chicken Nuggets" />
 		<text id="recipe_cheeseburger" name="Hamburguesa con queso" />
 		<text id="recipe_cheesedish" name="Surtido de quesos" />
 		<text id="recipe_cheesefondue" name="Fondue de queso" />

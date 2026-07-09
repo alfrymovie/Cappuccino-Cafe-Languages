@@ -265,6 +265,8 @@
 		<text id="cookstep_matildacake2" name="Kuchen backen" />
 		<text id="cookstep_birthdaycake1" name="Happy Birthday singen" />
 		<text id="cookstep_birthdaycake2" name="Kuchen glasieren" />
+		<text id="cookstep_chickennuggets1" name="Frying nuggets" />
+		<text id="cookstep_chickennuggets2" name="Frying more nuggets" />
 		<text id="cookstep_cheeseburger1" name="Hackfleisch anbraten" />
 		<text id="cookstep_cheeseburger2" name="Burger belegen" />
 		<text id="cookstep_cheesedish1" name="Käse anrichten" />
@@ -537,6 +539,9 @@
 		<text id="coop_title_41" name="BALATON PARTY" />
 		<text id="coop_desc_short_41" name="Lass uns am See essen!" />
 		<text id="coop_desc_long_41" name="Koch Flinsical veranstaltet ein gemütliches Treffen am Plattensee. Hilf mit, Essen und Erfrischungen für dieses malerische Event bereitzustellen!" />
+		<text id="coop_title_42" name="GRILL, FRY AND SLICE" />
+		<text id="coop_desc_short_42" name="Save the festival!" />
+		<text id="coop_desc_long_42" name="Chef EarthHunt3r was hired to work for a very important Food Festival. However, his kitchen equipment broke! Help him out and save the festival!" />
 		<text id="coop_title_30" name="EINE MAUS IN DER KÜCHE!" />
 		<text id="coop_desc_short_30" name="Lass sie von niemanden sehen!" />
 		<text id="coop_desc_long_30" name="Eine Maus wurde in deinem Café gesehen und sie verlangt, dass ausgefallenes Essen serviert wird, oder sie wird dein Geschäft ruinieren! Wieso fühlt sich das so bekannt an?" />
@@ -1326,6 +1331,9 @@
 		<text id="preparestep_birthdaycake_cream" name="Fröhlich Sahne schlagen" />
 		<text id="preparestep_birthdaycake_eggs" name="Lachend Eier trennen" />
 		<text id="preparestep_birthdaycake_flour" name="Feiernd Mehl sieben" />
+		<text id="preparestep_chickennuggets_chicken" name="Cut chicken" />
+		<text id="preparestep_chickennuggets_flour" name="Coat in flour" />
+		<text id="preparestep_chickennuggets_oil" name="Heat oil" />
 		<text id="preparestep_blackforestcherrycake_flour" name="Mehl sieben" />
 		<text id="preparestep_cheeseburger_cheese" name="Käse schneiden" />
 		<text id="preparestep_cheeseburger_flour" name="Mehl sieben" />
@@ -1637,6 +1645,7 @@
 		<text id="preparestep_shakshuka_parsley" name="Petersilie hacken" />
 		<text id="preparestep_matildacake_vanilla" name="Vanille ausschaben" />
 		<text id="preparestep_birthdaycake_vanilla" name="Vanillealter hinterfragen" />
+		<text id="preparestep_chickennuggets_coriander" name="Chop coriander" />
 		<text id="preparestep_cottagepotatoes_parsley" name="Petersilie hacken" />
 		<text id="preparestep_bananasplit_vanilla" name="Vanille ausschaben" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="Vanille ausschaben" />
@@ -1771,6 +1780,7 @@
 		<text id="recipe_shakshuka" name="Shakshuka" />
 		<text id="recipe_matildacake" name="Matilda Kuchen" />
 		<text id="recipe_birthdaycake" name="Glasierter Geburtstagskuchen" />
+		<text id="recipe_chickennuggets" name="Chicken Nuggets" />
 		<text id="recipe_blackforestcherrycake" name="Schwarzwälder Kirschtorte" />
 		<text id="recipe_cheeseburger" name="Cheeseburger" />
 		<text id="recipe_cheesedish" name="Käseplatte" />

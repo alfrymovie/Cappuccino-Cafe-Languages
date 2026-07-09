@@ -265,6 +265,8 @@
 		<text id="cookstep_matildacake2" name="Infornando la torta" />
 		<text id="cookstep_birthdaycake1" name="Cantando il tanti auguri" />
 		<text id="cookstep_birthdaycake2" name="Glassando la torta" />
+		<text id="cookstep_chickennuggets1" name="Frying nuggets" />
+		<text id="cookstep_chickennuggets2" name="Frying more nuggets" />
 		<text id="cookstep_cheeseburger1" name="Rosolando il macinato" />
 		<text id="cookstep_cheeseburger2" name="Farcendo l&apos;hamburger" />
 		<text id="cookstep_cheesedish1" name="Disponendo il formaggio" />
@@ -537,6 +539,9 @@
 		<text id="coop_title_40" name="OMELETTE FINO AL MASSIMO!" />
 		<text id="coop_desc_short_40" name="Proprio che non puoi farne a meno!" />
 		<text id="coop_desc_long_40" name="Chef Xara vuole che tutti apprezzino le gioie nel preparare e servire ingenti quantità di Omelette. Saresti all&apos;altezza della sfida?" />
+		<text id="coop_title_42" name="GRILL, FRY AND SLICE" />
+		<text id="coop_desc_short_42" name="Save the festival!" />
+		<text id="coop_desc_long_42" name="Chef EarthHunt3r was hired to work for a very important Food Festival. However, his kitchen equipment broke! Help him out and save the festival!" />
 		<text id="coop_title_41" name="BALATON PARTY" />
 		<text id="coop_desc_short_41" name="Mangiamo in riva al lago!" />
 		<text id="coop_desc_long_41" name="Chef Flinsical sta organizzando un momento di svago nei pressi del Lago Balaton. Dai una mano con cibo e bevande per questo evento scenografico!" />
@@ -1325,6 +1330,9 @@
 		<text id="preparestep_birthdaycake_cream" name="Monta la panna con gioia" />
 		<text id="preparestep_birthdaycake_eggs" name="Rompi le uova ridendo" />
 		<text id="preparestep_birthdaycake_flour" name="Setaccia la farina cantando" />
+		<text id="preparestep_chickennuggets_chicken" name="Cut chicken" />
+		<text id="preparestep_chickennuggets_flour" name="Coat in flour" />
+		<text id="preparestep_chickennuggets_oil" name="Heat oil" />
 		<text id="preparestep_blackforestcherrycake_flour" name="Setaccia la farina" />
 		<text id="preparestep_cheeseburger_cheese" name="Taglia il formaggio" />
 		<text id="preparestep_cheeseburger_flour" name="Setaccia la farina" />
@@ -1636,6 +1644,7 @@
 		<text id="preparestep_shakshuka_parsley" name="Trita il prezzemolo" />
 		<text id="preparestep_matildacake_vanilla" name="Raschia la vaniglia" />
 		<text id="preparestep_birthdaycake_vanilla" name="Chiedi l&apos;età alla vaniglia" />
+		<text id="preparestep_chickennuggets_coriander" name="Chop coriander" />
 		<text id="preparestep_cottagepotatoes_parsley" name="Trita il prezzemolo" />
 		<text id="preparestep_bananasplit_vanilla" name="Raschia la vaniglia" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="Raschia la vaniglia" />
@@ -1770,6 +1779,7 @@
 		<text id="recipe_shakshuka" name="Shakshuka" />
 		<text id="recipe_matildacake" name="Torta Matilda" />
 		<text id="recipe_birthdaycake" name="Torta di Buon Compleanno" />
+		<text id="recipe_chickennuggets" name="Chicken Nuggets" />
 		<text id="recipe_blackforestcherrycake" name="Torta Foresta Nera" />
 		<text id="recipe_cheeseburger" name="Cheeseburger" />
 		<text id="recipe_cheesedish" name="Formaggi misti" />
