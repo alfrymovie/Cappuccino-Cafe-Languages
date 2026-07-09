@@ -582,6 +582,10 @@ If you put it into storage, you will lose the remaining portions!"  />
 			<text id="coop_title_41" name="BALATON PARTY" />
 			<text id="coop_desc_short_41" name="Let's eat by the lake!" />
 			<text id="coop_desc_long_41" name="Chef Flinsical is hosting a leisure session around Lake Balaton. Help out with food and refreshments for this scenic event!" />
+
+			<text id="coop_title_42" name="GRILL, FRY AND SLICE" />
+			<text id="coop_desc_short_42" name="Save the festival!" />
+			<text id="coop_desc_long_42" name="Chef EarthHunt3r was hired to work for a very important Food Festival. However, his kitchen equipment broke! Help him out and save the festival! " />
 		</coopmission>
 		<dialogs>
 			<text id="dialogwin_achievement_title" name="Achievements"  />
