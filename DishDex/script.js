@@ -40,6 +40,7 @@ const PATHS = {
 
 const STORAGE_KEY = 'dishDexUserDataV1';
 const MASTERY_VIEW_STORAGE_KEY = 'dishDexMasteryViewMode';
+const MASTERY_SORT_STORAGE_KEY = 'dishDexMasterySortMode';
 const FULL_USE_MASTERIES_STORAGE_KEY = 'dishDexFullUseMasteries';
 const MAX_COOP_TEAMS = 10;
 const MAX_COOP_MEMBERS = 5;
@@ -67,7 +68,8 @@ let activeCoopManualAssignmentMemberSlot = null;
 const SPECIAL_DISH_KEYS = [];
 const SPECIAL_INGREDIENT_KEYS = [
   'Orange',
-  'Cocktailcherry'
+  'Cocktailcherry',
+  'Goldeneggs'
 ];
 
 const HOLIDAY_DISH_KEYS = [
@@ -715,7 +717,6 @@ const I18N = {
 };
 
 const SORT_OPTIONS = [
-  ['standard', 'sortStandard'],
   ['level-asc', 'sortLevelAsc'],
   ['level-desc', 'sortLevelDesc'],
   ['name-asc', 'sortNameAsc'],
@@ -1090,6 +1091,16 @@ function setupDataActions() {
     });
   }
 
+  const masterySortSelect = document.getElementById('masterySortSelect');
+  if (masterySortSelect) {
+    masterySortSelect.value = getMasterySortMode();
+    masterySortSelect.addEventListener('change', () => {
+      masteryCookbookPage = 0;
+      localStorage.setItem(MASTERY_SORT_STORAGE_KEY, getMasterySortMode());
+      renderMasteries();
+    });
+  }
+
   const prevButton = document.getElementById('masteryBookPrev');
   const nextButton = document.getElementById('masteryBookNext');
   if (prevButton) {
@@ -1162,12 +1173,12 @@ function populateSortSelect() {
   const select = document.getElementById('fullSortSelect');
   if (!select) return;
 
-  const previousValue = select.value || 'standard';
+  const previousValue = select.value || 'level-asc';
   select.innerHTML = SORT_OPTIONS.map(([value, labelKey]) => {
     return `<option value="${escapeHtml(value)}">${escapeHtml(t(labelKey))}</option>`;
   }).join('');
 
-  select.value = SORT_OPTIONS.some(option => option[0] === previousValue) ? previousValue : 'standard';
+  select.value = SORT_OPTIONS.some(option => option[0] === previousValue) ? previousValue : 'level-asc';
 }
 
 function t(key) {
@@ -2958,8 +2969,9 @@ function renderMasteries() {
   if (!body || !allDishRecords.length) return;
 
   const viewMode = getMasteryViewMode();
+  const sortMode = getMasterySortMode();
   const search = normalizeSearch(document.getElementById('masterySearch').value);
-  const filteredRecords = getCookbookOrderedRecords(allDishRecords).filter(record => {
+  const filteredRecords = getSortedMasteryRecords(allDishRecords, sortMode).filter(record => {
     if (!search) return true;
     return normalizeSearch(record.dishName).includes(search) || normalizeSearch(record.dishKey).includes(search);
   });
@@ -3075,8 +3087,27 @@ function getMasteryViewMode() {
   return ['vertical', 'horizontal', 'cookbook'].includes(value) ? value : 'vertical';
 }
 
+function getMasterySortMode() {
+  const select = document.getElementById('masterySortSelect');
+  const value = select ? select.value : (localStorage.getItem(MASTERY_SORT_STORAGE_KEY) || 'level-asc');
+  return ['level-asc', 'level-desc'].includes(value) ? value : 'level-asc';
+}
+
+function getSortedMasteryRecords(records, sortMode = 'level-asc') {
+  const rows = [...records];
+  const direction = sortMode === 'level-desc' ? 'desc' : 'asc';
+
+  rows.sort((a, b) => {
+    const levelDiff = Number(a.level || 0) - Number(b.level || 0);
+    if (levelDiff !== 0) return direction === 'asc' ? levelDiff : -levelDiff;
+    return standardDishSort(a, b);
+  });
+
+  return rows;
+}
+
 function getCookbookOrderedRecords(records) {
-  return [...records].sort(standardDishSort);
+  return getSortedMasteryRecords(records, 'level-asc');
 }
 
 function getHorizontalReaderRecords(records) {
@@ -3199,8 +3230,7 @@ function getSortedFullDishDex(sortMode, useRegisteredMasteries = true) {
     case 'servings-desc': numericSort('servings', 'desc'); break;
     case 'servingsPerMin-asc': numericSort('servingsPerMin', 'asc'); break;
     case 'servingsPerMin-desc': numericSort('servingsPerMin', 'desc'); break;
-    case 'standard':
-    default: rows.sort(standardDishSort); break;
+    default: numericSort('level', 'asc'); break;
   }
   return rows;
 }

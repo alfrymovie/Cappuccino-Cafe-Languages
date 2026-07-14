@@ -926,13 +926,14 @@ body.dark-theme .profile-unlocks-panel {
 
 .mastery-toolbar {
   display: grid;
-  grid-template-columns: minmax(220px, 1fr) minmax(220px, 320px);
+  grid-template-columns: minmax(220px, 1fr) repeat(2, minmax(220px, 320px));
   gap: 14px;
   align-items: end;
   margin-bottom: 14px;
 }
 
-.mastery-view-label {
+.mastery-view-label,
+.mastery-sort-label {
   margin-bottom: 14px;
 }
 
