@@ -271,6 +271,12 @@
 		<text id="cookstep_lavenderlemoncake2" name="Baking until golden" />
 		<text id="cookstep_potatosoup1" name="Boiling potatoes" />
 		<text id="cookstep_potatosoup2" name="Mixing soup" />
+		<text id="cookstep_chocochipcake1" name="Mixing ingredients" />
+		<text id="cookstep_chocochipcake2" name="Baking cake" />
+		<text id="cookstep_cakewithtoy1" name="Mixing ingredients" />
+		<text id="cookstep_cakewithtoy2" name="Ordering toys" />
+		<text id="cookstep_goldencake1" name="Mixing golden batter" />
+		<text id="cookstep_goldencake2" name="Regretting expenses" />
 		<text id="cookstep_blackforestcherrycake1" name="malzemeleri karıştır" />
 		<text id="cookstep_blackforestcherrycake2" name="Kek pişir" />
 		<text id="cookstep_cheeseburger1" name="Kıymayı kavur" />
@@ -546,6 +552,9 @@
 		<text id="coop_title_42" name="GRILL, FRY AND SLICE" />
 		<text id="coop_desc_short_42" name="Save the festival!" />
 		<text id="coop_desc_long_42" name="Chef EarthHunt3r was hired to work for a very important Food Festival. However, his kitchen equipment broke! Help him out and save the festival!" />
+		<text id="coop_title_43" name="CAKES FOR A DIVA!" />
+		<text id="coop_desc_short_43" name="She wants everything!" />
+		<text id="coop_desc_long_43" name="Patixa is in town and she wants the best selection of cakes to celebrate her toy line. Provide the cakes fast and get rewarded!" />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="Ödüller" />
@@ -1045,6 +1054,7 @@
 		<text id="ingredient_fish" name="Balık" />
 		<text id="ingredient_flour" name="Un" />
 		<text id="ingredient_garlic" name="Sarımsak" />
+		<text id="ingredient_goldeneggs" name="Golden Eggs" />
 		<text id="ingredient_horseradish" name="Yaban turbu" />
 		<text id="ingredient_kidney" name="Böbrek" />
 		<text id="ingredient_lettuce" name="Marul" />
@@ -1343,6 +1353,17 @@
 		<text id="preparestep_potatosoup_beetroot" name="Slice beetroot" />
 		<text id="preparestep_potatosoup_cream" name="Pour cream" />
 		<text id="preparestep_potatosoup_carrot" name="Dice carrots" />
+		<text id="preparestep_chocochipcake_cookies" name="Organize cookies" />
+		<text id="preparestep_chocochipcake_chocolate" name="Melt chocolate" />
+		<text id="preparestep_chocochipcake_flour" name="Sift flour" />
+		<text id="preparestep_chocochipcake_butter" name="Melt butter" />
+		<text id="preparestep_chocochipcake_eggs" name="Crack eggs" />
+		<text id="preparestep_cakewithtoy_flour" name="Sift flour" />
+		<text id="preparestep_cakewithtoy_whitechocolat" name="Dye chocolate" />
+		<text id="preparestep_cakewithtoy_cream" name="Whip cream" />
+		<text id="preparestep_goldencake_goldeneggs" name="Question egg investment" />
+		<text id="preparestep_goldencake_flour" name="Sift flour" />
+		<text id="preparestep_goldencake_cream" name="Whip cream" />
 		<text id="preparestep_bananasplit_cream" name="kremayı çırp" />
 		<text id="preparestep_bananasplit_milk" name="sütü ölç" />
 		<text id="preparestep_bananasplit_sugar" name="şekeri ölç" />
@@ -1657,6 +1678,9 @@
 		<text id="preparestep_chickennuggets_coriander" name="Chop coriander" />
 		<text id="preparestep_lavenderlemoncake_vanilla" name="Add vanilla" />
 		<text id="preparestep_potatosoup_chili" name="Chop chili" />
+		<text id="preparestep_chocochipcake_vanilla" name="Add vanilla" />
+		<text id="preparestep_cakewithtoy_nutmeg" name="Grate nutmeg" />
+		<text id="preparestep_goldencake_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_bananasplit_vanilla" name="Vanilya öğüt" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="vanilya öğüt" />
 		<text id="preparestep_pizzasalad_chili" name="Biberi doğra" />
@@ -1793,6 +1817,9 @@
 		<text id="recipe_chickennuggets" name="Chicken Nuggets" />
 		<text id="recipe_lavenderlemoncake" name="Lavender Lemon Cake" />
 		<text id="recipe_potatosoup" name="Potato Soup" />
+		<text id="recipe_chocochipcake" name="Choco Chip Cake" />
+		<text id="recipe_cakewithtoy" name="Cake with Toy" />
+		<text id="recipe_goldencake" name="Golden Cake" />
 		<text id="recipe_beefstew" name="Güveç" />
 		<text id="recipe_blackforestcherrycake" name="Kara Orman Pastası" />
 		<text id="recipe_cheeseburger" name="Cheese burger" />

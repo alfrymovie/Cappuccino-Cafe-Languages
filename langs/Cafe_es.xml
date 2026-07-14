@@ -271,6 +271,12 @@
 		<text id="cookstep_lavenderlemoncake2" name="Baking until golden" />
 		<text id="cookstep_potatosoup1" name="Boiling potatoes" />
 		<text id="cookstep_potatosoup2" name="Mixing soup" />
+		<text id="cookstep_chocochipcake1" name="Mixing ingredients" />
+		<text id="cookstep_chocochipcake2" name="Baking cake" />
+		<text id="cookstep_cakewithtoy1" name="Mixing ingredients" />
+		<text id="cookstep_cakewithtoy2" name="Ordering toys" />
+		<text id="cookstep_goldencake1" name="Mixing golden batter" />
+		<text id="cookstep_goldencake2" name="Regretting expenses" />
 		<text id="cookstep_cheesedish1" name="Colocar queso" />
 		<text id="cookstep_cheesedish2" name="Madurar queso" />
 		<text id="cookstep_cheesefondue1" name="Hacer pan" />
@@ -546,6 +552,9 @@
 		<text id="coop_title_42" name="GRILL, FRY AND SLICE" />
 		<text id="coop_desc_short_42" name="Save the festival!" />
 		<text id="coop_desc_long_42" name="Chef EarthHunt3r was hired to work for a very important Food Festival. However, his kitchen equipment broke! Help him out and save the festival!" />
+		<text id="coop_title_43" name="CAKES FOR A DIVA!" />
+		<text id="coop_desc_short_43" name="She wants everything!" />
+		<text id="coop_desc_long_43" name="Patixa is in town and she wants the best selection of cakes to celebrate her toy line. Provide the cakes fast and get rewarded!" />
 		<text id="coop_title_30" name="¡RATA DE DOS PATAS!" />
 		<text id="coop_desc_short_30" name="¡No dejes que nadie lo vea!" />
 		<text id="coop_desc_long_30" name="¡Se ha visto un ratón en tu cafetería y quiere que le sirvan comida de lujo o arruinará tu negocio! ¿Por qué me suena esto?" />
@@ -1048,6 +1057,7 @@
 		<text id="ingredient_eggs" name="Huevos" />
 		<text id="ingredient_fish" name="Pescado" />
 		<text id="ingredient_flour" name="Harina" />
+		<text id="ingredient_goldeneggs" name="Golden Eggs" />
 		<text id="ingredient_garlic" name="Ajo" />
 		<text id="ingredient_horseradish" name="Rábano picante" />
 		<text id="ingredient_kidney" name="Riñones" />
@@ -1347,6 +1357,17 @@
 		<text id="preparestep_potatosoup_beetroot" name="Slice beetroot" />
 		<text id="preparestep_potatosoup_cream" name="Pour cream" />
 		<text id="preparestep_potatosoup_carrot" name="Dice carrots" />
+		<text id="preparestep_chocochipcake_cookies" name="Organize cookies" />
+		<text id="preparestep_chocochipcake_chocolate" name="Melt chocolate" />
+		<text id="preparestep_chocochipcake_flour" name="Sift flour" />
+		<text id="preparestep_chocochipcake_butter" name="Melt butter" />
+		<text id="preparestep_chocochipcake_eggs" name="Crack eggs" />
+		<text id="preparestep_cakewithtoy_flour" name="Sift flour" />
+		<text id="preparestep_cakewithtoy_whitechocolat" name="Dye chocolate" />
+		<text id="preparestep_cakewithtoy_cream" name="Whip cream" />
+		<text id="preparestep_goldencake_goldeneggs" name="Question egg investment" />
+		<text id="preparestep_goldencake_flour" name="Sift flour" />
+		<text id="preparestep_goldencake_cream" name="Whip cream" />
 		<text id="preparestep_cheeseburger_tomato" name="Cortar tomates" />
 		<text id="preparestep_cheesedish_cheese" name="Cortar queso" />
 		<text id="preparestep_cheesefondue_cheese" name="Derretir queso" />
@@ -1661,6 +1682,9 @@
 		<text id="preparestep_chickennuggets_coriander" name="Chop coriander" />
 		<text id="preparestep_lavenderlemoncake_vanilla" name="Add vanilla" />
 		<text id="preparestep_potatosoup_chili" name="Chop chili" />
+		<text id="preparestep_chocochipcake_vanilla" name="Add vanilla" />
+		<text id="preparestep_cakewithtoy_nutmeg" name="Grate nutmeg" />
+		<text id="preparestep_goldencake_nutmeg" name="Grate nutmeg" />
 		<text id="preparestep_bananasplit_vanilla" name="Raspar vainilla" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="Raspar la vainilla" />
 		<text id="preparestep_pizzasalad_chili" name="Picar chile" />
@@ -1798,6 +1822,9 @@
 		<text id="recipe_chickennuggets" name="Chicken Nuggets" />
 		<text id="recipe_lavenderlemoncake" name="Lavender Lemon Cake" />
 		<text id="recipe_potatosoup" name="Potato Soup" />
+		<text id="recipe_chocochipcake" name="Choco Chip Cake" />
+		<text id="recipe_cakewithtoy" name="Cake with Toy" />
+		<text id="recipe_goldencake" name="Golden Cake" />
 		<text id="recipe_cheeseburger" name="Hamburguesa con queso" />
 		<text id="recipe_cheesedish" name="Surtido de quesos" />
 		<text id="recipe_cheesefondue" name="Fondue de queso" />
