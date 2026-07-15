@@ -1,304 +1,304 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Provisional DishDex UI translation pass; review/polish with human translators when possible. -->
 <dishdex lang="el">
-  <text id="actions" name="Actions" />
-  <text id="activeNote" name="Best XP/min for 10 minutes or less." />
-  <text id="activePlan" name="Active-time" />
-  <text id="activeWord" name="active" />
-  <text id="alreadyMasteredBest" name="You already mastered the best dish for this! Nice!" />
-  <text id="assignedDishes" name="Assigned dishes" />
-  <text id="assignmentComingSoon" name="Dish assignment comes in the next phase." />
-  <text id="assignmentCopied" name="Assignment copied!" />
-  <text id="assignmentCopyFailed" name="Could not copy assignment." />
-  <text id="assignmentPlanTitle" name="Dish assignment plan" />
+  <text id="actions" name="Ενέργειες" />
+  <text id="activeNote" name="Καλύτερο XP/min: 10 λεπτά ή λιγότερο." />
+  <text id="activePlan" name="Ενεργό" />
+  <text id="activeWord" name="ενεργό" />
+  <text id="alreadyMasteredBest" name="✓ Καλύτερο πιάτο — Επίπεδο μαεστρείας!" />
+  <text id="assignedDishes" name="Ανατεθειμένα πιάτα" />
+  <text id="assignmentComingSoon" name="Ανάθεση: Επόμενο φάση." />
+  <text id="assignmentCopied" name="Ανάθεση αντιγράφηκε!" />
+  <text id="assignmentCopyFailed" name="Δεν έγινε αντιγραφή: ανάθεση." />
+  <text id="assignmentPlanTitle" name="Πιάτο ανάθεση Πλάνο" />
   <text id="auto" name="Auto" />
-  <text id="availableDishDex" name="Available DishDex" />
-  <text id="availableDishDexNote" name="Complete dish list with XP, profit, portions, time, category and requirements." />
-  <text id="availableStoves" name="Available Stoves" />
-  <text id="backButton" name="← Back" />
-  <text id="baseRewards" name="Base rewards" />
-  <text id="batches" name="Batches" />
-  <text id="benefit" name="Benefit" />
-  <text id="bestActive" name="Best active" />
-  <text id="bestDayOff" name="Best day-off" />
-  <text id="bestFast" name="Best fast" />
-  <text id="bestLong" name="Best long" />
-  <text id="bestMedium" name="Best medium" />
-  <text id="bestPortionsTitle" name="Best dishes (Portions)" />
-  <text id="bestProfitTitle" name="Best Dishes (Profit)" />
-  <text id="bestShort" name="Best short" />
-  <text id="bestSummaryPortionMin" name="Best portion/min" />
-  <text id="bestSummaryProfitMin" name="Best profit/min" />
-  <text id="bestSummaryRawPortion" name="Best raw portion" />
-  <text id="bestSummaryRawProfit" name="Best raw profit" />
-  <text id="bestSummaryRawXp" name="Best raw XP" />
-  <text id="bestSummaryTitle" name="Best of Summary" />
-  <text id="bestSummaryXpMin" name="Best XP/min" />
-  <text id="bestVeryLong" name="Best very long" />
-  <text id="bestXpTitle" name="Best Dishes (XP)" />
-  <text id="bronze" name="Bronze" />
-  <text id="bronzeDeadline" name="Bronze deadline" />
-  <text id="cannotCookDish" name="Cannot cook" />
+  <text id="availableDishDex" name="Διαθέσιμο DishDex" />
+  <text id="availableDishDexNote" name="Πλήρης πιάτο λίστα: XP, κέρδος, Μερίδες, Χρόνος, Κατηγορία, Απαιτήσεις." />
+  <text id="availableStoves" name="Διαθέσιμες κουζίνες" />
+  <text id="backButton" name="← Πίσω" />
+  <text id="baseRewards" name="Βασικές ανταμοιβές" />
+  <text id="batches" name="Παρτίδες" />
+  <text id="benefit" name="Όφελος" />
+  <text id="bestActive" name="Καλύτερο ενεργό" />
+  <text id="bestDayOff" name="Καλύτερο ρεπό" />
+  <text id="bestFast" name="Καλύτερο γρήγορο" />
+  <text id="bestLong" name="Καλύτερο μακρύ" />
+  <text id="bestMedium" name="Καλύτερο μεσαίο" />
+  <text id="bestPortionsTitle" name="Καλύτερο πιάτα (Μερίδες)" />
+  <text id="bestProfitTitle" name="Καλύτερο Πιάτα (Κέρδος)" />
+  <text id="bestShort" name="Καλύτερο σύντομο" />
+  <text id="bestSummaryPortionMin" name="Καλύτερο μερίδα/min" />
+  <text id="bestSummaryProfitMin" name="Καλύτερο κέρδος/min" />
+  <text id="bestSummaryRawPortion" name="Καλύτερο βασικό μερίδα" />
+  <text id="bestSummaryRawProfit" name="Καλύτερο βασικό κέρδος" />
+  <text id="bestSummaryRawXp" name="Καλύτερο βασικό XP" />
+  <text id="bestSummaryTitle" name="Καλύτερο σύνοψη" />
+  <text id="bestSummaryXpMin" name="Καλύτερο XP/min" />
+  <text id="bestVeryLong" name="Καλύτερο πολύ μακρύ" />
+  <text id="bestXpTitle" name="Καλύτερο Πιάτα (XP)" />
+  <text id="bronze" name="Χάλκινο" />
+  <text id="bronzeDeadline" name="Χάλκινο deadline" />
+  <text id="cannotCookDish" name="Δεν μαγειρεύεται" />
   <text id="cashReward" name="Cash" />
-  <text id="category" name="Category" />
-  <text id="chef" name="Chef" />
-  <text id="chefCookTime" name="Cook time" />
-  <text id="chefFallback" name="Chef" />
-  <text id="chefName" name="Chef name" />
-  <text id="chooseMode" name="Choose a mode" />
-  <text id="chooseModeNote" name="Select how you want to use DishDex." />
+  <text id="category" name="Κατηγορία" />
+  <text id="chef" name="Σεφ" />
+  <text id="chefCookTime" name="Cook χρόνος" />
+  <text id="chefFallback" name="Σεφ" />
+  <text id="chefName" name="Σεφ name" />
+  <text id="chooseMode" name="Επιλέξτε λειτουργία" />
+  <text id="chooseModeNote" name="Επιλογή how you want to use DishDex." />
   <text id="clearChef" name="Clear chef" />
-  <text id="clearCookTime" name="Clear cook time" />
+  <text id="clearCookTime" name="Clear cook χρόνος" />
   <text id="clearMargin" name="Clear margin" />
-  <text id="completeDishList" name="Complete dish list" />
-  <text id="confirmDelete" name="Are you sure? This will delete your saved profile, masteries and Co-Op teams." />
-  <text id="confirmDeleteTeam" name="Delete this saved team?" />
-  <text id="contributionWarning" name="Each chef must cook at least one required dish to receive rewards." />
-  <text id="coopListNote" name="Browse and plan your next Co-Op here!" />
-  <text id="coopListTitle" name="Co-Op Planner" />
+  <text id="completeDishList" name="Πλήρης πιάτο λίστα" />
+  <text id="confirmDelete" name="Διαγραφή local data: Προφίλ, Μαεστρίες, Co-Op Ομάδα." />
+  <text id="confirmDeleteTeam" name="Διαγραφή Ομάδα?" />
+  <text id="contributionWarning" name="Σεφ: ≥ 1 απαιτούμενα πιάτο = rewards." />
+  <text id="coopListNote" name="Co-Op: Περιήγηση + πλάνο." />
+  <text id="coopListTitle" name="Co-Op Πλάνοner" />
   <text id="coopNumber" name="Co-Op" />
-  <text id="coopPlannerDescription" name="Browse and plan your next Co-Op here." />
-  <text id="coopPlannerEyebrow" name="Team cooking" />
-  <text id="coopPlannerTitle" name="Co-Op Planner" />
-  <text id="coopRequirements" name="Required dishes" />
-  <text id="coopSearch" name="Search co-op" />
-  <text id="coopSearchPlaceholder" name="Search co-op..." />
-  <text id="coopShortDescription" name="Description" />
-  <text id="coopTeamNote" name="Register up to five chefs and save up to ten teams." />
-  <text id="coopTeamTitle" name="Co-Op Team" />
-  <text id="copyAssignment" name="Copy assignment" />
-  <text id="cost" name="Cost" />
-  <text id="couldNotLoadData" name="Could not load Café data." />
-  <text id="currentMastery" name="Current Mastery" />
-  <text id="darkTheme" name="Dark Theme" />
-  <text id="dataDeleted" name="Saved profile, masteries and Co-Op teams deleted." />
-  <text id="dataDownloaded" name="Data file downloaded." />
-  <text id="dataLoadError" name="Could not load this data file." />
+  <text id="coopPlannerDescription" name="Co-Op: Περιήγηση + πλάνο." />
+  <text id="coopPlannerEyebrow" name="Ομάδα cooking" />
+  <text id="coopPlannerTitle" name="Co-Op Πλάνοner" />
+  <text id="coopRequirements" name="Απαιτούμενα πιάτα" />
+  <text id="coopSearch" name="Αναζήτηση co-op" />
+  <text id="coopSearchPlaceholder" name="Αναζήτηση co-op..." />
+  <text id="coopShortDescription" name="Περιγραφή" />
+  <text id="coopTeamNote" name="Max 5 Σεφ; save up to 10 Ομάδα." />
+  <text id="coopTeamTitle" name="Co-Op Ομάδα" />
+  <text id="copyAssignment" name="Αντιγραφή ανάθεση" />
+  <text id="cost" name="Κόστος" />
+  <text id="couldNotLoadData" name="Δεν φορτώθηκαν τα δεδομένα Café." />
+  <text id="currentMastery" name="Τρέχουσα Επίπεδο μαεστρείας" />
+  <text id="darkTheme" name="Σκοτεινό θέμα" />
+  <text id="dataDeleted" name="Προφίλ, Μαεστρίες, Co-Op Ομάδα: διαγραφή." />
+  <text id="dataDownloaded" name="Το αρχείο δεδομένων λήφθηκε." />
+  <text id="dataLoadError" name="Data file: error." />
   <text id="dataLoaded" name="Café data loaded!" />
-  <text id="dataLoadedMessage" name="Data loaded successfully." />
-  <text id="dayOffNote" name="Best XP/min for 23 h 1 min or more." />
-  <text id="dayOffPlan" name="Day off" />
-  <text id="dayOffWord" name="day-off" />
-  <text id="deleteData" name="Delete data" />
-  <text id="deleteTeam" name="Delete team" />
-  <text id="dish" name="Dish" />
-  <text id="dishesNeeded" name="Dishes Needed" />
-  <text id="dishesReady" name="dishes ready" />
-  <text id="dishesRequired" name="dishes required" />
-  <text id="masteryTotalForGold" name="Total: {0} dishes required for Gold" />
-  <text id="downloadData" name="Download data" />
-  <text id="duration" name="Duration" />
-  <text id="editGoldMasteries" name="Edit gold masteries" />
-  <text id="editManualDishes" name="Edit dishes" />
+  <text id="dataLoadedMessage" name="Τα δεδομένα φορτώθηκαν." />
+  <text id="dayOffNote" name="Καλύτερο XP/min: 23 h 1 min ή περισσότερο." />
+  <text id="dayOffPlan" name="Ρεπό" />
+  <text id="dayOffWord" name="ρεπό" />
+  <text id="deleteData" name="Διαγραφή data" />
+  <text id="deleteTeam" name="Διαγραφή team" />
+  <text id="dish" name="Πιάτο" />
+  <text id="dishesNeeded" name="Πιάτα Needed" />
+  <text id="dishesReady" name="πιάτα ready" />
+  <text id="dishesRequired" name="πιάτα απαιτούμενα" />
+  <text id="masteryTotalForGold" name="Total: {0} πιάτα → Χρυσός" />
+  <text id="downloadData" name="Λήψη data" />
+  <text id="duration" name="Διάρκεια" />
+  <text id="editGoldMasteries" name="Χρυσός Μαεστρίες: edit" />
+  <text id="editManualDishes" name="Edit πιάτα" />
   <text id="effects" name="Effects" />
-  <text id="estimatedWithTeam" name="Estimated with this team" />
-  <text id="exclude" name="Exclude" />
-  <text id="fastNote" name="Best XP/min between 11 minutes and 1 hour." />
-  <text id="fastPlan" name="Fast-time" />
-  <text id="fastWord" name="fast" />
-  <text id="fullDishDexDescription" name="Access the complete DishDex with all information." />
+  <text id="estimatedWithTeam" name="Ομάδα: estimate" />
+  <text id="exclude" name="Εξαίρεση" />
+  <text id="fastNote" name="Καλύτερο XP/min: 11 λεπτά – 1 ώρα." />
+  <text id="fastPlan" name="Γρήγορο" />
+  <text id="fastWord" name="γρήγορο" />
+  <text id="fullDishDexDescription" name="DishDex: Πλήρης information." />
   <text id="fullDishDexTitle" name="Full DishDex" />
-  <text id="fullTagChristmas" name="Christmas" />
-  <text id="fullTagEaster" name="Easter" />
-  <text id="fullTagSpecial" name="Special" />
-  <text id="gold" name="Gold" />
-  <text id="goldDeadline" name="Gold deadline" />
-  <text id="goldMasteries" name="Gold masteries" />
-  <text id="goldMasteriesNote" name="Only Gold mastery matters here because it reduces cooking time." />
-  <text id="goldReward" name="Gold" />
-  <text id="holiday" name="Holiday" />
-  <text id="holidayActive" name="Holiday: Active" />
-  <text id="holidayDishes" name="Holiday Dishes" />
-  <text id="holidayDishesNote" name="Holiday dishes are shown separately. Auto mode uses Christmas and Easter seasons." />
-  <text id="holidayInactive" name="Holiday: Inactive" />
-  <text id="holidayMode" name="Include holiday foods?" />
+  <text id="fullTagChristmas" name="Χριστούγεννα" />
+  <text id="fullTagEaster" name="Πάσχα" />
+  <text id="fullTagSpecial" name="Ειδικό" />
+  <text id="gold" name="Χρυσός" />
+  <text id="goldDeadline" name="Χρυσός deadline" />
+  <text id="goldMasteries" name="Χρυσός masteries" />
+  <text id="goldMasteriesNote" name="Χρυσός Επίπεδο μαεστρείας = shorter cooking time." />
+  <text id="goldReward" name="Χρυσός" />
+  <text id="holiday" name="Γιορτινό" />
+  <text id="holidayActive" name="Γιορτινό: Active" />
+  <text id="holidayDishes" name="Γιορτινά πιάτα" />
+  <text id="holidayDishesNote" name="Γιορτινά πιάτα: separate. Auto = Χριστούγεννα + Πάσχα." />
+  <text id="holidayInactive" name="Γιορτινό: Inενεργό" />
+  <text id="holidayMode" name="Να περιλαμβάνονται γιορτινά φαγητά;" />
+  <text id="includeSpecialDishes" name="Να περιλαμβάνονται ειδικά πιάτα;" />
   <text id="hoursShort" name="h" />
-  <text id="image" name="Image" />
-  <text id="impossibleMissingUnlock" name="Impossible: missing dish unlock" />
-  <text id="include" name="Include" />
-  <text id="ingredientCost" name="Ingredient cost" />
-  <text id="ingredientDetails" name="Ingredients" />
-  <text id="languageLabel" name="🌐 Language" />
-  <text id="level" name="Level" />
-  <text id="loadData" name="Load data" />
-  <text id="loadTeam" name="Load team" />
-  <text id="loadingXml" name="Loading Café XML..." />
-  <text id="longNote" name="Best XP/min between 6 h 1 min and 12 h." />
-  <text id="longPlan" name="Long-time" />
-  <text id="longWord" name="long" />
-  <text id="mainSubtitle" name="Access information about all dishes!" />
-  <text id="manualAssignmentNote" name="Choose exactly which required dishes this chef should cook. The planner assigns the remaining dishes after this." />
-  <text id="manualAssignmentSaved" name="Manual assignment saved." />
-  <text id="manualAssignmentSummaryEmpty" name="No manual dishes set" />
-  <text id="manualAssignmentTitle" name="Manual assignment" />
-  <text id="manualAssignmentUnavailable" name="Choose a Co-Op first to edit manual dishes." />
-  <text id="manualCountWarning" name="One or more manual workloads could not be filled completely." />
-  <text id="manualDishes" name="Manual dishes" />
-  <text id="manualDishesShort" name="dishes" />
-  <text id="marginShort" name="Margin" />
-  <text id="masteriesEyebrow" name="Dish perks" />
-  <text id="mastery" name="Mastery" />
+  <text id="image" name="Εικόνα" />
+  <text id="impossibleMissingUnlock" name="Αδύνατο: Πιάτο unlock missing" />
+  <text id="include" name="Συμπερίληψη" />
+  <text id="ingredientCost" name="Κόστος υλικών" />
+  <text id="ingredientDetails" name="Υλικά" />
+  <text id="languageLabel" name="🌐 Γλώσσα" />
+  <text id="level" name="Επίπεδο" />
+  <text id="loadData" name="Φόρτωση data" />
+  <text id="loadTeam" name="Φόρτωση team" />
+  <text id="loadingXml" name="Φόρτωσηing Café XML..." />
+  <text id="longNote" name="Καλύτερο XP/min: 6 h 1 min – 12 h." />
+  <text id="longPlan" name="Μακρύ" />
+  <text id="longWord" name="μακρύ" />
+  <text id="mainSubtitle" name="Access inγιαmation about all πιάτα!" />
+  <text id="manualAssignmentNote" name="Επιλογή απαιτούμενα πιάτα for this Σεφ; planner assigns remaining." />
+  <text id="manualAssignmentSaved" name="Χειροκίνητο ανάθεση αποθηκεύτηκε." />
+  <text id="manualAssignmentSummaryEmpty" name="Κανένα χειροκίνητο πιάτα" />
+  <text id="manualAssignmentTitle" name="Χειροκίνητο ανάθεση" />
+  <text id="manualAssignmentUnavailable" name="Co-Op first; then edit πιάτα." />
+  <text id="manualCountWarning" name="Χειροκίνητο workload incomplete." />
+  <text id="manualDishes" name="Χειροκίνητο πιάτα" />
+  <text id="manualDishesShort" name="πιάτα" />
+  <text id="marginShort" name="Περιθώριο" />
+  <text id="masteriesEyebrow" name="Πιάτο perks" />
+  <text id="mastery" name="Επίπεδο μαεστρείας" />
   <text id="masteryBookPage" name="Page" />
   <text id="masteryCookbook" name="Cook Book (Legacy)" />
   <text id="masteryListHorizontal" name="List (horizontal reader)" />
   <text id="masteryListVertical" name="List (vertical reader)" />
   <text id="masteryView" name="View" />
   <text id="maxMembers" name="Max members" />
-  <text id="maxRewardsYourLevel" name="Max Rewards (your level)" />
-  <text id="mediumNote" name="Best XP/min between 3 h 1 min and 6 h." />
-  <text id="mediumPlan" name="Medium-time" />
-  <text id="mediumWord" name="medium" />
-  <text id="metricPortionMin" name="portion/min" />
-  <text id="metricProfitMin" name="profit/min" />
+  <text id="maxRewardsYourLevel" name="Max rewards (επίπεδο)" />
+  <text id="mediumNote" name="Καλύτερο XP/min: 3 h 1 min – 6 h." />
+  <text id="mediumPlan" name="Μεσαίο" />
+  <text id="mediumWord" name="μεσαίο" />
+  <text id="metricPortionMin" name="μερίδα/min" />
+  <text id="metricProfitMin" name="κέρδος/min" />
   <text id="metricXpMin" name="XP/min" />
-  <text id="minimumDishLevel" name="Minimum dish level" />
+  <text id="minimumDishLevel" name="Ελάχιστο πιάτο level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexDescription" name="Access your personal DishDex based on your level, XP and available time." />
-  <text id="myDexHint" name="Insert your data for personalized recommendations." />
+  <text id="myDexDescription" name="MyDex: Επίπεδο, XP, διαθέσιμο χρόνος." />
+  <text id="myDexHint" name="Data → Πρόταση." />
   <text id="myDexSettings" name="MyDex Settings" />
-  <text id="myMasteriesActive" name="Using My Masteries for Chef 1" />
-  <text id="myMasteriesDescription" name="Register your dish mastery stars and apply them to MyDex." />
-  <text id="myMasteriesTitle" name="My Masteries" />
-  <text id="myProfileDescription" name="Save your chef name, level and default stove count." />
-  <text id="myProfileTitle" name="My Profile" />
-  <text id="myTimeAllMatches" name="All matching dishes" />
-  <text id="myTimeAllMatchesNote" name="All available dishes in this time window, sorted by level." />
-  <text id="myTimeBestMatches" name="Best matches" />
-  <text id="myTimeBestMatchesNote" name="Best dishes inside your chosen time window." />
-  <text id="myTimeDescription" name="Plan dishes according to your time." />
-  <text id="myTimeEyebrow" name="Time planning" />
-  <text id="myTimeMargin" name="Margin" />
-  <text id="myTimeMarginLabel" name="Margin:" />
-  <text id="myTimeNoWindow" name="Set a target time above 0." />
+  <text id="myMasteriesActive" name="Using Οι μαεστρίες μου για Σεφ 1" />
+  <text id="myMasteriesDescription" name="Καταχώριση Πιάτο Μαεστρίες and apply to MyDex." />
+  <text id="myMasteriesTitle" name="Οι μαεστρίες μου" />
+  <text id="myProfileDescription" name="Σεφ name, Επίπεδο, Κουζίνες: αποθήκευση." />
+  <text id="myProfileTitle" name="Το προφίλ μου" />
+  <text id="myTimeAllMatches" name="Όλα matching πιάτα" />
+  <text id="myTimeAllMatchesNote" name="Διαθέσιμο πιάτα in this time window; sorted by επίπεδο." />
+  <text id="myTimeBestMatches" name="Καλύτερο matches" />
+  <text id="myTimeBestMatchesNote" name="Καλύτερο πιάτα in the chosen time window." />
+  <text id="myTimeDescription" name="Πλάνο πιάτα according to your χρόνος." />
+  <text id="myTimeEyebrow" name="Χρόνος planning" />
+  <text id="myTimeMargin" name="Περιθώριο" />
+  <text id="myTimeMarginLabel" name="Περιθώριο:" />
+  <text id="myTimeNoWindow" name="Target time: &gt; 0." />
   <text id="myTimePlayerLevelLabel" name="Player level:" />
-  <text id="myTimeQuestion" name="How long do you want to cook for?" />
-  <text id="myTimeSettings" name="My Time Settings" />
-  <text id="myTimeTargetLabel" name="Target:" />
-  <text id="myTimeTitle" name="My Time" />
-  <text id="myTimeWindowLabel" name="Showing dishes from {0} to {1}." />
+  <text id="myTimeQuestion" name="Cooking time?" />
+  <text id="myTimeSettings" name="Ο χρόνος μου Settings" />
+  <text id="myTimeTargetLabel" name="Στόχος:" />
+  <text id="myTimeTitle" name="Ο χρόνος μου" />
+  <text id="myTimeWindowLabel" name="Πιάτα: {0} – {1}." />
   <text id="newTeam" name="New team" />
-  <text id="nextPage" name="Next →" />
-  <text id="noAssignedDishes" name="No dishes assigned" />
-  <text id="noAvailableDish" name="No available dish" />
-  <text id="noCoopSelected" name="Choose a co-op and click Plan!" />
-  <text id="noCoopsAvailable" name="No co-ops available." />
-  <text id="noDishMatchesPlan" name="No dish matches this plan." />
-  <text id="noDishesAvailable" name="No dishes available." />
-  <text id="noEligibleChef" name="No eligible chef can cook one or more required dishes." />
-  <text id="noGoldMasteriesSelected" name="No Gold masteries selected yet." />
-  <text id="noMasteryRows" name="No dishes match this search." />
-  <text id="noPortionRecommendations" name="No portion recommendations available for this level/settings." />
-  <text id="noProfitRecommendations" name="No profit recommendations available for this level/settings." />
-  <text id="noRecommendedMasteries" name="No mastery recommendations available for this level/settings." />
-  <text id="noRewardNoContribution" name="No reward without contribution" />
-  <text id="noTeamMembers" name="Add at least one chef to this team." />
-  <text id="noTimeMatches" name="No dishes match this time window. Try increasing the margin." />
-  <text id="noXpRecommendations" name="No XP recommendations available for this level/settings." />
-  <text id="notDoable" name="Not doable" />
-  <text id="note" name="Note" />
+  <text id="nextPage" name="Επόμενο →" />
+  <text id="noAssignedDishes" name="Κανένα ανατεθειμένα πιάτα" />
+  <text id="noAvailableDish" name="Κανένα διαθέσιμο πιάτο" />
+  <text id="noCoopSelected" name="Co-Op + Σχεδίαση!" />
+  <text id="noCoopsAvailable" name="Κανένα Co-Ops" />
+  <text id="noDishMatchesPlan" name="Κανένα πιάτο matches plan." />
+  <text id="noDishesAvailable" name="Κανένα πιάτα" />
+  <text id="noEligibleChef" name="Κανένα Σεφ: απαιτούμενα πιάτα." />
+  <text id="noGoldMasteriesSelected" name="Κανένα Χρυσός Μαεστρίες selected." />
+  <text id="noMasteryRows" name="Κανένα πιάτα in search." />
+  <text id="noPortionRecommendations" name="Κανένα Πρόταση: Μερίδες." />
+  <text id="noProfitRecommendations" name="Κανένα Πρόταση: κέρδος." />
+  <text id="noRecommendedMasteries" name="Κανένα Προτεινόμενη Μαεστρίες." />
+  <text id="noRewardNoContribution" name="No contribution = no reward" />
+  <text id="noTeamMembers" name="Add ≥ 1 Σεφ." />
+  <text id="noTimeMatches" name="Κανένα πιάτα in time window; increase περιθώριο." />
+  <text id="noXpRecommendations" name="Κανένα Πρόταση: XP." />
+  <text id="notDoable" name="Μη εφικτό" />
+  <text id="note" name="Κανέναte" />
   <text id="personalRecommendations" name="Personal recommendations" />
-  <text id="plan" name="Plan" />
-  <text id="planCoop" name="Plan!" />
-  <text id="playerLevel" name="Player Level" />
+  <text id="plan" name="Πλάνο" />
+  <text id="planCoop" name="Σχεδίαση!" />
+  <text id="playerLevel" name="Player Επίπεδο" />
   <text id="playerLevelShort" name="Player level" />
-  <text id="portions" name="Portions" />
-  <text id="portionsLower" name="portion(s)" />
-  <text id="portionsMin" name="Portions/min" />
-  <text id="predictedRewards" name="Team rewards at predicted status" />
+  <text id="portions" name="Μερίδες" />
+  <text id="portionsLower" name="μερίδα(s)" />
+  <text id="portionsMin" name="Μερίδες/min" />
+  <text id="predictedRewards" name="Ομάδα ανταμοιβές at predicted status" />
   <text id="predictedStatus" name="Predicted Status" />
-  <text id="previousPage" name="← Previous" />
-  <text id="profileSaved" name="Profile saved locally." />
-  <text id="profileSettingsNote" name="Your level helps the tool set your current available number of stoves. You can change this in MyDex later." />
-  <text id="profileSettingsTitle" name="Chef Profile" />
-  <text id="profit" name="Profit" />
-  <text id="profitLower" name="profit" />
-  <text id="profitMin" name="Profit/min" />
-  <text id="recommendation" name="Recommendation" />
-  <text id="recommendedMasteriesNote" name="Best mastery targets based on your Best of Summary dishes." />
-  <text id="recommendedMasteriesTitle" name="Recommended Masteries" />
-  <text id="recommendedStar" name="Recommended Star" />
-  <text id="regular" name="Regular" />
-  <text id="requirement" name="Requirement" />
-  <text id="requirements" name="Requirements" />
+  <text id="previousPage" name="← Προηγούμενο" />
+  <text id="profileSaved" name="Προφίλ αποθηκεύτηκε locally." />
+  <text id="profileSettingsNote" name="Επίπεδο → Διαθέσιμες κουζίνες. MyDex: edit later." />
+  <text id="profileSettingsTitle" name="Προφίλ σεφ" />
+  <text id="profit" name="Κέρδος" />
+  <text id="profitLower" name="κέρδος" />
+  <text id="profitMin" name="Κέρδος/min" />
+  <text id="recommendation" name="Πρόταση" />
+  <text id="recommendedMasteriesNote" name="Καλύτερο Μαεστρίες based on Σύνοψη καλύτερων." />
+  <text id="recommendedMasteriesTitle" name="Προτεινόμενη Μαεστρίες" />
+  <text id="recommendedStar" name="Προτεινόμενη Αστέρι" />
+  <text id="regular" name="Κανονικό" />
+  <text id="requirement" name="Απαίτηση" />
+  <text id="requirements" name="Απαιτήσεις" />
   <text id="resetWorkloads" name="Reset workloads" />
-  <text id="revenue" name="Revenue" />
-  <text id="rewardDetails" name="Reward Details" />
-  <text id="rewardEstimateAtYourLevel" name="XP estimate at your level" />
-  <text id="saveTeam" name="Save team" />
-  <text id="searchDish" name="Search dish" />
-  <text id="searchDishPlaceholder" name="Search dish..." />
-  <text id="searchDishes" name="Search dishes" />
-  <text id="selectedCoopPlanTitle" name="Selected Co-Op Plan" />
-  <text id="selectedTeam" name="Selected team" />
-  <text id="setXpAboveZero" name="Set XP Needed above 0." />
-  <text id="shortNote" name="Best XP/min between 1 h 1 min and 3 h." />
-  <text id="shortPlan" name="Short-time" />
-  <text id="shortWord" name="short" />
-  <text id="showIngredients" name="Show ingredients?" />
-  <text id="silver" name="Silver" />
-  <text id="silverDeadline" name="Silver deadline" />
-  <text id="sortBy" name="Sort by" />
-  <text id="sortCategory" name="Category" />
-  <text id="sortDurationAsc" name="Time: Short to Long" />
-  <text id="sortDurationDesc" name="Time: Long to Short" />
-  <text id="sortFullDishDex" name="Sort Full DishDex" />
-  <text id="sortLevelAsc" name="Level: low to high" />
-  <text id="sortLevelDesc" name="Level: high to low" />
+  <text id="revenue" name="Έσοδα" />
+  <text id="rewardDetails" name="Ανταμοιβή Details" />
+  <text id="rewardEstimateAtYourLevel" name="XP estimate (επίπεδο)" />
+  <text id="saveTeam" name="Αποθήκευση team" />
+  <text id="searchDish" name="Αναζήτηση πιάτο" />
+  <text id="searchDishPlaceholder" name="Αναζήτηση πιάτο..." />
+  <text id="searchDishes" name="Αναζήτηση πιάτα" />
+  <text id="selectedCoopPlanTitle" name="Selected Co-Op plan" />
+  <text id="selectedTeam" name="Επιλογήed team" />
+  <text id="setXpAboveZero" name="XP &gt; 0." />
+  <text id="shortNote" name="Καλύτερο XP/min: 1 h 1 min – 3 h." />
+  <text id="shortPlan" name="Σύντομο" />
+  <text id="shortWord" name="σύντομο" />
+  <text id="showIngredients" name="Εμφάνιση υλικών;" />
+  <text id="silver" name="Ασημί" />
+  <text id="silverDeadline" name="Ασημί deadline" />
+  <text id="sortBy" name="Ταξινόμηση κατά" />
+  <text id="sortCategory" name="Κατηγορία" />
+  <text id="sortDurationAsc" name="Χρόνος: σύντομο σε μακρύ" />
+  <text id="sortDurationDesc" name="Χρόνος: μακρύ σε σύντομο" />
+  <text id="sortFullDishDex" name="Ταξινόμηση Full DishDex" />
+  <text id="sortLevelAsc" name="Επίπεδο: αύξουσα" />
+  <text id="sortLevelDesc" name="Επίπεδο: φθίνουσα" />
   <text id="sortNameAsc" name="Alphabetical A-Z" />
   <text id="sortNameDesc" name="Alphabetical Z-A" />
-  <text id="sortProfitAsc" name="Raw Profit: low to high" />
-  <text id="sortProfitDesc" name="Raw Profit: high to low" />
-  <text id="sortProfitPerMinAsc" name="Profit/min: low to high" />
-  <text id="sortProfitPerMinDesc" name="Profit/min: high to low" />
-  <text id="sortServingsAsc" name="Portions: low to high" />
-  <text id="sortServingsDesc" name="Portions: high to low" />
-  <text id="sortServingsPerMinAsc" name="Portions/min: low to high" />
-  <text id="sortServingsPerMinDesc" name="Portions/min: high to low" />
-  <text id="sortStandard" name="Cookbook order" />
-  <text id="sortXpAsc" name="Raw XP: low to high" />
-  <text id="sortXpDesc" name="Raw XP: high to low" />
-  <text id="sortXpPerMinAsc" name="XP/min: low to high" />
-  <text id="sortXpPerMinDesc" name="XP/min: high to low" />
-  <text id="special" name="Special" />
-  <text id="specialDishes" name="Special Dishes" />
-  <text id="specialDishesNote" name="Special dishes are shown separately." />
-  <text id="stoves" name="Stoves" />
-  <text id="targetShort" name="Target" />
-  <text id="targetTime" name="Target time" />
-  <text id="teamDeleted" name="Team deleted." />
-  <text id="teamLimitReached" name="You can save up to 10 teams." />
-  <text id="teamName" name="Team name" />
-  <text id="teamRewardsGold" name="Team rewards if Gold" />
-  <text id="teamSaved" name="Team saved locally." />
-  <text id="totalCookTime" name="Total Cook Time" />
-  <text id="totalStoveHours" name="Total stove-hours" />
+  <text id="sortProfitAsc" name="Raw Κέρδος: αύξουσα" />
+  <text id="sortProfitDesc" name="Raw Κέρδος: φθίνουσα" />
+  <text id="sortProfitPerMinAsc" name="Κέρδος/min: αύξουσα" />
+  <text id="sortProfitPerMinDesc" name="Κέρδος/min: φθίνουσα" />
+  <text id="sortServingsAsc" name="Μερίδες: αύξουσα" />
+  <text id="sortServingsDesc" name="Μερίδες: φθίνουσα" />
+  <text id="sortServingsPerMinAsc" name="Μερίδες/min: αύξουσα" />
+  <text id="sortServingsPerMinDesc" name="Μερίδες/min: φθίνουσα" />
+  <text id="sortStandard" name="Σειρά βιβλίου συνταγών" />
+  <text id="sortXpAsc" name="Raw XP: αύξουσα" />
+  <text id="sortXpDesc" name="Raw XP: φθίνουσα" />
+  <text id="sortXpPerMinAsc" name="XP/min: αύξουσα" />
+  <text id="sortXpPerMinDesc" name="XP/min: φθίνουσα" />
+  <text id="special" name="Ειδικό" />
+  <text id="specialDishes" name="Ειδικά πιάτα" />
+  <text id="specialDishesNote" name="Ειδικά πιάτα: separate." />
+  <text id="stoves" name="Κουζίνες" />
+  <text id="targetShort" name="Στόχος" />
+  <text id="targetTime" name="Στόχος χρόνος" />
+  <text id="teamDeleted" name="Ομάδα deleted." />
+  <text id="teamLimitReached" name="Max 10 Ομάδα." />
+  <text id="teamName" name="Ομάδα name" />
+  <text id="teamRewardsGold" name="Ομάδα: rewards if Χρυσός" />
+  <text id="teamSaved" name="Ομάδα αποθηκεύτηκε locally." />
+  <text id="totalCookTime" name="Total Cook Χρόνος" />
+  <text id="totalStoveHours" name="Total stove-ώρες" />
   <text id="type" name="Type" />
-  <text id="unassignedDishes" name="Unassigned dishes" />
-  <text id="useMyMasteriesForChef1" name="Use my gold masteries for Chef 1" />
-  <text id="useProfileForChef1" name="Use My Profile for Chef 1" />
+  <text id="unassignedDishes" name="Unανατεθειμένα πιάτα" />
+  <text id="useMyMasteriesForChef1" name="Σεφ 1: use my Χρυσός Μαεστρίες" />
+  <text id="useProfileForChef1" name="Σεφ 1: use My Profile" />
   <text id="useRegisteredMasteries" name="Use my registered masteries" />
-  <text id="veryLongNote" name="Best XP/min between 12 h 1 min and 23 h." />
-  <text id="veryLongPlan" name="Very long" />
-  <text id="veryLongWord" name="very long" />
-  <text id="workload" name="Workload" />
-  <text id="workloadEqual" name="Equal" />
-  <text id="workloadHigh" name="High" />
-  <text id="workloadLow" name="Low" />
-  <text id="workloadManual" name="Manual" />
-  <text id="workloadMinimum" name="Minimum" />
-  <text id="workloadVeryHigh" name="Very high" />
+  <text id="veryLongNote" name="Καλύτερο XP/min: 12 h 1 min – 23 h." />
+  <text id="veryLongPlan" name="Πολύ μακρύ" />
+  <text id="veryLongWord" name="πολύ μακρύ" />
+  <text id="workload" name="Φόρτος" />
+  <text id="workloadEqual" name="Ίσο" />
+  <text id="workloadHigh" name="Υψηλό" />
+  <text id="workloadLow" name="Χαμηλό" />
+  <text id="workloadManual" name="Χειροκίνητο" />
+  <text id="workloadMinimum" name="Ελάχιστο" />
+  <text id="workloadVeryHigh" name="Πολύ υψηλό" />
   <text id="xpEach" name="XP Each" />
   <text id="xpNeeded" name="XP Needed" />
-  <text id="xpPlansNote" name="Best level up plans to base your needs and availability." />
-  <text id="xpPlansTitle" name="XP Needed Plans" />
+  <text id="xpPlansNote" name="Level-up plans: needs + availability." />
+  <text id="xpPlansTitle" name="XP Needed Πλάνοs" />
   <text id="xpUpper" name="XP" />
-
-  <!-- DishDex profile/FashionDex additions -->
   <text id="toFashionDex" name="To FashionDex" />
-  <text id="fashionDexDescription" name="Open Cappuccino Fashion FashionDex." />
-  <text id="profileLevelUnlocksTitle" name="Level {0} unlocks:" />
+  <text id="fashionDexDescription" name="Open Cappucciκανένα Fashion FashionDex." />
+  <text id="profileLevelUnlocksTitle" name="Επίπεδο {0} unlocks:" />
   <text id="fridges" name="Fridges" />
   <text id="counters" name="Counters" />
   <text id="waiters" name="Waiters" />
   <text id="instantCookings" name="Instant cookings" />
-  <text id="masteryCompletionProgress" name="Mastery completion progress:" />
+  <text id="masteryCompletionProgress" name="Επίπεδο μαεστρείας progress:" />
 </dishdex>

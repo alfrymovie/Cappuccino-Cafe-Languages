@@ -111,6 +111,7 @@
   <text id="holidayDishesNote" name="Holiday dishes are shown separately. Auto mode uses Christmas and Easter seasons." />
   <text id="holidayInactive" name="Holiday: Inactive" />
   <text id="holidayMode" name="Include holiday foods?" />
+  <text id="includeSpecialDishes" name="Include special dishes?" />
   <text id="hoursShort" name="h" />
   <text id="image" name="Image" />
   <text id="impossibleMissingUnlock" name="Impossible: missing dish unlock" />
@@ -291,8 +292,6 @@
   <text id="xpPlansNote" name="Best level up plans to base your needs and availability." />
   <text id="xpPlansTitle" name="XP Needed Plans" />
   <text id="xpUpper" name="XP" />
-
-  <!-- DishDex profile/FashionDex additions -->
   <text id="toFashionDex" name="To FashionDex" />
   <text id="fashionDexDescription" name="Open Cappuccino Fashion FashionDex." />
   <text id="profileLevelUnlocksTitle" name="Level {0} unlocks:" />

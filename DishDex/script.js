@@ -238,6 +238,7 @@ const I18N = {
     xpNeeded: 'XP Needed',
     availableStoves: 'Available Stoves',
     holidayMode: 'Include holiday foods?',
+    includeSpecialDishes: 'Include special dishes?',
     showIngredients: 'Show ingredients?',
     ingredientDetails: 'Ingredients',
     ingredientCost: 'Ingredient cost',
@@ -543,6 +544,7 @@ const I18N = {
     xpNeeded: 'XP necessário',
     availableStoves: 'Fogões disponíveis',
     holidayMode: 'Incluir comidas de feriado?',
+    includeSpecialDishes: 'Incluir pratos especiais?',
     showIngredients: 'Mostrar ingredientes?',
     ingredientDetails: 'Ingredientes',
     ingredientCost: 'Custo dos ingredientes',
@@ -1367,7 +1369,7 @@ function getCategoryName(categoryId) {
 }
 
 function bindInputs() {
-  ['playerLevel', 'xpNeeded', 'stoveCount', 'holidayMode', 'showIngredientsToggle'].forEach(id => {
+  ['playerLevel', 'xpNeeded', 'stoveCount', 'holidayMode', 'includeSpecialDishesToggle', 'showIngredientsToggle'].forEach(id => {
     const element = document.getElementById(id);
     element.addEventListener('input', handleMyDexInputChange);
     element.addEventListener('change', handleMyDexInputChange);
@@ -1395,6 +1397,7 @@ function handleMyDexInputChange() {
   userData.level = clampNumber(Number(document.getElementById('playerLevel').value || 1), 0, 999);
   userData.xpNeeded = Math.max(0, Number(document.getElementById('xpNeeded').value || 0));
   userData.availableStoves = Math.max(1, Number(document.getElementById('stoveCount').value || 1));
+  userData.includeSpecialDishes = Boolean(document.getElementById('includeSpecialDishesToggle')?.checked);
   userData.showIngredients = Boolean(document.getElementById('showIngredientsToggle')?.checked);
   userData.myTime = normalizeMyTimeSettings(userData.myTime, userData.level);
   userData.myTime.playerLevel = userData.level;
@@ -1450,7 +1453,7 @@ function renderMyDex() {
     .filter(record => record.level <= settings.playerLevel);
 
   const regularCandidates = availableDishes.filter(record => {
-    if (record.dishType === 'Special') return false;
+    if (record.dishType === 'Special') return settings.includeSpecialDishes;
     if (record.dishType === 'Holiday') return shouldIncludeHolidayDish(record.dishKey, settings.holidayMode);
     return true;
   });
@@ -1658,6 +1661,7 @@ function getSettings() {
     xpNeeded: Math.max(0, Number(document.getElementById('xpNeeded').value || 0)),
     stoveCount: Math.max(1, Number(document.getElementById('stoveCount').value || 1)),
     holidayMode: document.getElementById('holidayMode').value || 'Auto',
+    includeSpecialDishes: Boolean(document.getElementById('includeSpecialDishesToggle')?.checked),
     showIngredients: Boolean(document.getElementById('showIngredientsToggle')?.checked)
   };
 }
@@ -3380,6 +3384,7 @@ function normalizeUserData(raw) {
     level: clampNumber(Number(data.level || 1), 0, 999),
     xpNeeded: Math.max(0, Number(data.xpNeeded ?? 1000)),
     availableStoves: Number(data.availableStoves || 0),
+    includeSpecialDishes: Boolean(data.includeSpecialDishes),
     showIngredients: Boolean(data.showIngredients),
     myTime: normalizeMyTimeSettings(data.myTime, clampNumber(Number(data.level || 1), 0, 999)),
     masteries: normalizeMasteries(data.masteries),
@@ -3823,6 +3828,8 @@ function syncMyDexInputs(updateStoves = true) {
   if (updateStoves) {
     document.getElementById('stoveCount').value = Number(userData.availableStoves || getDefaultStovesForLevel(userData.level));
   }
+  const includeSpecialDishesToggle = document.getElementById('includeSpecialDishesToggle');
+  if (includeSpecialDishesToggle) includeSpecialDishesToggle.checked = Boolean(userData.includeSpecialDishes);
   const showIngredientsToggle = document.getElementById('showIngredientsToggle');
   if (showIngredientsToggle) showIngredientsToggle.checked = Boolean(userData.showIngredients);
 }
@@ -3947,6 +3954,7 @@ function exportUserData() {
         level: Number(userData.level || 1),
         xpNeeded: Math.max(0, Number(userData.xpNeeded ?? 1000)),
         availableStoves: Number(userData.availableStoves || getDefaultStovesForLevel(userData.level)),
+        includeSpecialDishes: Boolean(userData.includeSpecialDishes),
         showIngredients: Boolean(userData.showIngredients),
         myTime: normalizeMyTimeSettings(userData.myTime),
         masteries: userData.masteries || {},
@@ -3957,6 +3965,7 @@ function exportUserData() {
     : {
         version: 1,
         xpNeeded: Math.max(0, Number(userData.xpNeeded ?? 1000)),
+        includeSpecialDishes: Boolean(userData.includeSpecialDishes),
         showIngredients: Boolean(userData.showIngredients),
         myTime: normalizeMyTimeSettings(userData.myTime),
         masteries: userData.masteries || {},
@@ -3992,6 +4001,9 @@ function importUserData(file) {
       userData.masteries = normalizeMasteries(parsed.masteries);
       if ('xpNeeded' in parsed) {
         userData.xpNeeded = Math.max(0, Number(parsed.xpNeeded || 0));
+      }
+      if ('includeSpecialDishes' in parsed) {
+        userData.includeSpecialDishes = Boolean(parsed.includeSpecialDishes);
       }
       if ('showIngredients' in parsed) {
         userData.showIngredients = Boolean(parsed.showIngredients);

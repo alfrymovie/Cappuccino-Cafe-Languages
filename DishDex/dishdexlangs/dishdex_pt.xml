@@ -111,6 +111,7 @@
   <text id="holidayDishesNote" name="Pratos de feriado são exibidos separadamente. O modo Auto usa as épocas de Natal e Páscoa." />
   <text id="holidayInactive" name="Feriado: inativo" />
   <text id="holidayMode" name="Incluir comidas de feriado?" />
+  <text id="includeSpecialDishes" name="Incluir pratos especiais?" />
   <text id="hoursShort" name="h" />
   <text id="image" name="Imagem" />
   <text id="impossibleMissingUnlock" name="Impossível: falta desbloquear prato" />
@@ -291,8 +292,6 @@
   <text id="xpPlansNote" name="Melhores planos para subir de nível com base nas suas necessidades e disponibilidade." />
   <text id="xpPlansTitle" name="Planos de XP necessário" />
   <text id="xpUpper" name="XP" />
-
-  <!-- DishDex profile/FashionDex additions -->
   <text id="toFashionDex" name="Ir para o FashionDex" />
   <text id="fashionDexDescription" name="Abrir o FashionDex do Cappuccino Fashion." />
   <text id="profileLevelUnlocksTitle" name="Nível {0} desbloqueia:" />

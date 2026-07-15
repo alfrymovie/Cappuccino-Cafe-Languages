@@ -1,304 +1,304 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Provisional DishDex UI translation pass; review/polish with human translators when possible. -->
 <dishdex lang="es">
-  <text id="actions" name="Actions" />
-  <text id="activeNote" name="Best XP/min for 10 minutes or less." />
-  <text id="activePlan" name="Active-time" />
-  <text id="activeWord" name="active" />
-  <text id="alreadyMasteredBest" name="You already mastered the best dish for this! Nice!" />
-  <text id="assignedDishes" name="Assigned dishes" />
-  <text id="assignmentComingSoon" name="Dish assignment comes in the next phase." />
-  <text id="assignmentCopied" name="Assignment copied!" />
-  <text id="assignmentCopyFailed" name="Could not copy assignment." />
-  <text id="assignmentPlanTitle" name="Dish assignment plan" />
+  <text id="actions" name="Acciones" />
+  <text id="activeNote" name="Mejor XP/min: 10 minutos o menos." />
+  <text id="activePlan" name="Activo" />
+  <text id="activeWord" name="activo" />
+  <text id="alreadyMasteredBest" name="✓ Mejor plato — Nivel de maestría!" />
+  <text id="assignedDishes" name="Asignados platos" />
+  <text id="assignmentComingSoon" name="Asignación: Siguiente fase." />
+  <text id="assignmentCopied" name="Asignación copiada!" />
+  <text id="assignmentCopyFailed" name="No se pudo copiar: asignación." />
+  <text id="assignmentPlanTitle" name="Plato asignación Plan" />
   <text id="auto" name="Auto" />
-  <text id="availableDishDex" name="Available DishDex" />
-  <text id="availableDishDexNote" name="Complete dish list with XP, profit, portions, time, category and requirements." />
-  <text id="availableStoves" name="Available Stoves" />
-  <text id="backButton" name="← Back" />
-  <text id="baseRewards" name="Base rewards" />
-  <text id="batches" name="Batches" />
-  <text id="benefit" name="Benefit" />
-  <text id="bestActive" name="Best active" />
-  <text id="bestDayOff" name="Best day-off" />
-  <text id="bestFast" name="Best fast" />
-  <text id="bestLong" name="Best long" />
-  <text id="bestMedium" name="Best medium" />
-  <text id="bestPortionsTitle" name="Best dishes (Portions)" />
-  <text id="bestProfitTitle" name="Best Dishes (Profit)" />
-  <text id="bestShort" name="Best short" />
-  <text id="bestSummaryPortionMin" name="Best portion/min" />
-  <text id="bestSummaryProfitMin" name="Best profit/min" />
-  <text id="bestSummaryRawPortion" name="Best raw portion" />
-  <text id="bestSummaryRawProfit" name="Best raw profit" />
-  <text id="bestSummaryRawXp" name="Best raw XP" />
-  <text id="bestSummaryTitle" name="Best of Summary" />
-  <text id="bestSummaryXpMin" name="Best XP/min" />
-  <text id="bestVeryLong" name="Best very long" />
-  <text id="bestXpTitle" name="Best Dishes (XP)" />
-  <text id="bronze" name="Bronze" />
-  <text id="bronzeDeadline" name="Bronze deadline" />
-  <text id="cannotCookDish" name="Cannot cook" />
-  <text id="cashReward" name="Cash" />
-  <text id="category" name="Category" />
+  <text id="availableDishDex" name="Disponibles DishDex" />
+  <text id="availableDishDexNote" name="Completa plato lista: XP, beneficio, Porciones, Tiempo, Categoría, Requisitos." />
+  <text id="availableStoves" name="Fogones disponibles" />
+  <text id="backButton" name="← Volver" />
+  <text id="baseRewards" name="Recompensas base" />
+  <text id="batches" name="Tandas" />
+  <text id="benefit" name="Beneficio" />
+  <text id="bestActive" name="Mejor activo" />
+  <text id="bestDayOff" name="Mejor día libre" />
+  <text id="bestFast" name="Mejor rápido" />
+  <text id="bestLong" name="Mejor largo" />
+  <text id="bestMedium" name="Mejor medio" />
+  <text id="bestPortionsTitle" name="Mejor platos (Porciones)" />
+  <text id="bestProfitTitle" name="Mejor Platos (Beneficio)" />
+  <text id="bestShort" name="Mejor corto" />
+  <text id="bestSummaryPortionMin" name="Mejor porción/min" />
+  <text id="bestSummaryProfitMin" name="Mejor beneficio/min" />
+  <text id="bestSummaryRawPortion" name="Mejor bruto porción" />
+  <text id="bestSummaryRawProfit" name="Mejor bruto beneficio" />
+  <text id="bestSummaryRawXp" name="Mejor bruto XP" />
+  <text id="bestSummaryTitle" name="Mejor resumen" />
+  <text id="bestSummaryXpMin" name="Mejor XP/min" />
+  <text id="bestVeryLong" name="Mejor muy largo" />
+  <text id="bestXpTitle" name="Mejor Platos (XP)" />
+  <text id="bronze" name="Bronce" />
+  <text id="bronzeDeadline" name="Plazo de Bronce" />
+  <text id="cannotCookDish" name="Sin puede cocinar" />
+  <text id="cashReward" name="Dinero" />
+  <text id="category" name="Categoría" />
   <text id="chef" name="Chef" />
   <text id="chefCookTime" name="Cook time" />
   <text id="chefFallback" name="Chef" />
-  <text id="chefName" name="Chef name" />
-  <text id="chooseMode" name="Choose a mode" />
-  <text id="chooseModeNote" name="Select how you want to use DishDex." />
+  <text id="chefName" name="Sinmbre del chef" />
+  <text id="chooseMode" name="Elige un modo" />
+  <text id="chooseModeNote" name="Selecciona cómo quieres usar DishDex." />
   <text id="clearChef" name="Clear chef" />
   <text id="clearCookTime" name="Clear cook time" />
   <text id="clearMargin" name="Clear margin" />
-  <text id="completeDishList" name="Complete dish list" />
-  <text id="confirmDelete" name="Are you sure? This will delete your saved profile, masteries and Co-Op teams." />
-  <text id="confirmDeleteTeam" name="Delete this saved team?" />
-  <text id="contributionWarning" name="Each chef must cook at least one required dish to receive rewards." />
-  <text id="coopListNote" name="Browse and plan your next Co-Op here!" />
+  <text id="completeDishList" name="Lista completa de platos" />
+  <text id="confirmDelete" name="Delete local data: Profile, Masteries, Co-Op Team." />
+  <text id="confirmDeleteTeam" name="Delete Team?" />
+  <text id="contributionWarning" name="Cada chef debe cocinar al menos un plato requerido para recibir recompensas." />
+  <text id="coopListNote" name="Co-Op: Consultar + plan." />
   <text id="coopListTitle" name="Co-Op Planner" />
   <text id="coopNumber" name="Co-Op" />
-  <text id="coopPlannerDescription" name="Browse and plan your next Co-Op here." />
+  <text id="coopPlannerDescription" name="Co-Op: Consultar + plan." />
   <text id="coopPlannerEyebrow" name="Team cooking" />
   <text id="coopPlannerTitle" name="Co-Op Planner" />
-  <text id="coopRequirements" name="Required dishes" />
-  <text id="coopSearch" name="Search co-op" />
-  <text id="coopSearchPlaceholder" name="Search co-op..." />
-  <text id="coopShortDescription" name="Description" />
-  <text id="coopTeamNote" name="Register up to five chefs and save up to ten teams." />
+  <text id="coopRequirements" name="Necesarios platos" />
+  <text id="coopSearch" name="Buscar Co-Op" />
+  <text id="coopSearchPlaceholder" name="Buscar Co-Op..." />
+  <text id="coopShortDescription" name="Descripción" />
+  <text id="coopTeamNote" name="Max 5 Chef; save up to 10 Team." />
   <text id="coopTeamTitle" name="Co-Op Team" />
-  <text id="copyAssignment" name="Copy assignment" />
-  <text id="cost" name="Cost" />
-  <text id="couldNotLoadData" name="Could not load Café data." />
-  <text id="currentMastery" name="Current Mastery" />
-  <text id="darkTheme" name="Dark Theme" />
-  <text id="dataDeleted" name="Saved profile, masteries and Co-Op teams deleted." />
-  <text id="dataDownloaded" name="Data file downloaded." />
-  <text id="dataLoadError" name="Could not load this data file." />
+  <text id="copyAssignment" name="Copy asignación" />
+  <text id="cost" name="Costo" />
+  <text id="couldNotLoadData" name="No se pudieron cargar los datos de Café." />
+  <text id="currentMastery" name="Maestría actual" />
+  <text id="darkTheme" name="Tema oscuro" />
+  <text id="dataDeleted" name="Profile, Masteries, Co-Op Team: deleted." />
+  <text id="dataDownloaded" name="Archivo de datos descargado." />
+  <text id="dataLoadError" name="Data file: error." />
   <text id="dataLoaded" name="Café data loaded!" />
-  <text id="dataLoadedMessage" name="Data loaded successfully." />
-  <text id="dayOffNote" name="Best XP/min for 23 h 1 min or more." />
-  <text id="dayOffPlan" name="Day off" />
-  <text id="dayOffWord" name="day-off" />
-  <text id="deleteData" name="Delete data" />
-  <text id="deleteTeam" name="Delete team" />
-  <text id="dish" name="Dish" />
-  <text id="dishesNeeded" name="Dishes Needed" />
-  <text id="dishesReady" name="dishes ready" />
-  <text id="dishesRequired" name="dishes required" />
-  <text id="masteryTotalForGold" name="Total: {0} dishes required for Gold" />
-  <text id="downloadData" name="Download data" />
-  <text id="duration" name="Duration" />
-  <text id="editGoldMasteries" name="Edit gold masteries" />
-  <text id="editManualDishes" name="Edit dishes" />
-  <text id="effects" name="Effects" />
-  <text id="estimatedWithTeam" name="Estimated with this team" />
+  <text id="dataLoadedMessage" name="Datos cargados correctamente." />
+  <text id="dayOffNote" name="Mejor XP/min: 23 h 1 min o más." />
+  <text id="dayOffPlan" name="Día libre" />
+  <text id="dayOffWord" name="día libre" />
+  <text id="deleteData" name="Borrar datos" />
+  <text id="deleteTeam" name="Borrar equipo" />
+  <text id="dish" name="Plato" />
+  <text id="dishesNeeded" name="Platos Needed" />
+  <text id="dishesReady" name="platos ready" />
+  <text id="dishesRequired" name="platos necesarios" />
+  <text id="masteryTotalForGold" name="Total: {0} platos → Oro" />
+  <text id="downloadData" name="Descargar datos" />
+  <text id="duration" name="Duración" />
+  <text id="editGoldMasteries" name="Oro Masteries: edit" />
+  <text id="editManualDishes" name="Edit platos" />
+  <text id="effects" name="Efectos" />
+  <text id="estimatedWithTeam" name="Team: estimate" />
   <text id="exclude" name="Exclude" />
-  <text id="fastNote" name="Best XP/min between 11 minutes and 1 hour." />
-  <text id="fastPlan" name="Fast-time" />
-  <text id="fastWord" name="fast" />
-  <text id="fullDishDexDescription" name="Access the complete DishDex with all information." />
+  <text id="fastNote" name="Mejor XP/min: 11 minutos – 1 hora." />
+  <text id="fastPlan" name="Rápido" />
+  <text id="fastWord" name="rápido" />
+  <text id="fullDishDexDescription" name="Accede al DishDex completo con toda la información." />
   <text id="fullDishDexTitle" name="Full DishDex" />
-  <text id="fullTagChristmas" name="Christmas" />
-  <text id="fullTagEaster" name="Easter" />
-  <text id="fullTagSpecial" name="Special" />
-  <text id="gold" name="Gold" />
-  <text id="goldDeadline" name="Gold deadline" />
-  <text id="goldMasteries" name="Gold masteries" />
-  <text id="goldMasteriesNote" name="Only Gold mastery matters here because it reduces cooking time." />
-  <text id="goldReward" name="Gold" />
-  <text id="holiday" name="Holiday" />
-  <text id="holidayActive" name="Holiday: Active" />
-  <text id="holidayDishes" name="Holiday Dishes" />
-  <text id="holidayDishesNote" name="Holiday dishes are shown separately. Auto mode uses Christmas and Easter seasons." />
-  <text id="holidayInactive" name="Holiday: Inactive" />
-  <text id="holidayMode" name="Include holiday foods?" />
+  <text id="fullTagChristmas" name="Navidad" />
+  <text id="fullTagEaster" name="Pascua" />
+  <text id="fullTagSpecial" name="Especial" />
+  <text id="gold" name="Oro" />
+  <text id="goldDeadline" name="Plazo de Oro" />
+  <text id="goldMasteries" name="Maestrías de Oro" />
+  <text id="goldMasteriesNote" name="Oro Nivel de maestría = shorter cooking time." />
+  <text id="goldReward" name="Oro" />
+  <text id="holiday" name="Festivo" />
+  <text id="holidayActive" name="Festivo: Activo" />
+  <text id="holidayDishes" name="Platos festivos" />
+  <text id="holidayDishesNote" name="Platos festivos: separate. Auto = Navidad + Pascua." />
+  <text id="holidayInactive" name="Festivo: Inactivo" />
+  <text id="holidayMode" name="¿Incluir comidas festivas?" />
+  <text id="includeSpecialDishes" name="¿Incluir platos especiales?" />
   <text id="hoursShort" name="h" />
-  <text id="image" name="Image" />
-  <text id="impossibleMissingUnlock" name="Impossible: missing dish unlock" />
+  <text id="image" name="Imagen" />
+  <text id="impossibleMissingUnlock" name="Imposible: Plato unlock missing" />
   <text id="include" name="Include" />
-  <text id="ingredientCost" name="Ingredient cost" />
-  <text id="ingredientDetails" name="Ingredients" />
-  <text id="languageLabel" name="🌐 Language" />
-  <text id="level" name="Level" />
-  <text id="loadData" name="Load data" />
-  <text id="loadTeam" name="Load team" />
+  <text id="ingredientCost" name="Costoo de ingredientes" />
+  <text id="ingredientDetails" name="Ingredientes" />
+  <text id="languageLabel" name="🌐 Idioma" />
+  <text id="level" name="Nivel" />
+  <text id="loadData" name="Cargar datos" />
+  <text id="loadTeam" name="Cargar equipo" />
   <text id="loadingXml" name="Loading Café XML..." />
-  <text id="longNote" name="Best XP/min between 6 h 1 min and 12 h." />
-  <text id="longPlan" name="Long-time" />
-  <text id="longWord" name="long" />
-  <text id="mainSubtitle" name="Access information about all dishes!" />
-  <text id="manualAssignmentNote" name="Choose exactly which required dishes this chef should cook. The planner assigns the remaining dishes after this." />
-  <text id="manualAssignmentSaved" name="Manual assignment saved." />
-  <text id="manualAssignmentSummaryEmpty" name="No manual dishes set" />
-  <text id="manualAssignmentTitle" name="Manual assignment" />
-  <text id="manualAssignmentUnavailable" name="Choose a Co-Op first to edit manual dishes." />
-  <text id="manualCountWarning" name="One or more manual workloads could not be filled completely." />
-  <text id="manualDishes" name="Manual dishes" />
-  <text id="manualDishesShort" name="dishes" />
-  <text id="marginShort" name="Margin" />
-  <text id="masteriesEyebrow" name="Dish perks" />
-  <text id="mastery" name="Mastery" />
-  <text id="masteryBookPage" name="Page" />
+  <text id="longNote" name="Mejor XP/min: 6 h 1 min – 12 h." />
+  <text id="longPlan" name="Largo" />
+  <text id="longWord" name="largo" />
+  <text id="mainSubtitle" name="¡Accede a información sobre todos los platos!" />
+  <text id="manualAssignmentNote" name="Elige exactamente qué platos requeridos debe cocinar este chef. El planificador asigna los restantes después." />
+  <text id="manualAssignmentSaved" name="Manual asignación guardado." />
+  <text id="manualAssignmentSummaryEmpty" name="Sin manual platos" />
+  <text id="manualAssignmentTitle" name="Manual asignación" />
+  <text id="manualAssignmentUnavailable" name="Co-Op first; then edit platos." />
+  <text id="manualCountWarning" name="Manual workload incomplete." />
+  <text id="manualDishes" name="Manual platos" />
+  <text id="manualDishesShort" name="platos" />
+  <text id="marginShort" name="Margen" />
+  <text id="masteriesEyebrow" name="Plato perks" />
+  <text id="mastery" name="Nivel de maestría" />
+  <text id="masteryBookPage" name="Página" />
   <text id="masteryCookbook" name="Cook Book (Legacy)" />
   <text id="masteryListHorizontal" name="List (horizontal reader)" />
   <text id="masteryListVertical" name="List (vertical reader)" />
-  <text id="masteryView" name="View" />
-  <text id="maxMembers" name="Max members" />
-  <text id="maxRewardsYourLevel" name="Max Rewards (your level)" />
-  <text id="mediumNote" name="Best XP/min between 3 h 1 min and 6 h." />
-  <text id="mediumPlan" name="Medium-time" />
-  <text id="mediumWord" name="medium" />
-  <text id="metricPortionMin" name="portion/min" />
-  <text id="metricProfitMin" name="profit/min" />
+  <text id="masteryView" name="Vista" />
+  <text id="maxMembers" name="Máx. miembros" />
+  <text id="maxRewardsYourLevel" name="Max rewards (nivel)" />
+  <text id="mediumNote" name="Mejor XP/min: 3 h 1 min – 6 h." />
+  <text id="mediumPlan" name="Medio" />
+  <text id="mediumWord" name="medio" />
+  <text id="metricPortionMin" name="porción/min" />
+  <text id="metricProfitMin" name="beneficio/min" />
   <text id="metricXpMin" name="XP/min" />
-  <text id="minimumDishLevel" name="Minimum dish level" />
+  <text id="minimumDishLevel" name="Mínima plato level" />
   <text id="minutesShort" name="min" />
-  <text id="myDexDescription" name="Access your personal DishDex based on your level, XP and available time." />
-  <text id="myDexHint" name="Insert your data for personalized recommendations." />
+  <text id="myDexDescription" name="Accede a tu DishDex personal según tu nivel, XP y tiempo disponible." />
+  <text id="myDexHint" name="Introduce tus datos para recibir recomendaciones personalizadas." />
   <text id="myDexSettings" name="MyDex Settings" />
-  <text id="myMasteriesActive" name="Using My Masteries for Chef 1" />
-  <text id="myMasteriesDescription" name="Register your dish mastery stars and apply them to MyDex." />
+  <text id="myMasteriesActive" name="Using My Masteries para Chef 1" />
+  <text id="myMasteriesDescription" name="Registrar Plato Masteries and apply to MyDex." />
   <text id="myMasteriesTitle" name="My Masteries" />
-  <text id="myProfileDescription" name="Save your chef name, level and default stove count." />
+  <text id="myProfileDescription" name="Chef name, Nivel, Fogones: save." />
   <text id="myProfileTitle" name="My Profile" />
-  <text id="myTimeAllMatches" name="All matching dishes" />
-  <text id="myTimeAllMatchesNote" name="All available dishes in this time window, sorted by level." />
-  <text id="myTimeBestMatches" name="Best matches" />
-  <text id="myTimeBestMatchesNote" name="Best dishes inside your chosen time window." />
-  <text id="myTimeDescription" name="Plan dishes according to your time." />
-  <text id="myTimeEyebrow" name="Time planning" />
-  <text id="myTimeMargin" name="Margin" />
-  <text id="myTimeMarginLabel" name="Margin:" />
-  <text id="myTimeNoWindow" name="Set a target time above 0." />
+  <text id="myTimeAllMatches" name="Todos los platos coincidentes" />
+  <text id="myTimeAllMatchesNote" name="Disponibles platos in this time window; sorted by nivel." />
+  <text id="myTimeBestMatches" name="Mejores coincidencias" />
+  <text id="myTimeBestMatchesNote" name="Mejor platos in the chosen time window." />
+  <text id="myTimeDescription" name="Planifica platos según tu tiempo." />
+  <text id="myTimeEyebrow" name="Tiempo planning" />
+  <text id="myTimeMargin" name="Margen" />
+  <text id="myTimeMarginLabel" name="Margen:" />
+  <text id="myTimeNoWindow" name="Tiempo objetivo: &gt; 0." />
   <text id="myTimePlayerLevelLabel" name="Player level:" />
-  <text id="myTimeQuestion" name="How long do you want to cook for?" />
-  <text id="myTimeSettings" name="My Time Settings" />
-  <text id="myTimeTargetLabel" name="Target:" />
-  <text id="myTimeTitle" name="My Time" />
-  <text id="myTimeWindowLabel" name="Showing dishes from {0} to {1}." />
-  <text id="newTeam" name="New team" />
-  <text id="nextPage" name="Next →" />
-  <text id="noAssignedDishes" name="No dishes assigned" />
-  <text id="noAvailableDish" name="No available dish" />
-  <text id="noCoopSelected" name="Choose a co-op and click Plan!" />
-  <text id="noCoopsAvailable" name="No co-ops available." />
-  <text id="noDishMatchesPlan" name="No dish matches this plan." />
-  <text id="noDishesAvailable" name="No dishes available." />
-  <text id="noEligibleChef" name="No eligible chef can cook one or more required dishes." />
-  <text id="noGoldMasteriesSelected" name="No Gold masteries selected yet." />
-  <text id="noMasteryRows" name="No dishes match this search." />
-  <text id="noPortionRecommendations" name="No portion recommendations available for this level/settings." />
-  <text id="noProfitRecommendations" name="No profit recommendations available for this level/settings." />
-  <text id="noRecommendedMasteries" name="No mastery recommendations available for this level/settings." />
-  <text id="noRewardNoContribution" name="No reward without contribution" />
-  <text id="noTeamMembers" name="Add at least one chef to this team." />
-  <text id="noTimeMatches" name="No dishes match this time window. Try increasing the margin." />
-  <text id="noXpRecommendations" name="No XP recommendations available for this level/settings." />
-  <text id="notDoable" name="Not doable" />
-  <text id="note" name="Note" />
+  <text id="myTimeQuestion" name="Cooking time?" />
+  <text id="myTimeSettings" name="My Tiempo Settings" />
+  <text id="myTimeTargetLabel" name="Objetivo:" />
+  <text id="myTimeTitle" name="My Tiempo" />
+  <text id="myTimeWindowLabel" name="Platos: {0} – {1}." />
+  <text id="newTeam" name="Nuevo equipo" />
+  <text id="nextPage" name="Siguiente →" />
+  <text id="noAssignedDishes" name="Sin asignados platos" />
+  <text id="noAvailableDish" name="Sin disponibles plato" />
+  <text id="noCoopSelected" name="Co-Op + ¡Planear!" />
+  <text id="noCoopsAvailable" name="Sin Co-Ops" />
+  <text id="noDishMatchesPlan" name="Sin plato matches plan." />
+  <text id="noDishesAvailable" name="Sin platos" />
+  <text id="noEligibleChef" name="Sin Chef: necesarios platos." />
+  <text id="noGoldMasteriesSelected" name="Sin Oro Masteries selected." />
+  <text id="noMasteryRows" name="Sin platos in search." />
+  <text id="noPortionRecommendations" name="Sin Recomendación: Porciones." />
+  <text id="noProfitRecommendations" name="Sin Recomendación: beneficio." />
+  <text id="noRecommendedMasteries" name="Sin Recommended Masteries." />
+  <text id="noRewardNoContribution" name="No contribution = no reward" />
+  <text id="noTeamMembers" name="Add ≥ 1 Chef." />
+  <text id="noTimeMatches" name="Sin platos in time window; increase margen." />
+  <text id="noXpRecommendations" name="Sin Recomendación: XP." />
+  <text id="notDoable" name="Sin viable" />
+  <text id="note" name="Sinta" />
   <text id="personalRecommendations" name="Personal recommendations" />
   <text id="plan" name="Plan" />
-  <text id="planCoop" name="Plan!" />
-  <text id="playerLevel" name="Player Level" />
+  <text id="planCoop" name="¡Planear!" />
+  <text id="playerLevel" name="Nivel del jugador" />
   <text id="playerLevelShort" name="Player level" />
-  <text id="portions" name="Portions" />
-  <text id="portionsLower" name="portion(s)" />
-  <text id="portionsMin" name="Portions/min" />
-  <text id="predictedRewards" name="Team rewards at predicted status" />
+  <text id="portions" name="Porciones" />
+  <text id="portionsLower" name="porción(es)" />
+  <text id="portionsMin" name="Porciones/min" />
+  <text id="predictedRewards" name="Recompensas del equipo at predicted status" />
   <text id="predictedStatus" name="Predicted Status" />
-  <text id="previousPage" name="← Previous" />
-  <text id="profileSaved" name="Profile saved locally." />
-  <text id="profileSettingsNote" name="Your level helps the tool set your current available number of stoves. You can change this in MyDex later." />
-  <text id="profileSettingsTitle" name="Chef Profile" />
-  <text id="profit" name="Profit" />
-  <text id="profitLower" name="profit" />
-  <text id="profitMin" name="Profit/min" />
-  <text id="recommendation" name="Recommendation" />
-  <text id="recommendedMasteriesNote" name="Best mastery targets based on your Best of Summary dishes." />
-  <text id="recommendedMasteriesTitle" name="Recommended Masteries" />
-  <text id="recommendedStar" name="Recommended Star" />
-  <text id="regular" name="Regular" />
-  <text id="requirement" name="Requirement" />
-  <text id="requirements" name="Requirements" />
+  <text id="previousPage" name="← Anterior" />
+  <text id="profileSaved" name="Perfil guardado localmente." />
+  <text id="profileSettingsNote" name="Tu nivel ayuda a la herramienta a definir tu cantidad actual de fogones disponibles. Puedes cambiarlo luego en MyDex." />
+  <text id="profileSettingsTitle" name="Perfil del chef" />
+  <text id="profit" name="Beneficio" />
+  <text id="profitLower" name="beneficio" />
+  <text id="profitMin" name="Beneficio/min" />
+  <text id="recommendation" name="Recomendación" />
+  <text id="recommendedMasteriesNote" name="Mejor Masteries based on Resumen de mejores." />
+  <text id="recommendedMasteriesTitle" name="Maestrías recomendadas" />
+  <text id="recommendedStar" name="Estrella recomendada" />
+  <text id="regular" name="Sinrmal" />
+  <text id="requirement" name="Requisito" />
+  <text id="requirements" name="Requisitos" />
   <text id="resetWorkloads" name="Reset workloads" />
-  <text id="revenue" name="Revenue" />
-  <text id="rewardDetails" name="Reward Details" />
-  <text id="rewardEstimateAtYourLevel" name="XP estimate at your level" />
-  <text id="saveTeam" name="Save team" />
-  <text id="searchDish" name="Search dish" />
-  <text id="searchDishPlaceholder" name="Search dish..." />
-  <text id="searchDishes" name="Search dishes" />
-  <text id="selectedCoopPlanTitle" name="Selected Co-Op Plan" />
-  <text id="selectedTeam" name="Selected team" />
-  <text id="setXpAboveZero" name="Set XP Needed above 0." />
-  <text id="shortNote" name="Best XP/min between 1 h 1 min and 3 h." />
-  <text id="shortPlan" name="Short-time" />
-  <text id="shortWord" name="short" />
-  <text id="showIngredients" name="Show ingredients?" />
-  <text id="silver" name="Silver" />
-  <text id="silverDeadline" name="Silver deadline" />
-  <text id="sortBy" name="Sort by" />
-  <text id="sortCategory" name="Category" />
-  <text id="sortDurationAsc" name="Time: Short to Long" />
-  <text id="sortDurationDesc" name="Time: Long to Short" />
+  <text id="revenue" name="Ingresos" />
+  <text id="rewardDetails" name="Detalles de recompensa" />
+  <text id="rewardEstimateAtYourLevel" name="XP estimate (nivel)" />
+  <text id="saveTeam" name="Guardar equipo" />
+  <text id="searchDish" name="Buscar plato" />
+  <text id="searchDishPlaceholder" name="Buscar plato..." />
+  <text id="searchDishes" name="Buscar platos" />
+  <text id="selectedCoopPlanTitle" name="Selected Co-Op plan" />
+  <text id="selectedTeam" name="Equipo seleccionado" />
+  <text id="setXpAboveZero" name="XP necesario &gt; 0." />
+  <text id="shortNote" name="Mejor XP/min: 1 h 1 min – 3 h." />
+  <text id="shortPlan" name="Corto" />
+  <text id="shortWord" name="corto" />
+  <text id="showIngredients" name="¿Mostrar ingredientes?" />
+  <text id="silver" name="Plata" />
+  <text id="silverDeadline" name="Plazo de Plata" />
+  <text id="sortBy" name="Ordenar por" />
+  <text id="sortCategory" name="Categoría" />
+  <text id="sortDurationAsc" name="Tiempo: corto a largo" />
+  <text id="sortDurationDesc" name="Tiempo: largo a corto" />
   <text id="sortFullDishDex" name="Sort Full DishDex" />
-  <text id="sortLevelAsc" name="Level: low to high" />
-  <text id="sortLevelDesc" name="Level: high to low" />
+  <text id="sortLevelAsc" name="Nivel: mesinr a mayor" />
+  <text id="sortLevelDesc" name="Nivel: mayor a mesinr" />
   <text id="sortNameAsc" name="Alphabetical A-Z" />
   <text id="sortNameDesc" name="Alphabetical Z-A" />
-  <text id="sortProfitAsc" name="Raw Profit: low to high" />
-  <text id="sortProfitDesc" name="Raw Profit: high to low" />
-  <text id="sortProfitPerMinAsc" name="Profit/min: low to high" />
-  <text id="sortProfitPerMinDesc" name="Profit/min: high to low" />
-  <text id="sortServingsAsc" name="Portions: low to high" />
-  <text id="sortServingsDesc" name="Portions: high to low" />
-  <text id="sortServingsPerMinAsc" name="Portions/min: low to high" />
-  <text id="sortServingsPerMinDesc" name="Portions/min: high to low" />
-  <text id="sortStandard" name="Cookbook order" />
-  <text id="sortXpAsc" name="Raw XP: low to high" />
-  <text id="sortXpDesc" name="Raw XP: high to low" />
-  <text id="sortXpPerMinAsc" name="XP/min: low to high" />
-  <text id="sortXpPerMinDesc" name="XP/min: high to low" />
-  <text id="special" name="Special" />
-  <text id="specialDishes" name="Special Dishes" />
-  <text id="specialDishesNote" name="Special dishes are shown separately." />
-  <text id="stoves" name="Stoves" />
-  <text id="targetShort" name="Target" />
-  <text id="targetTime" name="Target time" />
-  <text id="teamDeleted" name="Team deleted." />
-  <text id="teamLimitReached" name="You can save up to 10 teams." />
-  <text id="teamName" name="Team name" />
-  <text id="teamRewardsGold" name="Team rewards if Gold" />
-  <text id="teamSaved" name="Team saved locally." />
-  <text id="totalCookTime" name="Total Cook Time" />
-  <text id="totalStoveHours" name="Total stove-hours" />
-  <text id="type" name="Type" />
-  <text id="unassignedDishes" name="Unassigned dishes" />
-  <text id="useMyMasteriesForChef1" name="Use my gold masteries for Chef 1" />
-  <text id="useProfileForChef1" name="Use My Profile for Chef 1" />
-  <text id="useRegisteredMasteries" name="Use my registered masteries" />
-  <text id="veryLongNote" name="Best XP/min between 12 h 1 min and 23 h." />
-  <text id="veryLongPlan" name="Very long" />
-  <text id="veryLongWord" name="very long" />
-  <text id="workload" name="Workload" />
-  <text id="workloadEqual" name="Equal" />
-  <text id="workloadHigh" name="High" />
-  <text id="workloadLow" name="Low" />
+  <text id="sortProfitAsc" name="Beneficio bruto: mesinr a mayor" />
+  <text id="sortProfitDesc" name="Beneficio bruto: mayor a mesinr" />
+  <text id="sortProfitPerMinAsc" name="Beneficio/min: mesinr a mayor" />
+  <text id="sortProfitPerMinDesc" name="Beneficio/min: mayor a mesinr" />
+  <text id="sortServingsAsc" name="Porciones: mesinr a mayor" />
+  <text id="sortServingsDesc" name="Porciones: mayor a mesinr" />
+  <text id="sortServingsPerMinAsc" name="Porciones/min: mesinr a mayor" />
+  <text id="sortServingsPerMinDesc" name="Porciones/min: mayor a mesinr" />
+  <text id="sortStandard" name="Orden del recetario" />
+  <text id="sortXpAsc" name="Raw XP: mesinr a mayor" />
+  <text id="sortXpDesc" name="Raw XP: mayor a mesinr" />
+  <text id="sortXpPerMinAsc" name="XP/min: mesinr a mayor" />
+  <text id="sortXpPerMinDesc" name="XP/min: mayor a mesinr" />
+  <text id="special" name="Especial" />
+  <text id="specialDishes" name="Platos especiales" />
+  <text id="specialDishesNote" name="Platos especiales: separate." />
+  <text id="stoves" name="Fogones" />
+  <text id="targetShort" name="Objetivo" />
+  <text id="targetTime" name="Tiempo objetivo" />
+  <text id="teamDeleted" name="Equipo borrado." />
+  <text id="teamLimitReached" name="Max 10 Team." />
+  <text id="teamName" name="Sinmbre del equipo" />
+  <text id="teamRewardsGold" name="Team: rewards if Oro" />
+  <text id="teamSaved" name="Equipo guardado localmente." />
+  <text id="totalCookTime" name="Tiempo total de cocción" />
+  <text id="totalStoveHours" name="Horas de fogón totales" />
+  <text id="type" name="Tipo" />
+  <text id="unassignedDishes" name="Unasignados platos" />
+  <text id="useMyMasteriesForChef1" name="Chef 1: use my Oro Masteries" />
+  <text id="useProfileForChef1" name="Chef 1: use My Profile" />
+  <text id="useRegisteredMasteries" name="Usar mis maestrías registradas" />
+  <text id="veryLongNote" name="Mejor XP/min: 12 h 1 min – 23 h." />
+  <text id="veryLongPlan" name="Muy largo" />
+  <text id="veryLongWord" name="muy largo" />
+  <text id="workload" name="Carga" />
+  <text id="workloadEqual" name="Igual" />
+  <text id="workloadHigh" name="Alta" />
+  <text id="workloadLow" name="Baja" />
   <text id="workloadManual" name="Manual" />
-  <text id="workloadMinimum" name="Minimum" />
-  <text id="workloadVeryHigh" name="Very high" />
+  <text id="workloadMinimum" name="Mínima" />
+  <text id="workloadVeryHigh" name="Muy alta" />
   <text id="xpEach" name="XP Each" />
   <text id="xpNeeded" name="XP Needed" />
-  <text id="xpPlansNote" name="Best level up plans to base your needs and availability." />
+  <text id="xpPlansNote" name="Mejores planes para subir de nivel según tus necesidades y disponibilidad." />
   <text id="xpPlansTitle" name="XP Needed Plans" />
   <text id="xpUpper" name="XP" />
-
-  <!-- DishDex profile/FashionDex additions -->
   <text id="toFashionDex" name="To FashionDex" />
-  <text id="fashionDexDescription" name="Open Cappuccino Fashion FashionDex." />
-  <text id="profileLevelUnlocksTitle" name="Level {0} unlocks:" />
-  <text id="fridges" name="Fridges" />
-  <text id="counters" name="Counters" />
-  <text id="waiters" name="Waiters" />
-  <text id="instantCookings" name="Instant cookings" />
-  <text id="masteryCompletionProgress" name="Mastery completion progress:" />
+  <text id="fashionDexDescription" name="Open Cappuccisin Fashion FashionDex." />
+  <text id="profileLevelUnlocksTitle" name="Nivel {0} unlocks:" />
+  <text id="fridges" name="Refrigeradores" />
+  <text id="counters" name="Mostradores" />
+  <text id="waiters" name="Camareros" />
+  <text id="instantCookings" name="Cocciones instantáneas" />
+  <text id="masteryCompletionProgress" name="Nivel de maestría progress:" />
 </dishdex>
