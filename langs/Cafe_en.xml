@@ -289,6 +289,16 @@ If you put it into storage, you will lose the remaining portions!"  />
 			<text id="cookstep_orangecheesecake2" name="Baking cheesecake"  />
 			<text id="cookstep_goulash1" name="Searing meat"  />
 			<text id="cookstep_goulash2" name="Simmering goulash"  />
+			<text id="cookstep_extravagantmeal1" name="Heating oranges"  />
+			<text id="cookstep_extravagantmeal2" name="Frying eggs"  />
+			<text id="cookstep_trendymeal1" name="Heating lemons"  />
+			<text id="cookstep_trendymeal2" name="Frying eggs"  />
+			<text id="cookstep_instantnoodles1" name="Boiling noodles"  />
+			<text id="cookstep_instantnoodles2" name="Shapeshifting noodles"  />
+			<text id="cookstep_sausagesoup1" name="Searing sausages"  />
+			<text id="cookstep_sausagesoup2" name="Simmering soup"  />
+			<text id="cookstep_lemoncheesecake1" name="Heating lemons"  />
+			<text id="cookstep_lemoncheesecake2" name="Baking cheesecake"  />
 			<text id="cookstep_blackforestcherrycake1" name="Mixing ingredients"  />
 			<text id="cookstep_blackforestcherrycake2" name="Baking cake"  />
 			<text id="cookstep_cheeseburger1" name="Searing minced meat"  />
@@ -1533,6 +1543,26 @@ Available for limited time only!"  />
 			<text id="preparestep_goulash_ballpepper" name="Cut peppers"  />
 			<text id="preparestep_goulash_potato" name="Peel potatoes"  />
 			<text id="preparestep_goulash_tomato" name="Crush tomatoes"  />
+			<text id="preparestep_extravagantmeal_orange" name="Slice oranges"  />
+			<text id="preparestep_extravagantmeal_cocktailcherry" name="Position cherries"  />
+			<text id="preparestep_extravagantmeal_goldeneggs" name="Fry golden eggs"  />
+
+			<text id="preparestep_trendymeal_citrus" name="Slice lemons"  />
+			<text id="preparestep_trendymeal_cherries" name="Position cherries"  />
+			<text id="preparestep_trendymeal_eggs" name="Fry eggs"  />
+
+			<text id="preparestep_instantnoodles_pasta" name="Break noodles"  />
+
+			<text id="preparestep_sausagesoup_potato" name="Peel potatoes"  />
+			<text id="preparestep_sausagesoup_onion" name="Chop onions"  />
+			<text id="preparestep_sausagesoup_cream" name="Pour cream"  />
+			<text id="preparestep_sausagesoup_sausages" name="Slice sausages"  />
+			<text id="preparestep_sausagesoup_beans" name="Wash beans"  />
+
+			<text id="preparestep_lemoncheesecake_citrus" name="Slice lemons"  />
+			<text id="preparestep_lemoncheesecake_cherries" name="Position cherries"  />
+			<text id="preparestep_lemoncheesecake_sugar" name="Measure sugar"  />
+			<text id="preparestep_lemoncheesecake_quark" name="Mix quark"  />
 
 			<text id="preparestep_bananasplit_cream" name="Whip cream"  />
 			<text id="preparestep_bananasplit_milk" name="Measure milk"  />
@@ -1871,6 +1901,11 @@ Available for limited time only!"  />
 			<text id="preparestep_tofupizza_parsley" name="Chop parsley"  />
 			<text id="preparestep_orangecheesecake_vanilla" name="Scrape out vanilla"  />
 			<text id="preparestep_goulash_chili" name="Chop chili"  />
+			<text id="preparestep_extravagantmeal_coriander" name="Chop coriander"  />
+			<text id="preparestep_trendymeal_coriander" name="Chop coriander"  />
+			<text id="preparestep_instantnoodles_coriander" name="Chop coriander"  />
+			<text id="preparestep_sausagesoup_parsley" name="Chop parsley"  />
+			<text id="preparestep_lemoncheesecake_vanilla" name="Scrape out vanilla"  />
 			<text id="preparestep_bananasplit_vanilla" name="Scrape out vanilla"  />
 			<text id="preparestep_blackforestcherrycake_vanilla" name="Scrape out vanilla"  />
 			<text id="preparestep_pizzasalad_chili" name="Chop chili" />
@@ -2014,6 +2049,11 @@ Available for limited time only!"  />
 			<text id="recipe_tofupizza" name="Tofu Pizza"  />
 			<text id="recipe_orangecheesecake" name="Orange Cheesecake"  />
 			<text id="recipe_goulash" name="Goulash"  />
+			<text id="recipe_extravagantmeal" name="Extravagant Meal"  />
+			<text id="recipe_trendymeal" name="Trendy Meal"  />
+			<text id="recipe_instantnoodles" name="Instant Noodles"  />
+			<text id="recipe_sausagesoup" name="Farmer's Sausage Soup"  />
+			<text id="recipe_lemoncheesecake" name="Lemon Cheesecake"  />
 			<text id="recipe_beefstew" name="Stew"  />
 			<text id="recipe_blackforestcherrycake" name="Black Forest Cake"  />
 			<text id="recipe_cheeseburger" name="Cheeseburger"  />
