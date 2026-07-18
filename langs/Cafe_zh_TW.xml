@@ -447,6 +447,10 @@
 		<text id="cookstep_whitechoccheesecake2" name="烘烤蛋糕" />
 		<text id="cookstep_whitechocmousse1" name="融化巧克力" />
 		<text id="cookstep_whitechocmousse2" name="冷卻幕斯" />
+		<text id="cookstep_pinksoup1" name="Blending vegetables" />
+		<text id="cookstep_pinksoup2" name="Simmering pink soup" />
+		<text id="cookstep_borschtsch1" name="Cooking beetroot" />
+		<text id="cookstep_borschtsch2" name="Finishing borschtsch" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="爲了使部份菜餚更完美,我們開了一個烹飪課程,你想參加嗎?" />
@@ -576,6 +580,9 @@
 		<text id="coop_title_43" name="CAKES FOR A DIVA!" />
 		<text id="coop_desc_short_43" name="She wants everything!" />
 		<text id="coop_desc_long_43" name="Patixa is in town and she wants the best selection of cakes to celebrate her toy line. Provide the cakes fast and get rewarded!" />
+		<text id="coop_title_44" name="FIRST DAY IN THE KITCHEN!" />
+		<text id="coop_desc_short_44" name="Let&apos;s work!" />
+		<text id="coop_desc_long_44" name="It&apos;s opening day and the Café is busier than expected. Luckily, you don&apos;t need much experience to give people what they want. Recruit fellow chefs and show that the secret ingredient is teamwork!" />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="成就" />
@@ -1705,6 +1712,15 @@
 		<text id="preparestep_whitechocmousse_cream" name="鮮奶油打成泡" />
 		<text id="preparestep_whitechocmousse_eggs" name="將蛋黃及蛋白分開" />
 		<text id="preparestep_whitechocmousse_whitechocolat" name="融化巧克力" />
+		<text id="preparestep_pinksoup_beetroot" name="Slice beetroot" />
+		<text id="preparestep_pinksoup_cucumber" name="Slice cucumber" />
+		<text id="preparestep_pinksoup_onion" name="Chop onion" />
+		<text id="preparestep_pinksoup_potato" name="Peel potatoes" />
+		<text id="preparestep_borschtsch_beetroot" name="Slice beetroot" />
+		<text id="preparestep_borschtsch_cream" name="Pour cream" />
+		<text id="preparestep_borschtsch_meat" name="Cube meat" />
+		<text id="preparestep_borschtsch_potato" name="Peel potatoes" />
+		<text id="preparestep_borschtsch_onion" name="Chop onion" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Sprinkle cinnamon" />
@@ -1833,6 +1849,8 @@
 		<text id="preparestep_veggiecurry_coriander" name="剁碎香菜" />
 		<text id="preparestep_veggielasagne_basil" name="摘除羅勒葉" />
 		<text id="preparestep_whitechoccheesecake_vanilla" name="香草切成碎片" />
+		<text id="preparestep_pinksoup_parsley" name="Chop parsley" />
+		<text id="preparestep_borschtsch_parsley" name="Chop parsley" />
 		<text id="preparestep_whitechocmousse_vanilla" name="香草切成碎片" />
 	</preparestep_fancy>
 	<recipe>
@@ -1979,6 +1997,8 @@
 		<text id="recipe_veggielasagne" name="蔬菜千層麵" />
 		<text id="recipe_whitechoccheesecake" name="白巧克力起司蛋糕" />
 		<text id="recipe_whitechocmousse" name="白巧克力幕斯" />
+		<text id="recipe_pinksoup" name="Pink Soup" />
+		<text id="recipe_borschtsch" name="Borschtsch" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="光合蔬果昔" />

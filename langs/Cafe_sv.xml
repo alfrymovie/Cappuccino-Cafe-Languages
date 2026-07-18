@@ -445,6 +445,10 @@
 		<text id="cookstep_ramen2" name="Häller kryddor" />
 		<text id="cookstep_corncake1" name="Blandar ingredienser" />
 		<text id="cookstep_corncake2" name="Bakar" />
+		<text id="cookstep_pinksoup1" name="Blending vegetables" />
+		<text id="cookstep_pinksoup2" name="Simmering pink soup" />
+		<text id="cookstep_borschtsch1" name="Cooking beetroot" />
+		<text id="cookstep_borschtsch2" name="Finishing borschtsch" />
 		<text id="cookstep_feijoada1" name="Ordnar fläskkotletter" />
 		<text id="cookstep_feijoada2" name="Manifesterar apelsinskivor" />
 	</cookstep>
@@ -575,6 +579,9 @@
 		<text id="coop_title_43" name="CAKES FOR A DIVA!" />
 		<text id="coop_desc_short_43" name="She wants everything!" />
 		<text id="coop_desc_long_43" name="Patixa is in town and she wants the best selection of cakes to celebrate her toy line. Provide the cakes fast and get rewarded!" />
+		<text id="coop_title_44" name="FIRST DAY IN THE KITCHEN!" />
+		<text id="coop_desc_short_44" name="Let&apos;s work!" />
+		<text id="coop_desc_long_44" name="It&apos;s opening day and the Café is busier than expected. Luckily, you don&apos;t need much experience to give people what they want. Recruit fellow chefs and show that the secret ingredient is teamwork!" />
 		<text id="coop_title_30" name="MUS I KÖKET!" />
 		<text id="coop_desc_short_30" name="Ingen får se den!" />
 		<text id="coop_desc_long_30" name="Du har hittat en levande mus i ditt kafé och den kräver överdrivet mycket lyxmat, annars kommer ditt företag att gå under! Varför känns detta bekant?" />
@@ -1699,6 +1706,15 @@
 		<text id="preparestep_corncake_sugar" name="Tillsätt socker i degen" />
 		<text id="preparestep_feijoada_beans" name="Koka bönor" />
 		<text id="preparestep_feijoada_bacon" name="Hacka bacon" />
+		<text id="preparestep_pinksoup_beetroot" name="Slice beetroot" />
+		<text id="preparestep_pinksoup_cucumber" name="Slice cucumber" />
+		<text id="preparestep_pinksoup_onion" name="Chop onion" />
+		<text id="preparestep_pinksoup_potato" name="Peel potatoes" />
+		<text id="preparestep_borschtsch_beetroot" name="Slice beetroot" />
+		<text id="preparestep_borschtsch_cream" name="Pour cream" />
+		<text id="preparestep_borschtsch_meat" name="Cube meat" />
+		<text id="preparestep_borschtsch_potato" name="Peel potatoes" />
+		<text id="preparestep_borschtsch_onion" name="Chop onion" />
 		<text id="preparestep_feijoada_sausage" name="Skär upp korv" />
 		<text id="preparestep_feijoada_onion" name="Hacka lök" />
 		<text id="preparestep_feijoada_garlic" name="Kasta i vitlök" />
@@ -1830,6 +1846,8 @@
 		<text id="preparestep_veggielasagne_basil" name="Plocka basilika" />
 		<text id="preparestep_whitechoccheesecake_vanilla" name="Skrapa vanilj" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Skrapa vanilj" />
+		<text id="preparestep_pinksoup_parsley" name="Chop parsley" />
+		<text id="preparestep_borschtsch_parsley" name="Chop parsley" />
 		<text id="preparestep_pizzasalad_chili" name="Hacka chili" />
 	</preparestep_fancy>
 	<recipe>
@@ -1976,6 +1994,8 @@
 		<text id="recipe_ramen" name="Ramen" />
 		<text id="recipe_corncake" name="Majskaka" />
 		<text id="recipe_feijoada" name="Feijoada" />
+		<text id="recipe_pinksoup" name="Pink Soup" />
+		<text id="recipe_borschtsch" name="Borschtsch" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Grön-smoothie" />

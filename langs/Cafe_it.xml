@@ -445,6 +445,10 @@
 		<text id="cookstep_whitechocmousse2" name="Raffreddando la mousse" />
 		<text id="cookstep_coxinha1" name="Mescolando gli ingredienti" />
 		<text id="cookstep_coxinha2" name="Friggendo le coxinha" />
+		<text id="cookstep_pinksoup1" name="Blending vegetables" />
+		<text id="cookstep_pinksoup2" name="Simmering pink soup" />
+		<text id="cookstep_borschtsch1" name="Cooking beetroot" />
+		<text id="cookstep_borschtsch2" name="Finishing borschtsch" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_title_1" name="CORSO DI CUCINA" />
@@ -573,6 +577,9 @@
 		<text id="coop_title_43" name="TORTE AD UNA DIVA!" />
 		<text id="coop_desc_short_43" name="Lei le vuole tutte!" />
 		<text id="coop_desc_long_43" name="Patixa è in città e vuole la miglior selezione di torte per celebrare la sua nuova linea di giocattoli. Consegnagliele in fretta e verrai ricompensato!" />
+		<text id="coop_title_44" name="FIRST DAY IN THE KITCHEN!" />
+		<text id="coop_desc_short_44" name="Let&apos;s work!" />
+		<text id="coop_desc_long_44" name="It&apos;s opening day and the Café is busier than expected. Luckily, you don&apos;t need much experience to give people what they want. Recruit fellow chefs and show that the secret ingredient is teamwork!" />
 		<text id="coop_title_41" name="BALATON PARTY" />
 		<text id="coop_desc_short_41" name="Mangiamo in riva al lago!" />
 		<text id="coop_desc_long_41" name="Chef Flinsical sta organizzando un momento di svago nei pressi del Lago Balaton. Dai una mano con cibo e bevande per questo evento scenografico!" />
@@ -1696,6 +1703,15 @@
 		<text id="preparestep_coxinha_cream" name="Prepara la crema al formaggio" />
 		<text id="preparestep_coxinha_oil" name="Scalda l&apos;olio" />
 		<text id="preparestep_coxinha_coriander" name="Trita il coriandolo" />
+		<text id="preparestep_pinksoup_beetroot" name="Slice beetroot" />
+		<text id="preparestep_pinksoup_cucumber" name="Slice cucumber" />
+		<text id="preparestep_pinksoup_onion" name="Chop onion" />
+		<text id="preparestep_pinksoup_potato" name="Peel potatoes" />
+		<text id="preparestep_borschtsch_beetroot" name="Slice beetroot" />
+		<text id="preparestep_borschtsch_cream" name="Pour cream" />
+		<text id="preparestep_borschtsch_meat" name="Cube meat" />
+		<text id="preparestep_borschtsch_potato" name="Peel potatoes" />
+		<text id="preparestep_borschtsch_onion" name="Chop onion" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Macina la cannella" />
@@ -1824,6 +1840,8 @@
 		<text id="preparestep_veggiecurry_coriander" name="Trita il coriandolo" />
 		<text id="preparestep_veggielasagne_basil" name="Stacca le foglie di basilico" />
 		<text id="preparestep_whitechoccheesecake_vanilla" name="Raschia la vaniglia" />
+		<text id="preparestep_pinksoup_parsley" name="Chop parsley" />
+		<text id="preparestep_borschtsch_parsley" name="Chop parsley" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Raschia la vaniglia" />
 	</preparestep_fancy>
 	<recipe>
@@ -1970,6 +1988,8 @@
 		<text id="recipe_whitechoccheesecake" name="Cheesecake al cioccolato bianco" />
 		<text id="recipe_whitechocmousse" name="Mousse al cioccolato bianco" />
 		<text id="recipe_coxinha" name="Coxinha" />
+		<text id="recipe_pinksoup" name="Pink Soup" />
+		<text id="recipe_borschtsch" name="Borschtsch" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie verde" />

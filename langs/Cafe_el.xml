@@ -453,6 +453,10 @@
 		<text id="cookstep_whitechoccheesecake2" name="Ψήνω κέϊκ" />
 		<text id="cookstep_whitechocmousse1" name="λιώνοντας σοκολάτα" />
 		<text id="cookstep_whitechocmousse2" name="ψύχοντας μους" />
+		<text id="cookstep_pinksoup1" name="Blending vegetables" />
+		<text id="cookstep_pinksoup2" name="Simmering pink soup" />
+		<text id="cookstep_borschtsch1" name="Cooking beetroot" />
+		<text id="cookstep_borschtsch2" name="Finishing borschtsch" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Ξεκινάμε μία τάξη μαγειρικής για να τελειοποιήσουμε κάποια από τα πιάτα μας. Θέλεις να πάρεις μέρος;" />
@@ -583,6 +587,9 @@
 		<text id="coop_title_43" name="CAKES FOR A DIVA!" />
 		<text id="coop_desc_short_43" name="She wants everything!" />
 		<text id="coop_desc_long_43" name="Patixa is in town and she wants the best selection of cakes to celebrate her toy line. Provide the cakes fast and get rewarded!" />
+		<text id="coop_title_44" name="FIRST DAY IN THE KITCHEN!" />
+		<text id="coop_desc_short_44" name="Let&apos;s work!" />
+		<text id="coop_desc_long_44" name="It&apos;s opening day and the Café is busier than expected. Luckily, you don&apos;t need much experience to give people what they want. Recruit fellow chefs and show that the secret ingredient is teamwork!" />
 	</coopmission>
 	<dialogs>
 		<text id="dialogwin_achievement_title" name="Επιτεύγματα" />
@@ -1742,6 +1749,15 @@
 		<text id="preparestep_whitechocmousse_cream" name="Χτυπήσεις την κρέμα" />
 		<text id="preparestep_whitechocmousse_eggs" name="διαχωρίσεις αυγά" />
 		<text id="preparestep_whitechocmousse_whitechocolat" name="λιώσεις σοκολάτα" />
+		<text id="preparestep_pinksoup_beetroot" name="Slice beetroot" />
+		<text id="preparestep_pinksoup_cucumber" name="Slice cucumber" />
+		<text id="preparestep_pinksoup_onion" name="Chop onion" />
+		<text id="preparestep_pinksoup_potato" name="Peel potatoes" />
+		<text id="preparestep_borschtsch_beetroot" name="Slice beetroot" />
+		<text id="preparestep_borschtsch_cream" name="Pour cream" />
+		<text id="preparestep_borschtsch_meat" name="Cube meat" />
+		<text id="preparestep_borschtsch_potato" name="Peel potatoes" />
+		<text id="preparestep_borschtsch_onion" name="Chop onion" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Πασπάλισε κανέλα" />
@@ -1870,6 +1886,8 @@
 		<text id="preparestep_veggiecurry_coriander" name="ψιλοκόψεις κόλιανδρο" />
 		<text id="preparestep_veggielasagne_basil" name="μαδήσεις βασιλικό" />
 		<text id="preparestep_whitechoccheesecake_vanilla" name="ξύσεις βανίλια" />
+		<text id="preparestep_pinksoup_parsley" name="Chop parsley" />
+		<text id="preparestep_borschtsch_parsley" name="Chop parsley" />
 		<text id="preparestep_whitechocmousse_vanilla" name="ξύσεις βανίλια" />
 	</preparestep_fancy>
 	<recipe>
@@ -2016,6 +2034,8 @@
 		<text id="recipe_veggielasagne" name="Λαζάνια με λαχανικά" />
 		<text id="recipe_whitechoccheesecake" name="Τσιζκέϊκ με λευκή σοκολάτα" />
 		<text id="recipe_whitechocmousse" name="Μους λευκής σοκολάτας" />
+		<text id="recipe_pinksoup" name="Pink Soup" />
+		<text id="recipe_borschtsch" name="Borschtsch" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Πράσινο ρόφημα" />

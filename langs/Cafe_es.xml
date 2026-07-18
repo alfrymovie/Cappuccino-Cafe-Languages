@@ -445,6 +445,10 @@
 		<text id="cookstep_coxinha2" name="Freír croquetas de pollo" />
 		<text id="cookstep_matildacake1" name="Mezclando chocolate" />
 		<text id="cookstep_matildacake2" name="Horneando la torta" />
+		<text id="cookstep_pinksoup1" name="Blending vegetables" />
+		<text id="cookstep_pinksoup2" name="Simmering pink soup" />
+		<text id="cookstep_borschtsch1" name="Cooking beetroot" />
+		<text id="cookstep_borschtsch2" name="Finishing borschtsch" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Comenzaremos una clase de cocina para perfeccionar nuestros platos. ¿Quieres unirte?" />
@@ -573,6 +577,9 @@
 		<text id="coop_title_43" name="¡TARTAS PARA UNA DIVA!" />
 		<text id="coop_desc_short_43" name="¡Lo quiere todo todito!" />
 		<text id="coop_desc_long_43" name="Patixa está en la ciudad y quiere la mejor selección de tartas para celebrar su nueva línea de juguetes. Aporta todas las tartas que puedas y consigue recompensas." />
+		<text id="coop_title_44" name="FIRST DAY IN THE KITCHEN!" />
+		<text id="coop_desc_short_44" name="Let&apos;s work!" />
+		<text id="coop_desc_long_44" name="It&apos;s opening day and the Café is busier than expected. Luckily, you don&apos;t need much experience to give people what they want. Recruit fellow chefs and show that the secret ingredient is teamwork!" />
 		<text id="coop_title_30" name="¡RATA DE DOS PATAS!" />
 		<text id="coop_desc_short_30" name="¡No dejes que nadie lo vea!" />
 		<text id="coop_desc_long_30" name="¡Se ha visto un ratón en tu cafetería y quiere que le sirvan comida de lujo o arruinará tu negocio! ¿Por qué me suena esto?" />
@@ -1697,6 +1704,15 @@
 		<text id="preparestep_matildacake_flour" name="Levitate flour" />
 		<text id="preparestep_matildacake_cream" name="Toss cream in strongly" />
 		<text id="preparestep_matildacake_cocktailcherry" name="Add cherries" />
+		<text id="preparestep_pinksoup_beetroot" name="Slice beetroot" />
+		<text id="preparestep_pinksoup_cucumber" name="Slice cucumber" />
+		<text id="preparestep_pinksoup_onion" name="Chop onion" />
+		<text id="preparestep_pinksoup_potato" name="Peel potatoes" />
+		<text id="preparestep_borschtsch_beetroot" name="Slice beetroot" />
+		<text id="preparestep_borschtsch_cream" name="Pour cream" />
+		<text id="preparestep_borschtsch_meat" name="Cube meat" />
+		<text id="preparestep_borschtsch_potato" name="Peel potatoes" />
+		<text id="preparestep_borschtsch_onion" name="Chop onion" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Espolvorear canela" />
@@ -1825,6 +1841,8 @@
 		<text id="preparestep_veggielasagne_basil" name="Arrancar hojas de albahaca" />
 		<text id="preparestep_whitechoccheesecake_vanilla" name="Raspar la vainilla" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Raspar la vainilla" />
+		<text id="preparestep_pinksoup_parsley" name="Chop parsley" />
+		<text id="preparestep_borschtsch_parsley" name="Chop parsley" />
 		<text id="preparestep_matildacake_vanilla" name="Scrape out vanilla" />
 	</preparestep_fancy>
 	<recipe>
@@ -1971,6 +1989,8 @@
 		<text id="recipe_whitechocmousse" name="Mousse de chocolate blanco" />
 		<text id="recipe_coxinha" name="Coxinha" />
 		<text id="recipe_matildacake" name="Tarta de Matilda" />
+		<text id="recipe_pinksoup" name="Pink Soup" />
+		<text id="recipe_borschtsch" name="Borschtsch" />
 	</recipe>
 	<recipes_fastfood>
 		<text id="recipe_smoothiemaker_greensmoothie" name="Smoothie verde" />
