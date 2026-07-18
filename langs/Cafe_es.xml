@@ -1731,22 +1731,22 @@
 		<text id="preparestep_sweetpizza_cinnamon" name="Sprinkle cinnamon" />
 		<text id="preparestep_shakshuka_parsley" name="Pica el perejil" />
 		<text id="preparestep_cottagepotatoes_parsley" name="Pica el perejil" />
-		<text id="preparestep_birthdaycake_vanilla" name="Ask how old is vanilla" />
-		<text id="preparestep_chickennuggets_coriander" name="Chop coriander" />
-		<text id="preparestep_lavenderlemoncake_vanilla" name="Add vanilla" />
-		<text id="preparestep_potatosoup_chili" name="Chop chili" />
-		<text id="preparestep_chocochipcake_vanilla" name="Add vanilla" />
-		<text id="preparestep_cakewithtoy_nutmeg" name="Grate nutmeg" />
-		<text id="preparestep_goldencake_nutmeg" name="Grate nutmeg" />
-		<text id="preparestep_tofusandwich_parsley" name="Chop parsley" />
-		<text id="preparestep_tofupizza_parsley" name="Chop parsley" />
-		<text id="preparestep_orangecheesecake_vanilla" name="Scrape out vanilla" />
-		<text id="preparestep_goulash_chili" name="Chop chili" />
-		<text id="preparestep_extravagantmeal_coriander" name="Chop coriander" />
-		<text id="preparestep_trendymeal_coriander" name="Chop coriander" />
-		<text id="preparestep_instantnoodles_coriander" name="Chop coriander" />
-		<text id="preparestep_sausagesoup_parsley" name="Chop parsley" />
-		<text id="preparestep_lemoncheesecake_vanilla" name="Scrape out vanilla" />
+		<text id="preparestep_birthdaycake_vanilla" name="Preguntándose cuánto tiempo tiene la vainilla" />
+		<text id="preparestep_chickennuggets_coriander" name="Picar el cilantro" />
+		<text id="preparestep_lavenderlemoncake_vanilla" name="Añadir la vainilla" />
+		<text id="preparestep_potatosoup_chili" name="Picar chili" />
+		<text id="preparestep_chocochipcake_vanilla" name="Añadir la vainilla" />
+		<text id="preparestep_cakewithtoy_nutmeg" name="Rallar nuez moscada" />
+		<text id="preparestep_goldencake_nutmeg" name="Rallar nuez moscada" />
+		<text id="preparestep_tofusandwich_parsley" name="Picar perejil" />
+		<text id="preparestep_tofupizza_parsley" name="Picar perejil" />
+		<text id="preparestep_orangecheesecake_vanilla" name="Raspar la vanilla" />
+		<text id="preparestep_goulash_chili" name="Picar chili" />
+		<text id="preparestep_extravagantmeal_coriander" name="Picar cilantro" />
+		<text id="preparestep_trendymeal_coriander" name="Picar cilantro" />
+		<text id="preparestep_instantnoodles_coriander" name="Picar cilantro" />
+		<text id="preparestep_sausagesoup_parsley" name="Picar perejil" />
+		<text id="preparestep_lemoncheesecake_vanilla" name="Raspar vainilla" />
 		<text id="preparestep_bananasplit_vanilla" name="Raspar vainilla" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="Raspar la vainilla" />
 		<text id="preparestep_pizzasalad_chili" name="Picar chile" />
