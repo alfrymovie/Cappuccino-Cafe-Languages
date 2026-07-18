@@ -285,16 +285,16 @@
 		<text id="cookstep_orangecheesecake2" name="Käsekuchen backen" />
 		<text id="cookstep_goulash1" name="Fleisch anbrutzeln" />
 		<text id="cookstep_goulash2" name="Gulasch ansieden" />
-		<text id="cookstep_extravagantmeal1" name="Heating oranges" />
-		<text id="cookstep_extravagantmeal2" name="Frying eggs" />
-		<text id="cookstep_trendymeal1" name="Heating lemons" />
-		<text id="cookstep_trendymeal2" name="Frying eggs" />
-		<text id="cookstep_instantnoodles1" name="Boiling noodles" />
-		<text id="cookstep_instantnoodles2" name="Shapeshifting noodles" />
-		<text id="cookstep_sausagesoup1" name="Searing sausages" />
-		<text id="cookstep_sausagesoup2" name="Simmering soup" />
-		<text id="cookstep_lemoncheesecake1" name="Heating lemons" />
-		<text id="cookstep_lemoncheesecake2" name="Baking cheesecake" />
+		<text id="cookstep_extravagantmeal1" name="Orangen erhitzen" />
+		<text id="cookstep_extravagantmeal2" name="Eier anbraten" />
+		<text id="cookstep_trendymeal1" name="Zitrus erhitzen" />
+		<text id="cookstep_trendymeal2" name="Eier erhitzen" />
+		<text id="cookstep_instantnoodles1" name="Nudeln kochen" />
+		<text id="cookstep_instantnoodles2" name="Nudeln formen" />
+		<text id="cookstep_sausagesoup1" name="Würstchen anbraten" />
+		<text id="cookstep_sausagesoup2" name="Suppe ansieden" />
+		<text id="cookstep_lemoncheesecake1" name="Zitrus erhitzen" />
+		<text id="cookstep_lemoncheesecake2" name="Käsekuchen backen" />
 		<text id="cookstep_cheeseburger1" name="Hackfleisch anbraten" />
 		<text id="cookstep_cheeseburger2" name="Burger belegen" />
 		<text id="cookstep_cheesedish1" name="Käse anrichten" />
@@ -1405,22 +1405,22 @@
 		<text id="preparestep_goulash_ballpepper" name="Paprika schneiden" />
 		<text id="preparestep_goulash_potato" name="Kartoffeln schälen" />
 		<text id="preparestep_goulash_tomato" name="Tomaten zerdrücken" />
-		<text id="preparestep_extravagantmeal_orange" name="Slice oranges" />
-		<text id="preparestep_extravagantmeal_cocktailcherry" name="Position cherries" />
-		<text id="preparestep_extravagantmeal_goldeneggs" name="Fry golden eggs" />
-		<text id="preparestep_trendymeal_citrus" name="Slice lemons" />
-		<text id="preparestep_trendymeal_cherries" name="Position cherries" />
-		<text id="preparestep_trendymeal_eggs" name="Fry eggs" />
-		<text id="preparestep_instantnoodles_pasta" name="Break noodles" />
-		<text id="preparestep_sausagesoup_potato" name="Peel potatoes" />
-		<text id="preparestep_sausagesoup_onion" name="Chop onions" />
-		<text id="preparestep_sausagesoup_cream" name="Pour cream" />
-		<text id="preparestep_sausagesoup_sausages" name="Slice sausages" />
-		<text id="preparestep_sausagesoup_beans" name="Wash beans" />
-		<text id="preparestep_lemoncheesecake_citrus" name="Slice lemons" />
-		<text id="preparestep_lemoncheesecake_cherries" name="Position cherries" />
-		<text id="preparestep_lemoncheesecake_sugar" name="Measure sugar" />
-		<text id="preparestep_lemoncheesecake_quark" name="Mix quark" />
+		<text id="preparestep_extravagantmeal_orange" name="Orange schneiden" />
+		<text id="preparestep_extravagantmeal_cocktailcherry" name="Kirschen positionieren" />
+		<text id="preparestep_extravagantmeal_goldeneggs" name="Goldene Eier anbraten" />
+		<text id="preparestep_trendymeal_citrus" name="Zitrus in Scheiben schneiden" />
+		<text id="preparestep_trendymeal_cherries" name="Kirschen positionieren" />
+		<text id="preparestep_trendymeal_eggs" name="Eier anbraten" />
+		<text id="preparestep_instantnoodles_pasta" name="Nudeln brechen" />
+		<text id="preparestep_sausagesoup_potato" name="Kartoffeln schälen" />
+		<text id="preparestep_sausagesoup_onion" name="Zwiebeln schneiden" />
+		<text id="preparestep_sausagesoup_cream" name="Sahne verteilen" />
+		<text id="preparestep_sausagesoup_sausages" name="Würstchen schneiden" />
+		<text id="preparestep_sausagesoup_beans" name="Bohnen waschen" />
+		<text id="preparestep_lemoncheesecake_citrus" name="Zitrus schneiden" />
+		<text id="preparestep_lemoncheesecake_cherries" name="Kirschen positionieren" />
+		<text id="preparestep_lemoncheesecake_sugar" name="Zucker abmessen" />
+		<text id="preparestep_lemoncheesecake_quark" name="Quark mischen" />
 		<text id="preparestep_blackforestcherrycake_flour" name="Mehl sieben" />
 		<text id="preparestep_cheeseburger_cheese" name="Käse schneiden" />
 		<text id="preparestep_cheeseburger_flour" name="Mehl sieben" />
@@ -1742,11 +1742,11 @@
 		<text id="preparestep_tofupizza_parsley" name="Petersilie hacken" />
 		<text id="preparestep_orangecheesecake_vanilla" name="Vanille ausschaben" />
 		<text id="preparestep_goulash_chili" name="Chili hacken" />
-		<text id="preparestep_extravagantmeal_coriander" name="Chop coriander" />
-		<text id="preparestep_trendymeal_coriander" name="Chop coriander" />
-		<text id="preparestep_instantnoodles_coriander" name="Chop coriander" />
-		<text id="preparestep_sausagesoup_parsley" name="Chop parsley" />
-		<text id="preparestep_lemoncheesecake_vanilla" name="Scrape out vanilla" />
+		<text id="preparestep_extravagantmeal_coriander" name="Koriander schneiden" />
+		<text id="preparestep_trendymeal_coriander" name="Koriander schneiden" />
+		<text id="preparestep_instantnoodles_coriander" name="Koriander schneiden" />
+		<text id="preparestep_sausagesoup_parsley" name="Petersilie schneiden" />
+		<text id="preparestep_lemoncheesecake_vanilla" name="Vanille ausschaben" />
 		<text id="preparestep_cottagepotatoes_parsley" name="Petersilie hacken" />
 		<text id="preparestep_bananasplit_vanilla" name="Vanille ausschaben" />
 		<text id="preparestep_blackforestcherrycake_vanilla" name="Vanille ausschaben" />
@@ -1891,11 +1891,11 @@
 		<text id="recipe_tofupizza" name="Tofu Pizza" />
 		<text id="recipe_orangecheesecake" name="Orangen-Käsekuchen" />
 		<text id="recipe_goulash" name="Gulasch" />
-		<text id="recipe_extravagantmeal" name="Extravagant Meal" />
-		<text id="recipe_trendymeal" name="Trendy Meal" />
-		<text id="recipe_instantnoodles" name="Instant Noodles" />
-		<text id="recipe_sausagesoup" name="Farmer&apos;s Sausage Soup" />
-		<text id="recipe_lemoncheesecake" name="Lemon Cheesecake" />
+		<text id="recipe_extravagantmeal" name="Extravagante Mahlzeit" />
+		<text id="recipe_trendymeal" name="Trendige Mahlzeit" />
+		<text id="recipe_instantnoodles" name="Instant Nudeln" />
+		<text id="recipe_sausagesoup" name="Bauernsuppe" />
+		<text id="recipe_lemoncheesecake" name="Zitrus-Käsekuchen" />
 		<text id="recipe_blackforestcherrycake" name="Schwarzwälder Kirschtorte" />
 		<text id="recipe_cheeseburger" name="Cheeseburger" />
 		<text id="recipe_cheesedish" name="Käseplatte" />
