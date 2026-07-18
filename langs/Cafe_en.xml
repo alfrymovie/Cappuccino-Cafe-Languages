@@ -449,6 +449,10 @@ If you put it into storage, you will lose the remaining portions!"  />
 			<text id="cookstep_whitechoccheesecake2" name="Baking cake"  />
 			<text id="cookstep_whitechocmousse1" name="Melting chocolate"  />
 			<text id="cookstep_whitechocmousse2" name="Cooling mousse"  />
+			<text id="cookstep_pinksoup1" name="Blending vegetables"  />
+			<text id="cookstep_pinksoup2" name="Simmering pink soup"  />
+			<text id="cookstep_borschtsch1" name="Cooking beetroot"  />
+			<text id="cookstep_borschtsch2" name="Finishing borschtsch"  />
 		</cookstep>
 		<coopmission>
 			<text id="coop_title_1" name="COOKING CLASS" />
@@ -618,6 +622,10 @@ If you put it into storage, you will lose the remaining portions!"  />
 			<text id="coop_title_43" name="CAKES FOR A DIVA!" />
 			<text id="coop_desc_short_43" name="She wants everything!" />
 			<text id="coop_desc_long_43" name="Patixa is in town and she wants the best selection of cakes to celebrate her toy line. Provide the cakes fast and get rewarded!" />
+
+			<text id="coop_title_44" name="FIRST DAY IN THE KITCHEN!" />
+			<text id="coop_desc_short_44" name="Let's work!" />
+			<text id="coop_desc_long_44" name="It's opening day and the Café is busier than expected. Luckily, you don't need much experience to give people what they want. Recruit fellow chefs and show that the secret ingredient is teamwork!" />
 		</coopmission>
 		<dialogs>
 			<text id="dialogwin_achievement_title" name="Achievements"  />
@@ -1856,6 +1864,15 @@ Available for limited time only!"  />
 			<text id="preparestep_whitechocmousse_cream" name="Whip cream"  />
 			<text id="preparestep_whitechocmousse_eggs" name="Separate eggs"  />
 			<text id="preparestep_whitechocmousse_whitechocolat" name="Melt chocolate"  />
+			<text id="preparestep_pinksoup_beetroot" name="Slice beetroot"  />
+			<text id="preparestep_pinksoup_cucumber" name="Slice cucumber"  />
+			<text id="preparestep_pinksoup_onion" name="Chop onion"  />
+			<text id="preparestep_pinksoup_potato" name="Peel potatoes"  />
+			<text id="preparestep_borschtsch_beetroot" name="Slice beetroot"  />
+			<text id="preparestep_borschtsch_cream" name="Pour cream"  />
+			<text id="preparestep_borschtsch_meat" name="Cube meat"  />
+			<text id="preparestep_borschtsch_potato" name="Peel potatoes"  />
+			<text id="preparestep_borschtsch_onion" name="Chop onion"  />
 		</preparestep>
 		<preparestep_fancy>
 			<text id="preparestep_duckalcitrus_cinnamon" name="Sprinkle cinnamon"/>
@@ -1984,6 +2001,8 @@ Available for limited time only!"  />
 			<text id="preparestep_veggielasagne_basil" name="Pluck basil"  />
 			<text id="preparestep_whitechoccheesecake_vanilla" name="Scrape out vanilla"  />
 			<text id="preparestep_whitechocmousse_vanilla" name="Scrape out vanilla"  />
+			<text id="preparestep_pinksoup_parsley" name="Chop parsley"  />
+			<text id="preparestep_borschtsch_parsley" name="Chop parsley"  />
 		</preparestep_fancy>
 		<recipe>
 			<text id="recipe_bananasplit" name="Bananasplit"  />
@@ -2129,6 +2148,8 @@ Available for limited time only!"  />
 			<text id="recipe_veggielasagne" name="Veggie Lasagne"  />
 			<text id="recipe_whitechoccheesecake" name="White Chocolate Cheesecake"  />
 			<text id="recipe_whitechocmousse" name="White Chocolate Mousse"  />
+			<text id="recipe_pinksoup" name="Pink Soup"  />
+			<text id="recipe_borschtsch" name="Borschtsch"  />
 		</recipe>
 		<recipes_fastfood>
 			<text id="recipe_smoothiemaker_tomatojuice" name="Tomato Juice"  />
