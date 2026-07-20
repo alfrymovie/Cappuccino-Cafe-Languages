@@ -509,8 +509,8 @@
 <wod id="308" n="Basic" g="Counter" t="Halloween" walkable="0" rotatetype="2" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="1288166559" world="0" events="2" xp="0" level="1" />
 <wod id="309" n="Basic" g="Counter" t="Daisy" walkable="0" rotatetype="3" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1289915875" world="0" events="0" xp="0" level="1" />
 <wod id="310" n="Basic" g="Counter" t="Xmas" walkable="0" rotatetype="3" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1291134071" world="0" events="3" xp="0" level="1" />
-<wod id="311" n="Basic" g="Counter" t="Springdark" walkable="0" rotatetype="3" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1300806348" world="0" events="5" xp="0" level="1" />
-<wod id="312" n="Basic" g="Counter" t="Springlight" walkable="0" rotatetype="3" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1300806348" world="0" events="5" xp="0" level="1" />
+<wod id="311" n="Basic" g="Counter" t="Springdark" walkable="0" rotatetype="3" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1784430000" world="0" events="0" xp="0" level="1" />
+<wod id="312" n="Basic" g="Counter" t="Springlight" walkable="0" rotatetype="3" cash="10000" gold="0" friends="0" goldNoFriends="0" releaseDate="1784430000" world="0" events="0" xp="0" level="1" />
 <wod id="351" n="Basic" g="Fridge" t="Basic" walkable="0" rotatetype="3" cash="500" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="0" inventorySize="50" />
 <wod id="2210" n="Basic" g="Fridge" t="Basicblack" walkable="0" rotatetype="3" cash="500" gold="0" friends="0" goldNoFriends="0" releaseDate="1769300230" world="0" events="0" xp="0" level="0" inventorySize="50" />
 <wod id="2211" n="Basic" g="Wallobject" t="Basichangingrackblack" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1770082626" world="0" events="0" xp="0" level="1" />
@@ -732,6 +732,7 @@
 <wod id="2214" n="Basic" g="Dish" t="Coxinha" events="0" xp="208" incomePerServing="10" servings="211" duration="90" level="15" dishcategory="5" requirements="1312+1#1306+1#1308+1#1317+1#1318+1#1403+1" />
 <wod id="1217" n="Basic" g="Dish" t="Nasigoreng" events="0" xp="530" incomePerServing="5" servings="520" duration="240" level="15" dishcategory="1" requirements="1306+1#1321+1#1324+1#1318+1#1311+1#1402+1" />
 <wod id="2267" n="Basic" g="Dish" t="Chickennuggets" events="0" xp="43" incomePerServing="36" servings="50" duration="15" level="15" dishcategory="5" requirements="1306+1#1312+1#1317+1#1403+1" />
+<wod id="2284" n="Basic" g="Dish" t="Goldenomelette" events="0" xp="1347" incomePerServing="5" servings="20000" duration="720" level="15" dishcategory="5" requirements="1350+1#1404+1" />
 
 <wod id="1214" n="Basic" g="Dish" t="Friedpotatoes" events="0" xp="143" incomePerServing="9" servings="130" duration="60" level="16" dishcategory="1" requirements="1322+1#1318+1#1301+1#1407+1" />
 <wod id="2230" n="Basic" g="Dish" t="Orangejuice" events="0" xp="90" incomePerServing="9" servings="2222" duration="7" level="16" dishcategory="0" requirements="1340+1#1325+1#1408+1" />
