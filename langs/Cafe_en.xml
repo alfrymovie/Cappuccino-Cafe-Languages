@@ -381,6 +381,8 @@ If you put it into storage, you will lose the remaining portions!"  />
 			<text id="cookstep_noodlesalad2" name="Mix ingredients"  />
 			<text id="cookstep_omelette1" name="Season eggs"  />
 			<text id="cookstep_omelette2" name="Fold eggs"  />
+			<text id="cookstep_goldenomelette1" name="Season eggs"  />
+			<text id="cookstep_goldenomelette2" name="Fold eggs"  />
 			<text id="cookstep_onionsoup1" name="Searing onions"  />
 			<text id="cookstep_onionsoup2" name="Gratinating"  />
 			<text id="cookstep_peasoup1" name="Searing onions"  />
@@ -1737,6 +1739,7 @@ Available for limited time only!"  />
 			<text id="preparestep_noodlesalad_pasta" name="Boil pasta"  />
 			<text id="preparestep_noodlesalad_tomato" name="Cut tomatoes"  />
 			<text id="preparestep_omelette_eggs" name="Count eggs"  />
+			<text id="preparestep_goldenomelette_goldeneggs" name="Count golden eggs"  />
 			<text id="preparestep_onionsoup_cheese" name="Grate cheese"  />
 			<text id="preparestep_onionsoup_garlic" name="Press garlic"  />
 			<text id="preparestep_onionsoup_onion" name="Chop onions"  />
@@ -1967,6 +1970,7 @@ Available for limited time only!"  />
 			<text id="preparestep_newyorkcheesecake_vanilla" name="Scrape out vanilla"  />
 			<text id="preparestep_noodlesalad_parsley" name="Chop parsley"  />
 			<text id="preparestep_omelette_chili" name="Chop chili"  />
+			<text id="preparestep_goldenomelette_nutmeg" name="Grate nutmeg"  />
 			<text id="preparestep_onionsoup_chili" name="Cut chili"  />
 			<text id="preparestep_peasoup_parsley" name="Chop parsley"  />
 			<text id="preparestep_pizzahawaii_chili" name="Chop chili"  />
@@ -2115,6 +2119,7 @@ Available for limited time only!"  />
 			<text id="recipe_newyorkcheesecake" name="New York Cheesecake"  />
 			<text id="recipe_noodlesalad" name="Pasta Salad"  />
 			<text id="recipe_omelette" name="Omelette"  />
+			<text id="recipe_goldenomelette" name="Golden Omelette"  />
 			<text id="recipe_onionsoup" name="Onion Soup"  />
 			<text id="recipe_peasoup" name="Pea Soup"  />
 			<text id="recipe_pizza" name="Pizza"  />
