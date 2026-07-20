@@ -445,10 +445,10 @@
 		<text id="cookstep_whitechocmousse2" name="Mousse abkühlen" />
 		<text id="cookstep_coxinha1" name="Zutaten mischen" />
 		<text id="cookstep_coxinha2" name="Coxinhas frittieren" />
-		<text id="cookstep_pinksoup1" name="Blending vegetables" />
-		<text id="cookstep_pinksoup2" name="Simmering pink soup" />
-		<text id="cookstep_borschtsch1" name="Cooking beetroot" />
-		<text id="cookstep_borschtsch2" name="Finishing borschtsch" />
+		<text id="cookstep_pinksoup1" name="Gemüse vermischen" />
+		<text id="cookstep_pinksoup2" name="Rosa Suppe sieden lassen" />
+		<text id="cookstep_borschtsch1" name="Rote Beete kochen" />
+		<text id="cookstep_borschtsch2" name="Borschtsch anfertigen" />
 	</cookstep>
 	<coopmission>
 		<text id="coop_desc_long_1" name="Wir veranstalten einen Kochkurs, um einige Gerichte zu perfektionieren. Möchtest du mitmachen?" />
@@ -574,12 +574,12 @@
 		<text id="coop_title_42" name="GRILL, FRY AND SLICE" />
 		<text id="coop_desc_short_42" name="Save the festival!" />
 		<text id="coop_desc_long_42" name="Chef EarthHunt3r was hired to work for a very important Food Festival. However, his kitchen equipment broke! Help him out and save the festival!" />
-		<text id="coop_title_43" name="Kuchen für eine Diva!" />
+		<text id="coop_title_43" name="KUCHEN FÜR EINE DIVA!" />
 		<text id="coop_desc_short_43" name="Sie will alles!" />
 		<text id="coop_desc_long_43" name="Patixa ist in der Stadt und möchte die besten Kuchen der Stadt für ihre Spielzeugserie. Bring die Kuchen schnell und lass dich belohnen!" />
-		<text id="coop_title_44" name="FIRST DAY IN THE KITCHEN!" />
-		<text id="coop_desc_short_44" name="Let&apos;s work!" />
-		<text id="coop_desc_long_44" name="It&apos;s opening day and the Café is busier than expected. Luckily, you don&apos;t need much experience to give people what they want. Recruit fellow chefs and show that the secret ingredient is teamwork!" />
+		<text id="coop_title_44" name="ERSTER TAG IN DER KÜCHEN!" />
+		<text id="coop_desc_short_44" name="Lass uns Arbeiten!" />
+		<text id="coop_desc_long_44" name="Es ist Eröffnungstag und es ist mehr los als erwartet im Café. Glücklicherweiße brauchst du nicht viel Erfahrung um den Leuten zu geben was sie wollen. Schnapp dir deine Mitköche und zeig, dass die Geheimzutat Teamwork heißt!" />
 		<text id="coop_title_30" name="EINE MAUS IN DER KÜCHE!" />
 		<text id="coop_desc_short_30" name="Lass sie von niemanden sehen!" />
 		<text id="coop_desc_long_30" name="Eine Maus wurde in deinem Café gesehen und sie verlangt, dass ausgefallenes Essen serviert wird, oder sie wird dein Geschäft ruinieren! Wieso fühlt sich das so bekannt an?" />
@@ -1379,7 +1379,7 @@
 		<text id="preparestep_lavenderlemoncake_flour" name="Mehl sieben" />
 		<text id="preparestep_potatosoup_potato" name="Kartoffeln schälen" />
 		<text id="preparestep_potatosoup_onion" name="Zwiebeln schneiden" />
-		<text id="preparestep_potatosoup_beetroot" name="Roote Beete schneiden" />
+		<text id="preparestep_potatosoup_beetroot" name="Rote Beete schneiden" />
 		<text id="preparestep_potatosoup_cream" name="Sahne gießen" />
 		<text id="preparestep_potatosoup_carrot" name="Karotten würfeln" />
 		<text id="preparestep_chocochipcake_cookies" name="Cookies akzeptieren" />
@@ -1704,15 +1704,15 @@
 		<text id="preparestep_coxinha_cream" name="Frischkäse zubereiten" />
 		<text id="preparestep_coxinha_oil" name="Öl erhitzen" />
 		<text id="preparestep_coxinha_coriander" name="Koriander hacken" />
-		<text id="preparestep_pinksoup_beetroot" name="Slice beetroot" />
-		<text id="preparestep_pinksoup_cucumber" name="Slice cucumber" />
-		<text id="preparestep_pinksoup_onion" name="Chop onion" />
-		<text id="preparestep_pinksoup_potato" name="Peel potatoes" />
-		<text id="preparestep_borschtsch_beetroot" name="Slice beetroot" />
-		<text id="preparestep_borschtsch_cream" name="Pour cream" />
-		<text id="preparestep_borschtsch_meat" name="Cube meat" />
-		<text id="preparestep_borschtsch_potato" name="Peel potatoes" />
-		<text id="preparestep_borschtsch_onion" name="Chop onion" />
+		<text id="preparestep_pinksoup_beetroot" name="Rote Beete schneiden" />
+		<text id="preparestep_pinksoup_cucumber" name="Gurke schneiden" />
+		<text id="preparestep_pinksoup_onion" name="Zwiebeln schneiden" />
+		<text id="preparestep_pinksoup_potato" name="Kartoffeln schälen" />
+		<text id="preparestep_borschtsch_beetroot" name="Rote Beete schneiden" />
+		<text id="preparestep_borschtsch_cream" name="Sahne verteilen" />
+		<text id="preparestep_borschtsch_meat" name="Fleisch würfeln" />
+		<text id="preparestep_borschtsch_potato" name="Kartoffeln schälen" />
+		<text id="preparestep_borschtsch_onion" name="Zwiebeln schneiden" />
 	</preparestep>
 	<preparestep_fancy>
 		<text id="preparestep_duckalcitrus_cinnamon" name="Zimt aufstreuen" />
@@ -1841,8 +1841,8 @@
 		<text id="preparestep_veggiecurry_coriander" name="Koriander hacken" />
 		<text id="preparestep_veggielasagne_basil" name="Basilikumblätter abzupfen" />
 		<text id="preparestep_whitechoccheesecake_vanilla" name="Vanille ausschaben" />
-		<text id="preparestep_pinksoup_parsley" name="Chop parsley" />
-		<text id="preparestep_borschtsch_parsley" name="Chop parsley" />
+		<text id="preparestep_pinksoup_parsley" name="Petersilie hacken" />
+		<text id="preparestep_borschtsch_parsley" name="Petersielie hacken" />
 		<text id="preparestep_whitechocmousse_vanilla" name="Vanille ausschaben" />
 	</preparestep_fancy>
 	<recipe>
@@ -1989,7 +1989,7 @@
 		<text id="recipe_whitechoccheesecake" name="White Choc Cheesecake" />
 		<text id="recipe_whitechocmousse" name="Weißes Schokoladen Mousse" />
 		<text id="recipe_coxinha" name="Coxinha" />
-		<text id="recipe_pinksoup" name="Pink Soup" />
+		<text id="recipe_pinksoup" name="Rosa Suppe" />
 		<text id="recipe_borschtsch" name="Borschtsch" />
 	</recipe>
 	<recipes_fastfood>
