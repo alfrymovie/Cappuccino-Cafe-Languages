@@ -9,19 +9,19 @@
 <wod id="3005" n="Basic" g="Stove" t="TentacleBlackCenter" walkable="0" rotatetype="3" cash="4888" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" />
 <wod id="3006" n="Basic" g="Stove" t="TentaclePurpleCenter" walkable="0" rotatetype="3" cash="4888" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" />
 <wod id="3007" n="Basic" g="Stove" t="TentacleYellowCenter" walkable="0" rotatetype="3" cash="4888" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" />
-<wod id="3008" n="Basic" g="Fridge" t="DiagonalOrange" walkable="0" rotatetype="3" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="50" />
-<wod id="3009" n="Basic" g="Fridge" t="DiagonalPurple" walkable="0" rotatetype="3" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="50" />
-<wod id="3010" n="Basic" g="Fridge" t="DiagonalViolet" walkable="0" rotatetype="3" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="50" />
-<wod id="3011" n="Basic" g="Fridge" t="MechanicGreen" walkable="0" rotatetype="3" cash="6500" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="50" />
-<wod id="3012" n="Basic" g="Fridge" t="MechanicYellow" walkable="0" rotatetype="3" cash="6500" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="50" />
-<wod id="3013" n="Basic" g="Fridge" t="ModernBarShelfBlue" walkable="0" rotatetype="3" cash="7000" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="50" />
-<wod id="3014" n="Basic" g="Fridge" t="ModernBarShelfGreen" walkable="0" rotatetype="3" cash="7000" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="50" />
-<wod id="3015" n="Basic" g="Fridge" t="ModernBarShelfRed" walkable="0" rotatetype="3" cash="7000" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="50" />
+<wod id="3008" n="Basic" g="Fridge" t="DiagonalOrange" walkable="0" rotatetype="3" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="150" />
+<wod id="3009" n="Basic" g="Fridge" t="DiagonalPurple" walkable="0" rotatetype="3" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="150" />
+<wod id="3010" n="Basic" g="Fridge" t="DiagonalViolet" walkable="0" rotatetype="3" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="150" />
+<wod id="3011" n="Basic" g="Fridge" t="MechanicGreen" walkable="0" rotatetype="3" cash="6500" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="65" />
+<wod id="3012" n="Basic" g="Fridge" t="MechanicYellow" walkable="0" rotatetype="3" cash="6500" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="65" />
+<wod id="3013" n="Basic" g="Fridge" t="ModernBarShelfBlue" walkable="0" rotatetype="3" cash="7000" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="70" />
+<wod id="3014" n="Basic" g="Fridge" t="ModernBarShelfGreen" walkable="0" rotatetype="3" cash="7000" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="70" />
+<wod id="3015" n="Basic" g="Fridge" t="ModernBarShelfRed" walkable="0" rotatetype="3" cash="7000" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="70" />
 <wod id="3016" n="Basic" g="Fridge" t="SimpleBarShelfGreen" walkable="0" rotatetype="3" cash="888" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="50" />
 <wod id="3017" n="Basic" g="Fridge" t="SimpleBarShelfYellow" walkable="0" rotatetype="3" cash="888" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="50" />
-<wod id="3018" n="Basic" g="Fridge" t="TentaclePurple" walkable="0" rotatetype="3" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="50" />
-<wod id="3019" n="Basic" g="Fridge" t="TentacleViolet" walkable="0" rotatetype="3" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="50" />
-<wod id="3020" n="Basic" g="Fridge" t="TentacleYellow" walkable="0" rotatetype="3" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="50" />
+<wod id="3018" n="Basic" g="Fridge" t="TentaclePurple" walkable="0" rotatetype="3" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="150" />
+<wod id="3019" n="Basic" g="Fridge" t="TentacleViolet" walkable="0" rotatetype="3" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="150" />
+<wod id="3020" n="Basic" g="Fridge" t="TentacleYellow" walkable="0" rotatetype="3" cash="0" gold="1" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" inventorySize="150" />
 <wod id="3029" n="Basic" g="Chair" t="Leather1" walkable="0" rotatetype="3" cash="400" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" />
 <wod id="3030" n="Basic" g="Chair" t="Leather2" walkable="0" rotatetype="3" cash="400" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" />
 <wod id="3031" n="Basic" g="Chair" t="Leather3" walkable="0" rotatetype="3" cash="400" gold="0" friends="0" goldNoFriends="0" releaseDate="1769365184" world="0" events="0" xp="0" level="5" />
@@ -369,7 +369,7 @@
 <wod id="4178" n="Basic" g="Chair" t="Golden" walkable="0" rotatetype="3" cash="9999" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="10" />
 <wod id="4179" n="Basic" g="Table" t="Golden" walkable="0" rotatetype="3" cash="99999" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="10" />
 <wod id="4180" n="Basic" g="Counter" t="Golden" walkable="0" rotatetype="2" cash="99999" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="10" />
-<wod id="4181" n="Basic" g="Fridge" t="Golden" walkable="0" rotatetype="3" cash="999999" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="10" inventorySize="50" />
+<wod id="4181" n="Basic" g="Fridge" t="Golden" walkable="0" rotatetype="3" cash="999999" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="10" inventorySize="400" />
 <wod id="4182" n="Basic" g="Wallobject" t="Goldenmirror" cash="99999" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="10" />
 <wod id="4183" n="Static" g="Tile" t="Golden" walkable="1" cash="3999" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="10" />
 <wod id="4184" n="Static" g="Wall" t="Golden" cash="9999" gold="0" friends="0" goldNoFriends="0" releaseDate="1782691200" world="0" events="0" xp="0" level="10" />
@@ -515,13 +515,13 @@
 <wod id="2210" n="Basic" g="Fridge" t="Basicblack" walkable="0" rotatetype="3" cash="500" gold="0" friends="0" goldNoFriends="0" releaseDate="1769300230" world="0" events="0" xp="0" level="0" inventorySize="50" />
 <wod id="2211" n="Basic" g="Wallobject" t="Basichangingrackblack" cash="8000" gold="0" friends="0" goldNoFriends="0" releaseDate="1770082626" world="0" events="0" xp="0" level="1" />
 
-<wod id="352" n="Basic" g="Fridge" t="Dinerrose" walkable="0" rotatetype="3" cash="0" gold="7" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" events="0" xp="0" level="1" inventorySize="50" />
-<wod id="353" n="Basic" g="Fridge" t="Dinerturquoise" walkable="0" rotatetype="4" cash="0" gold="7" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" events="0" xp="0" level="1" inventorySize="50" />
-<wod id="354" n="Basic" g="Fridge" t="Saloon" walkable="0" rotatetype="3" cash="0" gold="6" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="1" inventorySize="50" />
-<wod id="355" n="Basic" g="Fridge" t="Halloween" walkable="0" rotatetype="3" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1287066242" world="0" events="2" xp="0" level="1" inventorySize="50" />
-<wod id="356" n="Basic" g="Fridge" t="Daisy" walkable="0" rotatetype="3" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="1289915875" world="0" events="0" xp="0" level="1" inventorySize="50" />
-<wod id="357" n="Basic" g="Fridge" t="Xmas" walkable="0" rotatetype="3" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="1291134071" world="0" events="3" xp="0" level="1" inventorySize="50" />
-<wod id="358" n="Basic" g="Fridge" t="Spring" walkable="0" rotatetype="3" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="1300806348" world="0" events="5" xp="0" level="1" inventorySize="50" />
+<wod id="352" n="Basic" g="Fridge" t="Dinerrose" walkable="0" rotatetype="3" cash="0" gold="7" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" events="0" xp="0" level="1" inventorySize="450" />
+<wod id="353" n="Basic" g="Fridge" t="Dinerturquoise" walkable="0" rotatetype="4" cash="0" gold="7" friends="0" goldNoFriends="0" releaseDate="1282748184" world="0" events="0" xp="0" level="1" inventorySize="450" />
+<wod id="354" n="Basic" g="Fridge" t="Saloon" walkable="0" rotatetype="3" cash="0" gold="6" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="1" inventorySize="400" />
+<wod id="355" n="Basic" g="Fridge" t="Halloween" walkable="0" rotatetype="3" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1287066242" world="0" events="2" xp="0" level="1" inventorySize="350" />
+<wod id="356" n="Basic" g="Fridge" t="Daisy" walkable="0" rotatetype="3" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="1289915875" world="0" events="0" xp="0" level="1" inventorySize="300" />
+<wod id="357" n="Basic" g="Fridge" t="Xmas" walkable="0" rotatetype="3" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="1291134071" world="0" events="3" xp="0" level="1" inventorySize="300" />
+<wod id="358" n="Basic" g="Fridge" t="Spring" walkable="0" rotatetype="3" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="1300806348" world="0" events="5" xp="0" level="1" inventorySize="300" />
 <wod id="401" n="Basic" g="Table" t="Basicwhite" walkable="0" rotatetype="1" cash="200" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="0" />
 <wod id="2208" n="Basic" g="Table" t="Basicblack" walkable="0" rotatetype="1" cash="200" gold="0" friends="0" goldNoFriends="0" releaseDate="1769300230" world="0" events="0" xp="0" level="0" />
 <wod id="402" n="Basic" g="Table" t="Basicred" walkable="0" rotatetype="1" cash="200" gold="0" friends="0" goldNoFriends="0" releaseDate="0" world="0" events="0" xp="0" level="1" />
