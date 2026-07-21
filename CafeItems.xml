@@ -399,6 +399,9 @@
 <wod id="4209" n="Static" g="Wall" t="Daisystrawberryneolavender" cash="6000" gold="0" friends="0" goldNoFriends="0" releaseDate="1783911600" world="0" events="0" xp="0" level="10" />
 <wod id="4210" n="Static" g="Tile" t="Woodmoderndarkbrown" walkable="1" rotatetype="0" cash="20" gold="0" friends="0" goldNoFriends="0" releaseDate="1783911600" world="0" events="0" xp="0" level="10" />
 <wod id="4211" n="Static" g="Tile" t="Springwoodcream" walkable="1" rotatetype="0" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="1784343600" world="0" events="0" xp="0" level="10" />
+<wod id="4212" n="Basic" g="Fridge" t="Dinerlavender" walkable="0" rotatetype="3" cash="0" gold="7" friends="0" goldNoFriends="0" releaseDate="1784602800" world="0" events="0" xp="0" level="1" inventorySize="450" />
+<wod id="4213" n="Basic" g="Stove" t="Dinerlavender" walkable="0" rotatetype="3" cash="0" gold="4" friends="0" goldNoFriends="0" releaseDate="1784602800" world="0" events="0" xp="0" level="1" />
+<wod id="4214" n="Basic" g="Stove" t="Basiclavender" walkable="0" rotatetype="3" cash="1000" gold="0" friends="0" goldNoFriends="0" releaseDate="1784602800" world="0" events="0" xp="0" level="0" />
 
 <wod id="9518" n="Basic" g="Deco" t="Vanshelfwhite" walkable="0" rotatetype="2" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1781838000" world="0" events="0" xp="0" level="10" />
 <wod id="9519" n="Basic" g="Deco" t="Vanshelfblack" walkable="0" rotatetype="2" cash="0" gold="5" friends="0" goldNoFriends="0" releaseDate="1781838000" world="0" events="0" xp="0" level="10" />
@@ -928,6 +931,8 @@
 <wod id="1512" n="Static" g="Background" t="Villagenightsummerrain" />
 <wod id="1513" n="Marketplace" g="Background" t="Normalnightrain" />
 <wod id="1514" n="Marketplace" g="Background" t="Summerrain" />
+<wod id="1515" n="Cafe" g="Background" t="Villagesummermorning" />
+<wod id="1516" n="Cafe" g="Background" t="Villagesummersunset" />
 <wod id="1601" n="Basic" g="Moving" t="-" />
 <wod id="1602" n="Npcwaiter" g="Moving" t="-" />
 <wod id="1603" n="Plateholder" g="Moving" t="-" />
